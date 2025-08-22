@@ -96,10 +96,12 @@
             </div>
         `;
 
-        // add home / back button to top header section
+        // add home / back button to top header section and a link to answers
         document.querySelector('header').innerHTML += `
-          <a href="/" class="text-indigo-600 hover:underline mt-4 inline-block">← Back to exams</a>
+          <a href="/" class="text-indigo-600 hover:underline mt-4 inline-block">← Back to exams</a><br>
+          <a href="/answers/${exam}_answers.pdf" target="_blank" class="text-rose-600 hover:underline mt-4 inline-block">View Answers</a>
         `;
+
 
 
       mainContainer.innerHTML += `<div id="questions-container" class="space-y-8"></div>`;
