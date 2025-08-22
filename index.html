@@ -44,7 +44,8 @@
     // Map exam IDs to JSON files
     const examFiles = {
       cssa_familiarisation: "data/cssa_familiarisation.json",
-      nsb: "data/nsb.json"
+      nsb: "data/nsb.json",
+      cssa_trial: "data/cssa_trial.json"
       // Add more exams here later
     };
 
@@ -63,6 +64,11 @@
           <a href="?exam=nsb" class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
             <h2 class="text-xl font-semibold text-gray-800">NSB Exam</h2>
             <p class="text-gray-600 mt-2">NSB Software Engineering exam.</p>
+          </a>
+          <!-- cssa_trial exam -->
+          <a href="?exam=cssa_trial" class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
+            <h2 class="text-xl font-semibold text-gray-800">CSSA Trial Exam</h2>
+            <p class="text-gray-600 mt-2">CSSA Trial Software Engineering exam.</p>
           </a>
         </div>
       `;
@@ -94,9 +100,14 @@
           const questionsContainer = document.getElementById('questions-container');
 
           jsonData.forEach((questionData, index) => {
-            const questionPart = questionData.parts[0];
-            const questionElement = document.createElement('div');
-            questionElement.className = 'bg-white p-6 rounded-lg shadow-md border border-gray-200';
+            console.log(".")
+            // for each part
+            if (!questionData.parts || questionData.parts.length === 0) return;
+
+            questionData.parts.forEach(part => {
+              const questionPart = part;
+              const questionElement = document.createElement('div');
+              questionElement.className = 'bg-white p-6 rounded-lg shadow-md border border-gray-200';
 
             let stimulusHTML = '';
             if (questionData.stimulusContentItemCollection?.items) {
@@ -266,6 +277,7 @@ builtins.input = custom_input
             `;
             questionsContainer.appendChild(questionElement);
           });
+            });
 
           // Sorting
           const sortableLists = document.querySelectorAll('.sortable-list');
