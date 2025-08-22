@@ -1,0 +1,718 @@
+[{
+    "id": "uuid-q1-sdlc-sort",
+    "title": "Question 1, Software Development Steps",
+    "stimulusContentItemCollection": null,
+    "parts": [{
+        "id": "uuid-q1-part1",
+        "displayIndex": 0,
+        "title": "Question 1",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Place the following software development steps in the correct order by clicking and holding each step and dragging it into its position.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SORTING_TABLE",
+                "rows": [{
+                    "id": "sort-design",
+                    "cells": [{
+                        "text": "Design"
+                    }]
+                }, {
+                    "id": "sort-install",
+                    "cells": [{
+                        "text": "Installation"
+                    }]
+                }, {
+                    "id": "sort-maint",
+                    "cells": [{
+                        "text": "Maintenance"
+                    }]
+                }, {
+                    "id": "sort-dev",
+                    "cells": [{
+                        "text": "Development"
+                    }]
+                }, {
+                    "id": "sort-test",
+                    "cells": [{
+                        "text": "Testing and debugging"
+                    }]
+                }, {
+                    "id": "sort-spec",
+                    "cells": [{
+                        "text": "Determining specifications"
+                    }]
+                }]
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q2-sql-mc",
+    "title": "Question 2, SQL Query",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>An online business is planning to use a database to keep track of its products. The contents of the <b>Products</b> table during testing are shown.</p><p><b>Products</b></p><table border='1' style='border-collapse: collapse; width: 100%;'><tbody><tr><th style='padding: 5px;'>ProductID</th><th style='padding: 5px;'>ProductName</th><th style='padding: 5px;'>ProductPrice</th></tr><tr><td style='padding: 5px;'>P001</td><td style='padding: 5px;'>The Plant (DVD)</td><td style='padding: 5px;'>28.00</td></tr><tr><td style='padding: 5px;'>P002</td><td style='padding: 5px;'>Discovery 1 and 2 (DVD)</td><td style='padding: 5px;'>26.98</td></tr><tr><td style='padding: 5px;'>P003</td><td style='padding: 5px;'>Travel 1 and 2 (Blu-Ray)</td><td style='padding: 5px;'>22.00</td></tr><tr><td style='padding: 5px;'>P004</td><td style='padding: 5px;'>The Best Movie (DVD)</td><td style='padding: 5px;'>19.98</td></tr><tr><td style='padding: 5px;'>P005</td><td style='padding: 5px;'>Celebration (DVD)</td><td style='padding: 5px;'>12.00</td></tr></tbody></table><br><p>After executing a SQL query, the following results were obtained.</p><table border='1' style='border-collapse: collapse; width: 100%;'><tbody><tr><th style='padding: 5px;'>ProductName</th><th style='padding: 5px;'>ProductPrice</th></tr><tr><td style='padding: 5px;'>The Plant (DVD)</td><td style='padding: 5px;'>28.00</td></tr><tr><td style='padding: 5px;'>Discovery 1 and 2 (DVD)</td><td style='padding: 5px;'>26.98</td></tr><tr><td style='padding: 5px;'>Travel 1 and 2 (Blu-Ray)</td><td style='padding: 5px;'>22.00</td></tr></tbody></table>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q2-part1",
+        "title": "Question 2",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which of the following SQL queries would produce the results shown?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "options": [{
+                    "id": "q2-opt1",
+                    "text": "SELECT ProductName, ProductPrice FROM Products WHERE ProductPrice >= 22.00 ORDER BY ProductPrice DESC;"
+                }, {
+                    "id": "q2-opt2",
+                    "text": "SELECT * FROM Products WHERE ProductPrice > 22.00 ORDER BY ProductName ASC;"
+                }, {
+                    "id": "q2-opt3",
+                    "text": "SELECT ProductName, ProductPrice FROM Products WHERE ProductPrice <= 28.00 ORDER BY ProductPrice ASC;"
+                }, {
+                    "id": "q2-opt4",
+                    "text": "SELECT ProductName, ProductPrice FROM Products WHERE ProductName LIKE '%DVD%' ORDER BY ProductID DESC;"
+                }],
+                "correctOptions": ["q2-opt1"]
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q3-protocols",
+    "title": "Question 3, Email Protocols",
+    "parts": [{
+        "id": "uuid-q3-part1",
+        "title": "Question 3",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Match each of the features to the relevant protocol(s).</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "OBJECTIVE_RESPONSE",
+                "header": [{
+                    "id": "h-feature",
+                    "text": ""
+                }, {
+                    "id": "h-pop3",
+                    "text": "POP3"
+                }, {
+                    "id": "h-smtp",
+                    "text": "SMTP"
+                }, {
+                    "id": "h-imap",
+                    "text": "IMAP"
+                }],
+                "rows": [{
+                    "id": "r-send",
+                    "cells": [{
+                        "text": "Commonly used for sending email"
+                    }, {
+                        "id": "c-send-pop3"
+                    }, {
+                        "id": "c-send-smtp"
+                    }, {
+                        "id": "c-send-imap"
+                    }]
+                }, {
+                    "id": "r-sync",
+                    "cells": [{
+                        "text": "Allows email to synchronise across devices"
+                    }, {
+                        "id": "c-sync-pop3"
+                    }, {
+                        "id": "c-sync-smtp"
+                    }, {
+                        "id": "c-sync-imap"
+                    }]
+                }, {
+                    "id": "r-delete",
+                    "cells": [{
+                        "text": "Server deletes messages when they are downloaded and opened"
+                    }, {
+                        "id": "c-delete-pop3"
+                    }, {
+                        "id": "c-delete-smtp"
+                    }, {
+                        "id": "c-delete-imap"
+                    }]
+                }],
+                "correctCellIds": ["c-send-smtp", "c-sync-imap", "c-delete-pop3"]
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q4-structure-chart",
+    "title": "Question 4, Structure Chart",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>This structure chart describes a hotel booking system.</p>"
+        }, {
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/hsc_familiarisation/4.svg"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q4-part1",
+        "title": "Question 4",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Select the items that are <strong>TRUE</strong> about this structure chart.<br><strong>(Multiple items may be selected.)</strong></p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "settings": {
+                    "multipleCorrectOptions": true
+                },
+                "options": [{
+                    "id": "q4-opt1",
+                    "text": "<b>Booking made</b> is a flag."
+                }, {
+                    "id": "q4-opt2",
+                    "text": "<b>Login</b> is the first module called."
+                }, {
+                    "id": "q4-opt3",
+                    "text": "<b>Booking ID</b> may only be true or false."
+                }, {
+                    "id": "q4-opt4",
+                    "text": "<b>Display new bookings</b> may not be executed."
+                }, {
+                    "id": "q4-opt5",
+                    "text": "A choice is continually offered between <b>Browse hotels</b> and <b>Book</b>."
+                }, {
+                    "id": "q4-opt6",
+                    "text": "<b>Login</b> calls <b>Enter member details and validate</b> when Member ID is set to true."
+                }],
+                "correctOptions": ["q4-opt1", "q4-opt4", "q4-opt5"]
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q5-test-data",
+    "title": "Question 5, Test Data",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Consider the following algorithm.</p><pre style='background-color:#f0f0f0; padding:10px; border-radius:5px;'>BEGIN determineGrade\n    get Mark\n    CASEWHERE Mark\n        >=80 : Grade = \"H\"\n        >=50 : Grade = \"P\"\n        OTHERWISE : Grade = \"N\"\n    ENDCASE\n    print Grade\nEnd determineGrade</pre>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q5-part1",
+        "title": "Question 5",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Provide a set of 5 test data that will thoroughly test the algorithm. Include the expected outputs and reasons for inclusion. You may assume that all input data are valid.</p><p><i>Please format your answer in three columns: Test data (Mark), Expected output (Grade), and Reason for inclusion.</i></p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q6-sandboxing",
+    "title": "Question 6, Sandboxing",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A new operating system is to be developed for a mobile phone. The operating system needs to allow users to install a variety of third-party applications such as social media applications and games on the phone.</p>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q6-part1",
+        "title": "Question 6",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Discuss the use of sandboxing in this operating system.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q7-decision-tree",
+    "title": "Question 7, Decision Tree",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Consider the following decision tree of a trained machine learning model that determines whether to purchase a vehicle.</p>"
+        }, {
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/hsc_familiarisation/7.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q7-part-a",
+        "title": "Question 7(a)",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Using the decision tree, determine the outcome of each of the following situations.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "OBJECTIVE_RESPONSE",
+                "header": [{
+                    "id": "h-sit",
+                    "text": "Situation"
+                }, {
+                    "id": "h-buy",
+                    "text": "Buy"
+                }, {
+                    "id": "h-nobuy",
+                    "text": "Do not buy"
+                }],
+                "rows": [{
+                    "id": "r-sit1",
+                    "cells": [{
+                        "text": "Mileage = 8000 km, Colour = Silver, Optional Accessories = No"
+                    }, {
+                        "id": "c-sit1-buy"
+                    }, {
+                        "id": "c-sit1-nobuy"
+                    }]
+                }, {
+                    "id": "r-sit2",
+                    "cells": [{
+                        "text": "Mileage = 11 000 km, Colour = Red, Optional Accessories = Yes"
+                    }, {
+                        "id": "c-sit2-buy"
+                    }, {
+                        "id": "c-sit2-nobuy"
+                    }]
+                }, {
+                    "id": "r-sit3",
+                    "cells": [{
+                        "text": "Type = SUV, Colour = Red, Optional Accessories = No"
+                    }, {
+                        "id": "c-sit3-buy"
+                    }, {
+                        "id": "c-sit3-nobuy"
+                    }]
+                }],
+                "correctCellIds": ["c-sit1-nobuy", "c-sit2-buy", "c-sit3-nobuy"]
+            }
+        }
+    }, {
+        "id": "uuid-q7-part-b",
+        "title": "Question 7(b)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The decision tree can be simplified without compromising its logic. Redraw the decision tree to reduce the number of branches.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "DRAWING_V2"
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q8-algo-fix",
+    "title": "Question 8, Algorithm Correction",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>The following subroutine is intended to search an array for an item and output the position of that item in the array. There are several mistakes in the algorithm.</p><p>The array is called <b>ItemArray</b> and it is indexed from 1.</p>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q8-part1",
+        "title": "Question 8",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Copy the algorithm into the space below and modify the algorithm logic so that it achieves its intended purpose.</p><br><textarea rows='14' cols='50' readonly>BEGIN Search (SearchItem)\n    Set LastIndex to the number of elements in ItemArray\n    Index = 1\n    WHILE Found = FALSE OR Index < LastIndex\n        IF Index = SearchItem THEN\n            Found = TRUE\n        ENDIF\n    ENDWHILE     \n    IF Found = TRUE THEN\n        Display 'Position', Index\n    ELSE\n        Display 'Not found'\n    ENDIF\nEND Search</textarea>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "defaultCode": ""
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q9-ui-python",
+    "title": "Question 9, UI and Python",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>An online store allows users to register for an account using their name, phone number and date of birth. Users must also create a username and password.</p><p>Each username must satisfy these rules:</p><ul><li>There must be no more than 8 characters.</li><li>Only uppercase and lowercase letters are accepted.</li><li>The character \"<\" is not allowed, to prevent attempts at injecting code through the username.</li></ul>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q9-part-a",
+        "title": "Question 9(a)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Design a user interface for registering an account. Clearly label all features.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "DRAWING_V2"
+            }
+        }
+    }, {
+        "id": "uuid-q9-part-b",
+        "title": "Question 9(b)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Write a function in Python that will check whether a username satisfies the rules.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "CODING",
+                "language": "PYTHON",
+                "defaultCode": "# Write your Python function here"
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q10-web-perf",
+    "title": "Question 10, Web Performance",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Consider the following source code for a web page.</p><pre style='background-color:#f0f0f0; padding:10px; border-radius:5px;'>&lt;html&gt;\n&lt;body&gt;\n&lt;link rel=\"stylesheet\" href=\"style3.css\"/&gt;\n&lt;script src=\"image-gallery.js\"/&gt;&lt;!--this script is slow to load--&gt;\n&lt;link rel=\"stylesheet\" href=\"styles1.css\"/&gt;\n&lt;link rel=\"stylesheet\" href=\"styles2.css\"/&gt;\n&lt;h1&gt;My Awesome Website!&lt;/h1&gt;\n&lt;p&gt;I hope you like my website, I spent a lot of time designing it.&lt;/p&gt;\n&lt;h2&gt;Photos from my holiday&lt;/h2&gt;\n&lt;img src=\"holiday1_4000x3000.jpg\" width=\"640\" height=\"480\"/&gt;\n&lt;img src=\"holiday2_4000x3000.jpg\" width=\"640\" height=\"480\"/&gt;\n&lt;img src=\"holiday3_4000x3000.jpg\" width=\"640\" height=\"480\"/&gt;\n&lt;img src=\"holiday4_4000x3000.jpg\" width=\"640\" height=\"480\"/&gt;\n&lt;/body&gt;\n&lt;/html&gt;</pre>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q10-part1",
+        "title": "Question 10",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The web page is loading too slowly. Explain how the load time of this page can be improved.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q11-xss",
+    "title": "Question 11, Web Vulnerability",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Bob is testing a website for vulnerability. The website allows the user to add their name at the end of the URL and prints their name on the webpage.</p><p>In addition to his name, Bob has added some code to the URL and the following is displayed.</p>"
+        }, {
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/hsc_familiarisation/11.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q11-part-a",
+        "title": "Question 11(a)",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>What type of vulnerability is being demonstrated?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "options": [{
+                    "id": "q11-opt1",
+                    "text": "Invalid redirecting"
+                }, {
+                    "id": "q11-opt2",
+                    "text": "Cross site scripting"
+                }, {
+                    "id": "q11-opt3",
+                    "text": "Broken authentication"
+                }, {
+                    "id": "q11-opt4",
+                    "text": "Cross site request forgery"
+                }],
+                "correctOptions": ["q11-opt2"]
+            }
+        }
+    }, {
+        "id": "uuid-q11-part-b",
+        "title": "Question 11(b)",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Explain ONE way to minimise this vulnerability.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT"
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q12-sql-again",
+    "title": "Question 12, SQL",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>An online business is planning to use a database to keep track of its products, customers and orders. The contents of the Products, Customers and Orders tables during testing are shown.</p>"
+        }, {
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/hsc_familiarisation/12.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q12-part-a",
+        "title": "Question 12(a)",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The following SQL query is run to test the database.</p><pre style='background-color:#f0f0f0; padding:10px; border-radius:5px;'>SELECT ProductName, ProductPrice \nFROM Products \nWHERE ProductPrice > 22.00 \nORDER BY ProductPrice ASC</pre><p>Fill in the table below with the result of running the SQL query. You may not need to use all the rows or columns.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "placeholder": "Enter the results here, for example:\nProductName | ProductPrice\nDiscovery 1 and 2 (DVD) | 26.98"
+            }
+        }
+    }, {
+        "id": "uuid-q12-part-b",
+        "title": "Question 12(b)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The contents of the Orders table need to be displayed as follows.</p><table border='1' style='border-collapse: collapse; width: 100%;'><tbody><tr><th>Customer</th><th>Product</th><th>Quantity</th></tr><tr><td>Nicky Singh</td><td>The Best Movie (DVD)</td><td>2</td></tr><tr><td>Kim Smith</td><td>Celebration (DVD)</td><td>1</td></tr><tr><td>Casey He</td><td>Travel 1 and 2 (Blu-Ray)</td><td>1</td></tr><tr><td>Nicky Singh</td><td>Discovery 1 and 2 (DVD)</td><td>2</td></tr><tr><td>Pat Alvardo</td><td>Discovery 1 and 2 (DVD)</td><td>2</td></tr></tbody></table><p>Write a SQL query that can produce this result.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SQL",
+                "datasetSetupQuery": "CREATE TABLE Products (ProductID TEXT, ProductName TEXT, ProductPrice REAL); INSERT INTO Products VALUES ('P001', 'The Plant (DVD)', 28.00), ('P002', 'Discovery 1 and 2 (DVD)', 26.98), ('P003', 'Travel 1 and 2 (Blu-Ray)', 22.00), ('P004', 'The Best Movie (DVD)', 19.98), ('P005', 'Celebration (DVD)', 12.00); CREATE TABLE Customers (CustID TEXT, CustName TEXT, CustEmail TEXT); INSERT INTO Customers VALUES ('C001', 'Nicky Singh', 'N.Singh@nesa.edu.au'), ('C002', 'Casey He', 'C.He@bos.edu.au'), ('C003', 'Ash Lee', 'A.Lee@bosnsw.edu.au'), ('C004', 'Kim Smith', 'K.Smith@nesa.edu.au'), ('C005', 'Pat Alvardo', 'P.Alvardo@bos.edu.au'); CREATE TABLE Orders (OrderID TEXT, CustID TEXT, ProductID TEXT, OrderQuantity INTEGER); INSERT INTO Orders VALUES ('T001', 'C001', 'P004', 2), ('T002', 'C004', 'P005', 1), ('T003', 'C002', 'P003', 1), ('T004', 'C001', 'P002', 2), ('T005', 'C005', 'P002', 2);"
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q13-python-game",
+    "title": "Question 13, Python Game",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>In a computer game, each player has 10 rounds and the maximum score for each round is 5. The score for each round is equal to the number of points, except when bonus points are assigned. Every time a player scores 5, the score from the next round is added as bonus points. If a player scores 5 in the last round, they get 10 points.</p><p>A player's scores and corresponding points for a full game are shown.</p><p><b>Round:</b> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10<br><b>Score:</b> 3, 5, 5, 2, 1, 4, 0, 1, 4, 5<br><b>Points:</b> 3, 10, 7, 2, 1, 4, 0, 1, 4, 10</p>"
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q13-part1",
+        "title": "Question 13",
+        "metadata": {
+            "mark": 6
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Write a program in Python that will:</p><ul><li>display the player's scores and corresponding points</li><li>calculate and display the total points for the player, taking into account the bonuses.</li></ul><p>Start your program with: scores = [3,5,5,2,1,4,0,1,4,5]</p><br><p>The output of the program should match the following:</p><pre style='background-color:#f0f0f0; padding:10px; border-radius:5px;'>Round   Score   Points\n1       3       3\n2       5       10\n3       5       7\n4       2       2\n5       1       1\n6       4       4\n7       0       0\n8       1       1\n9       4       4\n10      5       10\nTOTAL POINTS: 42</pre>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "CODING",
+                "language": "PYTHON",
+                "defaultCode": "# Write your code here"
+            }
+        }
+    }]
+}, {
+    "id": "uuid-q14-ai-slideshow",
+    "title": "Question 14, AI in Society",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>The following slideshow was prepared by a student as part of a research project.</p><p>Navigate the slideshow by clicking the forward and backward arrows.</p>"
+        }, {
+            "type": "IMAGE_SLIDER",
+            "files": [{
+                "id": "slide1",
+                "url": "/img/hsc_familiarisation/14a.png"
+            }, {
+                "id": "slide2",
+                "url": "/img/hsc_familiarisation/14b.png"
+            }, {
+                "id": "slide3",
+                "url": "/img/hsc_familiarisation/14c.png"
+            }, {
+                "id": "slide4",
+                "url": "/img/hsc_familiarisation/14d.png"
+            }, {
+                "id": "slide5",
+                "url": "/img/hsc_familiarisation/14e.png"
+            }, {
+                "id": "slide6",
+                "url": "/img/hsc_familiarisation/14f.png"
+            }, {
+                "id": "slide7",
+                "url": "/img/hsc_familiarisation/14g.png"
+            }, {
+                "id": "slide8",
+                "url": "/img/hsc_familiarisation/14h.png"
+            }, {
+                "id": "slide9",
+                "url": "/img/hsc_familiarisation/14i.png"
+            }, {
+                "id": "slide10",
+                "url": "/img/hsc_familiarisation/14j.png"
+            }, {
+                "id": "slide11",
+                "url": "/img/hsc_familiarisation/14k.png"
+            }, {
+                "id": "slide12",
+                "url": "/img/hsc_familiarisation/14l.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "uuid-q14-part1",
+        "title": "Question 14",
+        "metadata": {
+            "mark": 8
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Assess the use of artificial intelligence in our society. Support your answer with information from the slideshow.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}]

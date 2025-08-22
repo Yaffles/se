@@ -23,7 +23,8 @@
     .slider-arrow:hover { background-color: rgba(0,0,0,0.8); }
     .sortable-item.dragging { opacity: 0.5; background-color: #e0e7ff; }
     .sortable-list.drag-over { border-style: dashed; }
-    .stimulus ul li { text-indent: 0 !important; }
+    .stimulus ul li { text-indent: 0px !important; list-style: disc !important;}
+    .stimulus ul { list-style: disc !important; margin: auto !important; padding: 20px !important; }
     .question-content ul {list-style:disc !important; margin:auto !important; padding: 20px !important; }
 
   </style>
@@ -48,7 +49,8 @@
       cssa_familiarisation: "data/cssa_familiarisation.json",
       nsb: "data/nsb.json",
       cssa_trial: "data/cssa_trial.json",
-      girraween: "data/girraween.json"
+      girraween: "data/girraween.json",
+      hsc_familiarisation: "data/hsc_familiarisation.json"
       // Add more exams here later
     };
 
@@ -77,6 +79,11 @@
           <a href="?exam=girraween" class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
             <h2 class="text-xl font-semibold text-gray-800">Girraween Exam</h2>
             <p class="text-gray-600 mt-2">Girraween High School Software Engineering exam.</p>
+          </a>
+          <!-- hsc_familiarisation exam -->
+          <a href="?exam=hsc_familiarisation" class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
+            <h2 class="text-xl font-semibold text-gray-800">HSC Familiarisation Questions</h2>
+            <p class="text-gray-600 mt-2">HSC Software Engineering familiarisation questions.</p>
           </a>
         </div>
       `;
