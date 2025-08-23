@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.slider-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slider-arrow.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sortable-item.dragging {
+    opacity: 0.5;
+    background-color: #e0e7ff;
+}
+
+.sortable-list.drag-over {
+    border-style: dashed;
+}
+
+.stimulus ul li {
+    text-indent: 0px !important;
+    list-style: disc !important;
+}
+
+.stimulus ul {
+    list-style: disc !important;
+    margin: auto !important;
+    padding: 20px !important;
+}
+
+.question-content ul {
+    list-style: disc !important;
+    margin: auto !important;
+    padding: 20px !important;
+}
+
+iframe {
+    user-focus: none;
+    outline: none;
+}

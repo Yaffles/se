@@ -1,0 +1,949 @@
+[
+  {
+    "id": "hsc_q1",
+    "title": "HSC SE 2025, Q1, Requirements Definition",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "hsc_q1_p1",
+        "title": "Question 1",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following should take place during the requirements definition step when developing a software solution?</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "q1_opt1",
+                "text": "Identifying algorithms to be used"
+              },
+              {
+                "id": "q1_opt2",
+                "text": "Documenting security vulnerabilities"
+              },
+              {
+                "id": "q1_opt3",
+                "text": "Identifying potential security threats in the software"
+              },
+              {
+                "id": "q1_opt4",
+                "text": "Documenting the needs and constraints of the software"
+              }
+            ],
+            "settings": {
+              "multipleCorrectOptions": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q2",
+    "title": "HSC SE 2025, Q2, SMTP Protocol",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "hsc_q2_p1",
+        "title": "Question 2",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following best describes SMTP?</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "q2_opt1",
+                "text": "A protocol for email transmission"
+              },
+              {
+                "id": "q2_opt2",
+                "text": "A set of rules to securely transfer files across a network"
+              },
+              {
+                "id": "q2_opt3",
+                "text": "A set of rules for securing communication between computers"
+              },
+              {
+                "id": "q2_opt4",
+                "text": "A protocol used for synchronising communication across networks"
+              }
+            ],
+            "settings": {
+              "multipleCorrectOptions": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q3",
+    "title": "HSC SE 2025, Q3, Client Data Security",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>A company conducts all of its consultations with its clients via its website.</p>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q3_p1",
+        "title": "Question 3",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following is the best way for the company to maintain the security of its clients' data?</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "q3_opt1",
+                "text": "Implement data encryption"
+              },
+              {
+                "id": "q3_opt2",
+                "text": "Ensure that the software is user-friendly"
+              },
+              {
+                "id": "q3_opt3",
+                "text": "Focus on software that incorporates metadata"
+              },
+              {
+                "id": "q3_opt4",
+                "text": "Use software that allows for easy data integration with other platforms"
+              }
+            ],
+            "settings": {
+              "multipleCorrectOptions": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q4",
+    "title": "HSC SE 2025, Q4, Collaboration Benefits",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "hsc_q4_p1",
+        "title": "Question 4",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following are benefits of collaborating with others when developing software solutions? (More than one may be selected.)</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "q4_opt1",
+                "text": "Privacy is improved."
+              },
+              {
+                "id": "q4_opt2",
+                "text": "Security of data is increased."
+              },
+              {
+                "id": "q4_opt3",
+                "text": "Intellectual property is protected."
+              },
+              {
+                "id": "q4_opt4",
+                "text": "Different points of view can be considered."
+              },
+              {
+                "id": "q4_opt5",
+                "text": "Tasks can be delegated to those with expertise."
+              }
+            ],
+            "settings": {
+              "multipleCorrectOptions": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q5",
+    "title": "HSC SE 2025, Q5, System Implementation Methods",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "hsc_q5_p1",
+        "title": "Question 5",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>New systems can be implemented in a number of different ways. Match the implementation methods to their characteristics by selecting the corresponding option in each row.</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [
+              { "text": "Characteristic" },
+              { "text": "Direct" },
+              { "text": "Parallel" },
+              { "text": "Phased" },
+              { "text": "Pilot" }
+            ],
+            "rows": [
+              {
+                "id": "q5_row1",
+                "cells": [
+                  { "text": "The new system runs immediately with no delay." },
+                  {}, {}, {}, {}
+                ]
+              },
+              {
+                "id": "q5_row2",
+                "cells": [
+                  { "text": "The new system gradually replaces the old system." },
+                  {}, {}, {}, {}
+                ]
+              },
+              {
+                "id": "q5_row3",
+                "cells": [
+                  { "text": "The new system and the old system run at the same time." },
+                  {}, {}, {}, {}
+                ]
+              },
+              {
+                "id": "q5_row4",
+                "cells": [
+                  { "text": "The new system is trialled with a small group of users and then implemented entirely when ready." },
+                  {}, {}, {}, {}
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q6",
+    "title": "HSC SE 2025, Q6, Framework Selection",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>A company is creating a new online application.</p>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q6_p1",
+        "title": "Question 6",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following is the least important consideration when choosing an open-source front-end web framework for the new application?</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "q6_opt1",
+                "text": "Popularity of the framework on social media"
+              },
+              {
+                "id": "q6_opt2",
+                "text": "Quality of existing framework documentation"
+              },
+              {
+                "id": "q6_opt3",
+                "text": "Knowledge of the framework within the company's development team"
+              },
+              {
+                "id": "q6_opt4",
+                "text": "Compatibility of the framework with the company's existing technology"
+              }
+            ],
+            "settings": {
+              "multipleCorrectOptions": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q7",
+    "title": "HSC SE 2025, Q7, Python to Pseudocode",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>Consider the following Python code.</p><pre><code>for index in range(n):\n    print(index)</code></pre>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q7_p1",
+        "title": "Question 7",
+        "metadata": {
+          "mark": 1
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Select the correct option to complete the equivalent pseudocode.</p><pre><code>FOR index = ...\n    DISPLAY index\nNEXT index</code></pre>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q7_opt1", "text": "1 TO n" },
+              { "id": "q7_opt2", "text": "0 TO n-1" },
+              { "id": "q7_opt3", "text": "1 TO n-1" },
+              { "id": "q7_opt4", "text": "0 TO n" }
+            ],
+            "settings": {
+              "multipleCorrectOptions": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q8",
+    "title": "HSC SE 2025, Q8, SAST vs DAST",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>The strategies listed below can be used to test the security of a web application that contains a database.</p>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q8_p1",
+        "title": "Question 8",
+        "metadata": {
+          "mark": 2
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Classify each strategy as EITHER static application security testing (SAST) OR dynamic application security testing (DAST).</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [
+              { "text": "Strategy" },
+              { "text": "Static Application Security Testing (SAST)" },
+              { "text": "Dynamic Application Security Testing (DAST)" }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  { "text": "Simulate attacks on the web application" }, {}, {}
+                ]
+              },
+              {
+                "cells": [
+                  { "text": "Check the way SQL queries are constructed" }, {}, {}
+                ]
+              },
+              {
+                "cells": [
+                  { "text": "Test the database's web interface for vulnerabilities" }, {}, {}
+                ]
+              },
+              {
+                "cells": [
+                  { "text": "Test the web application used to interact with the database when it is running" }, {}, {}
+                ]
+              },
+              {
+                "cells": [
+                  { "text": "Analyse the code for connecting to the database to identify security vulnerabilities" }, {}, {}
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q9",
+    "title": "HSC SE 2025, Q9, Algorithm Ordering",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>Place the following steps of a number guessing game algorithm in the correct order by dragging the steps into position.</p><p>BEGIN GuessingGame</p><p>Set guess = -1</p><p>...</p><p>END GuessingGame</p>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q9_p1",
+        "title": "Question 9",
+        "metadata": {
+          "mark": 2
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": ""
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "SORTING_TABLE",
+            "rows": [
+              { "id": "q9_r1", "cells": [{ "text": "Display \"Guess a number between 0 and 100:\"" }] },
+              { "id": "q9_r2", "cells": [{ "text": "Display \"Well Done\"" }] },
+              { "id": "q9_r3", "cells": [{ "text": "Set number = random integer between 0 and 100" }] },
+              { "id": "q9_r4", "cells": [{ "text": "ENDWHILE" }] },
+              { "id": "q9_r5", "cells": [{ "text": "WHILE guess <> number" }] },
+              { "id": "q9_r6", "cells": [{ "text": "Get guess" }] }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q10",
+    "title": "HSC SE 2025, Q10, Structure Chart Analysis",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>This structure chart describes an online ordering system for a café.</p>"
+        },
+        {
+          "type": "IMAGE",
+          "files": [
+            {
+              "url": "/img/hsc_sample_exam/10.png"
+            }
+          ]
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q10_p1",
+        "title": "Question 10",
+        "metadata": {
+          "mark": 2
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following statements are TRUE about this structure chart? (More than one may be selected.)</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q10_opt1", "text": "Confirm cart is Boolean." },
+              { "id": "q10_opt2", "text": "Order number is a control variable." },
+              { "id": "q10_opt3", "text": "A valid loyalty account is not required for online ordering." },
+              { "id": "q10_opt4", "text": "The order cannot be displayed until the cart is confirmed." },
+              { "id": "q10_opt5", "text": "A choice is repeatedly offered between Browse menu and Add items to order." }
+            ],
+            "settings": {
+              "multipleCorrectOptions": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q11",
+    "title": "HSC SE 2025, Q11, Algorithm Testing",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>Consider the following algorithm.</p><pre><code>BEGIN responsiveScreen\n  Get ScreenSize\n  IF ScreenSize >= 1024 THEN\n    Viewport = 'Desktop'\n  ELSEIF ScreenSize >= 768 THEN\n    Viewport = 'Tablet'\n  ELSE\n    Viewport = 'Phone'\n  ENDIF\n  Display \"Display set to \", Viewport\nEND responsiveScreen</code></pre>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q11_p1",
+        "title": "Question 11",
+        "metadata": {
+          "mark": 3
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Provide a set of 5 test data that will thoroughly test the algorithm. Include the expected outputs and reasons for inclusion. You may assume that all input data are valid. Please format your answer like a table.</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "SHORT",
+            "extendedView": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q12",
+    "title": "HSC SE 2025, Q12, Web Development",
+    "parts": [
+      {
+        "id": "hsc_q12_p1",
+        "title": "Question 12 (a)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how a web developer could test a website for cross-platform compatibility.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      },
+      {
+        "id": "hsc_q12_p2",
+        "title": "Question 12 (b)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how the load time of a web page can be improved using a progressive web app (PWA).</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q13",
+    "title": "HSC SE 2025, Q13, Data Transfer Protocols",
+    "parts": [
+      {
+        "id": "hsc_q13_p1",
+        "title": "Question 13",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe the function of protocols in the transfer of data. In your answer, refer to a specific web protocol.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q14",
+    "title": "HSC SE 2025, Q14, Pseudocode Algorithm",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>PseudoPizza creates and sells custom-designed pizzas.</p><p>The price of a small pizza is $10. The following costs are added, depending on the size of the pizza base and the number of toppings chosen.</p><ul><li>Medium size: $2</li><li>Large size: $4</li><li>Each topping: $1.50</li></ul><p>An algorithm is needed to calculate the cost of pizzas ordered for a customer. The algorithm should calculate and display the cost of each pizza and the total cost of the order.</p>"
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q14_p1",
+        "title": "Question 14",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Write the algorithm using pseudocode. Include at least one subroutine in your answer. You may assume that all inputs are valid.</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "SHORT"
+            }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q15",
+    "title": "HSC SE 2025, Q15, Machine Learning in Data Analysis",
+    "parts": [
+      {
+        "id": "hsc_q15_p1",
+        "title": "Question 15",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe how machine learning algorithms can be used in data analysis.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q16",
+    "title": "HSC SE 2025, Q16, CSS Debugging",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>A developer added a cascading style sheet (CSS) to their company's website. </p><br><p>The developer had expected the HTML code to display Image 1, but Image 2 is being displayed.</p>"},
+        { "type": "IMAGE", "files": [{ "url": "/img/hsc_sample_exam/16.png", "caption": "Images" }]},
+        { "type": "RICH_TEXT", "text": "<br><b>index.html</b><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;title&gt;Welcome to Software&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"main.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Software&lt;/h1&gt;\n  &lt;p&gt;&lt;span id=\"se_item\"&gt;Software&lt;/span&gt; includes code.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><br><b>main.css</b><pre><code>body {\n  font-family: Arial;\n}\nh1 {\n  font-weight: bold;\n  text-align: center;\n}\n#se_item {\n  font-style: italic;\n  font-weight: bold;\n}</code></pre>" }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q16_p1",
+        "title": "Question 16 (a)",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Referring to the code, what is the cause of the problem?</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q16a_opt1", "text": "Font family is missing." },
+              { "id": "q16a_opt2", "text": "Attribute of &lt;p&gt; has not been defined." },
+              { "id": "q16a_opt3", "text": "main.css has not been correctly referenced." },
+              { "id": "q16a_opt4", "text": "The id \"se_item\" has not been correctly referenced." }
+            ],
+            "settings": { "multipleCorrectOptions": false }
+          }
+        }
+      },
+      {
+        "id": "hsc_q16_p2",
+        "title": "Question 16 (b)",
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Outline TWO benefits of adding CSS to the company's website.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q17",
+    "title": "HSC SE 2025, Q17, SQL Query",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>A shop uses an online database for recording its stock. The database contains a Products table and a Suppliers table. The prices are in dollars and the masses are in grams. The shop wants to identify all the products with a mass of at least 50 grams that are produced by Yumtreats.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "/img/hsc_sample_exam/17.png", "caption": "Database" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q17_p1",
+        "title": "Question 17",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Write an SQL query to display the product names and supplier names, in descending order by product name.</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "SQL",
+            "datasetSetupQuery": "CREATE TABLE Suppliers (SupplierID TEXT PRIMARY KEY, Name TEXT); CREATE TABLE Products (ProductID TEXT PRIMARY KEY, Name TEXT, Price REAL, Mass INTEGER, Producer TEXT, Quantity INTEGER, SupplierID TEXT, FOREIGN KEY(SupplierID) REFERENCES Suppliers(SupplierID)); INSERT INTO Suppliers VALUES ('SID001', 'The Lolly Pop'), ('SID002', 'Sugar Rush Hour'), ('SID003', 'Sweet Retreat'); INSERT INTO Products VALUES ('PID001', 'TruffleSway', 1.00, 30, 'Yumtreats', 100, 'SID001'), ('PID002', 'PeanutPop', 1.00, 35, 'Yumtreats', 500, 'SID002'), ('PID003', 'Carameluxe', 2.20, 50, 'Yumtreats', 100, 'SID003'), ('PID004', 'BerryBlend', 1.25, 50, 'Yumtreats', 8, 'SID001'), ('PID005', 'Chocolate Cascade', 1.25, 52, 'Yumtreats', 50, 'SID002'), ('PID006', 'Hazelnut Symphony', 2.50, 50, 'Sugaryum', 0, 'SID003'), ('PID007', 'Caramel Delight', 2.50, 40, 'Treatopia', 20, 'SID002'), ('PID008', 'ChocoGlow', 2.50, 55, 'Treatopia', 95, 'SID002');"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q18",
+    "title": "HSC SE 2025, Q18, Input Validation",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>An online site requires its users to create accounts. Each username must satisfy the following rules:</p><ol style=\"list-style-type: auto; padding:30px;\"><li>It must be at least 8 characters long.</li><li>It must start with an uppercase letter.</li><li>The second last character must be a lowercase letter.</li><li>The last character must be numeric.</li></ol><p>An example of a valid username is NESA24s3.</p>" }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q18_p1",
+        "title": "Question 18 (a)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how defensive data input handling practices can be implemented for this website.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      },
+      {
+        "id": "hsc_q18_p2",
+        "title": "Question 18 (b)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Write a function with Python that will check whether a username satisfies the rules.</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "CODING",
+            "language": "PYTHON",
+            "defaultCode": "# Write your code here"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q19",
+    "title": "HSC SE 2025, Q19, Authentication and Authorisation",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>An app is being developed for use in a school. It will allow teachers to upload and assign work, and track student homework. Students can download work and upload their completed responses for marking.</p>" }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q19_p1",
+        "title": "Question 19",
+        "metadata": { "mark": 4 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how authentication and authorisation could be applied to this app.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q20",
+    "title": "HSC SE 2025, Q20, Decision Tree",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>Consider the following decision tree of a trained machine learning model that determines whether to purchase a mobile phone.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "/img/hsc_sample_exam/20.png" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q20_p1",
+        "title": "Question 20 (a)",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Using the decision tree, determine the outcome of each of the following situations.</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [{ "text": "Situation" }, { "text": "Buy" }, { "text": "Do not buy" }],
+            "rows": [
+              { "cells": [{ "text": "Memory = 256 GB, AI Assistant = Yes, Accessory inclusions = No" }, {}, {}] },
+              { "cells": [{ "text": "Memory = 128 GB, AI Assistant = No, Accessory inclusions = Yes" }, {}, {}] },
+              { "cells": [{ "text": "Foldable = Yes, AI Assistant = No, Accessory inclusions = No" }, {}, {}] }
+            ]
+          }
+        }
+      },
+      {
+        "id": "hsc_q20_p2",
+        "title": "Question 20 (b)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>The decision tree can be simplified without compromising its logic. Redraw the decision tree to reduce the number of branches.</p>" }] } },
+        "answer": { "parameters": { "type": "DRAWING_V2" } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q21",
+    "title": "HSC SE 2025, Q21, 2D Arrays and Python",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>At a school, each student studies five subjects. The school timetable has five periods each day, and each period is allocated to a different subject. The subjects shift to a different period each day so that each subject will appear in all five periods during the week. An example of a student timetable is shown below.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "/img/hsc_sample_exam/21.png" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q21_p1",
+        "title": "Question 21 (a)",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>If the timetable is stored as a 2D array, what is the correct Python snippet for accessing the subject that is on Monday Period 3?</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q21a_opt1", "text": "timetable[2][0]" },
+              { "id": "q21a_opt2", "text": "timetable[0][2]" },
+              { "id": "q21a_opt3", "text": "timetable[3][1]" },
+              { "id": "q21a_opt4", "text": "timetable[1][3]" }
+            ],
+            "settings": { "multipleCorrectOptions": false }
+          }
+        }
+      },
+      {
+        "id": "hsc_q21_p2",
+        "title": "Question 21 (b)",
+        "metadata": { "mark": 5 },
+        "content": {
+    "contentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>In this example, the student studies English, Software, Drama, Science and Sport. From Monday to Friday, English is held in Period 1, Period 2, Period 3, Period 4 and Period 5. Software is held in Period 2, Period 3, Period 4, Period 5 and then Period 1. A similar pattern can be observed for the other subjects.</p><p>You are required to write a Python program to print out the timetable in the following format:</p><br><p>Monday<br>&nbsp&nbspPeriod 1: English<br>&nbsp&nbspPeriod 2: Software<br>&nbsp&nbspPeriod 3: Drama<br>&nbsp&nbspPeriod 4: Science<br>&nbsp&nbspPeriod 5: Sport<br>and so on...</p><br><p>Start your program with <code>subjects = [\"English\", \"Software\", \"Drama\", \"Science\", \"Sport\"]</code></p><p>Different students may study different subjects.</p><p>The program will be used by different students to print out their timetable by changing the subjects listed in the first line of code.</p>"
+        }
+      ]
+    }
+  },
+        "answer": {
+          "parameters": {
+            "type": "CODING",
+            "language": "PYTHON",
+            "defaultCode": "subjects = [\"English\", \"Software\", \"Drama\", \"Science\", \"Sport\"]\n\n# Write your Python program using subroutines.\n"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q22",
+    "title": "HSC SE 2025, Q22, SQL and Race Conditions",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>An online relational database is used to keep track of students at a coding club. The contents of the Students table are shown.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "/img/hsc_sample_exam/22.png", "caption": "Students Table" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q22_p1",
+        "title": "Question 22 (a)",
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Write an SQL query to generate the number of students at each level.</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "SQL",
+            "datasetSetupQuery": "CREATE TABLE Students (StudentID TEXT, FirstName TEXT, Surname TEXT, Attended INTEGER, Level TEXT); INSERT INTO Students VALUES ('Student1', 'John', 'Doe', 5, 'Beginner'), ('Student2', 'Jane', 'Smith', 4, 'Intermediate'), ('Student3', 'David', 'Kim', 3, 'Beginner'), ('Student4', 'Sarah', 'Lee', 2, 'Expert'), ('Student5', 'Emma', 'Wilson', 1, 'Beginner'), ('Student6', 'Michael', 'Johnson', 0, 'Intermediate'), ('Student7', 'Olivia', 'Davis', 2, 'Beginner'), ('Student8', 'Ethan', 'Martinez', 3, 'Intermediate'), ('Student9', 'Sophia', 'Choi', 4, 'Expert'), ('Student10', 'Noah', 'Moore', 5, 'Beginner'), ('Student11', 'Isabella', 'Garcia', 1, 'Intermediate'), ('Student12', 'Liam', 'Vo', 2, 'Expert');"
+          }
+        }
+      },
+      {
+        "id": "hsc_q22_p2",
+        "title": "Question 22 (b)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Race conditions have been identified as a potential issue for this database. Provide an example of when a race condition may occur in this scenario and outline how secure code could be implemented to prevent it.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q23",
+    "title": "HSC SE 2025, Q23, Machine Learning Concepts",
+    "parts": [
+      {
+        "id": "hsc_q23_p1",
+        "title": "Question 23 (a)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>How can the effects of human bias be minimised when training machine learning algorithms?</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      },
+      {
+        "id": "hsc_q23_p2",
+        "title": "Question 23 (b)",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Compare linear regression and K-nearest neighbour.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q24",
+    "title": "HSC SE 2025, Q24, Class Diagram",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "A train company wants a class diagram that models the relationship between long-distance train trips and passengers.<br><br><b>The long-distance train has:</b><ul><li>a unique trip identifier (eg AL456)</li><li>a model code for the train engine (eg E67) and a model code (eg P9754) for each of the passenger cars</li><li>two different areas ('Standard' and 'Executive'). The Executive area has 20 seats and there are 400 seats in the Standard area.</li></ul><b>Each passenger:</b><ul><li>has contact details including an email address and phone number</li><li>purchases a 'Standard' or 'Executive' ticket and is given a seat number (eg 25D)</li><li>may be a frequent traveller.</li></ul>" }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q24_p1",
+        "title": "Question 24",
+        "metadata": { "mark": 4 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Create a class diagram for the train company.</p>" }] } },
+        "answer": { "parameters": { "type": "DRAWING_V2" } }
+      }
+    ]
+  },
+  {
+    "id": "hsc_q25",
+    "title": "HSC SE 2025, Q25, Security Enhancements",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>A telecommunications company had a recent security breach which prompted a review to improve the security of its systems. It has contracted QuidantCon to propose security enhancements to its systems. Please review QuidantCon's Proposal in the slider below.</p>" },
+        {
+          "type": "IMAGE_SLIDER",
+          "files": [
+            { "url": "/img/hsc_sample_exam/25a.png" },
+            { "url": "/img/hsc_sample_exam/25b.png" },
+            { "url": "/img/hsc_sample_exam/25c.png" }
+          ]
+        }
+      ]
+    },
+    "parts": [
+      {
+        "id": "hsc_q25_p1",
+        "title": "Question 25",
+        "metadata": { "mark": 8 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Discuss QuidantCon's proposal for security enhancements to the company's systems.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+      }
+    ]
+  }
+]
