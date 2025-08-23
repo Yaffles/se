@@ -3,7 +3,7 @@ import Editor from '@monaco-editor/react';
 
 // Final version with a reliable, pure JavaScript timeout.
 function PythonCoding({ defaultCode }) {
-  const [code, setCode] = useState(defaultCode || '# This will time out after 1 second:\nimport time\n\nwhile True:\n  time.sleep(0.1)');
+  const [code, setCode] = useState(defaultCode || '# Write your Python code here');
   const [output, setOutput] = useState('');
   const [pyodide, setPyodide] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

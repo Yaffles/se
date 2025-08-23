@@ -2268,13 +2268,7 @@
             "id": "34a27b12-b0da-459d-80c2-0d280a0e14a2",
             "parameters": {
                 "version": 0,
-                "type": "CODING",
-                "settings": {
-                    "showExecutionOutput": false,
-                    "highlightSyntax": false
-                },
-                "language": "PYTHON",
-                "defaultCode": "Write your algorithm here"
+                "type": "SHORT"
             },
             "files": null
         },
