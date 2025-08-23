@@ -1,0 +1,469 @@
+[
+    {
+      "id": "q1",
+      "parts": [
+        {
+          "title": "Question 1",
+          "metadata": { "mark": 1 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "A part of an application with a GUI requires from the user to answer several questions. For one type of question there are several correct responses, and the user must select all the correct ones from a set of five options. Which screen element would be best suited for this type of question?" }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "MULTI_CHOICE",
+              "settings": { "multipleCorrectOptions": false },
+              "options": [
+                { "id": "A", "text": "Radio buttons" },
+                { "id": "B", "text": "Command buttons" },
+                { "id": "C", "text": "Checkboxes" },
+                { "id": "D", "text": "List box" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "parts": [
+        {
+          "title": "Question 2",
+          "metadata": { "mark": 1 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Order the 4 steps in the model development part of MLOps." }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "SORTING_TABLE",
+              "rows": [
+                { "cells": [{ "text": "Model training" }] },
+                { "cells": [{ "text": "Data wrangling (preparation)" }] },
+                { "cells": [{ "text": "Model testing and validation" }] },
+                { "cells": [{ "text": "Feature engineering" }] }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "parts": [
+        {
+          "title": "Question 3",
+          "metadata": { "mark": 1 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Which of the following best describes metadata?" }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "MULTI_CHOICE",
+              "settings": { "multipleCorrectOptions": false },
+              "options": [
+                { "id": "A", "text": "The primary content of a document or file" },
+                { "id": "B", "text": "Descriptive information about data that helps to organise, find, and understand it" },
+                { "id": "C", "text": "A summary of the given data that highlights its main statistics" },
+                { "id": "D", "text": "Encrypted data that is primarily used in social networking software like Facebook" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "parts": [
+        {
+          "title": "Question 4",
+          "metadata": { "mark": 1 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "How can SQL code be improved to prevent SQL injection attacks?" }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "MULTI_CHOICE",
+              "settings": { "multipleCorrectOptions": false },
+              "options": [
+                { "id": "A", "text": "By using user input directly in the SQL query with no sanitisation" },
+                { "id": "B", "text": "By using dynamic SQL queries that concatenate user input directly into the query" },
+                { "id": "C", "text": "By using only stored procedures with no parameterisation" },
+                { "id": "D", "text": "By implementing prepared statements with parameterised queries" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "parts": [
+        {
+          "title": "Question 5",
+          "metadata": { "mark": 2 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Which features of OOP can be seen in the following Python code?" },
+                { "type": "CODE", "text": "class Person:\n  def __init__(self, fname, lname):\n    self.__firstname = fname\n    self.__lastname = lname  \n  def printname(self):\n    print(self.__firstname,self.__lastname.upper(), end=\"\")\n  def greet(self):\n    print(\"G’day \", end=\"\")\n    self.printname()\n    print()\nclass Student(Person):\n  def __init__(self, fname, lname, sid, gradyear):\n    super().__init__(fname, lname)\n    self.__studentID = sid\n    self.graduationyear = gradyear\n  def greet(self):\n    self.printname()\n    print(\", welcome to the Class of\", self.graduationyear)" }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "MULTI_CHOICE",
+              "settings": { "multipleCorrectOptions": true },
+              "options": [
+                { "id": "A", "text": "Encapsulation" },
+                { "id": "B", "text": "Inheritance" },
+                { "id": "C", "text": "Instantiation" },
+                { "id": "D", "text": "Polymorphism" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "parts": [
+        {
+          "title": "Question 6",
+          "metadata": { "mark": 2 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Complete the text below by writing 1 word into each provided space. Each word you write must be 1 of the following: Configuration, Data, Exception, Identity, Memory, Session." }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "SHORT",
+              "blanks": 3,
+              "options": ["Configuration", "Data", "Exception", "Identity", "Memory", "Session"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "parts": [
+        {
+          "title": "Question 7",
+          "metadata": { "mark": 2 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Which of the following machine learning models are NOT suitable for a classification problem?" }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "MULTI_CHOICE",
+              "settings": { "multipleCorrectOptions": true },
+              "options": [
+                { "id": "A", "text": "Decision tree" },
+                { "id": "B", "text": "Neural network" },
+                { "id": "C", "text": "Linear regression" },
+                { "id": "D", "text": "Logistic regression" },
+                { "id": "E", "text": "K-nearest neighbours (KNN)" },
+                { "id": "F", "text": "Polynomial regression" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "parts": [
+        {
+          "title": "Question 8",
+          "metadata": { "mark": 2 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "For each of the given descriptions, indicate the most suitable network protocol." }
+              ]
+            }
+          },
+          "answer": {
+            "parameters": {
+              "type": "OBJECTIVE_RESPONSE",
+              "header": [
+                { "text": "Protocol" },
+                { "text": "Match" }
+              ],
+              "rows": [
+                { "cells": [{ "text": "SFTP" }, { "text": "" }] },
+                { "cells": [{ "text": "POP3" }, { "text": "" }] },
+                { "cells": [{ "text": "IP" }, { "text": "" }] },
+                { "cells": [{ "text": "HTTPS" }, { "text": "" }] },
+                { "cells": [{ "text": "SMTP" }, { "text": "" }] },
+                { "cells": [{ "text": "IMAP" }, { "text": "" }] },
+                { "cells": [{ "text": "TCP" }, { "text": "" }] },
+                { "cells": [{ "text": "TLS" }, { "text": "" }] }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "parts": [
+        {
+          "title": "Question 9",
+          "metadata": { "mark": 4 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Draw a structure chart to represent the AverageListOfNumbers algorithm given above." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "DRAWING_V2" } }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "parts": [
+        {
+          "title": "Question 10",
+          "metadata": { "mark": 3 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "For the AverageListOfNumbers algorithm given above, write pseudocode for the function CalculateAverage(arrayOfNumbers)." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "SHORT" } }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "parts": [
+        {
+          "title": "Question 11",
+          "metadata": { "mark": 3 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Explain how the capabilities of end users influence the secure design features of software." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "SHORT" } }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "parts": [
+        {
+          "title": "Question 12",
+          "metadata": { "mark": 3 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Describe what a template engine in web development is and how it works." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "SHORT" } }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "parts": [
+        {
+          "title": "Question 13",
+          "metadata": { "mark": 3 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Draw a decision tree for decisions whether a person should be accepted into a software engineering student club meeting. A female is always accepted. Other persons are accepted only if they study Software Engineering or are proficient in C." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "DRAWING_V2" } }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "parts": [
+        {
+          "title": "Question 14",
+          "metadata": { "mark": 3 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Compare and contrast cross-site scripting (XSS) and cross-site request forgery (CSRF)." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "SHORT" } }
+        }
+      ]
+    },
+    {
+  "id": "7a2b5a08-0e9a-4f84-9b18-8f6a6f38db20",
+  "title": "2025 CSSA, Fam_Q15,   SQL",
+  "isPublished": false,
+  "publishDate": null,
+  "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+  "stimulusContentItemCollection": null,
+  "publisher": null,
+  "dynamicFields": null,
+  "copyrightText": null,
+  "visibility": null,
+  "school": null,
+  "parts": [
+    {
+      "id": "fa4b1c1f-fc6a-4f54-bf17-39d51c53c317",
+      "displayIndex": 0,
+      "title": "Question 15",
+      "metadata": {
+        "id": "c19cfa9f-8aa3-4636-95f2-3c3b18d0e1fd",
+        "mark": 3,
+        "syllabus": {
+          "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+          "title": "Software Engineering",
+          "description": "Software Engineering Stage 6 Syllabus 2022",
+          "grade": 12,
+          "publishedYear": null,
+          "publishedDate": null
+        },
+        "band": null,
+        "outcomeIds": [],
+        "topicIds": ["dc9286c4-6091-4305-9bcf-522e1c1080e7"],
+        "subtopicIds": ["dd054126-4515-4373-b96f-75402f2452b7"],
+        "subtopicItemIds": [],
+        "bandIds": []
+      },
+      "content": {
+        "id": "89a26a43-ec0f-4b5f-a444-4d99479c2737",
+        "contentItemCollection": {
+          "id": "bb72d2a3-fec3-46f0-b5b7-8f9a746c8439",
+          "items": [
+            {
+              "id": "2fc71372-0f6a-4f2c-8c43-b07d2b872f20",
+              "updatedDate": "2025-08-22T04:22:00.000Z",
+              "files": null,
+              "type": "RICH_TEXT",
+              "text": "<p>An online business is planning to use a database to keep track of its products. The contents of the <strong>Products</strong> table during testing are shown below:</p>\n<table border=\"1\" style=\"border-collapse: collapse;\">\n<thead>\n<tr><th>ProductID</th><th>ProductName</th><th>ProductPrice</th></tr>\n</thead>\n<tbody>\n<tr><td>P001</td><td>The Plant (DVD)</td><td>28.00</td></tr>\n<tr><td>P002</td><td>Discovery 1 and 2 (DVD)</td><td>26.98</td></tr>\n<tr><td>P003</td><td>Travel 1 and 2 (Blu-Ray)</td><td>22.00</td></tr>\n<tr><td>P004</td><td>The Best Movie (DVD)</td><td>19.98</td></tr>\n<tr><td>P005</td><td>Celebration (DVD)</td><td>12.00</td></tr>\n</tbody>\n</table>\n<p>After executing a SQL query, the following results were obtained:</p>\n<table border=\"1\" style=\"border-collapse: collapse;\">\n<thead>\n<tr><th>ProductName</th><th>ProductPrice</th></tr>\n</thead>\n<tbody>\n<tr><td>Celebration (DVD)</td><td>12.00</td></tr>\n<tr><td>The Best Movie (DVD)</td><td>19.98</td></tr>\n<tr><td>Travel 1 and 2 (Blu-Ray)</td><td>22.00</td></tr>\n</tbody>\n</table>\n<p>Write the SQL <strong>SELECT</strong> query that produced the above results.</p>"
+            }
+          ],
+          "itemIdOrder": ["2fc71372-0f6a-4f2c-8c43-b07d2b872f20"]
+        },
+        "contentItemMetadata": null
+      },
+      "answer": {
+        "id": "4a2f8b90-32f2-4a4e-9b84-8942a79d3d54",
+        "parameters": {
+          "type": "SQL",
+          "datasetSetupQuery": "CREATE TABLE Products (\n  ProductID TEXT PRIMARY KEY,\n  ProductName TEXT NOT NULL,\n  ProductPrice REAL NOT NULL\n);\n\nINSERT INTO Products (ProductID, ProductName, ProductPrice) VALUES\n('P001','The Plant (DVD)',28.00),\n('P002','Discovery 1 and 2 (DVD)',26.98),\n('P003','Travel 1 and 2 (Blu-Ray)',22.00),\n('P004','The Best Movie (DVD)',19.98),\n('P005','Celebration (DVD)',12.00);",
+          "settings": {
+            "showExecutionOutput": true,
+            "highlightSyntax": true
+          },
+          "defaultAnswerQuery": ""
+        },
+        "files": null
+      },
+      "markingCriteriaContentItem": {
+        "id": "cb61d0e9-27dc-4dbf-b943-b68f8680d919",
+        "updatedDate": "2025-08-22T04:22:00.000Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [
+          { "criterion": "<p>Provides a correct answer</p>", "point": "<p>3</p>" },
+          { "criterion": "<p>Provides a partially correct answer</p>", "point": "<p>1–2</p>" }
+        ]
+      },
+      "sampleAnswerContentItem": {
+        "id": "34efb3e7-1460-4c5f-9de4-3fa13ac5edc4",
+        "updatedDate": "2025-08-22T04:22:00.000Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<p>SELECT ProductName, ProductPrice FROM Products<br>WHERE ProductPrice &lt;= 22.00</p>"
+      }
+    }
+  ]
+}
+,
+    {
+      "id": "q16",
+      "parts": [
+        {
+          "title": "Question 16",
+          "metadata": { "mark": 5 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "In Python, write the function checkDiqitOK(isbn_str) that takes a 13-digit ISBN as a string and returns True or False indicating whether the ISBN is valid in terms of its check digit." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "CODING", "language": "PYTHON" } }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "parts": [
+        {
+          "title": "Question 17",
+          "metadata": { "mark": 3 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Discuss how the 3 main principles of the ‘privacy by design’ approach should be applied in the development of the ‘nAIs Skin Check PWA’ app." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "SHORT" } }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "parts": [
+        {
+          "title": "Question 18",
+          "metadata": { "mark": 8 },
+          "content": {
+            "contentItemCollection": {
+              "items": [
+                { "type": "RICH_TEXT", "text": "Explain, illustrate on examples from the ‘nAIs Skin Check PWA’ scenario and evaluate strategies that your software development team should use to manage security of programming code, including: code review, SAST, DAST, vulnerability assessment, penetration testing." }
+              ]
+            }
+          },
+          "answer": { "parameters": { "type": "SHORT" } }
+        }
+      ]
+    }
+  ]

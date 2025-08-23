@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="802px" height="415.5px" viewBox="0 0 802 415.5" enable-background="new 0 0 802 415.5" xml:space="preserve">
+<text transform="matrix(1 0 0 1 328.1667 52.1726)" font-family="'Helvetica'" font-size="20">Hotel booking system</text>
+<rect x="316.9" y="9.907" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="214.831" height="67.742"/>
+<text transform="matrix(1 0 0 1 117.3972 183.9851)" font-family="'Helvetica'" font-size="20">Login</text>
+<rect x="80.09" y="140.912" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="124.724" height="73.156"/>
+<text transform="matrix(1 0 0 1 265.2249 354.0818)" font-family="'Helvetica'" font-size="20">Browse</text>
+<text transform="matrix(1 0 0 1 271.885 376.0818)" font-family="'Helvetica'" font-size="20">hotels</text>
+<text transform="matrix(1 0 0 1 380.8147 166.5818)" font-family="'Helvetica'" font-size="20">Until done</text>
+<text transform="matrix(1 0 0 1 7.8962 311.0066)" font-family="'Helvetica'" font-size="20">Member ID</text>
+<text transform="matrix(1 0 0 1 173.5671 311.0066)" font-family="'Helvetica'" font-size="20">Valid</text>
+<text transform="matrix(1 0 0 1 96.7454 254.9509)" font-family="'Helvetica'" font-size="20">Until Valid</text>
+<text transform="matrix(1 0 0 1 436.2463 289.9578)" font-family="'Helvetica'" font-size="20">Booking</text>
+<text transform="matrix(1 0 0 1 458.4856 311.0066)" font-family="'Helvetica'" font-size="20">made</text>
+<rect x="236.203" y="322.944" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="124.724" height="75.446"/>
+<text transform="matrix(1 0 0 1 543.0745 366.324)" font-family="'Helvetica'" font-size="20">Book</text>
+<rect x="503.512" y="322.944" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="124.727" height="75.446"/>
+<text transform="matrix(1 0 0 1 676.7366 174.7419)" font-family="'Helvetica'" font-size="20">Display new</text>
+<text transform="matrix(1 0 0 1 690.6155 198.7419)" font-family="'Helvetica'" font-size="20">bookings</text>
+<rect x="667.727" y="140.912" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="124.723" height="73.156"/>
+<text transform="matrix(1 0 0 1 77.3342 346.0427)" font-family="'Helvetica'" font-size="20">Enter member </text>
+<text transform="matrix(1 0 0 1 92.325 368.0427)" font-family="'Helvetica'" font-size="20">details and </text>
+<text transform="matrix(1 0 0 1 109.0042 390.0427)" font-family="'Helvetica'" font-size="20">validate</text>
+<rect x="69.409" y="322.944" fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="144.062" height="76.543"/>
+<text transform="matrix(1 0 0 1 641.7493 94.158)" font-family="'Helvetica'" font-size="20">Booking ID</text>
+<text transform="matrix(1 0 0 1 124.4368 94.158)" font-family="'Helvetica'" font-size="20">Member ID</text>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M251.656,90.493
+		c-2.739,5.53-9.441,7.791-14.971,5.052c-5.526-2.738-7.786-9.443-5.049-14.972c2.741-5.526,9.444-7.786,14.972-5.049
+		C252.136,78.266,254.395,84.969,251.656,90.493z"/>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="268.756" y1="79.526" x2="253.264" y2="84.707"/>
+			<g>
+				<polygon points="266.131,77.531 276.633,76.889 267.86,82.697 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<circle stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="533.291" cy="302.448" r="11.171"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="519.823" y1="280.774" x2="527.676" y2="292.245"/>
+		<g>
+			<polygon points="518.623,283.844 515.129,273.922 523.119,280.768 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<circle fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="122.896" cy="303.922" r="11.171"/>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="123.737" y1="278.411" x2="123.897" y2="292.315"/>
+			<g>
+				<polygon points="121.035,280.301 123.64,270.106 126.482,280.237 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M161.688,294.807c5.031,3.57,6.223,10.539,2.651,15.578
+		c-3.571,5.025-10.54,6.215-15.574,2.646c-5.031-3.568-6.223-10.543-2.651-15.573C149.685,292.426,156.657,291.241,161.688,294.807z
+		"/>
+	<g>
+		<line fill="none" x1="155.096" y1="270.106" x2="155.356" y2="292.315"/>
+		<g>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="155.193" y1="278.411" x2="155.356" y2="292.315"/>
+			<g>
+				<polygon points="152.492,280.302 155.094,270.106 157.938,280.237 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M612.51,92.622
+		c-4.404,4.321-11.469,4.255-15.795-0.146c-4.327-4.4-4.261-11.473,0.144-15.798c4.403-4.325,11.471-4.257,15.794,0.145
+		C616.983,81.226,616.907,88.298,612.51,92.622z"/>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="627.927" y1="91.934" x2="615.937" y2="87.683"/>
+			<g>
+				<polygon points="627.087,88.746 635.757,94.706 625.268,93.88 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 557.094 247.1003)" font-family="'Helvetica'" font-size="20">Member ID</text>
+<text transform="matrix(1 0 0 1 593.1721 311.0066)" font-family="'Helvetica'" font-size="20">Booking ID</text>
+<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M577.236,292.672
+	c6.146,0.54,10.695,5.957,10.161,12.104c-0.535,6.146-5.954,10.693-12.098,10.158c-6.148-0.536-10.698-5.951-10.158-12.097
+	C565.673,296.686,571.091,292.14,577.236,292.672z"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="564.214" y1="282.061" x2="571.379" y2="293.969"/>
+		<g>
+			<polygon points="562.837,285.056 559.931,274.946 567.506,282.25 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M535.634,247.052
+		c-6.144-0.575-10.656-6.015-10.085-12.157c0.568-6.146,6.014-10.658,12.155-10.091c6.146,0.569,10.657,6.013,10.086,12.155
+		C547.217,243.105,541.782,247.619,535.634,247.052z"/>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="548.712" y1="258.424" x2="541.618" y2="246.474"/>
+			<g>
+				<polygon points="550.107,255.436 552.954,265.566 545.421,258.218 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="316.421" y1="77.797" x2="139.224" y2="141.142"/>
+<g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M173.299,226.151
+			c4.242,0.908,6.721,2.005,6.721,3.187c0,3.142-17.594,5.69-39.299,5.69c-21.704,0-39.299-2.55-39.299-5.69
+			c0-1.426,3.601-2.725,9.551-3.723"/>
+		<g>
+			<polygon points="175.634,229.361 165.393,224.557 176.666,223.596 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M484.737,126.405
+			c9.26,1.792,14.74,4.02,14.74,6.433c0,5.938-33.229,10.754-74.227,10.754c-40.996,0-74.23-4.814-74.23-10.754
+			c0-2.688,6.797-5.142,18.037-7.023"/>
+		<g>
+			<polygon points="486.401,130.035 474.89,124.846 487.452,123.584 			"/>
+		</g>
+	</g>
+</g>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="139.256" y1="214.068" x2="139.256" y2="322.046"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="422.073,77.725 438.926,94.438 
+	565.875,323.25 "/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="405.629" y1="94.173" x2="422.073" y2="77.725"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="298.565" y1="323.25" x2="405.629" y2="94.173"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="574.668,92.277 553.172,103.377 
+	542.07,81.879 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="542.07,81.879 563.566,70.781 
+	574.668,92.277 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" points="438.926,94.438 422.412,110.949 
+	405.902,94.438 "/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="574.557" y1="92.627" x2="721.227" y2="140.972"/>
+<path stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M574.557,92.627"/>
+<path stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M542.25,81.353"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" x1="532.062" y1="77.797" x2="542.25" y2="81.353"/>
+</svg>
