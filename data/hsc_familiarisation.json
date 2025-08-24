@@ -405,7 +405,7 @@
         },
         "answer": {
             "parameters": {
-                "type": "SHORT",
+                "type": "PSEUDOCODE",
                 "defaultCode": ""
             }
         }

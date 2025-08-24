@@ -93,9 +93,6 @@
     "title": "Q4 Flowchart Issue",
     "stimulusContentItemCollection": {
          "items": [{
-            "type": "RICH_TEXT",
-            "text": "<p>Consider a flowchart with the following logic:</p><ul><li>1. START</li><li>2. Set variable a = 1</li><li>3. Decision: Is a < 4?</li><li>4. If YES: PRINT a, then SET a = a + 1, then go back to step 3.</li><li>5. If NO: END</li></ul>"
-        }, {
             "id": "a7266cfb-6192-4726-b948-3f30c9ef6073",
             "updatedDate": "2025-07-06T06:40:52.456Z",
             "files": [{
@@ -585,7 +582,7 @@
     "stimulusContentItemCollection": {
         "items": [{
             "type": "RICH_TEXT",
-            "text": "<p>The Python code below defines a function that allows a user to purchase an item.</p><pre><code>import threading\nlock = threading.Lock()\ndef purchase_item(user_id, item_id):\n  with lock:\n    if inventory[item_id] > 0:\n      inventory[item_id] = 0\n      confirm_purchase(user_id, item_id)</code></pre>"
+            "text": "<p>The Python code below defines a function that allows a user to purchase an item.</p><br><pre><code>import threading\nlock = threading.Lock()\ndef purchase_item(user_id, item_id):\n  with lock:\n    if inventory[item_id] > 0:\n      inventory[item_id] = 0\n      confirm_purchase(user_id, item_id)</code></pre>"
         }]
     },
     "parts": [{
@@ -900,8 +897,7 @@
         },
         "answer": {
             "parameters": {
-                "type": "SHORT",
-                "extendedView": true
+                "type": "PSEUDOCODE"
             }
         }
     }]
