@@ -2,6 +2,7 @@ import { Excalidraw, MainMenu } from "@excalidraw/excalidraw";
 import "@excalidraw/excalidraw/index.css";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import PythonCoding from './PythonCoding';
+import { Editor } from "@monaco-editor/react";
 
 // Map exam IDs to JSON files
 const examFiles = {
@@ -183,7 +184,7 @@ function QuestionPart({ qid, part, stimulus }) {
       </div>
 
       <div className="mt-4">
-        <AnswerRenderer qid={qid} params={part?.answer?.parameters} />
+        <AnswerRenderer qid={qid} params={part?.answer?.parameters} marks={mark} />
       </div>
     </div>
   );
@@ -235,50 +236,72 @@ function ImageSlider({ files, sliderId }) {
 
   return (
     <div className="relative" id={sliderId}>
-      {files.map((file, i) => (
-        <div key={i} className={i === index ? "" : "hidden"}>
-          <img
-            src={file.url}
-            alt={`Slide ${i + 1}`}
-            className="w-full h-auto rounded-lg"
-            onError={(e) => {
-              e.currentTarget.src =
-                "https://placehold.co/600x400/e2e8f0/4a5568?text=Image+Not+Found";
-            }}
+      {/* Image Display */}
+      <div className="relative">
+        {files.map((file, i) => (
+          <div key={i} className={i === index ? "" : "hidden"}>
+            <img
+              src={file.url}
+              alt={`Slide ${i + 1}`}
+              className="w-full h-auto rounded-lg"
+              onError={(e) => {
+                e.currentTarget.src =
+                  "https://placehold.co/600x400/e2e8f0/4a5568?text=Image+Not+Found";
+              }}
+            />
+          </div>
+        ))}
+        {/* Navigation Arrows */}
+        <button
+          type="button"
+          className="slider-arrow prev absolute left-2 top-1/2 -translate-y-1/2 px-3 py-1 bg-white/80 rounded shadow"
+          onClick={() => show(-1)}
+        >
+          &#10094;
+        </button>
+        <button
+          type="button"
+          className="slider-arrow next absolute right-2 top-1/2 -translate-y-1/2 px-3 py-1 bg-white/80 rounded shadow"
+          onClick={() => show(1)}
+        >
+          &#10095;
+        </button>
+      </div>
+
+      {/* Progress Dots */}
+      <div className="flex justify-center space-x-2 mt-4">
+        {files.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            className={`w-3 h-3 rounded-full ${
+              i === index ? "bg-gray-800" : "bg-gray-300"
+            }`}
+            onClick={() => setIndex(i)}
+            aria-label={`Go to slide ${i + 1}`}
           />
-        </div>
-      ))}
-      <button
-        type="button"
-        className="slider-arrow prev absolute left-2 top-1/2 -translate-y-1/2 px-3 py-1 bg-white/80 rounded shadow"
-        onClick={() => show(-1)}
-      >
-        &#10094;
-      </button>
-      <button
-        type="button"
-        className="slider-arrow next absolute right-2 top-1/2 -translate-y-1/2 px-3 py-1 bg-white/80 rounded shadow"
-        onClick={() => show(1)}
-      >
-        &#10095;
-      </button>
+        ))}
+      </div>
     </div>
   );
 }
 
-function AnswerRenderer({ qid, params }) {
+
+function AnswerRenderer({ qid, params, marks }) {
   if (!params) return null;
   switch (params.type) {
     case "MULTI_CHOICE":
       return <MultiChoice qid={qid} params={params} />;
     case "SHORT":
-      return <ShortAnswer />;
+      return <ShortAnswer mark={marks} />;
     case "OBJECTIVE_RESPONSE":
       return <ObjectiveResponse params={params} qid={qid} />;
     case "SORTING_TABLE":
       return <SortingTable rows={params.rows} qid={qid} />;
     case "CODING":
       return <PythonCoding defaultCode={params.defaultCode} />;
+    case "PSEUDOCODE":
+      return <PseudocodeBlock defaultCode={params.defaultCode} />;
     case "SQL":
       return <SQLBlock defaultSQL={params.defaultCode} datasetSetupQuery={params.datasetSetupQuery} />;
     case "DRAWING_V2":
@@ -314,11 +337,12 @@ function MultiChoice({ qid, params }) {
   );
 }
 
-function ShortAnswer() {
+function ShortAnswer({ mark }) {
+  // min 3 rows + 1 for each mark
   return (
     <textarea
       className="w-full p-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
-      rows={4}
+      rows={1 + 1.5*mark}
       placeholder="Your answer here..."
     />
   );
@@ -553,5 +577,17 @@ function DrawingEmbed() {
       </Excalidraw>
     </div>
 
+  );
+}
+
+function PseudocodeBlock({ defaultCode }) {
+  return (
+    <Editor
+      height="300px"
+      defaultLanguage="plaintext"
+      defaultValue={defaultCode || "// Write your pseudocode here..."}
+      theme="vs-dark"
+      options={{ fontSize: 14, minimap: { enabled: false }, scrollBeyondLastLine: false }}
+    />
   );
 }

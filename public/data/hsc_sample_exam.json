@@ -633,7 +633,7 @@
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Write the algorithm using pseudocode. Include at least one subroutine in your answer. You may assume that all inputs are valid.</p>" }] } },
         "answer": {
           "parameters": {
-            "type": "SHORT"
+            "type": "PSEUDOCODE"
             }
         }
       }

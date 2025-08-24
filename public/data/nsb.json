@@ -120,7 +120,7 @@
             "contentItemCollection": {
               "items": [
                 { "type": "RICH_TEXT", "text": "Which features of OOP can be seen in the following Python code?" },
-                { "type": "CODE", "text": "class Person:\n  def __init__(self, fname, lname):\n    self.__firstname = fname\n    self.__lastname = lname  \n  def printname(self):\n    print(self.__firstname,self.__lastname.upper(), end=\"\")\n  def greet(self):\n    print(\"G’day \", end=\"\")\n    self.printname()\n    print()\nclass Student(Person):\n  def __init__(self, fname, lname, sid, gradyear):\n    super().__init__(fname, lname)\n    self.__studentID = sid\n    self.graduationyear = gradyear\n  def greet(self):\n    self.printname()\n    print(\", welcome to the Class of\", self.graduationyear)" }
+                { "type": "RICH_TEXT", "text": "<pre><code>class Person:\n  def __init__(self, fname, lname):\n    self.__firstname = fname\n    self.__lastname = lname  \n  def printname(self):\n    print(self.__firstname,self.__lastname.upper(), end=\"\")\n  def greet(self):\n    print(\"G’day \", end=\"\")\n    self.printname()\n    print()\n\nclass Student(Person):\n  def __init__(self, fname, lname, sid, gradyear):\n    super().__init__(fname, lname)\n    self.__studentID = sid\n    self.graduationyear = gradyear\n  def greet(self):\n    self.printname()\n    print(\", welcome to the Class of\", self.graduationyear)</code></pre>" }
               ]
             }
           },
@@ -148,17 +148,60 @@
           "content": {
             "contentItemCollection": {
               "items": [
-                { "type": "RICH_TEXT", "text": "Complete the text below by writing 1 word into each provided space. Each word you write must be 1 of the following: Configuration, Data, Exception, Identity, Memory, Session." }
+                { "type": "RICH_TEXT", "text": "Complete the text below by selecting 1 word for each provided space." }
               ]
             }
           },
           "answer": {
-            "parameters": {
-              "type": "SHORT",
-              "blanks": 3,
-              "options": ["Configuration", "Data", "Exception", "Identity", "Memory", "Session"]
-            }
-          }
+    "parameters": {
+      "type": "OBJECTIVE_RESPONSE",
+      "header": [
+        { "text": "Statement" },
+        { "text": "Configuration" },
+        { "text": "Data" },
+        { "text": "Exception" },
+        { "text": "Identity" },
+        { "text": "Memory" },
+        { "text": "Session" }
+      ],
+      "rows": [
+        {
+          "cells": [
+            { "text": "______________ management catches unexpected problems in a program, helping to achieve a smooth recovery." },
+            {},
+            {},
+            { "text": "✔️" },
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "______________ management helps keep track of user interactions with a website/application." },
+            {},
+            {},
+            {},
+            {},
+            {},
+            { "text": "✔️" }
+          ]
+        },
+        {
+          "cells": [
+            { "text": "______________ management helps ensure that computer’s storage space is used wisely." },
+            {},
+            {},
+            {},
+            {},
+            { "text": "✔️" },
+            {}
+          ]
+        }
+      ]
+    }
+  }
+
         }
       ]
     },
@@ -205,30 +248,143 @@
               ]
             }
           },
-          "answer": {
-            "parameters": {
-              "type": "OBJECTIVE_RESPONSE",
-              "header": [
-                { "text": "Protocol" },
-                { "text": "Match" }
-              ],
-              "rows": [
-                { "cells": [{ "text": "SFTP" }, { "text": "" }] },
-                { "cells": [{ "text": "POP3" }, { "text": "" }] },
-                { "cells": [{ "text": "IP" }, { "text": "" }] },
-                { "cells": [{ "text": "HTTPS" }, { "text": "" }] },
-                { "cells": [{ "text": "SMTP" }, { "text": "" }] },
-                { "cells": [{ "text": "IMAP" }, { "text": "" }] },
-                { "cells": [{ "text": "TCP" }, { "text": "" }] },
-                { "cells": [{ "text": "TLS" }, { "text": "" }] }
-              ]
-            }
-          }
+
+  "answer": {
+    "parameters": {
+      "type": "OBJECTIVE_RESPONSE",
+      "header": [
+        { "text": "Definition" },
+        { "text": "SFTP" },
+        { "text": "POP 3" },
+        { "text": "IP" },
+        { "text": "HTTPS" },
+        { "text": "SMTP" },
+        { "text": "IMAP" },
+        { "text": "TCP" },
+        { "text": "TLS" }
+      ],
+      "rows": [
+        {
+          "cells": [
+            { "text": "Sending email messages from a client to a server or between servers." },
+            {},
+            {},
+            {},
+            {},
+            { "text": "✔️" },
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Addressing and routing data packets between devices on a network." },
+            {},
+            {},
+            { "text": "✔️" },
+            {},
+            {},
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Retrieving and managing emails directly on a mail server, allowing access from multiple devices." },
+            {},
+            {},
+            {},
+            {},
+            {},
+            { "text": "✔️" },
+            {},
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Ensuring reliable, ordered and error-checked delivery of data packets between devices." },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            { "text": "✔️" },
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Securely exchanging encrypted website data between a web browser and a web server." },
+            {},
+            {},
+            {},
+            { "text": "✔️" },
+            {},
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Encrypting data transmitted over a network to ensure secure communication and protect against eavesdropping and tampering." },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            { "text": "✔️" }
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Downloading emails from a mail server to a local client, typically deleting them from the server." },
+            {},
+            { "text": "✔️" },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+          ]
+        },
+        {
+          "cells": [
+            { "text": "Transferring files over a secure shell connection." },
+            { "text": "✔️" },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+          ]
+        }
+      ]
+    }
+  }
+
         }
       ]
     },
     {
       "id": "q9",
+      "stimulusContentItemCollection": {
+      "items": [
+          {
+            "type": "RICH_TEXT",
+            "text": "<pre>BEGIN AverageListOfNumbers\n\taverage = -1\n\tarrayOfNumbers = GetNumbers()\n\tIF number of items in arrayOfNumbers != 0 THEN\n\t\taverage = CalculateAverage(arrayOfNumbers)\n\t\tPrintAverageToScreen(average)\n\tELSE\n\t\tPRINT \"No numbers entered\"\n\tEND IF\nEND AverageListOfNumbers</pre>"
+          }
+        ]
+      },
       "parts": [
         {
           "title": "Question 9",
@@ -246,6 +402,14 @@
     },
     {
       "id": "q10",
+      "stimulusContentItemCollection": {
+      "items": [
+          {
+            "type": "RICH_TEXT",
+            "text": "<pre>BEGIN AverageListOfNumbers\n\taverage = -1\n\tarrayOfNumbers = GetNumbers()\n\tIF number of items in arrayOfNumbers != 0 THEN\n\t\taverage = CalculateAverage(arrayOfNumbers)\n\t\tPrintAverageToScreen(average)\n\tELSE\n\t\tPRINT \"No numbers entered\"\n\tEND IF\nEND AverageListOfNumbers</pre>"
+          }
+        ]
+      },
       "parts": [
         {
           "title": "Question 10",
@@ -253,11 +417,11 @@
           "content": {
             "contentItemCollection": {
               "items": [
-                { "type": "RICH_TEXT", "text": "For the AverageListOfNumbers algorithm given above, write pseudocode for the function CalculateAverage(arrayOfNumbers)." }
+                { "type": "RICH_TEXT", "text": "For the AverageListOfNumbers algorithm given above, write pseudocode for the function CalculateAverage(arrayOfNumbers). Assume that arrayOfNumbers contains only numbers. However, check whether arrayOfNumbers is empty, so that your function CalculateAverage(arrayOfNumbers) can be also reused in other contexts." }
               ]
             }
           },
-          "answer": { "parameters": { "type": "SHORT" } }
+          "answer": { "parameters": { "type": "PSEUDOCODE" } }
         }
       ]
     },
@@ -304,7 +468,7 @@
           "content": {
             "contentItemCollection": {
               "items": [
-                { "type": "RICH_TEXT", "text": "Draw a decision tree for decisions whether a person should be accepted into a software engineering student club meeting. A female is always accepted. Other persons are accepted only if they study Software Engineering or are proficient in C." }
+                { "type": "RICH_TEXT", "text": "Draw a decision tree (resulting from machine learning) for decisions whether a person should be accepted into a software engineering student club meeting. A female is always accepted. Other persons are accepted only if they study Software Engineering or are proficient in C." }
               ]
             }
           },
@@ -417,14 +581,26 @@
 ,
     {
       "id": "q16",
-      "parts": [
+      "stimulusContentItemCollection": {
+      "items": [
+            {
+              "type": "RICH_TEXT",
+              "text": "<p>An ISBN is the International Standard Book Number, a globally unique number to identify books. This is usually printed above the barcode on the back cover of most books.</p>\n\n<p>The last (i.e. the 13th) digit in a 13-digit ISBN (International Standard Book Number) is known as the \"check digit\". The check digit is calculated in the following way:</p>\n\n<ul>\n  <li>Each of the other 12 digits of the ISBN from left to right is multiplied alternately by 1 or 3. This means that the first digit is multiplied by 1, the second by 3, the third by 1, the fourth by 3, etc.</li>\n  <li>The results are added together and then divided by 10.</li>\n  <li>The remainder of this division is subtracted from 10 to give the check digit.</li>\n  <li>If the check digit is 10 then it is replaced with 0 – this ensures that the check digit is always a single digit.</li>\n</ul>\n\n<p>For example, in an ISBN of <strong>9780980874921</strong> the last digit (in this case 1) is the check digit. However, we should re-calculate that check digit to ensure that the ISBN has not been entered incorrectly.</p>\n\n<p>(9×1) + (7×3) + (8×1) + (0×3) + (9×1) + (8×3) + (0×1) + (8×3) + (7×1) + (4×3) + (9×1) + (2×3) = 129.</p>\n\n<p>Then, 129 ÷ 10 = 12 remainder 9. Therefore, the check digit is 10 - 9 = 1. In this case the ISBN is valid as our calculated value of 1 matches the provided check digit.</p>"
+            }
+          ]
+        },
+          "parts": [
         {
           "title": "Question 16",
           "metadata": { "mark": 5 },
           "content": {
             "contentItemCollection": {
               "items": [
-                { "type": "RICH_TEXT", "text": "In Python, write the function checkDiqitOK(isbn_str) that takes a 13-digit ISBN as a string and returns True or False indicating whether the ISBN is valid in terms of its check digit." }
+                {
+  "type": "RICH_TEXT",
+  "text": "<p>In Python, write the function <code>checkDiqitOK(isbn_str)</code> that takes a 13-digit ISBN as the string <code>isbn_str</code> and returns True or False indicating whether the ISBN is valid in terms of its check digit. Assume that the provided string <code>isbn_str</code> always contains 13 digits – do NOT check whether there are fewer/more digits and do NOT check whether some of the characters are not digits. Do NOT write the main program nor any other subprogram calling <code>checkDiqitOK(isbn_str)</code>.</p>\n\n<p><strong>Hints:</strong></p>\n<ul>\n  <li>The 13-digit ISBN is provided as a string, so conversion of individual characters into integer digits is needed for the calculations.</li>\n  <li>You can use Python’s <code>%</code> operator to calculate the remainder of a division.</li>\n</ul>"
+}
+
               ]
             }
           },
@@ -434,6 +610,14 @@
     },
     {
       "id": "q17",
+      "stimulusContentItemCollection": {
+      "items": [
+            {
+              "type": "RICH_TEXT",
+              "text": "Your team is developing the secure PWA ‘nAIs Skin Check PWA’. Using this app, a user first uploads images of their skin moles, personal information (e.g. name, phone number, email, …), demographic information (e.g. age, gender, occupation, …) and medical history. Then, the app uses machine learning / artificial intelligence to determine and show on the screen the probability of melanoma (dangerous skin cancer) in the given skin mole images."
+            }
+          ]
+        },
       "parts": [
         {
           "title": "Question 17",
@@ -451,6 +635,14 @@
     },
     {
       "id": "q18",
+      "stimulusContentItemCollection": {
+      "items": [
+            {
+              "type": "RICH_TEXT",
+              "text": "Your team is developing the secure PWA ‘nAIs Skin Check PWA’. Using this app, a user first uploads images of their skin moles, personal information (e.g. name, phone number, email, …), demographic information (e.g. age, gender, occupation, …) and medical history. Then, the app uses machine learning / artificial intelligence to determine and show on the screen the probability of melanoma (dangerous skin cancer) in the given skin mole images."
+            }
+          ]
+        },
       "parts": [
         {
           "title": "Question 18",
