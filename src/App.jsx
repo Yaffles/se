@@ -12,6 +12,7 @@ const examFiles = {
   girraween: "data/girraween.json",
   hsc_familiarisation: "data/hsc_familiarisation.json",
   hsc_sample_exam: "data/hsc_sample_exam.json",
+  independent: "data/independent.json"
 };
 
 export default function App() {
@@ -111,6 +112,11 @@ function ExamList() {
       title: "HSC Sample Exam",
       desc: "HSC Software Engineering sample exam questions.",
     },
+    {
+      id: "independent",
+      title: "Independent Trial Exam",
+      desc: "Independent Trial Exam for Software Engineering."
+    }
   ];
 
   return (

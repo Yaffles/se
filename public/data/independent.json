@@ -1,0 +1,1432 @@
+[{
+    "title": "New Question 1, Privacy by Design",
+    "parts": [{
+        "title": "Question 1",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The “Privacy by Design” approach is defined as:</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Features added after software is released to lock down stored data.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Improvements to processing reliability made after a security breach.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Modifications made following user feedback on interface inefficiencies.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Building software with data protection measures integrated from the outset.</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [3]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 2, CSRF Attack",
+    "parts": [{
+        "title": "Question 2",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>A user logs into their bank’s website, which allows money transfers via a button. A hacker sends the user a malicious email containing a link. When the user clicks the link, a money transfer request is executed without their knowledge.</p><p>What type of attack is this?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Cross-Site Request Forgery (CSRF)</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Cross-Site Scripting (XSS)</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Denial of Service (DoS)</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>SQL Injection</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [0]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 3, Email Protocol",
+    "parts": [{
+        "title": "Question 3",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Email clients send mail using which protocol?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>SMTP</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>IMAP</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>FTP</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>POP3</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [0]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 4, Client-Side Programming",
+    "parts": [{
+        "title": "Question 4",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>In the context of a web application, what is the main role of client-side programming?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Managing server databases and application logic.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Handling user interface interactions and dynamic content display in the browser.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Storing persistent data and authenticating users on the server.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Processing requests and sending responses from the web server.</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [1]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 5, Automation Benefits",
+    "parts": [{
+        "title": "Question 5",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>What is the most effective approach to ensuring that automation benefits society as a whole?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Allow market forces to guide the adoption of automation, trusting that economic growth will naturally lead to broader societal benefits.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Prioritise technological advancement and productivity gains, with social concerns addressed only after implementation.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Encourage collaboration between policymakers, educators, and businesses to promote inclusivity, skill development, and sustainability.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Limit the use of automation to industries with low employment rates.</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [2]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 6, Regression Model",
+    "parts": [{
+        "title": "Question 6",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>A real estate agency wants to build a model to predict whether a house is likely to be sold within 60 days based on features such as its price, location score, number of bedrooms, and age. Based on the scenario above, which regression model is most appropriate, and why?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Linear regression, because it can handle multiple input features and will predict the number of days it takes to sell the house.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Polynomial regression, because housing data often involves curved relationships between price and location.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Logistic regression, because the goal is to classify whether a house will be sold within a specific time frame.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Polynomial regression, because the number of bedrooms and age of the house are discrete variables requiring non-linear models.</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [2]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 7, Implementation Method",
+    "parts": [{
+        "title": "Question 7",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>A new software application is introduced by initially running the program with only a few of its modules active. After confirming that these modules function correctly, the remaining components are gradually activated.</p><p>What type of implementation method does this scenario describe?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Direct</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Phased</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Parallel</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Pilot</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [1]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 8, Agile Development",
+    "parts": [{
+        "title": "Question 8",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which of the following is true for the Agile Development Approach?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Suited to projects with clear requirements and performance is not considered to be critical.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Suited to projects with evolving requirements and performance is not considered to be critical.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Suited to user-centred projects with clear requirements and performance is critical.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Suited to software automation projects, with evolving requirements and performance is critical.</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [1]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 9, Sandboxing",
+    "parts": [{
+        "title": "Question 9",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>What are the benefits of using sandboxing in software development or deployment?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Replaces the need for authentication by isolating users</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Prevents untrusted code from damaging the host system</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Allows developers to test software in a controlled environment</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Reduces the need for secure coding practices in application development</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Reduces the risk of security vulnerabilities affecting other parts of the system</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Improves execution speed by isolating software from operating system processes</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Prevents changes to live data during development and training</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": true
+                },
+                "correctOptionIndices": [1, 2, 4, 6]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 10, CSS",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Consider the following CSS code.</p><br><pre><code>body {\n    background-color: #0000ff;\n    color: #00ff00;\n    font-family: Arial, serif;\n    margin: 20px;\n}\nh1 {\n    color: #ff0000;\n    text-align: center;\n}\np {\n    color: #ffffff;\n    font-size: 16px;\n}</code></pre>"
+        }]
+    },
+    "parts": [{
+        "title": "Question 10",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which of the following is true for pages styled using the above CSS code?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Paragraph text is displayed in white</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>All heading text (h1, h2, etc.) will be red</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The color property in the body overrides the paragraph text color</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Only the h1 heading text is centred</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The background of the page is blue</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>All fonts will have serifs if Arial is not available</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Body text is hard against the left side of the screen</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Text not within &lt;h1&gt; or &lt;p&gt; tags will be green</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>All text will be in a font size of 16 pixels</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": true
+                },
+                "correctOptionIndices": [0, 3, 4, 5, 7]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 11, Workplace Automation",
+    "parts": [{
+        "title": "Question 11",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which of the following impacts are likely to result from increased automation in the workplace?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Greater job satisfaction for manual labourers</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Reduction in demand for some low-skilled jobs</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Increased access to public transport</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Improved safety in high-risk work environments</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>More diverse cultural representation in media</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Decrease in energy consumption from all industries</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Reduced labour costs for employers</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Need for workforce reskilling and upskilling</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": true
+                },
+                "correctOptionIndices": [1, 3, 6, 7]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 12, Context Diagram",
+    "stimulusContentItemCollection": {
+      "items": [
+        {
+          "type": "RICH_TEXT",
+          "text": "<p>The following context diagram describes a food ordering app.</p>"
+        },
+        {
+            "type": "IMAGE",
+            "files": [
+                {
+                    "url": "/img/independent/12.png"
+                }
+            ]
+        }
+      ]
+    },
+    "parts": [{
+        "title": "Question 12",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Based on the above diagram, which statements are correct?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Food outlets, Customers and Financial Institutions are sub-modules or sub-programs</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>This is a level 0 data flow diagram</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Food Ordering App is an external entity that interacts with the system</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Food outlets, Customers and Financial Institutions are external entities</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The system is shown as a single process</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Order details are provided by Customers directly to a Food Outlet</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The Food Ordering App sends a message to the Customer once their order has been shipped by a Food Outlet</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The Food Ordering App sends the Order Details to the Food Outlet before the Transaction Status is received</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": true
+                },
+                "correctOptionIndices": [1, 3, 4, 7]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 13, Security Testing",
+    "parts": [{
+        "title": "Question 13",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Match each feature with its correct security testing strategy.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "version": 0,
+                "type": "OBJECTIVE_RESPONSE",
+                "header": [{
+                    "id": "header-desc",
+                    "text": "Feature"
+                }, {
+                    "id": "header-dast",
+                    "text": "Dynamic Application Security Testing (DAST)"
+                }, {
+                    "id": "header-sast",
+                    "text": "Static Application Security Testing (SAST)"
+                }, {
+                    "id": "header-pen",
+                    "text": "Penetration Testing"
+                }],
+                "rows": [{
+                    "id": "row-1",
+                    "cells": [{
+                        "id": "cell-1-desc",
+                        "text": "Simulates cyber attacks to find and exploit vulnerabilities."
+                    }, {
+                        "id": "cell-1-dast"
+                    }, {
+                        "id": "cell-1-sast"
+                    }, {
+                        "id": "cell-1-pen"
+                    }]
+                }, {
+                    "id": "row-2",
+                    "cells": [{
+                        "id": "cell-2-desc",
+                        "text": "Requires either the source code or binary."
+                    }, {
+                        "id": "cell-2-dast"
+                    }, {
+                        "id": "cell-2-sast"
+                    }, {
+                        "id": "cell-2-pen"
+                    }]
+                }, {
+                    "id": "row-3",
+                    "cells": [{
+                        "id": "cell-3-desc",
+                        "text": "Checks for security vulnerabilities without executing the code."
+                    }, {
+                        "id": "cell-3-dast"
+                    }, {
+                        "id": "cell-3-sast"
+                    }, {
+                        "id": "cell-3-pen"
+                    }]
+                }, {
+                    "id": "row-4",
+                    "cells": [{
+                        "id": "cell-4-desc",
+                        "text": "Evaluates environment and runtime issues."
+                    }, {
+                        "id": "cell-4-dast"
+                    }, {
+                        "id": "cell-4-sast"
+                    }, {
+                        "id": "cell-4-pen"
+                    }]
+                }, {
+                    "id": "row-5",
+                    "cells": [{
+                        "id": "cell-5-desc",
+                        "text": "Utilises scanning tools to understand how a target responds to intrusions."
+                    }, {
+                        "id": "cell-5-dast"
+                    }, {
+                        "id": "cell-5-sast"
+                    }, {
+                        "id": "cell-5-pen"
+                    }]
+                }, {
+                    "id": "row-6",
+                    "cells": [{
+                        "id": "cell-6-desc",
+                        "text": "Checks for security vulnerabilities while the program is running."
+                    }, {
+                        "id": "cell-6-dast"
+                    }, {
+                        "id": "cell-6-sast"
+                    }, {
+                        "id": "cell-6-pen"
+                    }]
+                }, {
+                    "id": "row-7",
+                    "cells": [{
+                        "id": "cell-7-desc",
+                        "text": "A purely white box testing strategy."
+                    }, {
+                        "id": "cell-7-dast"
+                    }, {
+                        "id": "cell-7-sast"
+                    }, {
+                        "id": "cell-7-pen"
+                    }]
+                }],
+                "correctCellIds": ["cell-1-pen", "cell-2-sast", "cell-3-sast", "cell-4-dast", "cell-5-dast", "cell-6-dast", "cell-7-sast"]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 14, Web Development Roles",
+    "parts": [{
+        "title": "Question 14",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Match each web development role with the W3C initiative or focus area to which it belongs.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "version": 0,
+                "type": "OBJECTIVE_RESPONSE",
+                "header": [{
+                    "id": "header-desc",
+                    "text": "Role"
+                }, {
+                    "id": "header-sec",
+                    "text": "Web Security"
+                }, {
+                    "id": "header-wai",
+                    "text": "Web Accessibility Initiative (WAI)"
+                }, {
+                    "id": "header-intl",
+                    "text": "Internationalisation"
+                }, {
+                    "id": "header-data",
+                    "text": "Machine-readable data"
+                }, {
+                    "id": "header-priv",
+                    "text": "Privacy"
+                }],
+                "rows": [{
+                    "id": "row-1",
+                    "cells": [{
+                        "id": "cell-1-desc",
+                        "text": "Creates standards and working groups to protect user data and privacy"
+                    }, {
+                        "id": "cell-1-sec"
+                    }, {
+                        "id": "cell-1-wai"
+                    }, {
+                        "id": "cell-1-intl"
+                    }, {
+                        "id": "cell-1-data"
+                    }, {
+                        "id": "cell-1-priv"
+                    }]
+                }, {
+                    "id": "row-2",
+                    "cells": [{
+                        "id": "cell-2-desc",
+                        "text": "Develops standards and guidelines for secure web applications"
+                    }, {
+                        "id": "cell-2-sec"
+                    }, {
+                        "id": "cell-2-wai"
+                    }, {
+                        "id": "cell-2-intl"
+                    }, {
+                        "id": "cell-2-data"
+                    }, {
+                        "id": "cell-2-priv"
+                    }]
+                }, {
+                    "id": "row-3",
+                    "cells": [{
+                        "id": "cell-3-desc",
+                        "text": "Defines open formats (like XML) for data to be processed by computers"
+                    }, {
+                        "id": "cell-3-sec"
+                    }, {
+                        "id": "cell-3-wai"
+                    }, {
+                        "id": "cell-3-intl"
+                    }, {
+                        "id": "cell-3-data"
+                    }, {
+                        "id": "cell-3-priv"
+                    }]
+                }, {
+                    "id": "row-4",
+                    "cells": [{
+                        "id": "cell-4-desc",
+                        "text": "Supports web standards for multiple languages and cultural contexts"
+                    }, {
+                        "id": "cell-4-sec"
+                    }, {
+                        "id": "cell-4-wai"
+                    }, {
+                        "id": "cell-4-intl"
+                    }, {
+                        "id": "cell-4-data"
+                    }, {
+                        "id": "cell-4-priv"
+                    }]
+                }, {
+                    "id": "row-5",
+                    "cells": [{
+                        "id": "cell-5-desc",
+                        "text": "Ensures web content is usable by people with disabilities"
+                    }, {
+                        "id": "cell-5-sec"
+                    }, {
+                        "id": "cell-5-wai"
+                    }, {
+                        "id": "cell-5-intl"
+                    }, {
+                        "id": "cell-5-data"
+                    }, {
+                        "id": "cell-5-priv"
+                    }]
+                }],
+                "correctCellIds": ["cell-1-priv", "cell-2-sec", "cell-3-data", "cell-4-intl", "cell-5-wai"]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 15, Machine Learning Models",
+    "parts": [{
+        "title": "Question 15",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Match each application scenario to the most appropriate machine learning model.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "version": 0,
+                "type": "OBJECTIVE_RESPONSE",
+                "header": [{
+                    "id": "header-desc",
+                    "text": "Scenario"
+                }, {
+                    "id": "header-sup",
+                    "text": "Supervised learning"
+                }, {
+                    "id": "header-semi",
+                    "text": "Semi-supervised learning"
+                }, {
+                    "id": "header-unsup",
+                    "text": "Unsupervised learning"
+                }, {
+                    "id": "header-reinf",
+                    "text": "Reinforcement learning"
+                }],
+                "rows": [{
+                    "id": "row-1",
+                    "cells": [{
+                        "id": "cell-1-desc",
+                        "text": "Training a robot to navigate a maze"
+                    }, {
+                        "id": "cell-1-sup"
+                    }, {
+                        "id": "cell-1-semi"
+                    }, {
+                        "id": "cell-1-unsup"
+                    }, {
+                        "id": "cell-1-reinf"
+                    }]
+                }, {
+                    "id": "row-2",
+                    "cells": [{
+                        "id": "cell-2-desc",
+                        "text": "Labelling a small set of medical images and using them to classify a larger set"
+                    }, {
+                        "id": "cell-2-sup"
+                    }, {
+                        "id": "cell-2-semi"
+                    }, {
+                        "id": "cell-2-unsup"
+                    }, {
+                        "id": "cell-2-reinf"
+                    }]
+                }, {
+                    "id": "row-3",
+                    "cells": [{
+                        "id": "cell-3-desc",
+                        "text": "Predicting student grades based on past results"
+                    }, {
+                        "id": "cell-3-sup"
+                    }, {
+                        "id": "cell-3-semi"
+                    }, {
+                        "id": "cell-3-unsup"
+                    }, {
+                        "id": "cell-3-reinf"
+                    }]
+                }, {
+                    "id": "row-4",
+                    "cells": [{
+                        "id": "cell-4-desc",
+                        "text": "Teaching an AI agent to win a game through trial and error"
+                    }, {
+                        "id": "cell-4-sup"
+                    }, {
+                        "id": "cell-4-semi"
+                    }, {
+                        "id": "cell-4-unsup"
+                    }, {
+                        "id": "cell-4-reinf"
+                    }]
+                }, {
+                    "id": "row-5",
+                    "cells": [{
+                        "id": "cell-5-desc",
+                        "text": "Classifying email as spam or not spam"
+                    }, {
+                        "id": "cell-5-sup"
+                    }, {
+                        "id": "cell-5-semi"
+                    }, {
+                        "id": "cell-5-unsup"
+                    }, {
+                        "id": "cell-5-reinf"
+                    }]
+                }, {
+                    "id": "row-6",
+                    "cells": [{
+                        "id": "cell-6-desc",
+                        "text": "Grouping customers based on shopping habits"
+                    }, {
+                        "id": "cell-6-sup"
+                    }, {
+                        "id": "cell-6-semi"
+                    }, {
+                        "id": "cell-6-unsup"
+                    }, {
+                        "id": "cell-6-reinf"
+                    }]
+                }],
+                "correctCellIds": ["cell-1-reinf", "cell-2-semi", "cell-3-sup", "cell-4-reinf", "cell-5-sup", "cell-6-unsup"]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 16, Software Project Phases",
+    "parts": [{
+        "title": "Question 16",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Match each task with the correct software project phase.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "version": 0,
+                "type": "OBJECTIVE_RESPONSE",
+                "header": [{
+                    "id": "header-desc",
+                    "text": "Task"
+                }, {
+                    "id": "header-id",
+                    "text": "Identifying and defining"
+                }, {
+                    "id": "header-test",
+                    "text": "Testing and evaluating"
+                }, {
+                    "id": "header-plan",
+                    "text": "Research and planning"
+                }, {
+                    "id": "header-prod",
+                    "text": "Producing and implementing"
+                }],
+                "rows": [{
+                    "id": "row-1",
+                    "cells": [{
+                        "id": "cell-1-desc",
+                        "text": "Decide on a suitable software development approach."
+                    }, {
+                        "id": "cell-1-id"
+                    }, {
+                        "id": "cell-1-test"
+                    }, {
+                        "id": "cell-1-plan"
+                    }, {
+                        "id": "cell-1-prod"
+                    }]
+                }, {
+                    "id": "row-2",
+                    "cells": [{
+                        "id": "cell-2-desc",
+                        "text": "Develop, construct and document algorithms."
+                    }, {
+                        "id": "cell-2-id"
+                    }, {
+                        "id": "cell-2-test"
+                    }, {
+                        "id": "cell-2-plan"
+                    }, {
+                        "id": "cell-2-prod"
+                    }]
+                }, {
+                    "id": "row-3",
+                    "cells": [{
+                        "id": "cell-3-desc",
+                        "text": "Explore tools used to develop ideas and generate solutions."
+                    }, {
+                        "id": "cell-3-id"
+                    }, {
+                        "id": "cell-3-test"
+                    }, {
+                        "id": "cell-3-plan"
+                    }, {
+                        "id": "cell-3-prod"
+                    }]
+                }, {
+                    "id": "row-4",
+                    "cells": [{
+                        "id": "cell-4-desc",
+                        "text": "Use a language-dependent code optimisation technique."
+                    }, {
+                        "id": "cell-4-id"
+                    }, {
+                        "id": "cell-4-test"
+                    }, {
+                        "id": "cell-4-plan"
+                    }, {
+                        "id": "cell-4-prod"
+                    }]
+                }, {
+                    "id": "row-5",
+                    "cells": [{
+                        "id": "cell-5-desc",
+                        "text": "Explore social and ethical issues associated with project work."
+                    }, {
+                        "id": "cell-5-id"
+                    }, {
+                        "id": "cell-5-test"
+                    }, {
+                        "id": "cell-5-plan"
+                    }, {
+                        "id": "cell-5-prod"
+                    }]
+                }, {
+                    "id": "row-6",
+                    "cells": [{
+                        "id": "cell-6-desc",
+                        "text": "Define and analyse the requirements of a problem."
+                    }, {
+                        "id": "cell-6-id"
+                    }, {
+                        "id": "cell-6-test"
+                    }, {
+                        "id": "cell-6-plan"
+                    }, {
+                        "id": "cell-6-prod"
+                    }]
+                }, {
+                    "id": "row-7",
+                    "cells": [{
+                        "id": "cell-7-desc",
+                        "text": "Compare actual with expected output"
+                    }, {
+                        "id": "cell-7-id"
+                    }, {
+                        "id": "cell-7-test"
+                    }, {
+                        "id": "cell-7-plan"
+                    }, {
+                        "id": "cell-7-prod"
+                    }]
+                }, {
+                    "id": "row-8",
+                    "cells": [{
+                        "id": "cell-8-desc",
+                        "text": "Code the solution in a programming language"
+                    }, {
+                        "id": "cell-8-id"
+                    }, {
+                        "id": "cell-8-test"
+                    }, {
+                        "id": "cell-8-plan"
+                    }, {
+                        "id": "cell-8-prod"
+                    }]
+                }],
+                "correctCellIds": ["cell-1-plan", "cell-2-prod", "cell-3-plan", "cell-4-prod", "cell-5-plan", "cell-6-id", "cell-7-test", "cell-8-prod"]
+            }
+        }
+    }]
+}, {
+    "title": "New Question 17, Authentication vs Authorisation",
+    "parts": [{
+        "title": "Question 17",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Distinguish between authentication and authorisation.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 18, Race Condition",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>The Python code below defines a function that allows a user to purchase an item.</p><br><pre><code>import threading\nlock = threading.Lock()\ndef purchase_item(user_id, item_id):\n    with lock:  \n        if inventory[item_id] > 0:\n            inventory[item_id] -= 1\n            confirm_purchase(user_id, item_id)</code></pre>"
+        }]
+    },
+    "parts": [{
+        "title": "Question 18",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Explain what a race condition is and how it could affect the purchase_item function if no lock was implemented.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 19, Security Compromise",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A school’s online portal allows students to upload assessment files. Recently, a student discovered that by modifying the URL, they could access and download other students’ submitted files. It was also found that students could re-upload their work multiple times, overwriting previous submissions without detection even after the due date.</p>"
+        }]
+    },
+    "parts": [{
+        "title": "Question 19",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Describe how confidentiality, accountability and integrity has been compromised in this scenario.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 20, Collaboration Benefits",
+    "parts": [{
+        "title": "Question 20",
+        "metadata": {
+            "mark": 6
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Discuss the benefits of collaboration in software engineering.</p><p>In your response:</p><ul><li>Highlight at least three key advantages that effective collaboration can bring to a software development project.</li><li>Provide an example of a collaboration tool and explain how it facilitates collaboration among developers.</li></ul>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 21, DNS Function",
+    "parts": [{
+        "title": "Question 21",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Outline the primary function performed by the Domain Name System (DNS).</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 22, Web Content Management Systems",
+    "parts": [{
+        "title": "Question 22",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Outline the functions performed by web content management systems. Include two examples of web content management systems to assist your response.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 23, Secure Communication",
+    "parts": [{
+        "title": "Question 23",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Secure encrypted communication between browsers and web servers utilises the https protocol which includes SSL/TLS certificates.</p><p>Outline the exchange between browser and web server to:</p><ul><li>Confirm the identity of the web server</li><li>Establish a secure session</li><li>Communicate securely during the session</li></ul>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 24, PWA Design Principles",
+    "parts": [{
+        "title": "Question 24",
+        "metadata": {
+            "mark": 6
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>You have been tasked with designing and developing a Progressive Web App (PWA) aimed at enhancing the accessibility and inclusivity of educational resources for infants school students. </p><p>Outline how you would address the following key design principles when creating the user interface (UI) and user experience (UX) of your PWA.</p><ul><li>Font selection and typography</li><li>Colour schemes and contrast</li><li>The use of audio and video elements</li><li>Navigation design</li></ul>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 25, Supervised vs Unsupervised Learning",
+    "parts": [{
+        "title": "Question 25",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Distinguish between supervised and unsupervised learning.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 26, Neural Network Learning",
+    "parts": [{
+        "title": "Question 26",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Explain how weights and backpropagation allow a neural network to learn using training data.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 27, Predicting Test Scores",
+    "parts": [{
+        "title": "Question 27",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>You have been asked to create a program that predicts student test scores based on the number of hours they studied.</p><ul><li>Identify the most appropriate machine learning regression algorithm for this task.</li><li>Briefly outline how you would implement this using object oriented programming (OOP).</li><li>List two features your model would require to function effectively.</li></ul>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 28, KNN Algorithm",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>The K-Nearest Neighbours (KNN) algorithm is used to classify a new data point by comparing it to existing classified/labelled data points. It calculates the Euclidean distance between the new data point (shown as a question mark on the chart below) and every other point in the training data. It then counts the labels of the k closest points. The most common label among these neighbours is the predicted label assigned to the new point.</p>"
+        }, {
+            "type": "IMAGE",
+            "files": [
+                {
+                "url": "/img/independent/28.png"
+                }
+            ]
+        }]
+    },
+    "parts": [{
+        "title": "Question 28",
+        "metadata": {
+            "mark": 6
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Write a pseudocode algorithm for a function called knn. It is passed:</p><ul><li><b>newPoint:</b> the x and y coordinates of the point to classify as A, B, C or D</li><li><b>tData:</b> an array of x and y coordinates for all labelled points</li><li><b>tLabels:</b> an array of strings with the label A, B, C or D for each known point</li><li><b>k:</b> an integer</li></ul><p>You may use the following pre-defined functions in your algorithm:</p><ul><li><b>distance(p1, p2):</b> returns the Euclidian distance between two (x, y) points</li><li><b>sort(pairlist):</b> sorts an array of [distance, label] pairs in ascending order by distance</li><li><b>mode(array):</b> returns the label that occurs most frequently in an array</li></ul><p>Your algorithm should return the predicted label for the new data point.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "PSEUDOCODE"
+            }
+        }
+    }]
+}, {
+    "title": "New Question 29, Gantt Charts",
+    "parts": [{
+        "title": "Question 29",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>How can Gantt charts assist project managers ensure project deadlines are met?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 30, FindItem Pseudocode",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "IMAGE",
+            "files": [
+                {
+                    "url": "/img/independent/30.png"
+                }
+            ]
+        }]
+    },
+    "parts": [{
+        "title": "Question 30",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Write a possible pseudocode algorithm for the FindItem routine based on the following structure chart.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "PSEUDOCODE"
+            }
+        }
+    }]
+}, {
+    "title": "New Question 31, Backup and Version Control",
+    "parts": [{
+        "title": "Question 31",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Discuss the role and importance of programmed data backup and version control when producing and implementing code.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "title": "New Question 32, Wagile vs Agile",
+    "parts": [{
+        "title": "Question 32",
+        "metadata": {
+            "mark": 6
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Compare the Wagile and Agile software development approaches. </p><p>In your response:</p><ul><li>Outline the key characteristics of each approach.</li><li>Discuss one advantage and one disadvantage of each.</li><li>Justify a project scenario where pure Agile would be more suitable than Wagile.</li></ul>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}]
