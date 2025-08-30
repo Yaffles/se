@@ -4,7 +4,7 @@ A collection of practice software engineering HSC exams.
 # todo
 - [ ] Fix python infinite loop /
 - [ ] auto marking multichoice questions
-- [ ] proper answer formatting in page / store all answers in json
+- [ ] store all answers in json
 - [ ] save user progress / answers (localstorage)?
 - [ ] proper exam mode:
    *  next/previous questions
@@ -14,3 +14,4 @@ A collection of practice software engineering HSC exams.
    *  flag questions for review
    *  save answers as pdf / report
 - [ ] dark mode
+- [ ] Question bank from exams tagged by syllabus point

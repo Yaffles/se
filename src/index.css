@@ -50,6 +50,12 @@ body {
     padding: 20px !important;
 }
 
+.marking-guide ul {
+    list-style: disc !important;
+    margin: auto !important;
+    padding-left: 20px !important;
+}
+
 iframe {
     user-focus: none;
     outline: none;
