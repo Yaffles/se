@@ -52,6 +52,17 @@
                     }]
                 }]
             }
+        },
+                "sampleAnswerContentItem": {
+            "id": "dcb1e2e3-5f3b-4e2e-8f7c-4e6f3f0d1f3e",
+            "updatedDate": "2025-07-10T04:10:00.000Z",
+            "files": null,
+            "type": "RICH_TEXT",
+
+            "text": "<ol class=\"border border-gray-300 rounded-md p-2 space-y-2 bg-gray-50\"><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move\" draggable=\"true\"><span>Determining specifications</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move\" draggable=\"true\"><span>Design</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move\" draggable=\"true\"><span>Development</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move\" draggable=\"true\"><span>Testing and debugging</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move\" draggable=\"true\"><span>Installation</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move\" draggable=\"true\"><span>Maintenance</span></li></ol>"
+
+
+
         }
     }]
 }, {
@@ -145,6 +156,17 @@
                         "id": "c-send-imap"
                     }]
                 }, {
+                    "id": "r-receive",
+                    "cells": [{
+                        "text": "Commonly used for receiving email"
+                    }, {
+                        "id": "c-receive-pop3"
+                    }, {
+                        "id": "c-receive-smtp"
+                    }, {
+                        "id": "c-receive-imap"
+                    }]
+                }, {
                     "id": "r-sync",
                     "cells": [{
                         "text": "Allows email to synchronise across devices"
@@ -167,7 +189,7 @@
                         "id": "c-delete-imap"
                     }]
                 }],
-                "correctCellIds": ["c-send-smtp", "c-sync-imap", "c-delete-pop3"]
+                "correctCellIds": ["c-send-smtp", "c-sync-imap", "c-delete-pop3", "c-receive-pop3", "c-receive-imap"]
             }
         }
     }]
@@ -219,12 +241,15 @@
                     "text": "<b>Display new bookings</b> may not be executed."
                 }, {
                     "id": "q4-opt5",
-                    "text": "A choice is continually offered between <b>Browse hotels</b> and <b>Book</b>."
+                    "text": "<p>Members do not need to log in to browse hotels.</p>"
                 }, {
                     "id": "q4-opt6",
+                    "text": "A choice is continually offered between <b>Browse hotels</b> and <b>Book</b>."
+                }, {
+                    "id": "q4-opt7",
                     "text": "<b>Login</b> calls <b>Enter member details and validate</b> when Member ID is set to true."
                 }],
-                "correctOptions": ["q4-opt1", "q4-opt4", "q4-opt5"]
+                "correctOptionsIndices": [0, 1, 3, 5]
             }
         }
     }]
@@ -256,7 +281,30 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a set of test data within the table that will thoroughly test the algorithm</li><li>Includes expected outputs and reasons for inclusion</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Provides a set of test data that tests most boundaries and/or paths</li><li>Includes most of the expected outputs and reasons for inclusion</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><table><thead><tr><th>Test data<br>(Mark)</th><th>Expected output<br>(Grade)</th><th>Reason for inclusion</th></tr></thead><tbody><tr><td>85</td><td>H</td><td>Testing greater than 80</td></tr><tr><td>80</td><td>H</td><td>Testing boundary value (80)</td></tr><tr><td>60</td><td>P</td><td>Testing between 50 and 80</td></tr><tr><td>50</td><td>P</td><td>Testing boundary value (50)</td></tr><tr><td>45</td><td>N</td><td>Testing ‘otherwise’ (below 50)</td></tr></tbody></table></div>"
+}
     }]
 }, {
     "id": "uuid-q6-sandboxing",
@@ -286,7 +334,30 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a thorough discussion of the use of sandboxing in the operating system</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the advantages and/or disadvantages of the use of sandboxing</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Identifies a feature of sandboxing</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Sandboxing allows each application to be isolated so that it cannot pose a security risk by accessing system resources or other applications. However, it requires more resources as each application requires its own container. It may also be less convenient for users to access resources such as the device’s camera or files as the sandbox will either prevent access or make it more difficult.</p><br><p><strong>Answers could include:</strong></p><p>Sandboxing limits the resource use of different processes (eg applications) running on the device, ensuring that if a process contains bad code, such as a memory leak, it does not consume all the resources of the operating system – potentially starving other processes, or the operating system itself, of resources.</p></div>"
+}
     }]
 }, {
     "id": "uuid-q7-decision-tree",
@@ -357,7 +428,7 @@
                         "id": "c-sit3-nobuy"
                     }]
                 }],
-                "correctCellIds": ["c-sit1-nobuy", "c-sit2-buy", "c-sit3-nobuy"]
+                "correctCellIds": ["c-sit1-buy", "c-sit2-buy", "c-sit3-buy"]
             }
         }
     }, {
@@ -378,7 +449,30 @@
             "parameters": {
                 "type": "DRAWING_V2"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Draws a correctly simplified decision tree</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Draws a simplified decision tree with most of the logic</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the requirement</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><img src=\"img/hsc_familiarisation/a7.png\" alt=\"A simplified decision tree is shown.\"></div>"
+}
     }]
 }, {
     "id": "uuid-q8-algo-fix",
@@ -408,7 +502,30 @@
                 "type": "PSEUDOCODE",
                 "defaultCode": ""
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Correctly modifies the algorithm to achieve its intended purpose</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Corrects some mistakes in the algorithm</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the problem</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>BEGIN Search (SearchItem)\n  Set LastIndex to the number of elements in ItemArray\n  Found = FALSE\n  Index = 1\n  WHILE Found = FALSE AND Index < LastIndex + 1\n    IF ItemArray(Index) = SearchItem THEN\n      Found = TRUE\n    ENDIF\n    Index = Index + 1\n  ENDWHILE\n  IF Found = TRUE THEN\n    Display ‘Position’, Index – 1\n  ELSE\n    Display ‘Not found’\n  ENDIF\nEND Search</code></pre></div>"
+}
     }]
 }, {
     "id": "uuid-q9-ui-python",
@@ -437,7 +554,30 @@
             "parameters": {
                 "type": "DRAWING_V2"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a user interface suitable for users to register an account, with features labelled</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Designs a user interface with some relevant features</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the problem</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><img src=\"img/hsc_familiarisation/a9.png\" alt=\"A user interface design for account registration is shown.\"></div>"
+}
     }, {
         "id": "uuid-q9-part-b",
         "title": "Question 9(b)",
@@ -458,7 +598,30 @@
                 "language": "PYTHON",
                 "defaultCode": "# Write your Python function here"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a correct function in Python that checks whether a username satisfies the rules</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Provides a partially correct function in Python that attempts to check whether a username satisfies the rules</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the problem and Python programming</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>def validateUsername(username):\n  # Length check\n  if len(username) > 8:\n    return False\n  # Alpha character only check\n  elif username.isalpha() == False:\n    return False\n  # < character check\n  elif \"<\" in username:\n    return False\n  # If we reach here then the username meets the requirements\n  return True</code></pre><p><em>Answers may include print statements to test the code<br>eg print(validateUsername(\"test\"))</em></p></div>"
+}
     }]
 }, {
     "id": "uuid-q10-web-perf",
@@ -488,7 +651,33 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Explains how the load time of the web page can be improved</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>Outlines how some issues affecting the load time can be resolved</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Identifies issues affecting the load time<br>OR</li><li>Outlines how to resolve ONE issue affecting the load time</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>The images can be resized to 640 x 480 beforehand so that the webpage does not need to load the large 4000 x 3000 images. The multiple CSS style sheets could be converted into a single .css file, reducing the number of HTTP requests the browser needs to send. If the \"image-gallery.js\" JavaScript file at the top of the source code loads slowly, it can be moved to the bottom just above &lt;/body&gt; so that it will not block the rest of the page from loading.</p><br><p><strong>Answers could include:</strong></p><p>If the \"image-gallery.js\" JavaScript file at the top of the source code loads slowly, the \"async\" property can be added to the &lt;script&gt; tag so that it can load in parallel with the rest of the page.</p></div>"
+}
     }]
 }, {
     "id": "uuid-q11-xss",
@@ -558,7 +747,27 @@
             "parameters": {
                 "type": "SHORT"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Explains ONE way to minimise the vulnerability</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>The website could check and change user input so that markup and script become plain text. This will still allow the page to display the information but will prevent it from executing script code.</p><br><p><em>Note: For example, special characters such as &lt; &gt; and ( ) would be encoded to their HTML equivalent (%3C %3E and %28 %29).</em></p></div>"
+}
     }]
 }, {
     "id": "uuid-q12-sql-again",
@@ -593,7 +802,27 @@
                 "type": "SHORT",
                 "placeholder": "Enter the results here, for example:\nProductName | ProductPrice\nDiscovery 1 and 2 (DVD) | 26.98"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides the correct output for the SQL query, including the correct ordering of the rows</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>ProductName           ProductPrice\nDiscovery 1 & 2 (DVD)   26.98\nThe Plant (DVD)         28.00</code></pre></div>"
+}
     }, {
         "id": "uuid-q12-part-b",
         "title": "Question 12(b)",
@@ -613,7 +842,30 @@
                 "type": "SQL",
                 "datasetSetupQuery": "CREATE TABLE Products (ProductID TEXT, ProductName TEXT, ProductPrice REAL); INSERT INTO Products VALUES ('P001', 'The Plant (DVD)', 28.00), ('P002', 'Discovery 1 and 2 (DVD)', 26.98), ('P003', 'Travel 1 and 2 (Blu-Ray)', 22.00), ('P004', 'The Best Movie (DVD)', 19.98), ('P005', 'Celebration (DVD)', 12.00); CREATE TABLE Customers (CustID TEXT, CustName TEXT, CustEmail TEXT); INSERT INTO Customers VALUES ('C001', 'Nicky Singh', 'N.Singh@nesa.edu.au'), ('C002', 'Casey He', 'C.He@bos.edu.au'), ('C003', 'Ash Lee', 'A.Lee@bosnsw.edu.au'), ('C004', 'Kim Smith', 'K.Smith@nesa.edu.au'), ('C005', 'Pat Alvardo', 'P.Alvardo@bos.edu.au'); CREATE TABLE Orders (OrderID TEXT, CustID TEXT, ProductID TEXT, OrderQuantity INTEGER); INSERT INTO Orders VALUES ('T001', 'C001', 'P004', 2), ('T002', 'C004', 'P005', 1), ('T003', 'C002', 'P003', 1), ('T004', 'C001', 'P002', 2), ('T005', 'C005', 'P002', 2);"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a correct SQL query</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Provides a substantially correct SQL query with at least TWO of the following features:<ul><li>renaming the columns</li><li>selecting the three tables</li><li>joining the tables</li></ul></li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of renaming the columns or joining the tables</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>SELECT Customers.CustName as 'Customer', Products.ProductName as 'Product',\nOrders.OrderQuantity as 'Quantity'\nFROM Products, Customers, Orders\nWHERE Orders.ProductID = Products.ProductID\nAND Orders.CustID = Customers.CustID\nORDER BY Orders.OrderID ASC</code></pre></div>"
+}
     }]
 }, {
     "id": "uuid-q13-python-game",
@@ -644,7 +896,36 @@
                 "language": "PYTHON",
                 "defaultCode": "# Write your code here"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a substantially correct solution including all of the following features:<ul><li>looping correctly</li><li>referring to contents of the data structure correctly</li><li>displaying the player’s scores and corresponding points</li><li>calculating the total points</li><li>taking bonus points into account</li><li>handling the final round correctly</li></ul>as shown</li></ul>",
+        "point": "<p>6</p>"
+    }, {
+        "criterion": "<ul><li>Provides a solution that shows understanding of most of the above features</li></ul>",
+        "point": "<p>5</p>"
+    }, {
+        "criterion": "<ul><li>Provides a solution that shows understanding of some features</li></ul>",
+        "point": "<p>3–4</p>"
+    }, {
+        "criterion": "<ul><li>Provides a solution that shows understanding of one feature</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the requirement</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code># Input code\nscores = [3,5,5,2,1,4,0,1,4,5]\n\n# Display the scores and points\n# Header row\nprint(\"Round\\tScore\\tPoints\")\ntotalPoints = 0\n\n# Calculate the points and print\nfor i in range(len(scores)):\n  roundNumber = i + 1\n  score = scores[i]\n  points = score\n\n  # Check if any bonuses apply and NOT the final round\n  if points == 5 and i != 9:\n    # Add the points from the next round as bonus points\n    points += scores[i + 1]\n\n  # Check if the final round bonus applies\n  if points == 5 and i == 9:\n    # Give the bonus points of 10\n    points = 10\n\n  # Add to the total points tally\n  totalPoints += points\n\n  # Print the results\n  print(str(roundNumber) + \"\\t\" + str(score) + \"\\t\" + str(points))\n\nprint(\"\\nTOTAL POINTS: \" + str(totalPoints))</code></pre></div>"
+}
     }]
 }, {
     "id": "uuid-q14-ai-slideshow",
@@ -713,6 +994,35 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Makes an informed judgement about the use of artificial intelligence in our society, demonstrating comprehensive understanding of its use and effects</li><li>Supports answer with information from the slideshow</li></ul>",
+        "point": "<p>8</p>"
+    }, {
+        "criterion": "<ul><li>Shows a broad understanding of the use of artificial intelligence and its advantages and disadvantages</li><li>Includes some information from the slideshow</li></ul>",
+        "point": "<p>6–7</p>"
+    }, {
+        "criterion": "<ul><li>Shows a sound understanding of the use of artificial intelligence</li><li>Outlines some of its advantages and/or disadvantages</li></ul>",
+        "point": "<p>4–5</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of artificial intelligence</li></ul>",
+        "point": "<p>2–3</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Answers could include reference to the following:</p><ul><li>explore models of training Machine Learning (ML), including:<ul><li>supervised learning</li><li>unsupervised learning</li><li>semi-supervised learning</li><li>reinforcement learning.</li></ul></li><li>investigate common applications of key Machine Learning (ML) algorithms, including:<ul><li>data analysis and forecasting</li><li>virtual personal assistants</li><li>image recognition.</li></ul></li><li>assess the impact of automation on the individual, society and the environment, including:<ul><li>safety of workers</li><li>people with disability</li><li>the nature and skills required for employment</li><li>production efficiency, waste and the environment</li><li>the economy and distribution of wealth.</li></ul></li><li>explore by implementation how patterns in human behaviour influence ML and AI software development, including:<ul><li>psychological responses</li><li>patterns related to acute stress response</li><li>cultural protocols</li><li>belief systems.</li></ul></li><li>investigate the effect of human and data set source bias in the development of ML and AI solutions</li><li>apply security features incorporated into software including data protection, security, privacy and regulatory compliance</li><li>use and explain the ‘privacy by design’ approach in the development of software solutions, including:<ul><li>proactive not reactive</li><li>embed privacy into design</li><li>respect for user privacy.</li></ul></li><li>evaluate the social, ethical, and legal issues and ramifications that affect people and enterprises resulting from the development and implementation of software, including:<ul><li>employment</li><li>privacy</li><li>digital disruption.</li></ul></li><li>data mining</li><li>streaming service management.</li></ul></div>"
+}
     }]
 }]

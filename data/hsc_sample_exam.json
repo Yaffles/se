@@ -43,7 +43,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": false
-            }
+            },
+            "correctOptionsIndices": [3]
           }
         }
       }
@@ -93,7 +94,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": false
-            }
+            },
+            "correctOptionsIndices": [0]
           }
         }
       }
@@ -150,7 +152,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": false
-            }
+            },
+            "correctOptionsIndices": [0]
           }
         }
       }
@@ -204,7 +207,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": true
-            }
+            },
+            "correctOptionsIndices": [3,4]
           }
         }
       }
@@ -246,31 +250,32 @@
                 "id": "q5_row1",
                 "cells": [
                   { "text": "The new system runs immediately with no delay." },
-                  {}, {}, {}, {}
+                  {"id":"5.1"}, {}, {}, {}
                 ]
               },
               {
                 "id": "q5_row2",
                 "cells": [
                   { "text": "The new system gradually replaces the old system." },
-                  {}, {}, {}, {}
+                  {}, {}, {"id":"5.2"}, {}
                 ]
               },
               {
                 "id": "q5_row3",
                 "cells": [
                   { "text": "The new system and the old system run at the same time." },
-                  {}, {}, {}, {}
+                  {}, {"id":"5.3"}, {}, {}
                 ]
               },
               {
                 "id": "q5_row4",
                 "cells": [
                   { "text": "The new system is trialled with a small group of users and then implemented entirely when ready." },
-                  {}, {}, {}, {}
+                  {}, {}, {}, { "id": "5.4" }
                 ]
               }
-            ]
+            ],
+            "correctCellIds": ["5.1", "5.2", "5.3", "5.4"]
           }
         }
       }
@@ -327,7 +332,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": false
-            }
+            },
+            "correctOptionsIndices": [0]
           }
         }
       }
@@ -372,7 +378,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": false
-            }
+            },
+            "correctOptionsIndices": [1]
           }
         }
       }
@@ -417,30 +424,31 @@
             "rows": [
               {
                 "cells": [
-                  { "text": "Simulate attacks on the web application" }, {}, {}
+                  { "text": "Simulate attacks on the web application" }, {}, {"id":"8.1"}
                 ]
               },
               {
                 "cells": [
-                  { "text": "Check the way SQL queries are constructed" }, {}, {}
+                  { "text": "Check the way SQL queries are constructed" }, {"id":"8.2"}, {}
                 ]
               },
               {
                 "cells": [
-                  { "text": "Test the database's web interface for vulnerabilities" }, {}, {}
+                  { "text": "Test the database's web interface for vulnerabilities" }, {}, {"id":"8.3"}
                 ]
               },
               {
                 "cells": [
-                  { "text": "Test the web application used to interact with the database when it is running" }, {}, {}
+                  { "text": "Test the web application used to interact with the database when it is running" }, {}, {"id":"8.4"}
                 ]
               },
               {
                 "cells": [
-                  { "text": "Analyse the code for connecting to the database to identify security vulnerabilities" }, {}, {}
+                  { "text": "Analyse the code for connecting to the database to identify security vulnerabilities" }, {"id":"8.5"}, {}
                 ]
               }
-            ]
+            ],
+            "correctCellIds": ["8.1", "8.2", "8.3", "8.4", "8.5"]
           }
         }
       }
@@ -486,6 +494,17 @@
               { "id": "q9_r6", "cells": [{ "text": "Get guess" }] }
             ]
           }
+        },
+        "sampleAnswerContentItem": {
+            "id": "dcb1e2e3-5f3b-4e2e-8f7c-4e6f3f0d1f3e",
+            "updatedDate": "2025-07-10T04:10:00.000Z",
+            "files": null,
+            "type": "RICH_TEXT",
+
+            "text": "<ul class=\"sortable-list border border-gray-300 rounded-md p-2 space-y-2 bg-gray-50\"><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move sortable-item\"><span>Set number = random integer between 0 and 100</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move sortable-item\"><span>WHILE guess &lt;&gt; number</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move sortable-item\"><span>Display \"Guess a number between 0 and 100:\"</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move sortable-item\"><span>Get guess</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move sortable-item\"><span>ENDWHILE</span></li><li class=\"p-3 bg-white border border-gray-200 rounded-md shadow-sm cursor-move sortable-item\"><span>Display \"Well Done\"</span></li></ul>"
+
+
+
         }
       }
     ]
@@ -538,7 +557,8 @@
             ],
             "settings": {
               "multipleCorrectOptions": true
-            }
+            },
+            "correctOptionsIndices": [0, 3, 4]
           }
         }
       }
@@ -577,9 +597,34 @@
             "type": "SHORT",
             "extendedView": true
           }
+        },
+          "markingCriteriaContentItem": {
+          "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+          "updatedDate": "2025-05-21T01:40:35.876Z",
+          "files": null,
+          "type": "MARKING_CRITERIA",
+          "criteria": [{
+              "criterion": "<p><span class=\"NormalTextRun SCXW190550680 BCX8\">• Provides a set of test data that will thoroughly test the algorithm<br>• Includes expected outputs and reasons for inclusion</span></p>",
+              "point": "<p>3</p>"
+          }, {
+              "criterion": "<p><span class=\"NormalTextRun SCXW184300600 BCX8\">• Provides a set of test data that tests most of the boundaries and paths<br>• Includes the relevant expected outputs and reasons for inclusion</span></p>",
+              "point": "<p>2</p>"
+          }, {
+              "criterion": "<p><span class=\"NormalTextRun SCXW62854615 BCX8\">• Provides some relevant information</span></p>",
+              "point": "<p>1</p>"
+          }]
+        },
+        "sampleAnswerContentItem": {
+            "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+            "updatedDate": "2025-07-10T04:17:35.978Z",
+            "files": null,
+            "type": "RICH_TEXT",
+            "text": "<div><table border=\"1\" style=\"width:100%; border-collapse: collapse;\"><thead><tr><th style=\"border: 1px solid black; padding: 5px; text-align: left;\">Test data (ScreenSize)</th><th style=\"border: 1px solid black; padding: 5px; text-align: left;\">Expected output (Viewport)</th><th style=\"border: 1px solid black; padding: 5px; text-align: left;\">Reason for inclusion</th></tr></thead><tbody><tr><td style=\"border: 1px solid black; padding: 5px;\">1024</td><td style=\"border: 1px solid black; padding: 5px;\">Desktop</td><td style=\"border: 1px solid black; padding: 5px;\">Boundary check</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">768</td><td style=\"border: 1px solid black; padding: 5px;\">Tablet</td><td style=\"border: 1px solid black; padding: 5px;\">Boundary check</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">100</td><td style=\"border: 1px solid black; padding: 5px;\">Phone</td><td style=\"border: 1px solid black; padding: 5px;\">Below lowest screen size check</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">850</td><td style=\"border: 1px solid black; padding: 5px;\">Tablet</td><td style=\"border: 1px solid black; padding: 5px;\">Between Tablet and Desktop</td></tr><tr><td style=\"border: 1px solid black; padding: 5px;\">2000</td><td style=\"border: 1px solid black; padding: 5px;\">Desktop</td><td style=\"border: 1px solid black; padding: 5px;\">Above highest screen size check</td></tr></tbody></table></div>"
         }
       }
+
     ]
+
   },
   {
     "id": "hsc_q12",
@@ -590,14 +635,61 @@
         "title": "Question 12 (a)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how a web developer could test a website for cross-platform compatibility.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+        "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+        "updatedDate": "2025-05-21T01:40:35.876Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [{
+            "criterion": "<p><span class=\"NormalTextRun SCXW190550680 BCX8\">Explains how a developer could test a website for cross-platform compatibility</span></p>",
+            "point": "<p>3</p>"
+        }, {
+            "criterion": "<p><span class=\"NormalTextRun SCXW184300600 BCX8\">Outlines how to test a website for cross-platform compatibility<br>OR<br>Identifies strategies to test a website for cross-platform compatibility</span></p>",
+            "point": "<p>2</p>"
+        }, {
+            "criterion": "<p><span class=\"NormalTextRun SCXW62854615 BCX8\">Provides some relevant information</span></p>",
+            "point": "<p>1</p>"
+        }]
+    },
+    "sampleAnswerContentItem": {
+        "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+        "updatedDate": "2025-07-10T04:17:35.978Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<div><p>A web developer can use browser developer tools. These tools, built into most modern browsers, allow developers to simulate how their website looks and behaves on different devices and screen sizes. By using these tools, developers can identify and fix any issues related to cross-platform compatibility, ensuring that the website works well across a variety of devices and browsers.</p><br><p><strong>Answers could include:</strong></p><ul><li>The use of online tools built specifically for testing cross-platform compatibility</li><li>Conducting manual testing on different devices and browsers can help identify any remaining issues</li><li>The developer could validate the website's code using the W3C Markup Validation Service to ensure it meets the web standards.</li></ul></div>"
+    }
+
       },
       {
         "id": "hsc_q12_p2",
         "title": "Question 12 (b)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how the load time of a web page can be improved using a progressive web app (PWA).</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+        "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+        "updatedDate": "2025-05-21T01:40:35.876Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [{
+            "criterion": "<p><span class=\"NormalTextRun SCXW190550680 BCX8\">Explains how the load time of a web page can be improved using a progressive web app (PWA)</span></p>",
+            "point": "<p>3</p>"
+        }, {
+            "criterion": "<p><span class=\"NormalTextRun SCXW184300600 BCX8\">Outlines some features of a progressive web app (PWA)<br>and/or<br>issues affecting load time</span></p>",
+            "point": "<p>2</p>"
+        }, {
+            "criterion": "<p><span class=\"NormalTextRun SCXW62854615 BCX8\">Provides some relevant information</span></p>",
+            "point": "<p>1</p>"
+        }]
+    },
+    "sampleAnswerContentItem": {
+        "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+        "updatedDate": "2025-07-10T04:17:35.978Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<div><p>A progressive web app (PWA) can improve load times by pre-caching important resources, allowing files such as image-gallery.js and video-gallery.js to be loaded into memory or cache while the rest of the page loads. PWAs also use service workers to cache resources, ensuring faster load times on repeat visits and offline functionality. Background synchronisation and background fetching can update content in the background, so users see the latest information without slowing down the initial load.</p></div>"
+    }
       }
     ]
   },
@@ -610,7 +702,30 @@
         "title": "Question 13",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe the function of protocols in the transfer of data. In your answer, refer to a specific web protocol.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+        "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+        "updatedDate": "2025-05-21T01:40:35.876Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [{
+            "criterion": "<p>Describes the function of protocols in the transfer of data, with reference to a specific web protocol</p>",
+            "point": "<p>3</p>"
+        }, {
+            "criterion": "<p>Describes the function of protocols in the transfer of data<br>OR<br>Provides an example of a web protocol and its use</p>",
+            "point": "<p>2</p>"
+        }, {
+            "criterion": "<p>Provides some relevant information</p>",
+            "point": "<p>1</p>"
+        }]
+    },
+    "sampleAnswerContentItem": {
+        "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+        "updatedDate": "2025-07-10T04:17:35.978Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<div><p>Protocols are important in data transfer as they establish rules for communication between devices connected to a network, such as the internet. HTTP (Hypertext Transfer Protocol) enables browsers to request web content from servers, which respond with the requested data. The protocol defines the structure of requests and the response so that data transfer can occur.</p><br><p><strong>Answers could include:</strong></p><ul><li>TCP/IP</li><li>DNS</li><li>FTP, SFTP</li><li>SSL, TLS</li><li>SMTP, POP 3, IMAP</li><li>Data packets.</li></ul></div>"
+    }
       }
     ]
   },
@@ -635,7 +750,30 @@
           "parameters": {
             "type": "PSEUDOCODE"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+        "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+        "updatedDate": "2025-05-21T01:40:35.876Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [{
+            "criterion": "<p>Provides substantially correct pseudocode<br>Includes at least ONE subroutine</p>",
+            "point": "<p>3</p>"
+        }, {
+            "criterion": "<p>Provides pseudocode that addresses some of the requirements</p>",
+            "point": "<p>2</p>"
+        }, {
+            "criterion": "<p>Shows some understanding of the problem</p>",
+            "point": "<p>1</p>"
+        }]
+    },
+    "sampleAnswerContentItem": {
+        "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+        "updatedDate": "2025-07-10T04:17:35.978Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<div><pre><code>BEGIN main\n  Get num_pizzas\n  total_cost = 0\n  FOR i = 1 TO num_pizzas\n    Get pizza_size\n    Get num_toppings\n    cost_per_pizza = calculate_pizza_cost(pizza_size, num_toppings)\n    DISPLAY cost_per_pizza\n    total_cost = total_cost + cost_per_pizza\n  NEXT i\n  DISPLAY total_cost\nEND main\n\nBEGIN calculate_pizza_cost(size, num_toppings)\n  base_price = 10\n  topping_price = 1.5\n  IF size = \"Medium\" THEN\n    base_price = base_price + 2\n  ELSEIF size = \"Large\" THEN\n    base_price = base_price + 4\n  ENDIF\n  pizza_cost = base_price + num_toppings * topping_price\n  RETURN pizza_cost\nEND calculate_pizza_cost</code></pre></div>"
+    }
       }
     ]
   },
@@ -648,7 +786,30 @@
         "title": "Question 15",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe how machine learning algorithms can be used in data analysis.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+        "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+        "updatedDate": "2025-05-21T01:40:35.876Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [{
+            "criterion": "<ul><li>Describes how machine learning algorithms can be used in data analysis</li></ul>",
+            "point": "<p>3</p>"
+        }, {
+            "criterion": "<ul><li>Outlines some features of machine learning algorithms relevant to data analysis</li></ul>",
+            "point": "<p>2</p>"
+        }, {
+            "criterion": "<ul><li>Provides some relevant information</li></ul>",
+            "point": "<p>1</p>"
+        }]
+    },
+    "sampleAnswerContentItem": {
+        "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+        "updatedDate": "2025-07-10T04:17:35.978Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<div><p>Machine learning algorithms can be trained with a subset of the data to automatically identify patterns and trends within large datasets. The algorithms can handle complex relationships and nonlinearities present in the data allowing for efficient and comprehensive analysis. Machine learning can also be used for predictions and forecasting. These models can learn from new data over time, continuously improving their analysis and predictive accuracy and performance.</p></div>"
+    }
       }
     ]
   },
@@ -677,7 +838,8 @@
               { "id": "q16a_opt3", "text": "main.css has not been correctly referenced." },
               { "id": "q16a_opt4", "text": "The id \"se_item\" has not been correctly referenced." }
             ],
-            "settings": { "multipleCorrectOptions": false }
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [3]
           }
         }
       },
@@ -686,7 +848,27 @@
         "title": "Question 16 (b)",
         "metadata": { "mark": 2 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Outline TWO benefits of adding CSS to the company's website.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+        "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+        "updatedDate": "2025-05-21T01:40:35.876Z",
+        "files": null,
+        "type": "MARKING_CRITERIA",
+        "criteria": [{
+            "criterion": "<ul><li>Outlines TWO benefits of adding CSS to the company's website</li></ul>",
+            "point": "<p>2</p>"
+        }, {
+            "criterion": "<ul><li>Provides some relevant information</li></ul>",
+            "point": "<p>1</p>"
+        }]
+    },
+    "sampleAnswerContentItem": {
+        "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+        "updatedDate": "2025-07-10T04:17:35.978Z",
+        "files": null,
+        "type": "RICH_TEXT",
+        "text": "<div><p>It can provide the same look and feel across the company’s websites for consistency and ease of use. Separate html and CSS code can allow developers to work independently on files.</p></div>"
+    }
       }
     ]
   },
@@ -710,7 +892,30 @@
             "type": "SQL",
             "datasetSetupQuery": "CREATE TABLE Suppliers (SupplierID TEXT PRIMARY KEY, Name TEXT); CREATE TABLE Products (ProductID TEXT PRIMARY KEY, Name TEXT, Price REAL, Mass INTEGER, Producer TEXT, Quantity INTEGER, SupplierID TEXT, FOREIGN KEY(SupplierID) REFERENCES Suppliers(SupplierID)); INSERT INTO Suppliers VALUES ('SID001', 'The Lolly Pop'), ('SID002', 'Sugar Rush Hour'), ('SID003', 'Sweet Retreat'); INSERT INTO Products VALUES ('PID001', 'TruffleSway', 1.00, 30, 'Yumtreats', 100, 'SID001'), ('PID002', 'PeanutPop', 1.00, 35, 'Yumtreats', 500, 'SID002'), ('PID003', 'Carameluxe', 2.20, 50, 'Yumtreats', 100, 'SID003'), ('PID004', 'BerryBlend', 1.25, 50, 'Yumtreats', 8, 'SID001'), ('PID005', 'Chocolate Cascade', 1.25, 52, 'Yumtreats', 50, 'SID002'), ('PID006', 'Hazelnut Symphony', 2.50, 50, 'Sugaryum', 0, 'SID003'), ('PID007', 'Caramel Delight', 2.50, 40, 'Treatopia', 20, 'SID002'), ('PID008', 'ChocoGlow', 2.50, 55, 'Treatopia', 95, 'SID002');"
           }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a correct SQL query</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Provides a SQL query that addresses some of the requirements</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of SQL</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>SELECT Products.Name AS 'Product', Suppliers.Name AS 'Supplier'\nFROM Products, Suppliers\nWHERE Products.SupplierID = Suppliers.SupplierID\nAND Products.Producer = 'Yumtreats'\nAND Products.Mass >= 50\nORDER BY Products.Name DESC</code></pre></div>"
+}
       }
     ]
   },
@@ -728,8 +933,31 @@
         "title": "Question 18 (a)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how defensive data input handling practices can be implemented for this website.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
-      },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Explains how defensive data input handling practices can be implemented for the website</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Outlines some features of data input handling practices</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Data sanitisation using client-side scripting can clean the data and remove dangerous input. Input validation on the client-side can check that entered data meets all of the requirements before getting processed by the server. Errors generated by data not meeting rules can be shown to the user.</p></div>"
+    }
+},
       {
         "id": "hsc_q18_p2",
         "title": "Question 18 (b)",
@@ -741,7 +969,30 @@
             "language": "PYTHON",
             "defaultCode": "# Write your code here"
           }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a correct function in Python to check whether a username satisfies the rules</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Provides a partially correct function in Python to check the username</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the problem and Python programming</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>def validate_username(username):\n  valid = True\n  # length check\n  if len(username) < 8:\n    valid = False\n  elif (not username[0].isupper()):\n    valid = False\n  elif (not username[-2].islower()):\n    valid = False\n  elif (not username[-1].isdigit()):\n    valid = False\n  return valid</code></pre></div>"
+}
       }
     ]
   },
@@ -759,7 +1010,33 @@
         "title": "Question 19",
         "metadata": { "mark": 4 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how authentication and authorisation could be applied to this app.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Explains how authentication and authorisation could be applied to the app</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>Explains how authentication or authorisation could be applied to the app<br>OR</li><li>Outlines how authentication and authorisation could be applied to the app</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Outlines some features of authentication and/or authorisation</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Authentication ensures that only staff and students with valid usernames and passwords, which should be encrypted in storage (eg using hashing), can access the app. Authorisation controls access to specific features of the app based on user roles or groups. Teachers may have permissions to upload, assign and track homework, while students can only download tasks and upload completed work. By organising users into specific roles or groups, the app restricts access to appropriate functionality, ensuring that each user can only perform actions relevant to their role or group.</p></div>"
+}
       }
     ]
   },
@@ -783,11 +1060,13 @@
             "type": "OBJECTIVE_RESPONSE",
             "header": [{ "text": "Situation" }, { "text": "Buy" }, { "text": "Do not buy" }],
             "rows": [
-              { "cells": [{ "text": "Memory = 256 GB, AI Assistant = Yes, Accessory inclusions = No" }, {}, {}] },
-              { "cells": [{ "text": "Memory = 128 GB, AI Assistant = No, Accessory inclusions = Yes" }, {}, {}] },
-              { "cells": [{ "text": "Foldable = Yes, AI Assistant = No, Accessory inclusions = No" }, {}, {}] }
-            ]
+              { "cells": [{ "text": "Memory = 256 GB, AI Assistant = Yes, Accessory inclusions = No" }, {"id": "20.1"}, {}] },
+              { "cells": [{ "text": "Memory = 128 GB, AI Assistant = No, Accessory inclusions = Yes" }, {"id": "20.2"}, {}] },
+              { "cells": [{ "text": "Foldable = Yes, AI Assistant = No, Accessory inclusions = No" }, {"id": "20.3"}, {}] }
+            ],
+            "correctCellIds": ["20.1", "20.2", "20.3"]
           }
+
         }
       },
       {
@@ -795,7 +1074,30 @@
         "title": "Question 20 (b)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>The decision tree can be simplified without compromising its logic. Redraw the decision tree to reduce the number of branches.</p>" }] } },
-        "answer": { "parameters": { "type": "DRAWING_V2" } }
+        "answer": { "parameters": { "type": "DRAWING_V2" } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Draws a correctly simplified decision tree</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Draws a simplified decision tree with most of the logic</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the requirement</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><img src=\"/img/hsc_sample_exam/a20.png\" alt=\"A simplified decision tree is shown.\"></div>"
+}
       }
     ]
   },
@@ -823,7 +1125,8 @@
               { "id": "q21a_opt3", "text": "timetable[3][1]" },
               { "id": "q21a_opt4", "text": "timetable[1][3]" }
             ],
-            "settings": { "multipleCorrectOptions": false }
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [1]
           }
         }
       },
@@ -847,7 +1150,36 @@
             "language": "PYTHON",
             "defaultCode": "subjects = [\"English\", \"Software\", \"Drama\", \"Science\", \"Sport\"]\n\n# Write your Python program using subroutines.\n"
           }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides a substantially correct Python program that addresses the following requirements:<ul><li>Places each subject in the correct period</li><li>Displays all 5 days of the timetable</li><li>Provides a solution with appropriate subroutines</li><li>Programmatically builds the timetable</li></ul></li></ul>",
+        "point": "<p>5</p>"
+    }, {
+        "criterion": "<ul><li>Provides a Python program that addresses most of the requirements</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>Provides Python code that addresses some of the requirements</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Provides Python code that addresses a requirement</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the problem</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>subjects = [\"English\", \"Software\", \"Drama\", \"Science\", \"Art\"]\nNUM_DAYS = 5\nNUM_PERIODS = 5\nDAYS_OF_WEEK = [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\",\n\"Friday\"]\n\ndef create_timetable(subjects):\n  timetable = []\n  for day in range(NUM_DAYS):\n    periods = []\n    for period in range(NUM_PERIODS):\n      periods.append(subjects[(period - day) % NUM_PERIODS])\n    timetable.append(periods)\n  return timetable\n\ndef print_timetable(timetable):\n  print()\n  for day in range(NUM_DAYS):\n    print(f\"{DAYS_OF_WEEK[day]}\")\n    for period in range(NUM_PERIODS):\n      print(f\"\\tPeriod {period+1}: {timetable[day][period]}\")\n  print()\n\ntimetable = create_timetable(subjects)\nprint_timetable(timetable)</code></pre></div>"
+}
       }
     ]
   },
@@ -871,14 +1203,57 @@
             "type": "SQL",
             "datasetSetupQuery": "CREATE TABLE Students (StudentID TEXT, FirstName TEXT, Surname TEXT, Attended INTEGER, Level TEXT); INSERT INTO Students VALUES ('Student1', 'John', 'Doe', 5, 'Beginner'), ('Student2', 'Jane', 'Smith', 4, 'Intermediate'), ('Student3', 'David', 'Kim', 3, 'Beginner'), ('Student4', 'Sarah', 'Lee', 2, 'Expert'), ('Student5', 'Emma', 'Wilson', 1, 'Beginner'), ('Student6', 'Michael', 'Johnson', 0, 'Intermediate'), ('Student7', 'Olivia', 'Davis', 2, 'Beginner'), ('Student8', 'Ethan', 'Martinez', 3, 'Intermediate'), ('Student9', 'Sophia', 'Choi', 4, 'Expert'), ('Student10', 'Noah', 'Moore', 5, 'Beginner'), ('Student11', 'Isabella', 'Garcia', 1, 'Intermediate'), ('Student12', 'Liam', 'Vo', 2, 'Expert');"
           }
-        }
+        },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Correctly completes the SQL query</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Correctly completes part of the SQL query</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>SELECT Level, COUNT(Level)\nFROM Students\nGROUP BY Level</code></pre></div>"
+}
       },
       {
         "id": "hsc_q22_p2",
         "title": "Question 22 (b)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Race conditions have been identified as a potential issue for this database. Provide an example of when a race condition may occur in this scenario and outline how secure code could be implemented to prevent it.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Provides an example of when a race condition may occur in this scenario</li><li>Outlines how secure code could be implemented to prevent it</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Outlines some features of race conditions</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>With multiple teachers potentially accessing the database at the same time, race conditions can allow malicious users to gain unauthorised access. Authentication could be used to restrict access to the database, and code can be written to use atomic transactions and database locks to time the reading and writing of data.</p></div>"
+}
       }
     ]
   },
@@ -891,14 +1266,60 @@
         "title": "Question 23 (a)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>How can the effects of human bias be minimised when training machine learning algorithms?</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Shows thorough understanding of how the effects of human bias on the training of machine learning algorithms can be minimised</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Outlines some effects of human bias on machine learning<br>OR</li><li>Outlines some features of the training of machine learning algorithms</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Training data is initially selected by humans, who may unintentionally introduce their own biases. To minimise this, ensure that training data is representative of the problem the ML model will address. Reviewing data by individuals from diverse backgrounds could identify and reduce potential biases, ensuring fairer and accurate model performance.</p></div>"
+}
       },
       {
         "id": "hsc_q23_p2",
         "title": "Question 23 (b)",
         "metadata": { "mark": 3 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Compare linear regression and K-nearest neighbour.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Compares linear regression and K-nearest neighbour</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Outlines features of linear regression and/or K-nearest neighbour</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Linear regression and K-nearest neighbours (KNN) are both supervised learning algorithms that make predictions from labelled data. The key difference is how they handle data: linear regression assumes a linear relationship between input features and the target variable, while KNN makes predictions based on the closest ‘K’ training examples, allowing it to handle more complex, non-linear patterns. However, KNN can be more computationally expensive than linear regression and is usually slower.</p></div>"
+}
       }
     ]
   },
@@ -916,7 +1337,33 @@
         "title": "Question 24",
         "metadata": { "mark": 4 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Create a class diagram for the train company.</p>" }] } },
-        "answer": { "parameters": { "type": "DRAWING_V2" } }
+        "answer": { "parameters": { "type": "DRAWING_V2" } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Creates a substantially correct class diagram that includes suitable classes with attributes, and methods showing inheritance, relationships and multiplicity</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>Creates a class diagram that represents most features of the system</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Creates a class diagram with some features of the system</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides a diagram that shows some understanding of the scenario</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><img src=\"/img/hsc_sample_exam/a24.png\" alt=\"A class diagram is shown.\"></div>"
+}
       }
     ]
   },
@@ -942,7 +1389,36 @@
         "title": "Question 25",
         "metadata": { "mark": 8 },
         "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Discuss QuidantCon's proposal for security enhancements to the company's systems.</p>" }] } },
-        "answer": { "parameters": { "type": "SHORT", "extendedView": true } }
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Discusses the proposal for security enhancements to the company’s systems, with reference to machine learning (ML) in DevOps, robotic process automation (RPA) and business process automation (BPA) from the slideshow</li></ul>",
+        "point": "<p>8</p>"
+    }, {
+        "criterion": "<ul><li>Outlines advantages and disadvantages of the proposal, with reference to at least TWO of these areas: machine learning (ML) in DevOps, robotic process automation (RPA), business process automation (BPA)</li></ul>",
+        "point": "<p>6–7</p>"
+    }, {
+        "criterion": "<ul><li>Outlines some advantages and/or disadvantages of the proposal, with reference to machine learning (ML) in DevOps and/or robotic process automation (RPA) and/or business process automation (BPA)</li></ul>",
+        "point": "<p>4–5</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of the features of the proposal</li></ul>",
+        "point": "<p>2–3</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>QuidantCon's proposal for the company suggests leveraging machine learning (ML) and automation to bolster security measures. One key benefit is the automation of security testing and vulnerability scanning, facilitated by integrating ML-powered tools into the DevOps pipeline. This approach ensures continuous security testing and provides rapid feedback to developers, allowing for early detection of security issues and reducing the risk of vulnerabilities being exploited. The frequent and automated testing improves the overall security position and enhances compliance with industry standards. Additionally, ML algorithms can analyse vast amounts of data to detect patterns and anomalies, which is crucial for proactive threat identification. This capability enables the company to identify security risks proactively, learn from past incidents, and predict future attacks, thereby enhancing their overall security measures.</p><p>QuidantCon's proposal for the company also raises some concerns. One key issue is the need for high-quality data for ML algorithms to work effectively. If the data is inconsistent or incomplete, the ML models may not perform well, leading to false positives or missed threats. Another concern is the complexity of implementing ML solutions, which can be challenging and may require specialised skills and training. This complexity could result in integration challenges, higher costs, and delays. Additionally, ML systems can be biased, potentially affecting security decisions. Security and privacy are also critical, as handling sensitive data requires protection against unauthorised access and breaches. These concerns emphasise the need for a careful and balanced approach when considering ML and automation in security practices.</p><br><p><strong>Answers could include:</strong></p><ul><li>Automation of security testing and vulnerability scanning:<ul><li>Automation of security testing including the use software tools to automatically test the security of an application or system</li><li>Conducting scans for vulnerabilities, misconfigurations, and potential threats</li><li>Automation helps in detecting security issues early in the development lifecycle, reducing the risk of vulnerabilities being exploited</li><li>Automation also enables more frequent testing, improving overall security posture and compliance with security standards</li><li>Integration of automation into the DevOps pipeline, allowing for continuous security testing and rapid feedback to developers.</li></ul></li><li>Use of machine learning powered tools to enhance security practices:<ul><li>Machine learning helps in identifying security risks by analysing vast amounts of data to detect patterns and anomalies that may indicate a potential threat</li><li>Machine learning algorithms can learn from past security incidents and use this knowledge to predict and prevent future attacks</li><li>Machine learning can automate the analysis of security logs and events, providing real time insights</li><li>Machine learning can assist in automating incident response in RPA, enabling faster and more effective mitigation of security risks.</li></ul></li><li>Safe and efficient operation of Robotic Process Automation (RPA) bots:<ul><li>Machine learning algorithms for real-time detection and response to security threats</li><li>Machine learning algorithms can continuously monitor RPA bot behaviour to detect any anomalies or deviations from normal operation</li><li>By analysing data on bot performance and interactions, machine learning can identify potential security threats or operational issues</li><li>Machine learning can optimise the performance of RPA bots by identifying areas for improvement and suggesting enhancements.</li></ul></li><li>Protection of Business Process Automation workflows from cyber threats<ul><li>Machine learning algorithms can analyse BPA workflows to identify potential vulnerabilities</li><li>By continuously monitoring BPA processes, machine learning can detect and respond to cyber threats in real-time</li><li>Machine learning can automate the implementation of security controls and policies</li><li>Machine learning can enhance BPA workflows by predicting and preventing potential security breaches.</li></ul></li><li>Additional benefits of machine learning in security:<ul><li>Improved efficiency and accuracy in detecting security threats</li><li>Enhanced ability to respond to security incidents in real-time</li><li>Ensuring security and compliance while automating business processes.</li></ul></li><li>Disadvantages of ML in Security:<ul><li>Complexity and learning curve</li><li>Dependency on data quality</li><li>Potential for bias</li><li>Security and privacy concerns</li><li>Integration challenges</li><li>Cost considerations.</li></ul></li></ul></div>"
+}
       }
     ]
   }

@@ -21,7 +21,8 @@
                 { "id": "B", "text": "Command buttons" },
                 { "id": "C", "text": "Checkboxes" },
                 { "id": "D", "text": "List box" }
-              ]
+              ],
+              "correctOptionsIndices": [2]
             }
           }
         }
@@ -50,6 +51,14 @@
                 { "cells": [{ "text": "Feature engineering" }] }
               ]
             }
+          },
+          "sampleAnswerContentItem": {
+            "id": "dcb1e2e3-5f3b-4e2e-8f7c-4e6f3f0d1f3e",
+            "updatedDate": "2025-07-10T04:10:00.000Z",
+            "files": null,
+            "type": "RICH_TEXT",
+            "text": "<p><ol style=\"list-style: decimal; padding-left: 20px;\"><li>Data wrangling</li><li>Feature engineering</li><li>Model training</li><li>Model testing and validation</li></ol></p>"
+
           }
         }
       ]
@@ -76,7 +85,8 @@
                 { "id": "B", "text": "Descriptive information about data that helps to organise, find, and understand it" },
                 { "id": "C", "text": "A summary of the given data that highlights its main statistics" },
                 { "id": "D", "text": "Encrypted data that is primarily used in social networking software like Facebook" }
-              ]
+              ],
+              "correctOptionsIndices": [1]
             }
           }
         }
@@ -104,7 +114,8 @@
                 { "id": "B", "text": "By using dynamic SQL queries that concatenate user input directly into the query" },
                 { "id": "C", "text": "By using only stored procedures with no parameterisation" },
                 { "id": "D", "text": "By implementing prepared statements with parameterised queries" }
-              ]
+              ],
+              "correctOptionsIndices": [3]
             }
           }
         }
@@ -133,7 +144,8 @@
                 { "id": "B", "text": "Inheritance" },
                 { "id": "C", "text": "Instantiation" },
                 { "id": "D", "text": "Polymorphism" }
-              ]
+              ],
+              "correctOptionsIndices": [0, 1, 3]
             }
           }
         }
@@ -170,7 +182,7 @@
             { "text": "______________ management catches unexpected problems in a program, helping to achieve a smooth recovery." },
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "6.1" },
             {},
             {},
             {}
@@ -184,7 +196,7 @@
             {},
             {},
             {},
-            { "text": "✔️" }
+            { "text": "✔️", "id": "6.2" }
           ]
         },
         {
@@ -194,11 +206,12 @@
             {},
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "6.3" },
             {}
           ]
         }
-      ]
+      ],
+      "correctCellIds": ["6.1", "6.2", "6.3"]
     }
   }
 
@@ -229,7 +242,8 @@
                 { "id": "D", "text": "Logistic regression" },
                 { "id": "E", "text": "K-nearest neighbours (KNN)" },
                 { "id": "F", "text": "Polynomial regression" }
-              ]
+              ],
+              "correctOptionsIndices": [2, 5]
             }
           }
         }
@@ -271,7 +285,7 @@
             {},
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.1" },
             {},
             {},
             {}
@@ -282,7 +296,7 @@
             { "text": "Addressing and routing data packets between devices on a network." },
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.2" },
             {},
             {},
             {},
@@ -298,7 +312,7 @@
             {},
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.3" },
             {},
             {}
           ]
@@ -312,7 +326,7 @@
             {},
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.4" },
             {}
           ]
         },
@@ -322,7 +336,7 @@
             {},
             {},
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.5" },
             {},
             {},
             {},
@@ -339,14 +353,14 @@
             {},
             {},
             {},
-            { "text": "✔️" }
+            { "text": "✔️", "id": "8.6" }
           ]
         },
         {
           "cells": [
             { "text": "Downloading emails from a mail server to a local client, typically deleting them from the server." },
             {},
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.7" },
             {},
             {},
             {},
@@ -358,7 +372,7 @@
         {
           "cells": [
             { "text": "Transferring files over a secure shell connection." },
-            { "text": "✔️" },
+            { "text": "✔️", "id": "8.8" },
             {},
             {},
             {},
@@ -368,7 +382,8 @@
             {}
           ]
         }
-      ]
+      ],
+      "correctCellIds": ["8.1", "8.2", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8"]
     }
   }
 
@@ -396,7 +411,33 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "DRAWING_V2" } }
+          "answer": { "parameters": { "type": "DRAWING_V2" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Correct structure chart representing this algorithm</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>Substantially correct structure chart representing this algorithm, with some minor errors or omissions</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at constructing a structure chart to represent this algorithm</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at constructing a structure chart</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><img src=\"img/nsb/a9.png\" alt=\"A structure chart representing the algorithm is shown.\"><br><p>In this diagram, the “diamond” (rotated square) with 2 lines going from the same vertex denotes OPTIONAL execution of BOTH CalculateAverage and PrintAverageToScreen subprograms (either BOTH of them are executed or NONE of them is executed). This is NOT a choice between executing either 1 of these 2 subprorams (a choice would be indicated by having the 2 lines coming from 2 different vertices of the “diamond”). The built-in commands like PRINT/DISPLAY and GET/INPUT are NOT shown on a structure chart.</p></div>"
+}
         }
       ]
     },
@@ -421,7 +462,30 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "PSEUDOCODE" } }
+          "answer": { "parameters": { "type": "PSEUDOCODE" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Substantially correct algorithm</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Partially correct algorithm, with some errors or omissions</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at writing an algorithm to meet the requirements</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>BEGIN CalculateAverage(arrayOfNumbers)\n  count = LENGTH(arrayOfNumbers)\n  IF count > 0 THEN\n    total = 0\n    FOR i = 1 TO count STEP 1 REM Assumes indexing from 1\n      total = total + arrayOfNumbers[i]\n    NEXT i\n    RETURN total / count\n  ELSE\n    RETURN Null REM No value; impossible to calculate average\n  END IF\nEND CalculateAverage</code></pre></div>"
+}
         }
       ]
     },
@@ -438,7 +502,30 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "SHORT" } }
+          "answer": { "parameters": { "type": "SHORT" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Explains causal relationships between capabilities of end users and the secure design features of software</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Discusses capabilities of end users relevant for secure design features of software</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Identifies a capability of end users relevant for secure design features of software</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Capabilities of end users, such as their technical proficiency, security awareness and accessibility requirements, significantly impact the design features of software. They influence the user interface, accessibility options, customisation preferences and security settings. Developers must consider the capabilities of end users to create secure, usable, and effective software. (Additionally, they should provide appropriate documentation, training, and support to users with different capabilities.)</p><ol><li><b>Technical Proficiency:</b> End users have diverse levels of technical expertise, from beginners to advanced users. Software needs to be designed with intuitive interfaces and security settings (e.g. built-in prompts for secure actions) for less tech-savvy users, while providing advanced features for those who need them and can use them without introducing vulnerabilities.</li><li><b>Security Awareness:</b> Users' understanding of security threats and security practices differs greatly. Software needs to account for the varying levels of security awareness among its users and mitigate risks associated with less security-conscious users. Commonly, this includes providing secure defaults (e.g. requiring multi-factor authentication by default), restricting unnecessary user permissions and displaying clear security prompts. Software designers often need to balance security enhancements with user experience, ensuring that security measures are as seamless as possible to encourage compliance and reduce the likelihood of users bypassing security for convenience.</li><li><b>Accessibility requirements:</b> End users may have different accessibility requirements, influencing how security features are implemented. For instance, software design must ensure that security measures (e.g. multi-factor authentication) are accessible to users with disabilities, ensuring that security does not come at the cost of usability.</li></ol></div>"
+}
         }
       ]
     },
@@ -455,7 +542,30 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "SHORT" } }
+          "answer": { "parameters": { "type": "SHORT" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Describes both what a template engine is AND how it works</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Describes either what a template engine is OR how it works</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>States a feature of a template engine</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>A template engine (a.k.a. templating engine) is used to rapidly and easily build web applications and dynamic HTML pages. It leverages HTML/JavaScript templates (some are pre-made but configurable, others can be written by designers) that contain placeholders, including variables, loops iterating over collections and conditionals. Different template engines (e.g. EJS, Pug, Handlebars, etc.) use different notations (syntaxes) to describe their templates and placeholders. When the web application is running, the template engine on the web server replaces the variables/placeholders in the used template file with actual values, then sends this dynamically customised HTML web page content to the client (which never sees the used templates). Templates also enable fast rendering of server-side data that needs to be passed to the application. By using a template engine, developers can separate HTML presentation structure from the application logic, making the code cleaner and easier to maintain. Designers can work on templates while developers focus on the backend logic.</p></div>"
+}
         }
       ]
     },
@@ -472,7 +582,30 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "DRAWING_V2" } }
+          "answer": { "parameters": { "type": "DRAWING_V2" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Substantially correct decision tree</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Partially correct decision tree, with some errors or omissions</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at drawing a decision tree to meet the requirements</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><img src=\"img/nsb/a13.png\" alt=\"A decision tree is shown. The first node asks 'Female?'. The 'Yes' branch leads to 'Accept!'. The 'No' branch leads to a node asking 'Studies Software Engineering?'. The 'Yes' branch leads to 'Accept!'. The 'No' branch leads to a node asking 'Proficient in C?'. The 'Yes' branch leads to 'Accept!'. The 'No' branch leads to 'Do NOT accept!'.\"></div>"
+}
         }
       ]
     },
@@ -489,7 +622,30 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "SHORT" } }
+          "answer": { "parameters": { "type": "SHORT" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Discusses at least 2 similarities AND at least 2 differences between XSS and CSRF</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Discusses either ONLY similarities OR ONLY differences between XSS and CSRF<br>OR<br></li><li>Outlines a similarity AND a difference between XSS and CSRF</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some correct information about XSS or CSRF</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p><b>Similarities between XSS and CSRF include:</b></p><ol><li>Both XSS and CSRF are vulnerabilities that specifically target web applications.</li><li>Both attacks rely on exploiting the trust that users and web applications have, particularly the inherent trust a website has in its users and their browsers.</li><li>Both vulnerabilities can lead to client-side consequences, affecting what a user can see or do on a web application.</li><li>Both XSS and CSRF can lead to serious consequences, including access to sensitive information, data breaches, account hijacking, and website defacement.</li></ol><p><b>Differences between XSS and CSRF include:</b></p><ol><li><b>Different focus:</b> While XSS primarily targets the user's browser and client-side security, CSRF primarily targets the server and authentication mechanisms.</li><li><b>Different attack mechanisms (vectors):</b> XSS involves injecting malicious scripts (typically JavaScript) into a website, which then executes in the user's browser when they visit the compromised page. Contrary, CSRF involves an attacker crafting a malicious link or form that, when clicked or submitted by the unsuspecting user, sends a request to the target website as if it were from the user themselves.</li><li><b>Different data handing:</b> In XSS the attacker can potentially read the response of the malicious script's execution and extract data to their own server. In CSRF, the attacker can only send requests, but they cannot directly receive the responses from the target website.</li><li><b>Different session requirement:</b> XSS can be successful regardless of the user's session status (authenticated or not), but CSRF requires the user to have an active session with the targeted website.</li></ol></div>"
+}
         }
       ]
     },
@@ -559,22 +715,28 @@
         "files": null
       },
       "markingCriteriaContentItem": {
-        "id": "cb61d0e9-27dc-4dbf-b943-b68f8680d919",
-        "updatedDate": "2025-08-22T04:22:00.000Z",
-        "files": null,
-        "type": "MARKING_CRITERIA",
-        "criteria": [
-          { "criterion": "<p>Provides a correct answer</p>", "point": "<p>3</p>" },
-          { "criterion": "<p>Provides a partially correct answer</p>", "point": "<p>1–2</p>" }
-        ]
-      },
-      "sampleAnswerContentItem": {
-        "id": "34efb3e7-1460-4c5f-9de4-3fa13ac5edc4",
-        "updatedDate": "2025-08-22T04:22:00.000Z",
-        "files": null,
-        "type": "RICH_TEXT",
-        "text": "<p>SELECT ProductName, ProductPrice FROM Products<br>WHERE ProductPrice &lt;= 22.00</p>"
-      }
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Substantially correct SQL SELECT statement</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Partially correct SQL select statement, with some errors or omissions</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at writing a SQL SELECT statement to meet the requirements</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>SELECT ProductName, ProductPrice\nFROM Products\nWHERE ProductPrice <= 22.00\nORDER BY ProductPrice ASC;</code></pre><br><p><i>An alternative sample answer:</i></p><pre><code>SELECT ProductName, ProductPrice\nFROM Products\nWHERE ProductPrice <= 22.00\nORDER BY ProductName ASC;</code></pre></div>"
+}
     }
   ]
 }
@@ -604,7 +766,36 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "CODING", "language": "PYTHON" } }
+          "answer": { "parameters": { "type": "CODING", "language": "PYTHON" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Correct Python program that includes ALL of the following 5 features:<ul><li>Loops through each ISBN digit (except the last) and works out the sum of digits</li><li>Correctly distinguishes between digits to multiply by 3 and add vs those to just add</li><li>Correctly calculates the check digit</li><li>Performs a check to see whether the check digit is 10 and replaces it with 0</li><li>Compares the calculated check digit to the last digit of the entered ISBN and returns True if they match (correct check digit) or False if they do not (incorrect check digit)</li></ul></li></ul>",
+        "point": "<p>5</p>"
+    }, {
+        "criterion": "<ul><li>Substantially correct Python program that includes at least 4 of the above features</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>A sound attempt at the Python program that includes at least 3 of the above features</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at writing the Python program that includes at least 2 of the above features</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>An attempt at writing the Python program that includes at least 1 of the above features</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>#Checks whether the check digit of an ISBN is valid\ndef checkDigitOK(isbn_str): #assumes a string with 13 digits provided\n  sumOfDigits = 0 #accumulator for the sum of digits\n  for i in range(12): #loops thru the first 12 digits but not the last/13th\n    #1st digit has Python index 0 (even); 2nd digit has index 1 (odd), etc.\n    if i % 2 == 0: #an even Python index, the digit is multiplied by 1\n      sumOfDigits = sumOfDigits + int(isbn_str[i]) * 1\n    else: #an odd Python index, the digit is multiplied by 3\n      sumOfDigits = sumOfDigits + int(isbn_str[i]) * 3\n  sumModulo = sumOfDigits % 10 #calculates the remainder of division by 10\n  checkDigit = 10 - sumModulo #calculates the check digit\n  if checkDigit == 10: #the special case; checkDigit must have only 1 digit\n    checkDigit = 0\n  #Checking whether the provided ISBN contains the correct check digit\n  if int(isbn_str[-1]) == checkDigit: #last element is at Python index -1\n    return True\n  else:\n    return False</code></pre><br><p><i>An alternative sample answer:</i></p><pre><code>#Checks whether the check digit of an ISBN is valid\ndef checkDigitOK(isbn_str): #assumes a string with 13 digits provided\n  sumOfDigits = 0 #accumulator for the sum of digits\n  #the first 12 digits of ISBN contain 6 groups of 2 digits:\n  # the 1st of these 2 digits is multiplied by 1\n  # the 2nd of these 2 digits is multiplied by 3\n  for i in range(6):\n    sumOfDigits = sumOfDigits + int(isbn_str[2*i]) * 1\n    sumOfDigits = sumOfDigits + int(isbn_str[2*i+1]) * 3\n  sumModulo = sumOfDigits % 10 #calculates the remainder of division by 10\n  checkDigit = 10 - sumModulo #calculates the check digit\n  if checkDigit == 10: #the special case; checkDigit must have only 1 digit\n    checkDigit = 0\n  #Checking whether the provided ISBN contains the correct check digit\n  if int(isbn_str[12]) == checkDigit: #last/13th digit is at Python index 12\n    return True\n  else:\n    return False</code></pre></div>"
+}
         }
       ]
     },
@@ -629,7 +820,30 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "SHORT" } }
+          "answer": { "parameters": { "type": "SHORT" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Discusses applying on the given scenario of 3 of the main principles of 'privacy by design'</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Discusses applying on the given scenario of 1 or 2 of the main principles of ‘privacy by design'<br>OR<br></li><li>Outlines 2 or 3 of the main principles of ‘privacy by design'</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of 'privacy by design'<br>OR<br></li><li>Outlines 1 of the main principles of 'privacy by design'</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>The 'privacy by design' is built around the 7 main principles: Proactive not reactive; Privacy as a default setting; Privacy embedded into design; Full functionality; End-to-end security; Visibility and transparency; and Respect for user privacy. From these 7, our Software Engineering syllabus emphasises only #1, #3 and #7 so their application on the given ‘nAIs Skin Check PWA' app scenario is discussed here.</p><p><b>Proactive not reactive approach</b> is about anticipating risks and preventing privacy-invasive events before they occur. In the ‘nAIs Skin Check PWA' app scenario, the personal and medical information (possibly also some of the demographic information) is personally identifiable information (PII) that must be kept private and protected. It can be anticipated that this sensitive information could be compromised on the client side, transport over the Internet or the server side. Therefore, all information provided by a user should be protected (e.g. encrypted) in transport over the Internet and any client-side and server-side handling, including storage. This is protection in transit, in use and rest.</p><p><b>Embed privacy into design</b> is about ensuring that privacy becomes one of the core functions of any system or service. In the ‘nAIs Skin Check PWA' app scenario, this means the app's design must include the decisions to protect all user's information in transport/storage/handling, not storing any user information (neither on the server nor on the client) after a user is shown the probability of melanoma in the given images, and not providing any user information to any 3rd party.</p><p><b>Respect for user privacy</b> is about keeping the interest of individuals paramount for any system or service, e.g. by offering strong privacy defaults and user-friendly options, as well as ensuring appropriate notices are given. In the ‘nAIs Skin Check PWA' app scenario, the default protection of all user information in transit/rest/use, the default server-side and client-side secure deletion/destruction of all user information, and the default of not providing of any user information to any 3rd party are strong with respect to user privacy.</p></div>"
+}
         }
       ]
     },
@@ -654,7 +868,45 @@
               ]
             }
           },
-          "answer": { "parameters": { "type": "SHORT" } }
+          "answer": { "parameters": { "type": "SHORT" } },
+          "markingCriteriaContentItem": {
+    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+    "updatedDate": "2025-05-21T01:40:35.876Z",
+    "files": null,
+    "type": "MARKING_CRITERIA",
+    "criteria": [{
+        "criterion": "<ul><li>Explains and evaluates all 5 listed strategies for managing security of programming code AND supports this with examples from the given scenario</li></ul>",
+        "point": "<p>8</p>"
+    }, {
+        "criterion": "<ul><li>Explains and evaluates some of the 5 listed strategies for managing security of programming code (while only discussing the others OR explaining them but without evaluating them OR explaining & evaluating them but with errors) AND supports this with examples from the given scenario</li></ul>",
+        "point": "<p>7</p>"
+    }, {
+        "criterion": "<ul><li>Discusses all 5 listed strategies for managing security of programming code AND supports this discussion with examples from the given scenario</li></ul>",
+        "point": "<p>6</p>"
+    }, {
+        "criterion": "<ul><li>Discusses some of 5 listed strategies for managing security of programming code (while only outlining the others or discussing them but with errors) AND supports this discussion with examples from the given scenario</li></ul>",
+        "point": "<p>5</p>"
+    }, {
+        "criterion": "<ul><li>Correctly outlines all 5 listed strategies for managing security of programming code</li></ul>",
+        "point": "<p>4</p>"
+    }, {
+        "criterion": "<ul><li>Correctly outlines some of the 5 listed strategies for managing security of programming code</li></ul>",
+        "point": "<p>3</p>"
+    }, {
+        "criterion": "<ul><li>Shows some understanding of strategies for managing security of programming code</li></ul>",
+        "point": "<p>2</p>"
+    }, {
+        "criterion": "<ul><li>Provides some relevant information</li></ul>",
+        "point": "<p>1</p>"
+    }]
+},
+"sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p><b>Code review</b>, Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), vulnerability assessments, and penetration testing are all valuable strategies for managing the security of programming code, but they serve different purposes and are most effective when used in combination.</p><p><b>Code review</b> is a manual (or partially automated) process of systematically examining source code to identify security flaws, logic errors, other mistakes or quality issues, and adherence to coding standards. In the ‘nAIs Skin Check PWA' app scenario, this would mean that some team members systematically review code written by other team members and provide improvement feedback. Code review encourages knowledge sharing, catches vulnerabilities and bugs early in the development cycle, reduces the cost of remediation, and enhances both code quality and security. Its limitations include: can be time-consuming and may not identify all runtime vulnerabilities.</p><p><b>Static Application Security Testing (SAST)</b> is a white-box testing method that analyses source code for security vulnerabilities without executing the program. In the ‘nAIs Skin Check PWA' app scenario, some team members would use SAST tools to perform SAST on the app's code without executing it. SAST can identify vulnerabilities (such as SQL injection, buffer overflows, insecure APIs) early in the development process. Its limitations include producing false positives and not detecting runtime-specific vulnerabilities.</p><p><b>Dynamic Application Security Testing (DAST)</b> is a black-box testing method that runs software and analyses its behaviour (e.g. when exposed to simulated attacks) to find vulnerabilities that are only apparent during runtime. In the scenario, team members would use DAST tools to test the running app with simulated attacks. DAST identifies real-world runtime vulnerabilities and can find issues related to configuration and runtime environments. Its limitations include occurring later in the development cycle and being more time-consuming than SAST.</p><p><b>Vulnerability assessment</b> is a systematic process of identifying, quantifying, classifying and prioritizing security vulnerabilities in an application. In the ‘nAIs Skin Check PWA' app scenario, team members would use appropriate tools to systematically scan for, identify and prioritise security vulnerabilities in the app. It provides a comprehensive overview of vulnerabilities and helps prioritise remediation efforts. Its limitations include not identifying all vulnerabilities and becoming outdated quickly if not performed regularly.</p><p><b>Penetration testing</b> is performing simulated real-world attacks on a system to identify vulnerabilities that can be exploited. In the scenario, external hired white-hat hackers would perform simulated attacks on the running app. It provides a realistic real-world assessment of the security posture and identifies vulnerabilities that may not be detected by other methods. Its limitations include being time-consuming, resource-intensive and expensive, and it is a point-in-time assessment.</p><p>Incorporating a combination of these strategies provides a robust approach to managing code security. By integrating these methods into the software development lifecycle, the ‘nAIs Skin Check PWA' app team can significantly enhance their security posture and reduce the risk of vulnerabilities being exploited.</p></div>"
+}
         }
       ]
     }

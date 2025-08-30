@@ -173,7 +173,13 @@
         "markingCriteriaContentItem": null,
         "markingRubricContentItem": null,
         "markingGuidanceContentItem": null,
-        "sampleAnswerContentItem": null
+        "sampleAnswerContentItem": {
+            "id": "sample-answer-1",
+            "updatedDate": "2025-07-06T13:14:11.656Z",
+            "files": null,
+            "type": "RICH_TEXT",
+            "text": "<p>Logistic</p>"
+        }
     }]
 }, {
     "id": "b3511e2f-2c78-4d51-9885-71b55335f9b7",
@@ -698,7 +704,15 @@
         "markingCriteriaContentItem": null,
         "markingRubricContentItem": null,
         "markingGuidanceContentItem": null,
-        "sampleAnswerContentItem": null
+        "sampleAnswerContentItem": {
+            "id": "dcb1e2e3-5f3b-4e2e-8f7c-4e6f3f0d1f3e",
+            "updatedDate": "2025-07-10T04:10:00.000Z",
+            "files": null,
+            "type": "RICH_TEXT",
+            "text": "<p><span class=\"NormalTextRun SCXW123456789 BCX8\">#1: Original data features for the network are processed.</span></p>\n<p><span class=\"NormalTextRun SCXW987654321 BCX8\">#2: Transforms and processes data through weighted connections and activation functions.</span></p>\n<p><span class=\"NormalTextRun SCXW192837465 BCX8\">#3: Predictions are based on the input data and hidden layer transformations.</span></p>"
+
+
+        }
     }]
 }, {
     "id": "edb7ed1b-4c5f-4ccf-96c9-64432fa7dc94",
@@ -1414,14 +1428,6 @@
                 "point": "<p>1</p>"
             }]
         },
-        "markingRubricContentItem": {
-            "id": "87aca1f5-8544-4d83-8d81-a8407c274b71",
-            "updatedDate": "2025-05-21T01:41:11.230Z",
-            "files": null,
-            "type": "RICH_TEXT",
-            "text": ""
-        },
-        "markingGuidanceContentItem": null,
         "sampleAnswerContentItem": {
             "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
             "updatedDate": "2025-07-10T04:17:35.978Z",

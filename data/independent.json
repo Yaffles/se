@@ -1,4 +1,5 @@
 [{
+    "id": "question-1",
     "title": "New Question 1, Privacy by Design",
     "parts": [{
         "title": "Question 1",
@@ -32,11 +33,12 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [3]
+                "correctOptionsIndices": [3]
             }
         }
     }]
 }, {
+    "id": "question-2",
     "title": "New Question 2, CSRF Attack",
     "parts": [{
         "title": "Question 2",
@@ -70,12 +72,13 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [0]
+                "correctOptionsIndices": [0]
             }
         }
     }]
 }, {
     "title": "New Question 3, Email Protocol",
+    "id": "question-3",
     "parts": [{
         "title": "Question 3",
         "metadata": {
@@ -108,12 +111,13 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [0]
+                "correctOptionsIndices": [0]
             }
         }
     }]
 }, {
     "title": "New Question 4, Client-Side Programming",
+    "id": "question-4",
     "parts": [{
         "title": "Question 4",
         "metadata": {
@@ -146,12 +150,13 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [1]
+                "correctOptionsIndices": [1]
             }
         }
     }]
 }, {
     "title": "New Question 5, Automation Benefits",
+    "id": "question-5",
     "parts": [{
         "title": "Question 5",
         "metadata": {
@@ -184,12 +189,13 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [2]
+                "correctOptionsIndices": [2]
             }
         }
     }]
 }, {
     "title": "New Question 6, Regression Model",
+    "id": "question-6",
     "parts": [{
         "title": "Question 6",
         "metadata": {
@@ -222,11 +228,12 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [2]
+                "correctOptionsIndices": [2]
             }
         }
     }]
 }, {
+    "id": "question-7",
     "title": "New Question 7, Implementation Method",
     "parts": [{
         "title": "Question 7",
@@ -260,11 +267,12 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [1]
+                "correctOptionsIndices": [1]
             }
         }
     }]
 }, {
+    "id": "question-8",
     "title": "New Question 8, Agile Development",
     "parts": [{
         "title": "Question 8",
@@ -298,11 +306,12 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [1]
+                "correctOptionsIndices": [1]
             }
         }
     }]
 }, {
+    "id": "question-9",
     "title": "New Question 9, Sandboxing",
     "parts": [{
         "title": "Question 9",
@@ -345,11 +354,12 @@
                 "settings": {
                     "multipleCorrectOptions": true
                 },
-                "correctOptionIndices": [1, 2, 4, 6]
+                "correctOptionsIndices": [1, 2, 4, 6]
             }
         }
     }]
 }, {
+    "id": "question-10",
     "title": "New Question 10, CSS",
     "stimulusContentItemCollection": {
         "items": [{
@@ -404,11 +414,12 @@
                 "settings": {
                     "multipleCorrectOptions": true
                 },
-                "correctOptionIndices": [0, 3, 4, 5, 7]
+                "correctOptionsIndices": [0, 3, 4, 5, 7]
             }
         }
     }]
 }, {
+    "id": "question-11",
     "title": "New Question 11, Workplace Automation",
     "parts": [{
         "title": "Question 11",
@@ -454,11 +465,12 @@
                 "settings": {
                     "multipleCorrectOptions": true
                 },
-                "correctOptionIndices": [1, 3, 6, 7]
+                "correctOptionsIndices": [1, 3, 6, 7]
             }
         }
     }]
 }, {
+    "id": "question-12",
     "title": "New Question 12, Context Diagram",
     "stimulusContentItemCollection": {
       "items": [
@@ -520,11 +532,12 @@
                 "settings": {
                     "multipleCorrectOptions": true
                 },
-                "correctOptionIndices": [1, 3, 4, 7]
+                "correctOptionsIndices": [1, 3, 4, 6]
             }
         }
     }]
 }, {
+    "id": "question-13",
     "title": "New Question 13, Security Testing",
     "parts": [{
         "title": "Question 13",
@@ -641,11 +654,12 @@
                         "id": "cell-7-pen"
                     }]
                 }],
-                "correctCellIds": ["cell-1-pen", "cell-2-sast", "cell-3-sast", "cell-4-dast", "cell-5-dast", "cell-6-dast", "cell-7-sast"]
+                "correctCellIds": ["cell-1-pen", "cell-2-sast", "cell-3-sast", "cell-4-dast", "cell-5-pen", "cell-6-dast", "cell-7-sast"]
             }
         }
     }]
 }, {
+    "id": "question-14",
     "title": "New Question 14, Web Development Roles",
     "parts": [{
         "title": "Question 14",
@@ -769,6 +783,7 @@
         }
     }]
 }, {
+    "id": "question-15",
     "title": "New Question 15, Machine Learning Models",
     "parts": [{
         "title": "Question 15",
@@ -888,11 +903,12 @@
                         "id": "cell-6-reinf"
                     }]
                 }],
-                "correctCellIds": ["cell-1-reinf", "cell-2-semi", "cell-3-sup", "cell-4-reinf", "cell-5-sup", "cell-6-unsup"]
+                "correctCellIds": ["cell-1-reinf", "cell-2-semi", "cell-3-sup", "cell-4-reinf", "cell-5-semi", "cell-6-unsup"]
             }
         }
     }]
 }, {
+    "id": "question-16",
     "title": "New Question 16, Software Project Phases",
     "parts": [{
         "title": "Question 16",
@@ -1040,11 +1056,12 @@
                         "id": "cell-8-prod"
                     }]
                 }],
-                "correctCellIds": ["cell-1-plan", "cell-2-prod", "cell-3-plan", "cell-4-prod", "cell-5-plan", "cell-6-id", "cell-7-test", "cell-8-prod"]
+                "correctCellIds": ["cell-1-plan", "cell-2-prod", "cell-3-id", "cell-4-test", "cell-5-plan", "cell-6-id", "cell-7-test", "cell-8-prod"]
             }
         }
     }]
 }, {
+    "id": "question-17",
     "title": "New Question 17, Authentication vs Authorisation",
     "parts": [{
         "title": "Question 17",
@@ -1064,9 +1081,18 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p><strong>Authentication</strong><br>Authentication is the process of verifying who you are. The question it answers is: \"Are you who you say you are?\" It's the first step in granting access to a system. To authenticate, a user provides credentials, which are then checked against a trusted database or system.</p><p>Common examples include:</p><ul><li><strong>Username and Password:</strong> You enter your username and a password. The system checks if the combination is valid.</li><li><strong>Biometrics:</strong> Using a fingerprint or facial recognition to unlock a device.</li><li><strong>Multi-Factor Authentication (MFA):</strong> This is a more robust method that requires two or more forms of verification. For example, after entering your password, you might also have to enter a code sent to your phone.</li></ul><br><p><strong>Authorization</strong><br>Once a user has been authenticated, authorization determines what they are allowed to do. The question it answers is: \"What are you permitted to access or do?\" This process involves checking the user's permissions and access rights.</p><p>Examples of authorization include:</p><ul><li><strong>Role-Based Access Control (RBAC):</strong> Users are assigned roles, and these roles have specific permissions. A \"Student\" role might allow a user to view course materials, while a \"Teacher\" role would allow them to create and edit them.</li><li><strong>Discretionary Access Control (DAC):</strong> The owner of a resource can decide who can access it and what they can do. A good example is sharing a Google Doc. The document owner can grant \"view only,\" \"comment,\" or \"edit\" permissions to others.</li><li><strong>Attribute-Based Access Control (ABAC):</strong> This is a more granular method that uses a set of attributes, like a user's department, the time of day, or the data's sensitivity, to decide access. For instance, a system might only allow access to a specific report during business hours.</li></ul><br><p><strong>The Key Difference</strong><br>The simplest way to remember the difference is with a simple analogy:</p><ul><li><strong>Authentication</strong> is like showing your ID to get into a building. It proves you're a valid person.</li><li><strong>Authorization</strong> is like getting a special keycard that only lets you into certain floors or rooms in that building. It determines what you can do once you're inside.</li></ul><p>Authentication is a prerequisite for authorization. You can't decide what a person is allowed to do until you've confirmed who they are.</p></div>"
+}
     }]
 }, {
+    "id": "question-18",
     "title": "New Question 18, Race Condition",
     "stimulusContentItemCollection": {
         "items": [{
@@ -1092,9 +1118,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>A race condition is a problem that can happen in multi-threaded or multi-process applications when multiple threads or processes try to access and modify the same shared resource at the same time. The final outcome depends on the unpredictable timing or order of execution.</p><br><p><strong>How it affects purchase_item</strong><br>Without the lock, a race condition could lead to a user purchasing an item that is out of stock. Here's how it could happen:</p><ul><li>A user checks if an item is in stock. The inventory for that item is 1.</li><li>At the same exact moment, another user also checks the inventory for the same item. The inventory is still 1.</li><li>The first user purchases the item, and the inventory count goes down to 0.</li><li>The second user's purchase request goes through based on their earlier check, and they also get the item.</li></ul><p>The inventory is now at -1, which is not what you would want.</p><p>The <strong>threading.Lock()</strong> object is a mutual exclusion lock that makes sure only one thread can access the code within the <strong>with lock:</strong> block at any given time, preventing this from happening.</p></div>"
+}
     }]
 }, {
+    "id": "question-19",
     "title": "New Question 19, Security Compromise",
     "stimulusContentItemCollection": {
         "items": [{
@@ -1120,9 +1154,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>This scenario is a classic example of security vulnerabilities in a web application. Let's break down how confidentiality, integrity, and accountability were compromised.</p><br><p><strong>Confidentiality</strong><br>Confidentiality is about making sure that information is only accessible to those who are authorised to view it. In this case, the school portal failed to protect the students' assessment files from unauthorised access.</p><p>The confidentiality of the files was compromised when the student was able to modify the URL to access and download other students' work. This means the system didn't properly check if the user had the correct permissions to view the file they were requesting. This is often referred to as an Insecure Direct Object Reference (IDOR) vulnerability.</p><br><p><strong>Integrity</strong><br>Integrity refers to maintaining the accuracy and consistency of data. It ensures that data is not altered or corrupted by unauthorised parties.</p><p>The integrity of the assessment files was compromised because students could re-upload their work multiple times. Allowing a file to be overwritten without a proper version history or logging system means there's no way to verify the file's state at a specific time, such as the due date. This compromises the validity of the submission, as the original file submitted before the due date could have been changed.</p><br><p><strong>Accountability</strong><br>Accountability is the ability to trace actions to a specific user. It relies on a system's logging and auditing features to prove who did what and when.</p><p>Accountability was compromised because the system didn't detect or log the multiple re-uploads after the due date. Without a clear audit trail of file submissions, it's impossible for a teacher to verify when a file was last changed or who changed it. This allows students to modify their work post-deadline without any record of the action, making it difficult to enforce academic rules.</p></div>"
+}
     }]
 }, {
+    "id": "question-20",
     "title": "New Question 20, Collaboration Benefits",
     "parts": [{
         "title": "Question 20",
@@ -1145,6 +1187,7 @@
         }
     }]
 }, {
+    "id": "question-21",
     "title": "New Question 21, DNS Function",
     "parts": [{
         "title": "Question 21",
@@ -1164,9 +1207,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>The Domain Name System (DNS) acts like the internet's phonebook. Its primary purpose in web data transmission is to translate human-readable domain names (like www.example.com) into machine-readable Internet Protocol (IP) addresses (like 192.0.2.1). When you type a domain name into your browser, DNS lookups occur to find the corresponding IP address of the web server hosting that site, allowing your browser to connect to the correct server and retrieve the web page.</p></div>"
+}
     }]
 }, {
+    "id": "question-22",
     "title": "New Question 22, Web Content Management Systems",
     "parts": [{
         "title": "Question 22",
@@ -1186,9 +1237,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+"id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+"updatedDate": "2025-07-10T04:17:35.978Z",
+"files": null,
+"type": "RICH_TEXT",
+"text": "<div><p>Web Content Management Systems (CMS) are software applications that allow users to create, manage, and modify digital content on a website without needing extensive technical knowledge. They simplify the process of publishing online content, making website management accessible to non-programmers.</p><br><p><strong>Functions of a CMS</strong><br>A CMS performs a variety of functions that cover the entire lifecycle of web content:</p><ul><li><strong>Content Creation and Editing:</strong> A CMS provides a user-friendly interface, often a what-you-see-is-what-you-get (WYSIWYG) editor, that lets users write and format content similar to a word processor.</li><li><strong>Workflow Management:</strong> It allows for the creation of workflows where content can be drafted by one user, reviewed by another, and approved by a third before being published. This is crucial for larger teams to maintain quality control.</li><li><strong>Content Organisation:</strong> A CMS helps organise content into a logical structure using categories, tags, and a navigation menu. This makes it easier for both users and search engines to find information.</li><li><strong>Design and Layout:</strong> Most CMS platforms use a templating system that separates content from design. This allows developers to create a consistent look and feel for a website, while content creators can focus on writing without affecting the site's layout.</li><li><strong>User Management:</strong> They provide tools to manage user roles and permissions, ensuring that only authorised users can access and modify specific parts of the website.</li><li><strong>Version Control:</strong> They can track changes made to content over time, allowing users to revert to a previous version if needed.</li><li><strong>Publishing:</strong> The CMS handles the process of making content live on the website, often with a simple click of a button.</li></ul><br><p><strong>Examples of CMS</strong></p><ul><li><strong>WordPress:</strong> This is one of the most popular and widely used CMS platforms in the world. Originally a blogging tool, it has evolved into a full-featured system for building everything from simple blogs to complex e-commerce sites. Its open-source nature and vast library of plugins and themes make it highly flexible.</li><li><strong>Squarespace:</strong> is another well-known example, particularly due to its extensive marketing. It's an all-in-one CMS platform that is famous for its simple, drag-and-drop interface and beautiful, ready-made templates. It's often used by small business owners, artists, and students who want to build a professional-looking website or online portfolio without needing to know any code.</li><li><strong>Joomla!:</strong> A free and open-source CMS used for publishing web content. It's often seen as more complex than WordPress but offers greater flexibility for building more intricate applications and websites. It is particularly well-suited for social networking, community portals, and corporate websites.</li></ul></div>"
+}
     }]
 }, {
+    "id": "question-23",
     "title": "New Question 23, Secure Communication",
     "parts": [{
         "title": "Question 23",
@@ -1208,9 +1267,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Establishing a secure HTTPS connection involves a crucial handshake between the browser and the web server, which confirms the server's identity and sets up an encrypted communication channel. This process is orchestrated by SSL/TLS certificates.</p><br><p><strong>Confirm the Identity of the Web Server</strong></p><ul><li><strong>Browser Hello:</strong> When you type a URL with https://, your browser sends a \"Client Hello\" message to the web server. This message includes the browser's supported SSL/TLS versions and cryptographic algorithms.</li><li><strong>Server Hello and Certificate:</strong> The server responds with a \"Server Hello,\" choosing the highest common SSL/TLS version and a cryptographic suite. Most importantly, it sends its SSL/TLS certificate back to the browser. This certificate is a digital file that contains the server's public key, the domain name, and is signed by a trusted Certificate Authority (CA).</li><li><strong>Authentication:</strong> The browser verifies the server's identity by checking the certificate's authenticity. It confirms that the certificate is valid, hasn't expired, and that the domain name in the certificate matches the server it's trying to connect to. It also checks that the certificate was signed by a CA that the browser already trusts. This step prevents a fake server from impersonating the real one.</li></ul><br><p><strong>Establish a Secure Session</strong></p><ul><li><strong>Session Key Exchange:</strong> Once the server's identity is confirmed, the browser generates a unique, single-use pre-master secret and encrypts it using the server's public key from the certificate.</li><li><strong>Decrypting the Secret:</strong> The browser sends this encrypted secret to the server. Only the server, with its corresponding private key, can decrypt it.</li><li><strong>Symmetric Key Generation:</strong> Both the browser and the server now have the pre-master secret. They each use this secret, along with other data from the handshake, to independently generate the same symmetric session key. Symmetric encryption is much faster and more efficient for ongoing communication than public-key encryption.</li></ul><br><p><strong>Communicate Securely During the Session</strong><br>Once the symmetric session key is established, all subsequent communication between the browser and the server is encrypted using this key.</p><ul><li><strong>Encryption:</strong> The browser uses the session key to encrypt all data (e.g., login credentials, form data) before sending it to the server.</li><li><strong>Decryption:</strong> The server uses the same session key to decrypt the data.</li><li><strong>Ongoing Security:</strong> This process is reversed for data sent from the server back to the browser. The session key ensures that all data transmitted is unreadable to anyone who might be eavesdropping, providing confidentiality and integrity for the duration of the session.</li></ul></div>"
+}
     }]
 }, {
+    "id": "question-24",
     "title": "New Question 24, PWA Design Principles",
     "parts": [{
         "title": "Question 24",
@@ -1230,9 +1297,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Designing a Progressive Web App (PWA) for infant school students requires a focus on simplicity, clarity, and engagement to support accessibility and inclusivity. Here's how you would approach the UI and UX design principles for this project:</p><br><p><strong>Font Selection and Typography</strong><br>For infant school students, the key is legibility and familiarity. You would select a sans-serif font that is simple, with clear letterforms and no unnecessary embellishments. Fonts like Open Sans or Comic Sans are often good choices as they are widely recognized and have a playful, friendly feel. You would use a large font size to ensure that all text is easy to read, especially for students who may have developing eyesight. The use of a consistent font size and weight across the app would help reduce cognitive load and make the interface predictable.</p><br><p><strong>Colour Schemes and Contrast</strong><br>The colour scheme should be vibrant and engaging while maintaining high accessibility standards. You would use a palette with high contrast between the text and the background to make sure that the content is readable for students with visual impairments. For example, a dark blue text on a light yellow or white background works well. The colour scheme would also be used to create clear visual cues for interactive elements, such as using a bright colour for buttons and a muted colour for inactive items. You would avoid using colour alone to convey meaning, as this can be a barrier for students who are colourblind.</p><br><p><strong>The Use of Audio and Video Elements</strong><br>Audio and video are essential for this audience. You would use narrated text and visual animations to reinforce concepts. For instance, a video of a narrator explaining a concept would be paired with a simple animation that shows the concept in action. This multi-sensory approach helps different types of learners. Audio cues, such as a gentle chime for a correct answer or a soft buzz for an incorrect one, would be used to provide immediate, non-verbal feedback. All audio and video content would have closed captions and transcripts to support students who are hearing impaired or who learn better by reading.</p><br><p><strong>Navigation Design</strong><br>Navigation would need to be extremely simple and intuitive. The design would feature large, clear icons that represent different sections or activities. The text labels under the icons would be short and easy to read. A hierarchical navigation structure with a clear \"Home\" button would be implemented to prevent students from getting lost. The use of a progress bar or a simple visual tracker would show students how far they have progressed in an activity. All interactive elements would be generously spaced to make them easy to tap, even with small fingers. The entire navigation would be designed to require minimal reading and be based primarily on visual recognition.</p></div>"
+}
     }]
 }, {
+    "id": "question-25",
     "title": "New Question 25, Supervised vs Unsupervised Learning",
     "parts": [{
         "title": "Question 25",
@@ -1252,9 +1327,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Supervised and unsupervised learning are two fundamental categories in machine learning, distinguished by the type of data they use and the task they perform. The main difference lies in whether the training data is labelled.</p><br><p><strong>Supervised Learning</strong><br>In supervised learning, the algorithm is trained on a labelled dataset. This means that each piece of training data comes with a correct \"answer\" or \"label\" that the model can learn from. The goal is for the model to learn a mapping from input data to the correct output.</p><p>Think of it like a teacher-student relationship. The training data acts as the teacher, providing the correct answers for the model to learn from. Once trained, the model can then be used to predict labels for new, unseen data. A common use case is a model that predicts house prices based on features like size and location, where the training data includes historical prices.</p><br><p><strong>Unsupervised Learning</strong><br>In unsupervised learning, the algorithm is given an unlabelled dataset. There are no correct answers to learn from. The goal is for the model to find hidden patterns, structures, or relationships within the data on its own.</p><p>This is more like a student exploring a subject without a teacher. The algorithm looks for similarities and groupings within the data. A classic example is a clustering algorithm that groups customers with similar buying habits for marketing purposes, or a model that finds anomalies in a network for fraud detection. The model isn't told what a \"fraudulent transaction\" looks like; it simply finds unusual patterns.</p></div>"
+}
     }]
 }, {
+    "id": "question-26",
     "title": "New Question 26, Neural Network Learning",
     "parts": [{
         "title": "Question 26",
@@ -1274,9 +1357,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Weights and backpropagation are the core mechanisms that allow a neural network to learn from training data, working together in a continuous feedback loop.</p><br><p><strong>Weights</strong><br>Think of weights as the network's knowledge base. Each connection between neurons in a neural network has an associated weight. When a neural network makes a prediction, the input data is multiplied by these weights as it passes through the network. A higher weight on a particular connection means that the input from the connected neuron is considered more important for the network's output.</p><p>Initially, these weights are set to small, random values. The goal of the learning process is to adjust these weights so that the network's predictions become more accurate.</p><br><p><strong>Backpropagation</strong><br>Backpropagation is the process of adjusting the weights. It's an algorithm that calculates the \"error\" of the network's prediction and then systematically distributes that error back through the network, from the output layer to the input layer.</p><p>Here's how it works in simple terms:</p><ul><li><strong>Forward Pass:</strong> The neural network takes a training data point (e.g., an image of a cat) and performs a forward pass to make a prediction.</li><li><strong>Calculate Error:</strong> The network's prediction is compared to the actual answer (the image is a cat). The difference between the prediction and the actual answer is the error.</li><li><strong>Backward Pass:</strong> Backpropagation then takes this error and propagates it backward through the network. It calculates how much each individual weight contributed to the total error.</li><li><strong>Weight Adjustment:</strong> Using an optimization algorithm (like gradient descent), the weights are adjusted. Weights that contributed to a larger error are changed more, while those that led to a correct prediction are changed less. This process is repeated thousands or millions of times with different training examples.</li></ul><p>In short, weights hold the knowledge, and backpropagation is the method for refining that knowledge by learning from mistakes. The cycle of forward pass, error calculation, and backward pass allows the network to iteratively improve its predictions.</p></div>"
+}
     }]
 }, {
+    "id": "question-27",
     "title": "New Question 27, Predicting Test Scores",
     "parts": [{
         "title": "Question 27",
@@ -1296,9 +1387,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>The most appropriate machine learning regression algorithm for predicting student test scores based on hours studied is <strong>Simple Linear Regression</strong>.</p><p>This is because the problem involves a single independent variable (hours studied) and a single dependent variable (test score) with the assumption of a linear relationship between them. This algorithm is straightforward, easy to interpret, and highly effective for this type of problem.</p><br><p><strong>Implementing with OOP</strong><br>To implement this using object-oriented programming, you could create a <strong>ScorePredictor</strong> class. This class would encapsulate the data and the methods for training the model and making predictions.</p><p>Here is a brief outline:</p><ul><li><strong>Class:</strong> ScorePredictor</li><li><strong>Attributes:</strong><ul><li><strong>slope:</strong> A variable to store the calculated slope of the regression line.</li><li><strong>intercept:</strong> A variable to store the calculated y-intercept of the regression line.</li></ul></li><li><strong>Methods:</strong><ul><li><strong>__init__(self, hours_studied, test_scores):</strong> The constructor would take the training data (hours studied and test scores) as input.</li><li><strong>train(self):</strong> This method would calculate the slope and intercept using the training data. This is where the core regression formula would be applied.</li><li><strong>predict(self, new_hour):</strong> This method would take a new value for hours studied and use the trained slope and intercept to predict the corresponding test score. It would use the formula: y = mx + b.</li></ul></li></ul><br><p><strong>Required Model Features</strong><br>Your model would require two key features to function effectively:</p><ul><li><strong>A training dataset:</strong> The model needs a set of historical data points, consisting of pairs of \"hours studied\" and \"test score,\" to learn the relationship between the two variables. Without this, the model has nothing to train on.</li><li><strong>An equation for prediction:</strong> The model needs a defined mathematical formula, in this case, the linear regression equation (y=mx+b), to make predictions on new data. The <strong>train</strong> method is responsible for finding the optimal m and b values.</li></ul></div>"
+}
     }]
 }, {
+    "id": "question-28",
     "title": "New Question 28, KNN Algorithm",
     "stimulusContentItemCollection": {
         "items": [{
@@ -1330,9 +1429,17 @@
             "parameters": {
                 "type": "PSEUDOCODE"
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>function knn(newPoint, tData, tLabels, k):\n    // 1. Create an empty list to store distances and labels\n    distancesAndLabels = []\n    // 2. Loop through each point in the training data\n    for i from 0 to length(tData) - 1:\n        // 3. Get the current training point and its label\n        currentPoint = tData[i]\n        currentLabel = tLabels[i]\n        // 4. Calculate the Euclidean distance between the new point and the current training point\n        d = distance(newPoint, currentPoint)\n        // 5. Add the distance and its corresponding label to the list\n        distancesAndLabels.append([d, currentLabel])\n    // 6. Sort the list of pairs in ascending order based on distance\n    sortedDistances = sort(distancesAndLabels)\n    // 7. Create a new list to hold the labels of the k nearest neighbours\n    kNearestLabels = []\n    // 8. Loop k times to get the labels of the k closest points\n    for i from 0 to k - 1:\n        // 9. Get the label from the sorted list and add it to the kNearestLabels array\n        kNearestLabels.append(sortedDistances[i][1])\n    // 10. Determine the most frequent label among the k nearest neighbours\n    predictedLabel = mode(kNearestLabels)\n    // 11. Return the predicted label\n    return predictedLabel</code></pre></div>"
+}
     }]
 }, {
+    "id": "question-29",
     "title": "New Question 29, Gantt Charts",
     "parts": [{
         "title": "Question 29",
@@ -1352,9 +1459,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Gantt charts are powerful visual tools that help project managers ensure project deadlines are met by providing a clear, holistic view of a project's timeline and progress. They essentially function as a roadmap, allowing managers to see not only what tasks need to be done, but also when, in what order, and by whom.</p><br><p><strong>Visualizing the Timeline</strong><br>Gantt charts break down a large project into smaller, manageable tasks. Each task is represented by a horizontal bar on a timeline, with the bar's length corresponding to the task's duration. This visual representation makes it easy to see if a project is on track. You can quickly spot potential delays by looking at how the current date line aligns with the progress bars. This clarity helps in setting realistic deadlines from the very beginning.</p><br><p><strong>Identifying Dependencies</strong><br>One of the most important features of a Gantt chart is its ability to show task dependencies. These are the relationships between tasks where one task cannot begin until another is completed. For example, in a software project, you can't start coding a module until the design for that module is finalized. A Gantt chart uses lines or arrows to connect these dependent tasks, allowing a project manager to see how a delay in one area will affect all subsequent tasks. This helps prevent bottlenecks and allows for proactive adjustments.</p><br><p><strong>Progress Tracking and Resource Management</strong><br>As work progresses, a Gantt chart is updated to reflect the percentage of each task that has been completed. This provides a real-time snapshot of the project's health. By comparing planned progress with actual progress, a manager can identify tasks that are falling behind schedule. This information is crucial for making informed decisions, such as reallocating resources or adjusting the timeline. It also provides transparency for team members and stakeholders, as everyone can see who is responsible for each task and where the project stands.</p></div>"
+}
     }]
 }, {
+    "id": "question-30",
     "title": "New Question 30, FindItem Pseudocode",
     "stimulusContentItemCollection": {
         "items": [{
@@ -1383,9 +1498,17 @@
             "parameters": {
                 "type": "PSEUDOCODE"
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><pre><code>BEGIN FindItem(itemToFind):\n\n    // Step 1: Check if the item exists in the list by calling the ItemExists module.\n    // The black circle on the structure chart indicates a pass-by-value of the 'Found' boolean result.\n    Found = ItemExists(itemToFind)\n    initialise Location TO -1\n\n    // Step 2: Use a selection structure to determine the next action.\n    IF Found IS TRUE:\n        // Step 3: If the item exists, call the CheckLocation module to find its index.\n        // The structure chart shows ItemID is passed to CheckLocation, and Location is returned.\n        Location = CheckLocation(itemToFind)        \n     ENDIF\n\n     // Step 4: Return the location found.\n     RETURN Location\n\nEND FUNCTION</code></pre></div>"
+}
     }]
 }, {
+    "id": "question-31",
     "title": "New Question 31, Backup and Version Control",
     "parts": [{
         "title": "Question 31",
@@ -1405,9 +1528,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>When you're producing and implementing code, programmed data backup and version control are two essential practices that protect your work and support a collaborative environment. While they have different primary roles, they both contribute to the overall resilience and integrity of your projects.</p><br><p><strong>Programmed Data Backup</strong><br>Programmed data backup is the automated process of creating and storing copies of your files and data. It's a fundamental safety net against data loss.</p><ul><li><strong>Role:</strong> The main role is to safeguard your code and project data from unforeseen disasters. This includes hardware failure, accidental deletion, cyber-attacks, or natural disasters. By automating the process, you ensure that backups are performed regularly without manual intervention, reducing the risk of human error.</li><li><strong>Importance:</strong> Its importance lies in disaster recovery. If something catastrophic happens, a recent backup allows you to restore your codebase and get back to work quickly, minimising downtime and potential financial loss. It's the last line of defence for your project's integrity.</li></ul><br><p><strong>Version Control</strong><br>Version control, managed by a system like Git, is a method of tracking and managing changes to code. It's designed for collaboration and maintaining a complete history of a project.</p><ul><li><strong>Role:</strong> The main role is to track every change made to the code over time. This creates a detailed history, showing who made what changes, when, and why. It also facilitates collaboration by allowing multiple developers to work on the same project simultaneously without overwriting each other's work. It enables merging changes and resolving conflicts.</li><li><strong>Importance:</strong> Its importance is in change management and collaboration. It allows developers to revert to a previous version of the code if a new change introduces a bug, providing a safety net for development. It also makes teamwork efficient and organised. Each developer can work on their own branch of the code and then merge it back into the main project.</li></ul><br><p><strong>Summary</strong><br>In short, programmed data backup is about protecting your entire project from catastrophic loss, while version control is about managing the evolution of your codebase and enabling team collaboration. You need both for a robust software development workflow. A good backup system can save you from a hard drive failure, but only version control can tell you which line of code broke the build last Tuesday.</p></div>"
+}
     }]
 }, {
+    "id": "question-32",
     "title": "New Question 32, Wagile vs Agile",
     "parts": [{
         "title": "Question 32",
@@ -1427,6 +1558,13 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "sampleAnswerContentItem": {
+    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+    "updatedDate": "2025-07-10T04:17:35.978Z",
+    "files": null,
+    "type": "RICH_TEXT",
+    "text": "<div><p>Agile and Wagile are two distinct approaches to software development. Agile is an iterative, flexible methodology, while Wagile is a hybrid model that combines elements of both the rigid Waterfall and flexible Agile approaches.</p><br><p><strong>Key Characteristics</strong></p><p><strong>Agile</strong> is a mindset and a set of principles defined by the Agile Manifesto. It focuses on:</p><ul><li><strong>Iterative Development:</strong> The project is broken down into small, time-boxed cycles called sprints (typically 1-4 weeks).</li><li><strong>Flexibility:</strong> It welcomes changing requirements, even late in development.</li><li><strong>Collaboration:</strong> There is constant communication and collaboration between the development team and the customer.</li><li><strong>Working Software:</strong> The primary measure of progress is working software, not documentation.</li></ul><p><strong>Wagile</strong> (or hybrid) is often an unintentional state that arises when a team tries to implement Agile principles within an organisation that is still fundamentally structured around a Waterfall model. It typically involves:</p><ul><li><strong>Waterfall-like Planning:</strong> A significant amount of upfront planning and detailed requirements gathering occur before development begins.</li><li><strong>Agile-like Execution:</strong> Once the planning is done, the development team uses Agile methods, like sprints, to build the product.</li><li><strong>Documentation-Heavy:</strong> It often maintains the extensive documentation common in Waterfall.</li><li><strong>Limited Flexibility:</strong> Changes after the initial planning phase can be difficult and costly to implement, much like in Waterfall.</li></ul><br><p><strong>Advantages and Disadvantages</strong></p><p><strong>Agile</strong></p><ul><li><strong>Advantage:</strong> Adaptability. The ability to respond to changing requirements and customer feedback throughout the project is a major strength. This leads to a final product that is more aligned with market needs and customer desires.</li><li><strong>Disadvantage:</strong> Lack of predictability. With constantly evolving requirements, it can be difficult to accurately estimate a final timeline or budget at the start of a project, which can be challenging for stakeholders who need a clear plan.</li></ul><p><strong>Wagile</strong></p><ul><li><strong>Advantage:</strong> Structured flexibility. Wagile provides a middle ground. It offers the predictability of upfront planning from the Waterfall model while allowing for iterative development and some flexibility during the execution phase. This can be useful for companies that are transitioning from a traditional model to a more Agile one.</li><li><strong>Disadvantage:</strong> Potential for confusion and conflict. The combination of two fundamentally different philosophies can lead to friction. Teams may struggle with the clash between rigid upfront planning and the desire for continuous change, leading to a dysfunctional process where neither approach is fully embraced.</li></ul><br><p><strong>Project Scenario for Pure Agile</strong><br>A pure Agile approach would be far more suitable than Wagile for a project involving a startup developing an innovative mobile application for a new market.</p><p>In this scenario, the market is highly unpredictable, and the end-goal is not fully defined at the start. The startup needs to \"fail fast\" and pivot based on early user feedback and market trends.</p><p>With Wagile, the extensive upfront planning would be a waste of time and resources, as the initial requirements are likely to change dramatically. The rigid plan would hinder the ability to respond to new information. In contrast, an Agile approach would allow the startup to build a Minimum Viable Product (MVP), get it into users' hands quickly, gather feedback, and iterate in short cycles, ensuring that the final product is what the market actually wants. The project's success is tied directly to its ability to embrace and respond to change, which is the core principle of Agile.</p></div>"
+}
     }]
 }]
