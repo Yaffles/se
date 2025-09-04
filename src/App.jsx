@@ -11,7 +11,9 @@ const examFiles = {
   girraween: "data/girraween.json",
   hsc_familiarisation: "data/hsc_familiarisation.json",
   hsc_sample_exam: "data/hsc_sample_exam.json",
-  independent: "data/independent.json"
+  independent: "data/independent.json",
+  doe_sample_exam: "data/doe_sample.json",
+  normanhurst: "data/normanhurst.json",
 };
 
 export default function App() {
@@ -103,17 +105,18 @@ function ExamList() {
       desc:
         "Practice familiarisation questions for the CSSA Software Engineering exam.",
     },
-    { id: "nsb", title: "NSB Exam", desc: "NSB Software Engineering exam." },
     {
       id: "cssa_trial",
       title: "CSSA Trial Exam",
       desc: "CSSA Trial Software Engineering exam.",
     },
-    {
-      id: "girraween",
-      title: "Girraween Exam",
-      desc: "Girraween High School Software Engineering exam.",
+
+{
+      id: "independent",
+      title: "Independent Trial Exam",
+      desc: "Independent Trial Exam for Software Engineering."
     },
+
     {
       id: "hsc_familiarisation",
       title: "HSC Familiarisation Questions",
@@ -124,10 +127,22 @@ function ExamList() {
       title: "HSC Sample Exam",
       desc: "HSC Software Engineering sample exam questions.",
     },
+
     {
-      id: "independent",
-      title: "Independent Trial Exam",
-      desc: "Independent Trial Exam for Software Engineering."
+      id: "doe_sample_exam",
+      title: "Department of Education Sample Exam",
+      desc: "Department of Education (DoE) Sample Exam for some state schools."
+    },
+    {
+      id: "girraween",
+      title: "Girraween Exam",
+      desc: "Girraween High School Software Engineering exam. Partially adapted from independent exam.",
+    },
+    { id: "nsb", title: "NSB Exam", desc: "North Sydney Boys High School Software Engineering exam." },
+    {
+      id: "normanhurst",
+      title: "Normanhurst Trial Exam",
+      desc: "Normanhurst Boys High School Trial Exam for Software Engineering. Partially adapted from Department of Education and Independent exam."
     }
   ];
 
