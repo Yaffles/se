@@ -1,0 +1,3336 @@
+[{
+        "id": "afcecb99-a7a1-4e19-9b6a-25ca48870dbe",
+        "title": "SE: Selection - Project phases",
+        "isPublished": true,
+        "publishDate": "2025-08-05T04:57:50.947Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "e7af62e6-f72e-4526-8ac9-d00dd977dc93",
+            "displayIndex": 0,
+            "title": "Question 1",
+            "metadata": {
+                "id": "8a59a789-8bb6-417c-b685-2de54bd3f48f",
+                "mark": 3,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "d53c08af-efef-4c00-bb1b-d04d90b3badf",
+                "contentItemCollection": {
+                    "id": "22701cc7-0e6c-405d-bb57-14fc027a248d",
+                    "items": [{
+                        "id": "f4b4b4fc-d455-4867-82a4-9f7b998121e1",
+                        "updatedDate": "2025-08-05T04:52:49.411Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>Match each task with the correct software project phase.</p>"
+                    }],
+                    "itemIdOrder": [
+                        "f4b4b4fc-d455-4867-82a4-9f7b998121e1"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "72f819ed-4a0a-4fa0-a174-9a31bdc198e9",
+                "parameters": {
+                    "version": 0,
+                    "type": "OBJECTIVE_RESPONSE",
+                    "settings": {
+                        "allowMultipleCorrectCellsInRow": false,
+                        "allowPartialMark": false
+                    },
+                    "header": [{
+                            "id": "0587cbc2-e579-4df2-bb51-e1de936773f2",
+                            "text": ""
+                        },
+                        {
+                            "id": "88b60196-2c50-40c0-956b-9e16739d5850",
+                            "text": "<p>Identifying and defining</p>"
+                        },
+                        {
+                            "id": "70974c3f-86d8-467b-b252-ea6fde23111d",
+                            "text": "<p>Research and planning</p>"
+                        },
+                        {
+                            "id": "3dee6012-8b36-4dbe-b7f6-3805635c3a20",
+                            "text": "<p>Producing and implementing</p>"
+                        },
+                        {
+                            "id": "c79cd214-da61-4842-ba44-79ad63a18ac8",
+                            "text": "<p>Testing and evaluating</p>"
+                        }
+                    ],
+                    "rows": [{
+                            "id": "231cef8c-b152-44a1-b630-c6d048dce4cf",
+                            "cells": [{
+                                    "id": "1f5431b6-4f98-4b00-845c-42993e9fac1a",
+                                    "text": "<p>Analyse requirements</p>"
+                                },
+                                {
+                                    "id": "55c51f57-7fd9-4b32-8c10-6518eefb3d2e",
+                                    "text": null
+                                },
+                                {
+                                    "id": "888bbaf1-687e-4bb2-b0ec-1dcfefd7d437",
+                                    "text": null
+                                },
+                                {
+                                    "id": "03fadd3e-1996-4a58-b7f8-dc7fdfd0db02",
+                                    "text": null
+                                },
+                                {
+                                    "id": "6a8d8018-dec7-4108-ab07-4c626f8dbd69",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "005b184d-e2d3-467f-a27d-98ae5dcfb8ef",
+                            "cells": [{
+                                    "id": "dde20580-682e-4597-91f9-0efb4162ec11",
+                                    "text": "<p>Choose lifecycle model</p>"
+                                },
+                                {
+                                    "id": "76a1a838-8653-4d77-8f05-8bca8e157495",
+                                    "text": null
+                                },
+                                {
+                                    "id": "5b69c8ff-8f3e-44ed-a1a2-12c9c51c7ce5",
+                                    "text": null
+                                },
+                                {
+                                    "id": "12c15109-63df-47a4-9709-094372d57a6b",
+                                    "text": null
+                                },
+                                {
+                                    "id": "c6e1743a-0732-43d6-84ff-8124d12dd6a8",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ab071a0b-e661-4d59-ac74-deb4d5e6677f",
+                            "cells": [{
+                                    "id": "03308530-104c-4d72-8825-62896cef60e4",
+                                    "text": "<p>Investigate tools &amp; brainstorm</p>"
+                                },
+                                {
+                                    "id": "57f56e16-592b-4b36-b43b-571b5cf25f2d",
+                                    "text": null
+                                },
+                                {
+                                    "id": "52350a92-1489-4816-b67a-78680a3a988b",
+                                    "text": null
+                                },
+                                {
+                                    "id": "7e86699d-e19e-4bf7-9d01-8eff43c1006e",
+                                    "text": null
+                                },
+                                {
+                                    "id": "893ba9c6-3d0e-4cac-a5a1-e70a39d32437",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "78763c39-ce09-456f-b404-79a6fe913956",
+                            "cells": [{
+                                    "id": "25945b86-a181-4f7c-a886-261f326a6196",
+                                    "text": "<p>Optimise compiled code</p>"
+                                },
+                                {
+                                    "id": "a5a0ae78-54e2-45c7-93b9-dfa8db9bdf32",
+                                    "text": null
+                                },
+                                {
+                                    "id": "4c6065db-91da-44cb-a78b-fadd4b4626c0",
+                                    "text": null
+                                },
+                                {
+                                    "id": "101da1dc-331e-40a7-957e-4c753f306c22",
+                                    "text": null
+                                },
+                                {
+                                    "id": "0fc06234-fa92-408a-aef9-13e229769ffb",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a4018c09-b270-496d-9787-dfa08cfbb429",
+                            "cells": [{
+                                    "id": "ffa9130b-a851-4b91-b14d-7a46f714b642",
+                                    "text": "<p>Research social / ethical issues</p>"
+                                },
+                                {
+                                    "id": "b7f02dae-7968-4894-b7f3-0710e0d384f8",
+                                    "text": null
+                                },
+                                {
+                                    "id": "377ba9ef-b04c-4072-9092-7f8a51e50362",
+                                    "text": null
+                                },
+                                {
+                                    "id": "1f0bb5b0-5059-461a-a1cd-405d6cc40b45",
+                                    "text": null
+                                },
+                                {
+                                    "id": "e702b9be-2207-4e30-88a0-8007f145a8d2",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b256e397-d988-4590-bcbf-15adafb083b4",
+                            "cells": [{
+                                    "id": "0f8d35ce-504d-483c-8334-e5ac4a2513a3",
+                                    "text": "<p>Write source code</p>"
+                                },
+                                {
+                                    "id": "ea37d9af-5324-42d6-a8c1-ba696855ceb5",
+                                    "text": null
+                                },
+                                {
+                                    "id": "1a2e82f9-023f-4146-9ebc-69e1e0ded66e",
+                                    "text": null
+                                },
+                                {
+                                    "id": "bebd5000-a0ad-4dc7-ad56-aa7f3f5f1cfe",
+                                    "text": null
+                                },
+                                {
+                                    "id": "653e2f9b-2857-4427-993f-ac6e7db5bcc9",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "739ac7ab-fea6-4016-9167-383c15c3244c",
+                            "cells": [{
+                                    "id": "144b93c2-0c51-4558-a3c4-a778329adf63",
+                                    "text": "<p>Compare expected vs actual output</p>"
+                                },
+                                {
+                                    "id": "1b28f189-a709-407c-8c76-a985d811e631",
+                                    "text": null
+                                },
+                                {
+                                    "id": "65ec6955-f131-459a-9c84-786f54d7aaa2",
+                                    "text": null
+                                },
+                                {
+                                    "id": "e4ee9361-5f8f-4b7b-9e17-c2943fc0c56a",
+                                    "text": null
+                                },
+                                {
+                                    "id": "ec827b48-0d95-4918-8312-f39e901f9626",
+                                    "text": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c66bde6a-1984-4594-b19c-b03e0f3abba4",
+                            "cells": [{
+                                    "id": "ac6055bb-9b68-4ac3-8d9a-abc19424d3cd",
+                                    "text": "<p>Draft algorithms &amp; documentation</p>"
+                                },
+                                {
+                                    "id": "6eab0dae-d741-4011-9f09-08de08551dcd",
+                                    "text": null
+                                },
+                                {
+                                    "id": "300087f1-7601-4ef8-8fee-728305c0a83b",
+                                    "text": null
+                                },
+                                {
+                                    "id": "b31bab75-7650-40a2-8d98-77423ab38336",
+                                    "text": null
+                                },
+                                {
+                                    "id": "ef08269a-60a9-432c-b5a4-409a1b67ecb7",
+                                    "text": null
+                                }
+                            ]
+                        }
+                    ],
+                    "correctCellIds": [
+                        "55c51f57-7fd9-4b32-8c10-6518eefb3d2e",
+                        "5b69c8ff-8f3e-44ed-a1a2-12c9c51c7ce5",
+                        "52350a92-1489-4816-b67a-78680a3a988b",
+                        "101da1dc-331e-40a7-957e-4c753f306c22",
+                        "377ba9ef-b04c-4072-9092-7f8a51e50362",
+                        "bebd5000-a0ad-4dc7-ad56-aa7f3f5f1cfe",
+                        "ec827b48-0d95-4918-8312-f39e901f9626",
+                        "b31bab75-7650-40a2-8d98-77423ab38336"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "406d3404-6109-4d8e-8237-09a435da1b6c",
+                "updatedDate": "2025-08-05T04:57:42.562Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>7-8 correct</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>4-6 correct</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>1-3 correct</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "63fbf485-ec2f-46e8-8818-4e4168fc88b4",
+        "title": "SE: MC - Regression Model",
+        "isPublished": true,
+        "publishDate": "2025-08-05T03:51:13.409Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "c3962a6b-34ad-40ff-8670-9a7631c01105",
+            "displayIndex": 0,
+            "title": "Question 2",
+            "metadata": {
+                "id": "4922a6a2-64c6-4125-a1dd-1b12f7bc2c9f",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "7c41ae2a-3a51-498e-8426-ef870a11da10",
+                "contentItemCollection": {
+                    "id": "df8c5221-783f-442a-9d0a-fb03288515fd",
+                    "items": [{
+                        "id": "7ec5023d-0527-4770-b93d-3191aa43ab2c",
+                        "updatedDate": "2025-08-05T03:49:43.240Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>A real estate agency wants to build a model to predict whether a house is likely to be sold<br>within 60 days based on features such as its price, location score, number of bedrooms, and<br>age. Based on the scenario above, which regression model is most appropriate, and why?</p>"
+                    }],
+                    "itemIdOrder": [
+                        "7ec5023d-0527-4770-b93d-3191aa43ab2c"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "20ec241b-dbb6-414d-9f63-bbe4c29e8ac5",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "c6e521c7-46f2-4187-af54-a267cfc7c4bf",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>Linear regression, because it can handle multiple input features and will predict&nbsp;the number of days it takes to sell the house.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "2e601a57-5d5a-401e-8ee8-b85a9b61d905",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>Polynomial regression, because housing data often involves curved relationships&nbsp;between price and location.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "85f6cfd5-acd6-409d-b0c8-47b42d4fe2f5",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>Logistic regression, because the goal is to classify whether a house will be sold&nbsp;within a specific time frame.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "63cbfedf-0181-426a-9fee-d3f0f49f10ac",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>Polynomial regression, because the number of bedrooms and age of the house&nbsp;are discrete variables requiring non-linear models.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "85f6cfd5-acd6-409d-b0c8-47b42d4fe2f5"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "3430b57f-1c85-444f-b18f-eb68cd4739e1",
+        "title": "SE: MC - Implementation Method",
+        "isPublished": true,
+        "publishDate": "2025-08-05T03:57:48.152Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "d96f6843-a7e4-40dd-8340-84ab06412fe1",
+            "displayIndex": 0,
+            "title": "Question 3",
+            "metadata": {
+                "id": "5d5a4e82-a056-4054-b2d0-98d28053b657",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "ac89c314-b4bc-4e5c-997e-5f0878a6f1c2",
+                "contentItemCollection": {
+                    "id": "e7976496-2f34-4754-ad51-bc2da719b006",
+                    "items": [{
+                        "id": "adb021c9-a3a2-4adb-8170-bae786efa793",
+                        "updatedDate": "2025-08-05T03:57:15.347Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>A new payroll system is first switched on for only the HR department, then gradually for other departments once stability is confirmed. Which implementation strategy is this?</p>"
+                    }],
+                    "itemIdOrder": [
+                        "adb021c9-a3a2-4adb-8170-bae786efa793"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "e962f992-f6ac-4708-96d9-4d733f0f10a2",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "049582d9-098a-48e8-960d-8c25ad27c9f0",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>Direct</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "51e6e413-4438-4ecf-8a78-4e427af19af2",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>Phased</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "e61ead75-6a63-4f59-b3d0-f675f0825ed9",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>Parallel</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "96d3192b-eaf1-4727-8041-96372c5bb1c8",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>Pilot</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "51e6e413-4438-4ecf-8a78-4e427af19af2"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "4dbf3e27-5bb8-47aa-aeab-078a1609dc39",
+        "title": "SE: MC - Email Protocols",
+        "isPublished": true,
+        "publishDate": "2025-08-05T04:01:06.178Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "25084293-79e2-48cf-9337-1e2b47277924",
+            "displayIndex": 0,
+            "title": "Question 4",
+            "metadata": {
+                "id": "9a17361e-ff0e-4690-ad5f-e44a763b2410",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "43e14d36-0abb-466d-b88e-8f5a9949e72f",
+                "contentItemCollection": {
+                    "id": "27fbebcb-2319-4f72-9b94-ac6c5bf4dbca",
+                    "items": [{
+                        "id": "101b23c3-24f9-4489-8791-8638c3a83f63",
+                        "updatedDate": "2025-08-05T04:00:09.179Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>An email client downloads messages from a mail server while leaving copies on the server. Which protocol is used for this purpose?</p>"
+                    }],
+                    "itemIdOrder": [
+                        "101b23c3-24f9-4489-8791-8638c3a83f63"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "35673e5c-816f-41c4-aee4-0349306ae9fa",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "4852712b-15e7-4fa7-ba25-7f6facc29c03",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>SMTP</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "803f3b7c-4ebc-4212-bf6f-50b8cfc10b50",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>IMAP</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "7e30183a-d2ca-4824-9f97-2a249f221a1b",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>FTP</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "d46ef601-1890-4dff-8bb6-be0822ec5ae3",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>POP3</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "d46ef601-1890-4dff-8bb6-be0822ec5ae3"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "26a586ac-9a75-40fb-88f4-1d40ab3dbcab",
+        "title": "SE: MCM - Sandboxing",
+        "isPublished": true,
+        "publishDate": "2025-08-05T04:10:53.980Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "dad6006d-b583-491c-aff5-860f777d286b",
+            "displayIndex": 0,
+            "title": "Question 5",
+            "metadata": {
+                "id": "a64f1f85-fb09-468a-b80f-77d6375eefed",
+                "mark": 4,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "f764fbf6-9f18-4ad5-b989-4b47e1edbfa1",
+                "contentItemCollection": {
+                    "id": "6a148040-06e1-4a0b-84e4-2e866180b814",
+                    "items": [{
+                        "id": "be4fadee-22bd-42df-936b-b080c403dc72",
+                        "updatedDate": "2025-08-05T04:08:25.048Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>What are the benefits of using sandboxing in software development or deployment?</p>\n<p>{Multiple items may be selected).</p>"
+                    }],
+                    "itemIdOrder": [
+                        "be4fadee-22bd-42df-936b-b080c403dc72"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "17801868-b75b-4bf6-b673-6df74879afa8",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "254ac592-7663-4c0e-aee6-c8c41a02237a",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>Replaces the need for authentication by isolating users</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "db7637ef-2e61-4693-8ac0-db5d9dd07bb5",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>Isolates untrusted code</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "08e2e812-005e-45b2-a6bd-b8b743e07afb",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>Enables controlled testing</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "f78dcada-e8f7-4306-8332-22a753ca34c8",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>Reduces the need for secure coding practices in application development</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "8dce63f9-d13b-4231-870d-a84c415e47a5",
+                            "type": "TEXT",
+                            "displayIndex": 4,
+                            "distractor": null,
+                            "text": "<p>Reduces the risk of security vulnerabilities affecting other parts of the system</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "7bc10459-4003-4973-87f4-07cb84c1ccaa",
+                            "type": "TEXT",
+                            "displayIndex": 5,
+                            "distractor": null,
+                            "text": "<p>Improves execution speed by isolating software from operating system&nbsp;processes</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "880f7470-ff6e-4ed7-ac95-93eb08285f85",
+                            "type": "TEXT",
+                            "displayIndex": 6,
+                            "distractor": null,
+                            "text": "<p>Protects live data during development and training</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "db7637ef-2e61-4693-8ac0-db5d9dd07bb5",
+                        "08e2e812-005e-45b2-a6bd-b8b743e07afb",
+                        "8dce63f9-d13b-4231-870d-a84c415e47a5",
+                        "880f7470-ff6e-4ed7-ac95-93eb08285f85"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": {
+                "id": "31b80155-fd49-47d0-86a6-8fb25f278b59",
+                "updatedDate": "2025-08-05T04:10:39.294Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": ""
+            },
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "80ed7881-e7d6-4fd6-9b64-58170a1f7e0c",
+        "title": "SE: MC - Automation Social",
+        "isPublished": true,
+        "publishDate": "2025-08-05T03:49:07.479Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "3f50d3dc-4069-4229-958d-b7efc92c1b46",
+            "displayIndex": 0,
+            "title": "Question 6",
+            "metadata": {
+                "id": "b81295c9-bbec-48f2-ae62-235e1bcdcaeb",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "076099a5-d988-48ff-952d-b20b82441cec",
+                "contentItemCollection": {
+                    "id": "88943aec-69f4-48bc-b44d-98a6b5a70600",
+                    "items": [{
+                        "id": "54ce7bf4-6f81-438a-b1ce-3b380e51a7c0",
+                        "updatedDate": "2025-08-05T03:47:36.002Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>What is the most effective approach to ensuring that automation benefits society as a<br>whole?</p>"
+                    }],
+                    "itemIdOrder": [
+                        "54ce7bf4-6f81-438a-b1ce-3b380e51a7c0"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "14779095-79a6-4da1-85a4-07bc2b30248d",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "8f193777-a36d-49da-95ca-2bf1bf5447fe",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>Allow market forces to guide the adoption of automation, trusting that economic growth will naturally lead to broader societal benefits.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "3ec97610-e695-4a39-98ec-7dd57ad72833",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>Prioritise technological advancement and productivity gains, with social concerns&nbsp;addressed only after implementation.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "ed613caa-34fd-430f-a384-bd5ce9ed981f",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>Encourage collaboration between policymakers, educators, and businesses to&nbsp;promote inclusivity, skill development, and sustainability.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "9f105213-3421-42d5-a4ed-44e9edcb12be",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>Limit the use of automation to industries with low employment rates.</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "ed613caa-34fd-430f-a384-bd5ce9ed981f"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "e8fb6ee9-b64b-43b5-8118-0f077afa4171",
+        "title": "SE:MC - Type of Attack",
+        "isPublished": true,
+        "publishDate": "2025-08-05T03:22:35.518Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "defd869d-3670-47e6-a5b8-bcd5b0acec83",
+            "displayIndex": 0,
+            "title": "Question 7",
+            "metadata": {
+                "id": "d6c706ee-2412-49b8-96bf-fd7abfad577c",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "b1a214b3-d3d8-41cb-a180-73db7d430879",
+                "contentItemCollection": {
+                    "id": "4391a1bd-0e89-4caa-be04-6dd532e182cf",
+                    "items": [{
+                        "id": "88ab4759-b788-4f12-8a21-81997a97579e",
+                        "updatedDate": "2025-08-05T03:20:26.180Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>A user logs into their bank's website, which allows money transfers via a button. A hacker<br>sends the user a malicious email containing a link. When the user clicks the link, a money<br>transfer request is executed without their knowledge.</p>\n<p>What type of attack is this?</p>"
+                    }],
+                    "itemIdOrder": [
+                        "88ab4759-b788-4f12-8a21-81997a97579e"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "ce4d6e9b-b11d-4591-bd47-03ae32286980",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "0fa5983b-4705-46f6-b918-58b528941ffc",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>Cross-Site Request Forgery (CSRF)</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "dd6caeca-f9ed-41f8-9f6d-04041f782292",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>Cross-Site Scripting (XSS)</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "737fe8c4-2eea-4068-8f04-e06b8db78825",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>Denial of Service (DoS)</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "b46d2284-c99f-445b-b696-415d9a1a26b3",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>SQL Injection</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": {
+                        "shuffleOptions": true,
+                        "multipleCorrectOptions": false,
+                        "distractorRationale": false
+                    },
+                    "correctOptions": [
+                        "0fa5983b-4705-46f6-b918-58b528941ffc"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "97dff43c-ad32-4964-a023-ba7ba7924365",
+        "title": "SE: MCM - CSS",
+        "isPublished": true,
+        "publishDate": "2025-08-05T04:34:46.776Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "51a8f341-bdd7-46bc-b0e4-e3591d7775e7",
+            "displayIndex": 0,
+            "title": "Question 8",
+            "metadata": {
+                "id": "a08e3ba4-0fae-42b5-a78e-9f826b76c1e3",
+                "mark": 4,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "e3941fc1-c3d3-4e37-9a10-2e65154d3a6d",
+                "contentItemCollection": {
+                    "id": "30cf5c46-af7f-4414-ad95-2c6585698739",
+                    "items": [{
+                        "id": "c643610c-b5cb-4795-89dd-2a03178bb431",
+                        "updatedDate": "2025-08-05T04:35:34.192Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>Consider the following CSS code.</p>\n<p><br>body {<br>&nbsp; &nbsp; background-color: #00ff00;<br>&nbsp; &nbsp; color: #ff0000;<br>&nbsp; &nbsp; margin: 10px;<br>&nbsp; &nbsp; font-family: Aptos, bold;<br>} <br>h1 {<br>&nbsp; &nbsp; color: #000000;<br>&nbsp; &nbsp; text-align: left;<br>} <br>p {<br>&nbsp; &nbsp; font-size: 18px;<br>}<br><br>Which of the following is true for pages styled using the above CSS code?</p>\n<p>{Multiple items may be selected).</p>"
+                    }],
+                    "itemIdOrder": [
+                        "c643610c-b5cb-4795-89dd-2a03178bb431"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "5252166f-848d-403a-b79a-23edffee7f15",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "e58c7044-0bdf-43e9-867b-56e26c5489df",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p>Paragraph text is displayed in white</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "7c1b0a17-47cb-4d72-a987-bbca2d5d9046",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p>All heading text {h1, h2, etc.) will be black</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "0df7a6b5-6516-42bf-b8a4-98f4e349fbed",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p>The color property in the body overrides the h1 text color</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "ef506c3e-9e5d-47d6-9e6f-c7c31bc27ff1",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>Only the h1 heading text is left-aligned</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "1c44034b-90be-4053-af28-0df0bf5fb736",
+                            "type": "TEXT",
+                            "displayIndex": 4,
+                            "distractor": null,
+                            "text": "<p>The background of the page is green</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "125ccca8-a2b8-4139-a925-f1dd23dc5268",
+                            "type": "TEXT",
+                            "displayIndex": 5,
+                            "distractor": null,
+                            "text": "<p>All fonts will be bold if Aptos is not available</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "2abf49d1-dc10-4378-a641-1238f139c6ba",
+                            "type": "TEXT",
+                            "displayIndex": 6,
+                            "distractor": null,
+                            "text": "<p>Body text is hard against the left side of the screen</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "b35f5416-30aa-4abb-a272-b4165f8e317d",
+                            "type": "TEXT",
+                            "displayIndex": 7,
+                            "distractor": null,
+                            "text": "<p>Text within &lt;p&gt; tags will be red</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "d6119e5f-7eb6-4e7a-a04d-6a8d57613152",
+                            "type": "TEXT",
+                            "displayIndex": 8,
+                            "distractor": null,
+                            "text": "<p>All text will be in a font size of 18 pixels</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "ef506c3e-9e5d-47d6-9e6f-c7c31bc27ff1",
+                        "1c44034b-90be-4053-af28-0df0bf5fb736",
+                        "125ccca8-a2b8-4139-a925-f1dd23dc5268",
+                        "b35f5416-30aa-4abb-a272-b4165f8e317d"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "ad0aa1b0-d121-4686-836e-b72f18faafc3",
+        "title": "SE: MC - Q11 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-11T02:26:36.903Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "041dee95-f133-4e75-9534-38a7e33f1a21",
+            "displayIndex": 0,
+            "title": "Question 9",
+            "metadata": {
+                "id": "3a632704-c129-4e76-ae71-a7b0b3de024f",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "042c1990-9660-4adc-9501-4ca3cbd2cc29",
+                "contentItemCollection": {
+                    "id": "5ef4dc2f-b22c-4c24-b640-4907f227f02e",
+                    "items": [{
+                        "id": "2036de53-1205-44af-9ebe-730b9d966ee3",
+                        "updatedDate": "2025-08-11T02:26:16.984Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p><span><img src=\"https://assets.gradeo.com.au/asset/41d6bacf-55e4-4423-aab8-a5cf9e9dbbf1\"></span></p>\n<p><span>Which Machine Learning model is most appropriate for predicting new values based on the data given in the graph?</span></p>"
+                    }],
+                    "itemIdOrder": [
+                        "2036de53-1205-44af-9ebe-730b9d966ee3"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "ba105030-3bcd-4177-8841-dff2e3b3828c",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "cba42110-2024-48ec-a625-00f1294a659b",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p><span>Decision tree</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "74e9c49a-5d74-4a35-a2c1-264a48627f56",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p><span>Polynomial regression</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "00d6d398-cf22-4bc0-a107-5c098d8e6bfe",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p><span>Linear regression</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "40623f7c-dd99-4984-b779-8ba66a24dbae",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p><span>K Nearest Neighbour</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "74e9c49a-5d74-4a35-a2c1-264a48627f56"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "4ae677d0-2933-427d-979c-c2772c3f489b",
+        "title": "SE: MC - Q10 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-10T23:36:24.309Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": {
+            "id": "d9365c31-60d2-4a5d-b402-6fc7a83d8b76",
+            "items": [{
+                "id": "c22abaef-9d88-4cad-ba5e-87c05d796d98",
+                "updatedDate": "2025-08-10T23:34:20.132Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p><span>There are many different algorithms available for encrypting data, each with different strengths and weaknesses.</span></p>"
+            }],
+            "itemIdOrder": [
+                "c22abaef-9d88-4cad-ba5e-87c05d796d98"
+            ]
+        },
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": "DoE 2025",
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+                "id": "2e10d570-8ecd-4376-9bfa-df9580ba8ec7",
+                "displayIndex": 0,
+                "title": "Question 10 (a)",
+                "metadata": {
+                    "id": "1e39a388-8844-41b2-b500-1a74a5dbf283",
+                    "mark": 1,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "90dfe3a4-0178-4f6a-b86d-d02d39400b3c",
+                    "contentItemCollection": {
+                        "id": "5d20a482-dd4c-417b-a37e-8ec3c73c2e9a",
+                        "items": [{
+                            "id": "55965553-f771-4d7b-b0a6-2e438d597d85",
+                            "updatedDate": "2025-08-10T23:34:16.747Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p><span>In which software development step would a software engineering team need to decide on the specific algorithm they will use?</span></p>"
+                        }],
+                        "itemIdOrder": [
+                            "55965553-f771-4d7b-b0a6-2e438d597d85"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "3357c615-3e92-4ade-9889-186e07389bff",
+                    "parameters": {
+                        "version": 0,
+                        "type": "MULTI_CHOICE",
+                        "options": [{
+                                "id": "e1b16010-3fc2-47d5-b197-7e849987f71b",
+                                "type": "TEXT",
+                                "displayIndex": 0,
+                                "distractor": null,
+                                "text": "<p><span>Requirements Definition</span></p>",
+                                "equation": null,
+                                "tableRow": null,
+                                "image": null
+                            },
+                            {
+                                "id": "fe9ec49d-5a83-436a-bb9b-2a867bd163ee",
+                                "type": "TEXT",
+                                "displayIndex": 1,
+                                "distractor": null,
+                                "text": "<p><span>Design</span></p>",
+                                "equation": null,
+                                "tableRow": null,
+                                "image": null
+                            },
+                            {
+                                "id": "bde987e0-7157-44c4-a479-ef4464bbd18a",
+                                "type": "TEXT",
+                                "displayIndex": 2,
+                                "distractor": null,
+                                "text": "<p><span>Development</span></p>",
+                                "equation": null,
+                                "tableRow": null,
+                                "image": null
+                            },
+                            {
+                                "id": "8221d5de-5e79-42f0-a387-bddeb526b8e4",
+                                "type": "TEXT",
+                                "displayIndex": 3,
+                                "distractor": null,
+                                "text": "<p><span>Integration</span></p>",
+                                "equation": null,
+                                "tableRow": null,
+                                "image": null
+                            }
+                        ],
+                        "optionsSettings": null,
+                        "settings": null,
+                        "correctOptions": [
+                            "fe9ec49d-5a83-436a-bb9b-2a867bd163ee"
+                        ]
+                    },
+                    "files": null
+                },
+                "markingCriteriaContentItem": null,
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": null,
+                "sampleAnswerContentItem": null
+            },
+            {
+                "id": "2fca534b-2f65-43e2-9c15-27584ab020df",
+                "displayIndex": 1,
+                "title": "Question 10 (b)",
+                "metadata": {
+                    "id": "f3616f84-7484-4db4-8069-467c94e0294a",
+                    "mark": 3,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "20f8d64e-f463-48ae-99ad-73e0f948dfa5",
+                    "contentItemCollection": {
+                        "id": "649583b5-4a1f-4e78-82bc-b5f639f0071a",
+                        "items": [{
+                            "id": "0e3b7fa1-298a-445f-b1b5-efc821889490",
+                            "updatedDate": "2025-08-10T23:35:26.227Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">Hashing algorithms are used to create a unique representation of data. They have many uses in encryption and security.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Identify 3</span><span>&nbsp;</span><span lang=\"EN-GB\">essential features of a hashing algorithm.</span></p>"
+                        }],
+                        "itemIdOrder": [
+                            "0e3b7fa1-298a-445f-b1b5-efc821889490"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "04ecca4d-a225-44ef-9104-eac34dc6b3cd",
+                    "parameters": {
+                        "version": 0,
+                        "type": "SHORT",
+                        "extendedView": true,
+                        "settings": {
+                            "version": 0,
+                            "wordLimit": false,
+                            "wordCount": null,
+                            "exactValue": false,
+                            "richText": false,
+                            "imageUpload": false,
+                            "equationEditor": false,
+                            "calculatorInterface": false
+                        },
+                        "correctValues": null
+                    },
+                    "files": null
+                },
+                "markingCriteriaContentItem": null,
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": null,
+                "sampleAnswerContentItem": null
+            }
+        ]
+    },
+    {
+        "id": "012d919c-8e98-4cb8-a59a-b71d15db8ebb",
+        "title": "SE: MC - Q2 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-10T23:32:11.473Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": "DoE 2025",
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "0c4e1a6e-daf7-4656-a957-0d03ff1563bc",
+            "displayIndex": 0,
+            "title": "Question 11",
+            "metadata": {
+                "id": "1c95f74c-63d9-446e-b12a-99fa0366ddc2",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "b4fa0209-193b-43a6-9c22-bb21034307c3",
+                "contentItemCollection": {
+                    "id": "7128c92b-001c-4d55-b94f-fe682f04b2ac",
+                    "items": [{
+                        "id": "1e55fba6-2193-4067-af02-06bc5ba0c490",
+                        "updatedDate": "2025-08-10T23:27:33.970Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p><span>Which language is typically used for client-side programming?</span></p>"
+                    }],
+                    "itemIdOrder": [
+                        "1e55fba6-2193-4067-af02-06bc5ba0c490"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "e26bbf07-2c4e-49fe-916f-6e27cff82896",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "d6a92b2b-3019-4c1c-b5bc-3a5a351038c2",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p><span>PHP</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "b53dd3fc-4a85-42cf-aae3-736ffc48c123",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p><span>Python</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "807a1a10-3727-43b0-b733-e382e93ca642",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p><span>&nbsp;</span><span lang=\"EN-GB\">JavaScript</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "ff9f5c8e-deaa-4b74-a1d8-4c40d31d1237",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p>SQL</p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "807a1a10-3727-43b0-b733-e382e93ca642"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "b6cbb19a-9261-4abd-a58b-4bb17898711a",
+        "title": "SE: MC - Q3 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-10T23:33:37.346Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": "DoE 2025",
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "45fd60d8-893b-40f4-83b2-0abe396ffec4",
+            "displayIndex": 0,
+            "title": "Question 12",
+            "metadata": {
+                "id": "81aa2035-49b3-440b-932e-49030188853c",
+                "mark": 1,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "5af2b246-c182-48af-969f-08d66600c1ef",
+                "contentItemCollection": {
+                    "id": "ebf40c01-0560-43bc-81a6-a3e64d89703a",
+                    "items": [{
+                        "id": "0b15d258-7212-41e2-94fa-7ecdfaeb89d2",
+                        "updatedDate": "2025-08-10T23:32:31.876Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p><span>A common machine learning model for unsupervised machine learning is:</span></p>"
+                    }],
+                    "itemIdOrder": [
+                        "0b15d258-7212-41e2-94fa-7ecdfaeb89d2"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "5e8a8219-22ad-46f4-ba04-1685e94d17af",
+                "parameters": {
+                    "version": 0,
+                    "type": "MULTI_CHOICE",
+                    "options": [{
+                            "id": "d2437e4b-655b-4919-89a3-4662c777dbd7",
+                            "type": "TEXT",
+                            "displayIndex": 0,
+                            "distractor": null,
+                            "text": "<p><span>Logistic regression</span><span></span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "9abfdfaf-6259-4748-896e-bd2db7ca8238",
+                            "type": "TEXT",
+                            "displayIndex": 1,
+                            "distractor": null,
+                            "text": "<p><span>Linear regression</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "6a67a573-74af-4230-8eb4-5e7bca94729f",
+                            "type": "TEXT",
+                            "displayIndex": 2,
+                            "distractor": null,
+                            "text": "<p><span>Neural network</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        },
+                        {
+                            "id": "910cc499-026d-4289-b443-f426903d4d44",
+                            "type": "TEXT",
+                            "displayIndex": 3,
+                            "distractor": null,
+                            "text": "<p><span>K-Nearest Neighbour</span></p>",
+                            "equation": null,
+                            "tableRow": null,
+                            "image": null
+                        }
+                    ],
+                    "optionsSettings": null,
+                    "settings": null,
+                    "correctOptions": [
+                        "910cc499-026d-4289-b443-f426903d4d44"
+                    ]
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": null,
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "f033298f-aab7-4e08-b750-73a11fa20f6a",
+        "title": "SE: Class Diagram (4)",
+        "isPublished": true,
+        "publishDate": "2025-08-07T22:41:16.721Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "8c2a7c56-33fc-423e-a0bd-27921720cde3",
+            "displayIndex": 0,
+            "title": "Question 13",
+            "metadata": {
+                "id": "3027659b-6701-474d-b1f5-7d928d437fbd",
+                "mark": 5,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "80e5097c-f2db-4c4c-9331-9b825151c9e0",
+                "contentItemCollection": {
+                    "id": "19cee61e-5c65-426f-aa20-4efa53676ca5",
+                    "items": [{
+                        "id": "98534eb4-e3cc-403e-9acb-c69c81e38c51",
+                        "updatedDate": "2025-08-07T22:37:57.470Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p data-start=\"65\" data-end=\"365\">A school library lets students reserve items online and collect them from smart lockers. If an item is returned late, a late fee is recorded on the reservation. Staff can waive this fee. The system treats all people as Users with a role (Student or Staff).</p>\n<p data-start=\"65\" data-end=\"365\">Draw a class diagram using no more than four classes (use exactly these four):</p>\n<ul>\n<li data-start=\"367\" data-end=\"468\">User (represents both students and staff)</li>\n<li data-start=\"367\" data-end=\"468\">Item</li>\n<li data-start=\"367\" data-end=\"468\">Reservation</li>\n<li data-start=\"367\" data-end=\"468\">Locker</li>\n</ul>"
+                    }],
+                    "itemIdOrder": [
+                        "98534eb4-e3cc-403e-9acb-c69c81e38c51"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "eff845b4-a3ed-4761-b8d1-4b11452a09c0",
+                "parameters": {
+                    "type": "DRAWING_V2",
+                    "initialData": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "813bea47-02dd-41c9-a204-6eebd1ee8cad",
+                "updatedDate": "2025-08-07T22:41:03.738Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Develops a substantially correct class diagram with correct notation</p>",
+                        "point": "<p>5</p>"
+                    },
+                    {
+                        "criterion": "<p>Develops a mostly correct class diagrams with one significant omission or minor errors</p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p>Develops a class diagram with some logical inaccuracies or omissions in detail</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Develops a partial class diagram</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Demonstrates some understanding of a class diagram</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "e87a0034-fdb0-4c32-9822-90fdc97c76f9",
+                "updatedDate": "2025-08-07T01:03:20.651Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p><img src=\"https://assets.gradeo.com.au/asset/8fc9ab79-b25b-49e3-a705-3e366b69e668\" alt=\"\"></p>"
+            }
+        }]
+    },
+    {
+        "id": "560e14c9-648b-479b-9e69-cd7497c8403a",
+        "title": "SE: Structure (4)",
+        "isPublished": true,
+        "publishDate": "2025-08-07T00:55:05.049Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "4fd54ba6-c160-4f59-b10d-87820794d112",
+            "displayIndex": 0,
+            "title": "Question 14",
+            "metadata": {
+                "id": "dd3b11d2-4b76-4a78-8d77-8c93c5db73a9",
+                "mark": 4,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "3892b837-11c1-4c37-b235-90e43270fbac",
+                "contentItemCollection": {
+                    "id": "4db144b6-b0d7-4af8-aaa3-22249bcb90e4",
+                    "items": [{
+                        "id": "51003d91-9092-4e6b-9928-791313e14508",
+                        "updatedDate": "2025-08-07T00:55:05.110Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>Consider the following algorithm below written for a music program.</p>\n<p>BEGIN Main<br>&nbsp; &nbsp; REPEAT<br>&nbsp; &nbsp; &nbsp; &nbsp; GET choice<br>&nbsp; &nbsp; &nbsp; &nbsp; CASEWHERE choice is:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Search\": song = Search()<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Add to Playlist\": AddToPlaylist(song, playlist)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Play playlist\": PlaySongs(playlist)<br>&nbsp; &nbsp; &nbsp; &nbsp; ENDCASE<br>&nbsp; &nbsp; &nbsp;UNTIL software is closed<br>END Main</p>\n<p>Draw a structure chart that represents the music program.</p>"
+                    }],
+                    "itemIdOrder": [
+                        "51003d91-9092-4e6b-9928-791313e14508"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "4d3a0cb9-500d-41e8-ae3e-05850d6484cd",
+                "parameters": {
+                    "type": "DRAWING_V2",
+                    "initialData": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "6d62693c-4c42-441a-9c3a-2067cd86d265",
+                "updatedDate": "2025-08-07T00:54:10.135Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Provides a structure chart that correctly addresses:</p>\n<ul>\n<li>The hierarchy of modules</li>\n<li>Repetition</li>\n<li>Choice between modules</li>\n<li>Parameters passed</li>\n</ul>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p>Provides a structure chart that addresses THREE of the requirements</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Provides a structure chart that addresses TWO of the requirements</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Provides a structure chart that addresses ONE of the requirements</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "f0ec94e1-0b3a-4d06-ae3e-e39c3389ff5b",
+                "updatedDate": "2025-08-07T00:54:32.528Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p><img src=\"https://assets.gradeo.com.au/asset/967b2b35-2706-42d8-959b-847271f70531\"></p>"
+            }
+        }]
+    },
+    {
+        "id": "8f1ac2c7-1949-404e-9ca6-253fe530e303",
+        "title": "SE: DFD0 (3)",
+        "isPublished": true,
+        "publishDate": "2025-08-07T00:28:28.583Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "97f4dc12-aeda-4c64-b009-37da482d0627",
+            "displayIndex": 0,
+            "title": "Question 15",
+            "metadata": {
+                "id": "7e021e81-adb5-4059-9d2b-090037931231",
+                "mark": 3,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "e665f7d6-a9cc-4107-ae78-65a6b2b4dd56",
+                "contentItemCollection": {
+                    "id": "e4045237-eb60-465e-bfc8-b91bb77dfeec",
+                    "items": [{
+                        "id": "79692419-a243-4e4e-9e1d-18d634934e3b",
+                        "updatedDate": "2025-08-07T00:26:57.412Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>A high school canteen app lets students pre-order lunch, pay digitally, and pick up via QR code. The system integrates with a payment gateway and a menu/inventory database.</p>\n<p><br data-start=\"582\" data-end=\"585\">Draw a&nbsp;Level 0 data flow diagram for the &ldquo;Smart Canteen System&rdquo;.</p>"
+                    }],
+                    "itemIdOrder": [
+                        "79692419-a243-4e4e-9e1d-18d634934e3b"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "c64799d1-7605-4662-b5ad-7d6cd314b34a",
+                "parameters": {
+                    "type": "DRAWING_V2",
+                    "initialData": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "8876755d-dc77-4778-b56b-2bb4b9be674b",
+                "updatedDate": "2025-08-07T00:28:00.839Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Develops a substantially correct Level 0 DFD</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Develops a mostly correct Level 0 DFD with some errors</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Demonstrates some understanding of a Level 0 DFD</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": null
+        }]
+    },
+    {
+        "id": "99b50a14-8729-45a3-9eed-64a8c978a719",
+        "title": "SE: OOP Code (7)",
+        "isPublished": true,
+        "publishDate": "2025-08-07T00:15:13.507Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "5b56eca0-bf25-4e93-a899-7cc43887bcbb",
+            "displayIndex": 0,
+            "title": "Question 16",
+            "metadata": {
+                "id": "4f834f78-a30d-4713-88d8-6cf89844c53d",
+                "mark": 7,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": [
+                    "0dd4a947-034d-4bb6-846d-b00817aee3dc"
+                ]
+            },
+            "content": {
+                "id": "abf318db-ad91-49f9-8461-a7d0b7bf6a96",
+                "contentItemCollection": {
+                    "id": "1d2f64a7-916b-4697-82b7-4e9fbd6a45b9",
+                    "items": [{
+                        "id": "316605a1-1189-47fd-9665-97f1db8f60e9",
+                        "updatedDate": "2025-08-07T00:03:48.632Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>Create a class called Vehicle with a constructor that takes in the make, model and year.</p>\n<p>The class should have methods get_make(), get_model(), and get_year() that return the respective values.</p>\n<p>Create two classes, Car and Truck, that inherit from Vehicle.</p>\n<p>The Car class should have an additional method get_type() that returns &ldquo;Car&rdquo; and the Truck class should have an additional method get_type() that returns &ldquo;Truck&rdquo;.</p>\n<p>Create instances of both classes and call the methods to display the values.&nbsp;</p>"
+                    }],
+                    "itemIdOrder": [
+                        "316605a1-1189-47fd-9665-97f1db8f60e9"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "1f156214-8b44-4f3d-bcf6-7c139b15009e",
+                "parameters": {
+                    "version": 0,
+                    "type": "CODING",
+                    "settings": {
+                        "showExecutionOutput": true,
+                        "highlightSyntax": true
+                    },
+                    "language": "PYTHON",
+                    "defaultCode": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "dc2b4651-4b09-408c-a9c6-77abaf67a4d0",
+                "updatedDate": "2025-08-07T00:14:31.242Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Produces a compilable correct algorithm to meet all requirements:</p>\n<ul>\n<li>OOP Syntax</li>\n<li>Correct class/method names and attributes</li>\n<li>Constructor</li>\n<li>Methods</li>\n<li>Inheritance</li>\n<li>Polymorphism</li>\n<li>Object instantiation</li>\n<li>Display output</li>\n</ul>",
+                        "point": "<p>7</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least 6 of the listed steps.</p>",
+                        "point": "<p>6</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least 5 of the listed steps.</p>",
+                        "point": "<p>5</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least 4 of the listed steps.</p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least 3 of the listed steps.</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least 2 of the listed steps.</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least 1 of the listed steps.</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "72a186fe-d103-4000-a666-8d7cbdb2a671",
+                "updatedDate": "2025-08-07T00:14:49.472Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>class Vehicle:<br>&nbsp; &nbsp; def __init__(self, make, model, year):<br>&nbsp; &nbsp; &nbsp; &nbsp; self._make = make<br>&nbsp; &nbsp; &nbsp; &nbsp; self._model = model<br>&nbsp; &nbsp; &nbsp; &nbsp; self._year = year</p>\n<p>&nbsp; &nbsp; def get_make(self):<br>&nbsp; &nbsp; &nbsp; &nbsp; return self._make</p>\n<p>&nbsp; &nbsp; def get_model(self):<br>&nbsp; &nbsp; &nbsp; &nbsp; return self._model</p>\n<p>&nbsp; &nbsp; def get_year(self):<br>&nbsp; &nbsp; &nbsp; &nbsp; return self._year</p>\n<p><br>class Car(Vehicle):<br>&nbsp; &nbsp; def get_type(self):<br>&nbsp; &nbsp; &nbsp; &nbsp; return \"Car\"</p>\n<p><br>class Truck(Vehicle):<br>&nbsp; &nbsp; def get_type(self):<br>&nbsp; &nbsp; &nbsp; &nbsp; return \"Truck\"</p>\n<p><br># Create instances<br>my_car = Car(\"Toyota\", \"Corolla\", 2022)<br>my_truck = Truck(\"Ford\", \"Ranger\", 2021)</p>\n<p># Display values<br>for vehicle in (my_car, my_truck):<br>&nbsp; &nbsp; print(f\"Type: {vehicle.get_type()}\")<br>&nbsp; &nbsp; print(f\"Make: {vehicle.get_make()}\")<br>&nbsp; &nbsp; print(f\"Model: {vehicle.get_model()}\")<br>&nbsp; &nbsp; print(f\"Year: {vehicle.get_year()}\")<br>&nbsp; &nbsp; print(\"-\" * 30)</p>"
+            }
+        }]
+    },
+    {
+        "id": "bfefc435-7448-42da-b6a5-a3b3f71a405e",
+        "title": "SE: Code (6)",
+        "isPublished": true,
+        "publishDate": "2025-08-06T23:50:47.425Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "993c6b74-9735-4376-802a-7ef5351b2751",
+            "displayIndex": 0,
+            "title": "Question 17",
+            "metadata": {
+                "id": "028fea49-ada6-4af6-bbff-70a5c60af495",
+                "mark": 6,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": [
+                    "0dd4a947-034d-4bb6-846d-b00817aee3dc"
+                ]
+            },
+            "content": {
+                "id": "463ae908-55f1-4c82-93ca-05edd48e47df",
+                "contentItemCollection": {
+                    "id": "968c7f22-70de-47a1-88df-8d5a8d3bc446",
+                    "items": [{
+                        "id": "cdeba59a-d281-4d13-80c2-bd318e1a447c",
+                        "updatedDate": "2025-08-06T23:47:13.338Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>The K-Nearest Neighbours (KNN) algorithm is used to classify a new data point by&nbsp;comparing it to existing classified/labelled data points. It calculates the Euclidean distance&nbsp;between the new data point (shown as a question mark on the chart below) and every&nbsp;other point in the training data. It then counts the labels of the k closest points. The most&nbsp;common label among these neighbours is the predicted label assigned to the new point.</p>\n<p><img src=\"https://assets.gradeo.com.au/asset/197ce307-5acb-45ed-8b93-2fdaac16f71f\" alt=\"KNN Image\"></p>\n<p>Write an algorithm for a function called <strong>knn</strong>. It is passed:</p>\n<ul>\n<li>newPoint: the x and y coordinates of the point to classify as A, B, C or D</li>\n<li>tData: an array of x and y coordinates for all labelled points</li>\n<li>tlabels: an array of strings with the label A, B, C or D for each known point</li>\n<li>k: an integer</li>\n</ul>\n<p>You may use the following pre-defined functions in your algorithm:</p>\n<ul>\n<li>distance(p1, p2): returns the Euclidian distance between two (x, y) points. <br><em>eg. distance([x1, y1], [x2,y2])</em></li>\n<li>sort(pairlist): sorts an array of [distance, label] pairs in ascending order by&nbsp;distance</li>\n<li>mode(array): returns the label that occurs most frequently in an array</li>\n</ul>\n<p>Your algorithm should return the predicted label for the new data point.</p>"
+                    }],
+                    "itemIdOrder": [
+                        "cdeba59a-d281-4d13-80c2-bd318e1a447c"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "9cfe91b6-1c24-4a54-b22b-2c8f23916fbb",
+                "parameters": {
+                    "version": 0,
+                    "type": "CODING",
+                    "settings": {
+                        "showExecutionOutput": false,
+                        "highlightSyntax": true
+                    },
+                    "language": "PYTHON",
+                    "defaultCode": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "c6392411-978b-4b17-b493-cb54e152b030",
+                "updatedDate": "2025-08-06T23:48:05.138Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Produces a substantially correct algorithm which:<br>&bull; Accepts the correct parameters and returns the label<br>&bull; Calculates distance between the test point and all training points<br>&bull; Selects the k closest points<br>&bull; Extracts labels and determines the most common label<br>&bull; Uses provided helper functions appropriately and efficiently</p>",
+                        "point": "<p>6</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least four of the listed steps with minor errors.</p>",
+                        "point": "<p>5</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least three of the listed steps but contains errors.</p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which completes at least two of the listed steps but contains errors.</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Produces an algorithm which attempts some of the listed steps, but with significant errors.</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Makes an attempt at an algorithm which relates to the question.</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "d053deec-9882-4487-8c87-5072a2e2fb4a",
+                "updatedDate": "2025-08-06T23:50:11.782Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>def knn(newPoint, tData, tlabels, k):<br>&nbsp; &nbsp; distances = []<br>&nbsp; &nbsp; FOR i = 0 TO length of tData STEP 1<br>&nbsp; &nbsp; &nbsp; &nbsp; d = distance(newPoint, tData[i])<br>&nbsp; &nbsp; &nbsp; &nbsp; append [d, tlabels[i]] to distances<br>&nbsp; &nbsp; NEXT i<br>&nbsp; &nbsp; distances= sort(distances)</p>\n<p>&nbsp; &nbsp; nearest=[]<br>&nbsp; &nbsp; FOR i = 0 TO k - 1 STEP 1<br>&nbsp; &nbsp; &nbsp; &nbsp; append distances[i][1] to nearest<br>&nbsp; &nbsp; NEXT i</p>\n<p>&nbsp; &nbsp; label = mode(nearest)<br>&nbsp; &nbsp; return label</p>\n<p><br>The above pseudocode uses Python-like syntax to specify arrays as lists. There is no direction in course&nbsp;specifications, so given Python is now specified we presume such syntax is preferred or at least will be&nbsp;equally acceptable to HSC examiners.</p>"
+            }
+        }]
+    },
+    {
+        "id": "0f1bdf53-ac56-4f9f-9649-f1cb191fcd82",
+        "title": "SE: SA - CIA (4)",
+        "isPublished": true,
+        "publishDate": "2025-08-06T23:25:22.279Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "34649ee2-5600-46e4-913b-c7da71731f8b",
+            "displayIndex": 0,
+            "title": "Question 18",
+            "metadata": {
+                "id": "45ae2d3c-6bdb-46f8-8fa8-03b934df513d",
+                "mark": 4,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "f8ef1f6c-b822-4cf3-b5a4-5c4ff028943c",
+                "contentItemCollection": {
+                    "id": "b8f19ad5-1168-49f7-af9f-2fc1ac61bf0d",
+                    "items": [{
+                        "id": "b7780243-8d6c-4321-b0c4-8007a26a0a4d",
+                        "updatedDate": "2025-08-06T23:21:27.617Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>The school&rsquo;s submission portal stores assessment files behind API endpoints such as<br data-start=\"136\" data-end=\"139\"><code data-start=\"139\" data-end=\"192\">/api/submissions/{classCode}/{studentId}/{filename}</code>.<br data-start=\"193\" data-end=\"196\">While uploading, a student notices in the browser&rsquo;s Network tab that the <code data-start=\"269\" data-end=\"280\">studentId</code> in the URL is sequential. By changing this value, they can download other students&rsquo; files (the server does not re-check ownership). The portal also lets students<strong> </strong>re-upload a file with the same name via <code data-start=\"487\" data-end=\"509\">PUT /api/submissions</code>, which silently overwrites the existing file. Finally, the portal accepts a client-supplied <code data-start=\"606\" data-end=\"619\">submittedAt</code> timestamp that is not validated server-side, allowing students to backdate uploads after the deadline.</p>\n<p>Describe how confidentiality, accountability and integrity has been compromised in this<br>scenario.</p>"
+                    }],
+                    "itemIdOrder": [
+                        "b7780243-8d6c-4321-b0c4-8007a26a0a4d"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "98d3c5cb-6427-41c6-a8ed-3d51d11f06b0",
+                "parameters": {
+                    "version": 0,
+                    "type": "SHORT",
+                    "extendedView": true,
+                    "settings": {
+                        "version": 0,
+                        "wordLimit": false,
+                        "wordCount": null,
+                        "exactValue": false,
+                        "richText": false,
+                        "imageUpload": false,
+                        "equationEditor": false,
+                        "calculatorInterface": false
+                    },
+                    "correctValues": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "d6b37d53-5bb4-4ba8-ae16-d8063307b1ed",
+                "updatedDate": "2025-08-06T23:25:14.077Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Clearly describes how confidentiality, accountability and integrity has been compromised.</p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p>Describes how confidentiality, accountability and integrity has been compromised.</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Describes how TWO of confidentiality, accountability and integrity has been compromised.</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Provides a response with some relevance to compromised confidentiality, accountability or<br>integrity.</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "9987d0db-0861-4940-948d-9cc03380dc9a",
+                "updatedDate": "2025-08-06T23:24:48.769Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<ul>\n<li data-start=\"864\" data-end=\"1042\">\n<p data-start=\"866\" data-end=\"1042\"><strong data-start=\"866\" data-end=\"895\">Confidentiality:</strong> Other students&rsquo; work is exposed through broken access control, changing&nbsp;<code data-start=\"979\" data-end=\"990\">studentId</code> grants unauthorised read access to private files.</p>\n</li>\n<li data-start=\"1043\" data-end=\"1294\">\n<p data-start=\"1045\" data-end=\"1294\"><strong data-start=\"1045\" data-end=\"1068\">Integrity:</strong> The overwrite on PUT lets a student alter or replace a prior submission (even a graded one) and the unvalidated <code data-start=\"1187\" data-end=\"1200\">submittedAt</code> allows backdating, so stored records no longer reliably reflect the true content or time.</p>\n</li>\n<li data-start=\"1295\" data-end=\"1483\">\n<p data-start=\"1297\" data-end=\"1483\"><strong data-start=\"1297\" data-end=\"1325\">Accountability:</strong> With no versioning or immutable audit trail, the system cannot prove who changed what and when; accepting client timestamps undermines non-repudiation.</p>\n</li>\n<li data-start=\"1484\" data-end=\"1768\" data-is-last-node=\"\">\n<p data-start=\"1486\" data-end=\"1768\" data-is-last-node=\"\"><strong data-start=\"1486\" data-end=\"1516\">Synthesis/impact:</strong> Together, these flaws break the CIA goals of the system, private work is leaked, records can be tampered with, and actions aren&rsquo;t traceable, requiring server-side authorisation checks, server-generated timestamps, and write-once versioning to remediate.</p>\n</li>\n</ul>"
+            }
+        }]
+    },
+    {
+        "id": "f031bfda-24f7-453a-a23d-c0bba9271538",
+        "title": "SE: Code (4)",
+        "isPublished": true,
+        "publishDate": "2025-08-08T03:41:52.432Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": "",
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "b5d022ff-6e65-4579-b0fd-e591e98301ab",
+            "displayIndex": 0,
+            "title": "Question 19",
+            "metadata": {
+                "id": "b91cd621-b673-4859-9906-442bed7c0c5f",
+                "mark": 4,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "0d2555ea-62c5-40d0-ba85-b28352a9f07a",
+                "contentItemCollection": {
+                    "id": "339acb14-1202-4c00-a9c2-98a90459ff77",
+                    "items": [{
+                        "id": "8c2cf0db-6b73-404b-b50b-63a666f68710",
+                        "updatedDate": "2025-08-08T03:38:16.111Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>In the 20 x 20 grid below, four numbers along a row have been marked in red.</p>\n<p class=\"monospace center\">08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08<br>49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00<br>81 49 31 73 55 79 14 <strong>29 93 71 40</strong> 67 53 88 30 03 49 13 36 65<br>52 70 95 23 04 60 11 42 69 24 68 56 01 32 56 71 37 02 36 91<br>22 31 16 71 51 67 63 89 41 92 36 54 22 40 40 28 66 33 13 80<br>24 47 32 60 99 03 45 02 44 75 33 53 78 36 84 20 35 17 12 50<br>32 98 81 28 64 23 67 10<span>&nbsp;</span><span class=\"red\">26</span>&nbsp;38 40 67 59 54 70 66 18 38 64 70<br>67 26 20 68 02 62 12 20 95&nbsp;<span class=\"red\">63</span>&nbsp;94 39 63 08 40 91 66 49 94 21<br>24 55 58 05 66 73 99 26 97 17&nbsp;<span class=\"red\">78</span>&nbsp;78 96 83 14 88 34 89 63 72<br>21 36 23 09 75 00 76 44 20 45 35&nbsp;<span class=\"red\">14</span>&nbsp;00 61 33 97 34 31 33 95<br>78 17 53 28 22 75 31 67 15 94 03 80 04 62 16 14 09 53 56 92<br>16 39 05 42 96 35 31 47 55 58 88 24 00 17 54 24 36 29 85 57<br>86 56 00 48 35 71 89 07 05 44 44 37 44 60 21 58 51 54 17 58<br>19 80 81 68 05 94 47 69 28 73 92 13 86 52 17 77 04 89 55 40<br>04 52 08 83 97 35 99 16 07 97 57 32 16 26 26 79 33 27 98 66<br>88 36 68 87 57 62 20 72 03 46 33 67 46 55 12 32 63 93 53 69<br>04 42 16 73 38 25 39 11 24 94 72 18 08 46 29 32 40 62 76 36<br>20 69 36 41 72 30 23 88 34 62 99 69 82 67 59 85 74 04 36 16<br>20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54<br>01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48</p>\n<p>The product of these numbers is<span> 7,759,480</span>.</p>\n<p>Write a function in Python called 'GreatestProduct' which takes in a 2D array (20 x 20) and returns the greatest product of four adjacent numbers in the same direction (up, down, left, or right).</p>"
+                    }],
+                    "itemIdOrder": [
+                        "8c2cf0db-6b73-404b-b50b-63a666f68710"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "54e54e69-1a4d-4de7-a035-566469997632",
+                "parameters": {
+                    "version": 0,
+                    "type": "CODING",
+                    "settings": {
+                        "showExecutionOutput": false,
+                        "highlightSyntax": true
+                    },
+                    "language": "PYTHON",
+                    "defaultCode": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "9e7da3ae-beaa-4f0b-89ee-03e275c79de6",
+                "updatedDate": "2025-08-08T03:41:43.712Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Writes a correct algorithm to satisfy the problem requirements</p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p>Writes a mostly correct algorithm to satisfy the problem requirements with minor errors</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Writes an algorithm to satisfy some problem requirements</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Demonatrates some understanding of an algorithm to solve a problem</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "45dc8ded-7064-4a8e-9a7b-dad1bde752f2",
+                "updatedDate": "2025-08-08T03:39:59.376Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>def GreatestProduct(grid):<br>&nbsp; &nbsp; GRID_SIZE &nbsp; = 20 &nbsp; &nbsp; &nbsp;# rows and columns<br>&nbsp; &nbsp; RUN_LENGTH &nbsp;= 4 &nbsp; &nbsp; &nbsp; # how many consecutive numbers to multiply<br>&nbsp; &nbsp; max_product = 0</p>\n<p>&nbsp; &nbsp; for row in range(GRID_SIZE):<br>&nbsp; &nbsp; &nbsp; &nbsp; for col in range(GRID_SIZE):</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # ---- horizontal product (to the right) ----<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if col &lt;= GRID_SIZE - RUN_LENGTH:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; product = 1<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for offset in range(RUN_LENGTH):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; product *= grid[row][col + offset]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; max_product = max(max_product, product)</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # ---- vertical product (downwards) ----<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if row &lt;= GRID_SIZE - RUN_LENGTH:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; product = 1<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for offset in range(RUN_LENGTH):<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; product *= grid[row + offset][col]<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; max_product = max(max_product, product)</p>\n<p>&nbsp; &nbsp; return max_product</p>"
+            }
+        }]
+    },
+    {
+        "id": "f0d377a2-71ba-4180-90ae-79a8cac35b80",
+        "title": "SE: SA - validation/sanitation (2) Q7 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-11T02:43:30.226Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "93e7ccff-e8c6-48b8-b8b6-879aba3d6106",
+            "displayIndex": 0,
+            "title": "Question 20",
+            "metadata": {
+                "id": "c39f4996-d214-473d-b5fc-c836976b6e54",
+                "mark": 2,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "d41ee6e6-90b3-4fdd-8977-27aadaba1835",
+                "contentItemCollection": {
+                    "id": "5a8e412f-6b2b-41fa-85a5-2898f5b275ee",
+                    "items": [{
+                        "id": "8b9d8040-c72a-4e49-81bb-6dd9809fcf64",
+                        "updatedDate": "2025-08-11T02:42:37.289Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p><span>Briefly describe the difference between input validation and input sanitisation as defensive data input handling practices, providing an example of each.</span></p>"
+                    }],
+                    "itemIdOrder": [
+                        "8b9d8040-c72a-4e49-81bb-6dd9809fcf64"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "5c7bb2ad-583f-47a9-9fb0-3e53bab3156f",
+                "parameters": {
+                    "version": 0,
+                    "type": "SHORT",
+                    "extendedView": true,
+                    "settings": {
+                        "version": 0,
+                        "wordLimit": false,
+                        "wordCount": null,
+                        "exactValue": false,
+                        "richText": false,
+                        "imageUpload": false,
+                        "equationEditor": false,
+                        "calculatorInterface": false
+                    },
+                    "correctValues": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "53cbdd2c-4d1e-4770-afa5-c3c0f6237ef7",
+                "updatedDate": "2025-08-11T02:42:37.356Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p><span>Describes validation and sanitation with appropriate examples.</span></p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p><span>Describes validation and sanitation with poorly chosen examples or no examples.</span></p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": {
+                "id": "ac3aee9e-a0f1-482c-b875-58c262584a10",
+                "updatedDate": "2025-08-11T02:42:37.420Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": ""
+            },
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "9bd17db2-2511-44ba-bbe5-82a4d08a3ac9",
+                "updatedDate": "2025-08-11T02:42:37.513Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\"><span>Input validation involves checking the data provided by users to ensure it meets specific criteria, eg ensuring a phone number is numeric.</span></p>\n<p class=\"MsoNormal\"><span>Input sanitation involves cleaning or altering the input data to remove or neutralise potentially harmful elements, eg SQL injection or XSS.</span></p>"
+            }
+        }]
+    },
+    {
+        "id": "e69a9128-716f-4c8d-a184-31963ad3cc25",
+        "title": "SE: SA - ML & BPA (4) Q15 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-11T02:42:15.518Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "eae785eb-1c03-4059-9e5e-885d7f92db13",
+            "displayIndex": 0,
+            "title": "Question 21",
+            "metadata": {
+                "id": "784d0c89-d05d-4fd4-80e4-7e40019e94ad",
+                "mark": 4,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "943b062c-0778-42f4-bfc5-4060496906e3",
+                "contentItemCollection": {
+                    "id": "2cac920d-763d-4bb4-9276-77ed4b5727fc",
+                    "items": [{
+                        "id": "3c939b8c-b8ee-4bf0-8ca3-668501cf63cf",
+                        "updatedDate": "2025-08-11T02:40:19.889Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">Click Shoe Warehouse is an online store for Australian-made shoes.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">They want to know which of their shoe sizes and styles sell the best in each season.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">They have prepared a spreadsheet with 10 years of monthly sales history, organised by style and size.&nbsp;</span></p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p><span lang=\"EN-GB\">Explain how Machine Learning<a><span>&nbsp;</span>and Business Process Automation&nbsp;</a></span><span lang=\"EN-GB\"></span><span lang=\"EN-GB\">can help &lsquo;Click Shoe Warehouse&rsquo; achieve its goal.</span></p>"
+                    }],
+                    "itemIdOrder": [
+                        "3c939b8c-b8ee-4bf0-8ca3-668501cf63cf"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "871f75a4-cc05-4eaa-b3c9-5a81373ada89",
+                "parameters": {
+                    "version": 0,
+                    "type": "SHORT",
+                    "extendedView": true,
+                    "settings": {
+                        "version": 0,
+                        "wordLimit": false,
+                        "wordCount": null,
+                        "exactValue": false,
+                        "richText": false,
+                        "imageUpload": false,
+                        "equationEditor": false,
+                        "calculatorInterface": false
+                    },
+                    "correctValues": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "b8199ca8-8a75-43e4-80f3-f1d256d29970",
+                "updatedDate": "2025-08-11T02:41:21.424Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p class=\"MsoNormal\"><span>Comprehensive explanation of how Machine Learning can analyse sales data to identify patterns in shoe sizes and styles for each season.</span></p>\n<p class=\"MsoNormal\"><span>Detailed understanding of how Business Process Automation can streamline data processes and improve efficiency.</span></p>\n<p class=\"MsoNormal\"><span>Clear integration of Machine Learning and Automation, demonstrating how they work together to forecast trends and automate inventory adjustments.</span></p>\n<p class=\"MsoNormal\"><span>Provides specific, relevant examples of practical implications for Click Shoe Warehouse, such as optimising stock levels and improving marketing strategies.</span></p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p class=\"MsoNormal\"><span>Good explanation of how Machine Learning identifies patterns in sales data, but may lack some detail.</span></p>\n<p class=\"MsoNormal\"><span>Describes how Business Process Automation improves efficiency, though with less depth.</span></p>\n<p class=\"MsoNormal\"><span>Some integration of Machine Learning and Automation concepts, showing partial understanding of their combined impact.</span></p>\n<p class=\"MsoNormal\"><span>Offers examples of practical implications, but they may be less specific or relevant.</span></p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p class=\"MsoNormal\"><span>Basic mention of Machine Learning with limited explanation of its role in analysing sales data.</span></p>\n<p class=\"MsoNormal\"><span>Brief or unclear description of Business Process Automation.</span></p>\n<p class=\"MsoNormal\"><span>Minimal integration of the two concepts; understanding of their combined impact is weak.</span></p>\n<p class=\"MsoNormal\"><span>Provides vague or general examples of implications for the business.</span></p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p class=\"MsoNormal\"><span>Inadequate or incorrect explanation of Machine Learning and its application.</span></p>\n<p class=\"MsoNormal\"><span>Little to no mention or inaccurate depiction of Business Process Automation.</span></p>\n<p class=\"MsoNormal\"><span>No integration of concepts; fails to demonstrate understanding of their relationship.</span></p>\n<p class=\"MsoNormal\"><span>Lacks practical examples or fails to connect implications to Click Shoe Warehouse.</span></p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "42a3109f-1357-416e-8b6a-c3a5cbc5be36",
+                "updatedDate": "2025-08-11T02:41:33.418Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\">Machine Learning (ML) and Business Process Automation (BPA) can significantly enhance the operations and overall efficiency of Click Shoe Warehouse, helping the company achieve its goals in several ways:</p>\n<p class=\"MsoNormal\">ML algorithms can analyse customer behaviour and preferences to provide personalised product recommendations. By understanding past purchases and browsing habits, Click Shoe Warehouse can enhance customer experience and increase sales.</p>\n<p class=\"MsoNormal\">ML can predict demand for various shoe styles and sizes based on trends, seasonality, and historical data. This can help Click Shoe Warehouse optimise inventory levels, reduce stockouts, and minimise excess inventory.</p>\n<p class=\"MsoNormal\">ML models can analyse market trends, competitor pricing, and customer sensitivity to price changes. This enables Click Shoe Warehouse to set optimal prices that maximise profit margins while remaining competitive.</p>\n<p class=\"MsoNormal\">By using ML algorithms, the warehouse can segment customers based on their purchasing behaviour and demographics. This segmentation allows for targeted marketing campaigns that are more likely to resonate with specific customer groups.</p>\n<p class=\"MsoNormal\">ML can help identify unusual patterns in transaction data, enabling Click Shoe Warehouse to detect and prevent fraudulent activities, thereby protecting the business and its customers.</p>\n<p class=\"MsoNormal\">Automating the order fulfilment process can streamline operations, reduce human error, and speed up delivery times. BPA can manage order confirmations, invoicing, and shipping notifications efficiently.</p>\n<p class=\"MsoNormal\">Implementing chatbots and automated response systems can enhance customer service by providing instant responses to queries regarding product availability, order status, and return policies. This improves customer satisfaction and reduces the workload on customer service representatives.</p>\n<p class=\"MsoNormal\">BPA can automate communication with suppliers, track shipments, and manage procurement processes. This leads to a more efficient supply chain, ensuring that Click Shoe Warehouse maintains optimal stock levels and reduces lead times.</p>\n<p class=\"MsoNormal\">Automation tools can manage and execute marketing campaigns across multiple channels (email, social media, etc.). This ensures that marketing efforts are timely and consistent, while also allowing for data-driven adjustments based on performance metrics.</p>\n<p class=\"MsoNormal\">BPA can streamline data collection and reporting processes, providing real-time insights into sales performance, customer behaviour, and operational efficiency. This data can inform strategic decisions and help Click Shoe Warehouse adapt to market changes quickly.</p>\n<p class=\"MsoNormal\">By integrating Machine Learning and Business Process Automation, Click Shoe Warehouse can enhance operational efficiency, improve customer satisfaction, and drive revenue growth. ML provides valuable insights and predictive capabilities, while BPA streamlines processes and reduces manual workload, allowing the company to focus on strategic initiatives and customer engagement. Together, these technologies can help Click Shoe Warehouse achieve its business goals effectively.</p>"
+            }
+        }]
+    },
+    {
+        "id": "4338c96e-941d-4037-aaea-d4f7171b7c42",
+        "title": "SE: SA - ML and AI impacts (5) Q18 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-11T02:48:09.522Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": null,
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "99b23378-54ac-4bec-8a2a-7f3ce28049e6",
+            "displayIndex": 0,
+            "title": "Question 22",
+            "metadata": {
+                "id": "3c12d4f0-1cdd-42b4-a610-931f69badad8",
+                "mark": 5,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "3478da9c-fb0e-4efd-888e-852e21c22bb9",
+                "contentItemCollection": {
+                    "id": "69004973-ac11-40ec-876d-55aae374619d",
+                    "items": [{
+                        "id": "8117674a-d267-43d2-8857-48af341bba8e",
+                        "updatedDate": "2025-08-11T02:47:01.312Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p><a><span><span lang=\"EN-US\">Assess </span></span></a><span lang=\"EN-US\"></span><span lang=\"EN-US\">positive and negative impacts of machine learning and artificial intelligence on production efficiency, waste and the environment.</span></p>"
+                    }],
+                    "itemIdOrder": [
+                        "8117674a-d267-43d2-8857-48af341bba8e"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "7e84dad7-63fc-4c56-a20f-485c294e809a",
+                "parameters": {
+                    "version": 0,
+                    "type": "SHORT",
+                    "extendedView": true,
+                    "settings": {
+                        "version": 0,
+                        "wordLimit": false,
+                        "wordCount": null,
+                        "exactValue": false,
+                        "richText": false,
+                        "imageUpload": false,
+                        "equationEditor": false,
+                        "calculatorInterface": false
+                    },
+                    "correctValues": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "86cd76ac-ffae-42bf-8102-d3878d7e3118",
+                "updatedDate": "2025-08-11T02:47:47.028Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p><span>Elaborates both several positive and several negative potential impacts, providing a reasonable (more optimistic than cautious) balance between them</span></p>",
+                        "point": "<p>5</p>"
+                    },
+                    {
+                        "criterion": "<p><span>Provides both several positive and several negative potential impacts, but does not elaborate them sufficiently</span></p>",
+                        "point": "<p>4</p>"
+                    },
+                    {
+                        "criterion": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">Elaborates only several positive impacts without discussing negative ones</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">OR</span></p>\n<p><span lang=\"EN-GB\">Elaborates only several negative impacts without discussing positive ones<span>&nbsp;&nbsp;&nbsp;</span></span></p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p><span>Outlines only 1 positive AND 1 negative potential impact without elaborating</span></p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p><span>Outlines only 1 positive OR 1 negative potential impact without elaborating</span></p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "5dbc6bb4-666d-4717-bdce-ffce351fb0c4",
+                "updatedDate": "2025-08-11T02:47:56.534Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\"><span>While AI and ML hold significant promise for enhancing the&nbsp;</span>production efficiency and reduce waste that pollutes the environment<span>, they also pose challenges that need to be addressed to ensure that benefits are maximised while minimising negative impacts on the environment and society.</span></p>\n<p class=\"MsoNormal\"><span>&nbsp;Potential positive impacts:</span></p>\n<ul type=\"disc\">\n<li class=\"MsoNormal\">Increased Production Efficiency<span>&nbsp;&ndash;&nbsp;</span>AI and ML can optimise manufacturing processes by analysing data and identifying inefficiencies. This leads to faster production times, reduced downtime, and more streamlined operations, ultimately maximising output.</li>\n<li class=\"MsoNormal\">Waste Reduction<span>&nbsp;&ndash;&nbsp;</span>AI can help in minimising waste by predicting demand more accurately, leading to better inventory management. By aligning production closely with actual demand, manufacturers can reduce overproduction and excess inventory, which contributes to waste.</li>\n<li class=\"MsoNormal\">Resource Optimisation<span>&nbsp;&ndash;&nbsp;</span>Machine learning algorithms can improve the use of materials by identifying the most efficient ways to utilise resources during production. This can lead to lower material costs and less waste, contributing positively to environmental sustainability.</li>\n<li class=\"MsoNormal\">Predictive Maintenance<span>&nbsp;&ndash;&nbsp;</span>AI can monitor equipment performance and predict failures before they occur. This proactive approach to maintenance not only extends the lifespan of machinery but also decreases the likelihood of unexpected breakdowns, reducing waste and improving efficiency.<span></span><span></span><span></span><span>Potential negative impacts:&nbsp;</span></li>\n</ul>\n<ul type=\"disc\">\n<li class=\"MsoNormal\">Energy Consumption<span>&nbsp;&ndash;&nbsp;</span>The implementation of AI systems can lead to significantly increased energy consumption, particularly if the infrastructure required to support these technologies is not energy efficient. This could counteract some environmental benefits.</li>\n<li class=\"MsoNormal\">E-waste Generation<span>&nbsp;&ndash;&nbsp;</span>The rapid advancement of AI technologies may lead to shorter product lifespans for machinery and devices, contributing to increased electronic waste (e-waste) if not managed properly.</li>\n</ul>"
+            }
+        }]
+    },
+    {
+        "id": "a3ccdeea-6e04-4ee5-bb05-b4e722bca985",
+        "title": "SE: SA - Stubs (5) Q21 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-11T02:52:47.422Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": {
+            "id": "1b24d3f7-b3f7-40ca-8f22-7d2859bb4ce7",
+            "items": [{
+                "id": "1c36c83a-67d6-4513-9e14-25f549606443",
+                "updatedDate": "2025-08-11T02:49:06.955Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p><img src=\"https://assets.gradeo.com.au/asset/ae104f70-be29-4275-be9a-934cdcdce4a2\"></p>"
+            }],
+            "itemIdOrder": [
+                "1c36c83a-67d6-4513-9e14-25f549606443"
+            ]
+        },
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+                "id": "07aed05a-d856-428c-aceb-e61f7484aceb",
+                "displayIndex": 0,
+                "title": "Question 23 (a)",
+                "metadata": {
+                    "id": "f3540962-7518-4186-aa36-d6fe18b89887",
+                    "mark": 1,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "c08d018d-e8e0-4dab-ba16-3c3e0acaf2c9",
+                    "contentItemCollection": {
+                        "id": "a2613552-d31e-4a4e-b5b3-c4b0745c20d4",
+                        "items": [{
+                            "id": "546f696b-f0b0-403c-bb83-deadd28be28f",
+                            "updatedDate": "2025-08-11T02:49:19.878Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">The algorithm flowchart shown describes a stub for a login function.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Implement this stub in python code.</span></p>"
+                        }],
+                        "itemIdOrder": [
+                            "546f696b-f0b0-403c-bb83-deadd28be28f"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "f504ad2c-cf9f-4670-ae70-e149ec1dafc8",
+                    "parameters": {
+                        "version": 0,
+                        "type": "CODING",
+                        "settings": {
+                            "showExecutionOutput": false,
+                            "highlightSyntax": true
+                        },
+                        "language": "PYTHON",
+                        "defaultCode": null
+                    },
+                    "files": null
+                },
+                "markingCriteriaContentItem": null,
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": null,
+                "sampleAnswerContentItem": null
+            },
+            {
+                "id": "6b90bd8b-b093-4fda-a8b5-0effa49fdb0b",
+                "displayIndex": 1,
+                "title": "Question 23 (b)",
+                "metadata": {
+                    "id": "beba712d-2a48-4997-bd1f-c98f11c3516c",
+                    "mark": 2,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "a87e1c06-ff19-4521-96e4-e28328897efa",
+                    "contentItemCollection": {
+                        "id": "5b418324-5144-4639-a31b-2364ac65883d",
+                        "items": [{
+                            "id": "81864d73-80f7-4089-adbb-60514ed92d02",
+                            "updatedDate": "2025-08-11T02:50:08.373Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">One simple test has been provided below.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Provide at least TWO more tests that could be used, with a comment justifying the use of each one.</span></p>\n<pre class=\"MsoNormal\"><span># Test cases</span><br><br><span>IF login(\"user1\", \"pass123\") == \"Login successful\" THEN</span><br><br><span>       PRINT \"Test case 1 passed\"</span><br><br><span>ELSE</span><br><br><a><span>       PRINT \"Test case 1 failed\"</span></a></pre>"
+                        }],
+                        "itemIdOrder": [
+                            "81864d73-80f7-4089-adbb-60514ed92d02"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "a160c5e9-fa48-47e8-b530-5015f402279c",
+                    "parameters": {
+                        "version": 0,
+                        "type": "SHORT",
+                        "extendedView": true,
+                        "settings": {
+                            "version": 0,
+                            "wordLimit": false,
+                            "wordCount": null,
+                            "exactValue": false,
+                            "richText": false,
+                            "imageUpload": false,
+                            "equationEditor": false,
+                            "calculatorInterface": false
+                        },
+                        "correctValues": null
+                    },
+                    "files": null
+                },
+                "markingCriteriaContentItem": null,
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": null,
+                "sampleAnswerContentItem": {
+                    "id": "c3486e21-1ca5-47d8-9fbe-0d8278ddc4c4",
+                    "updatedDate": "2025-08-11T02:52:40.239Z",
+                    "files": null,
+                    "type": "RICH_TEXT",
+                    "text": "<p class=\"MsoNormal\">Answers could include</p>\n<p class=\"MsoListParagraphCxSpFirst\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Two incorrect parameters</p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>One incorrect and one correct parameter</p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Empty strings</p>\n<p class=\"MsoListParagraphCxSpLast\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Wrong number of parameters</p>\n<p class=\"MsoNormal\">Eg:</p>\n<p class=\"MsoNormal\"><span>assert&nbsp;</span><span>login</span><span>(\"user1\", \"wrongpass\")&nbsp;</span><span>==&nbsp;</span><span>\"Login failed\"</span><span>,</span><span>&nbsp;\"Test case 2 failed\"</span></p>\n<p class=\"MsoNormal\"><span>assert&nbsp;</span><span>login</span><span>(\"wronguser\", \"pass123\")&nbsp;</span><span>==&nbsp;</span><span>\"Login failed\"</span><span>,</span><span>&nbsp;\"Test case 3 failed\"</span></p>\n<p class=\"MsoNormal\"><span>assert&nbsp;</span><span>login</span><span>(\"\", \"\")&nbsp;</span><span>==&nbsp;</span><span>\"Login failed\"</span><span>,</span><span>&nbsp;\"Test case 4 failed\"</span></p>"
+                }
+            },
+            {
+                "id": "9ef1c845-14f1-4951-8823-9d37317c6145",
+                "displayIndex": 2,
+                "title": "Question 23 (c)",
+                "metadata": {
+                    "id": "5c220471-4427-4b9b-ad5b-9cb81e462da7",
+                    "mark": 2,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "250ad890-b64b-431d-b9b6-4fbd705f19ac",
+                    "contentItemCollection": {
+                        "id": "322ed96c-eb38-4cdd-9858-8ccc918de4f3",
+                        "items": [{
+                            "id": "9f0416b6-61ce-49b6-a781-32521288e105",
+                            "updatedDate": "2025-08-11T02:50:39.552Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">You are tasked with writing an error message to return to users in situations where their login attempt fails. This could happen when the password is entered incorrectly or when the username is incorrect.</span></p>\n<p class=\"MsoNormal\"><a><span lang=\"EN-GB\">What should you consider when creating these messages?</span></a></p>"
+                        }],
+                        "itemIdOrder": [
+                            "9f0416b6-61ce-49b6-a781-32521288e105"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "b4ebb746-2e4b-4a9c-b5ac-ba5d13bf2500",
+                    "parameters": {
+                        "version": 0,
+                        "type": "SHORT",
+                        "extendedView": true,
+                        "settings": {
+                            "version": 0,
+                            "wordLimit": false,
+                            "wordCount": null,
+                            "exactValue": false,
+                            "richText": false,
+                            "imageUpload": false,
+                            "equationEditor": false,
+                            "calculatorInterface": false
+                        },
+                        "correctValues": null
+                    },
+                    "files": null
+                },
+                "markingCriteriaContentItem": {
+                    "id": "525fcdeb-e0eb-4c4a-9c5b-ef5f973bc852",
+                    "updatedDate": "2025-08-11T02:52:21.517Z",
+                    "files": null,
+                    "type": "MARKING_CRITERIA",
+                    "criteria": [{
+                            "criterion": "<p><span>Identifies two considerations, including one related to security.</span></p>",
+                            "point": "<p>2</p>"
+                        },
+                        {
+                            "criterion": "<p class=\"MsoNormal\">Identifies one security consideration OR</p>\n<p><span>Identifies TWO non-security considerations</span></p>",
+                            "point": "<p>1</p>"
+                        }
+                    ]
+                },
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": null,
+                "sampleAnswerContentItem": {
+                    "id": "c2b504ec-d9e6-4503-8883-85d056cb4ef7",
+                    "updatedDate": "2025-08-11T02:52:05.512Z",
+                    "files": null,
+                    "type": "RICH_TEXT",
+                    "text": "<p class=\"MsoNormal\"><span>Answers could include:</span></p>\n<p class=\"MsoListParagraphCxSpFirst\"><span><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Limit exposure of information (eg That username does not exist)</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Provide friendly and non-threatening messaging</span></p>\n<p class=\"MsoListParagraphCxSpLast\"><span><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>Ensure the message is helpful (eg a password reset link).</span></p>\n<p class=\"MsoListParagraphCxSpLast\">&nbsp;</p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "b1500577-9205-4deb-985a-29f682cbb79f",
+        "title": "SE: SA - Communications (5) Q22 DoE 2025",
+        "isPublished": true,
+        "publishDate": "2025-08-11T02:56:14.198Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": {
+            "id": "9d749428-d6f0-4148-b631-d16d509e912d",
+            "items": [{
+                "id": "eca10b42-e732-4736-adaf-b7b2e3ce282e",
+                "updatedDate": "2025-08-11T02:53:37.066Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">An Australian toy manufacturing company has recently been established, with offices around the country.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Toy manufacturing is subject to strict environmental, workplace health and safety, national and international regulatory frameworks, enforced by the agency AusToy.&nbsp;</span></p>"
+            }],
+            "itemIdOrder": [
+                "eca10b42-e732-4736-adaf-b7b2e3ce282e"
+            ]
+        },
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": "DoE 2025",
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+                "id": "78608ffa-f3cb-4abd-9288-f45fe16b4eba",
+                "displayIndex": 0,
+                "title": "Question 24 (a)",
+                "metadata": {
+                    "id": "32e1bd04-e25f-4fa8-80da-97bc14dfd293",
+                    "mark": 3,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "6c12516a-dcbe-48a8-b7c8-241ba380f7e9",
+                    "contentItemCollection": {
+                        "id": "0932058c-b19a-4059-ac68-8c13e1608463",
+                        "items": [{
+                            "id": "9b4bdaf6-787e-48d3-b3e0-6378fca5d0f1",
+                            "updatedDate": "2025-08-11T02:53:41.254Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p><span>Explain communications issues that may arise due to stakeholders being located all over the country.</span></p>"
+                        }],
+                        "itemIdOrder": [
+                            "9b4bdaf6-787e-48d3-b3e0-6378fca5d0f1"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "ead1caab-a4c7-4e8a-8f1a-af46b29171a2",
+                    "parameters": null,
+                    "files": null
+                },
+                "markingCriteriaContentItem": {
+                    "id": "3ad7432e-7ea7-4613-b1d2-24f72bd115dc",
+                    "updatedDate": "2025-08-11T02:54:32.318Z",
+                    "files": null,
+                    "type": "MARKING_CRITERIA",
+                    "criteria": [{
+                            "criterion": "<p class=\"MsoNormal\"><span>The response clearly identifies and explains multiple communication issues that may arise due to the geographical distribution of stakeholders.</span></p>\n<p class=\"MsoNormal\"><span>Explanations are directly relevant to the context of the toy manufacturing company and its regulatory environment.</span></p>\n<p class=\"MsoNormal\"><span>Demonstrates a strong understanding of the implications of the identified issues, including potential impacts on project collaboration, decision-making, or compliance.</span></p>",
+                            "point": "<p>3</p>"
+                        },
+                        {
+                            "criterion": "<p class=\"MsoNormal\"><span>The response identifies and explains some communication issues related to stakeholder distribution, but may lack some detail.</span></p>\n<p class=\"MsoNormal\"><span>Provides explanations that are generally relevant to the context, though some points may be less directly connected.</span></p>\n<p class=\"MsoNormal\"><span>Shows a moderate understanding of the implications, with some analysis of potential impacts on the company.</span></p>",
+                            "point": "<p>2</p>"
+                        },
+                        {
+                            "criterion": "<p class=\"MsoNormal\"><span>The response identifies at least one communication issue, but explanations are limited or unclear.</span></p>\n<p class=\"MsoNormal\"><span>Relevance to the context of the toy manufacturing company is weak or not clearly established.</span></p>\n<p class=\"MsoNormal\"><span>Demonstrates a basic understanding of the implications, but lacks depth in analysis or connection to broader impacts.</span></p>",
+                            "point": "<p>1</p>"
+                        }
+                    ]
+                },
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": {
+                    "id": "37cf2445-d9c5-44fa-8b6a-4a83bc1fbe9d",
+                    "updatedDate": "2025-08-11T02:55:02.621Z",
+                    "files": null,
+                    "type": "RICH_TEXT",
+                    "text": "<p>Students may respoond and be awarded marks for any of the following:</p>\n<p class=\"MsoNormal\"><span>Australia has multiple time zones, which can complicate scheduling meetings or collaborative work sessions. For instance, coordinating a meeting between stakeholders in Sydney and Perth may require careful planning to accommodate different working hours. This can lead to delays in decision-making and project timelines.</span></p>\n<p class=\"MsoNormal\"><span>Different regions may have distinct cultural norms, communication styles, and business practices. Stakeholders from various backgrounds may interpret messages differently, leading to misunderstandings or misinterpretations. This can impact teamwork and the overall effectiveness of communication.</span></p>\n<p class=\"MsoNormal\"><span>While technology facilitates communication, not all stakeholders may have equal access to high-speed internet or the latest communication tools, particularly in remote areas. This can lead to frustration and hinder effective collaboration if some team members struggle to participate fully in meetings or discussions.</span></p>\n<p class=\"MsoNormal\"><span>Physical separation can make it challenging to build relationships and rapport among stakeholders. Face-to-face interactions often foster trust and understanding, which can be harder to achieve through virtual communication. This isolation can result in a lack of engagement and team cohesion.</span></p>\n<p class=\"MsoNormal\"><span>With multiple communication channels (emails, messaging platforms, video calls), there is a risk of information overload, where stakeholders may miss important updates or context. Conversely, miscommunication can occur when information is not conveyed clearly, leading to confusion about project requirements or expectations.</span></p>\n<p class=\"MsoNormal\"><span>Given the strict regulatory frameworks the company must adhere to, communication regarding compliance issues may become complicated. Different stakeholders may have varying levels of understanding or interpretation of these regulations, which can lead to inconsistencies in implementation or reporting.</span></p>\n<p class=\"MsoNormal\"><span>Gathering feedback from stakeholders who are geographically dispersed can be challenging. Delays in feedback can slow down project progress and may result in a lack of alignment on project goals and deliverables. It is essential to establish clear channels and timelines for feedback to mitigate this issue.</span></p>"
+                },
+                "sampleAnswerContentItem": {
+                    "id": "9a082dc1-41b7-4545-adfc-7b953890cb59",
+                    "updatedDate": "2025-08-11T02:54:54.909Z",
+                    "files": null,
+                    "type": "RICH_TEXT",
+                    "text": "<p><span>The geographical distribution of stakeholders in the toy manufacturing company can lead to various communication challenges, including time zone differences, cultural variations, technology access issues, and the complexities of regulatory compliance. Addressing these issues proactively through effective communication strategies and tools is vital for fostering collaboration and ensuring project success.</span></p>"
+                }
+            },
+            {
+                "id": "b18c7f72-90c5-400b-90f5-74ea67697c86",
+                "displayIndex": 1,
+                "title": "Question 24 (b)",
+                "metadata": {
+                    "id": "0b16d330-b446-4abb-bdc2-e57fccb7fab6",
+                    "mark": 2,
+                    "syllabus": {
+                        "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                        "title": "Software Engineering",
+                        "description": "Software Engineering Stage 6 Syllabus 2022",
+                        "grade": 12,
+                        "publishedYear": null,
+                        "publishedDate": null
+                    },
+                    "band": null,
+                    "outcomeIds": [],
+                    "topicIds": [],
+                    "subtopicIds": [],
+                    "subtopicItemIds": [],
+                    "bandIds": []
+                },
+                "content": {
+                    "id": "e2c50d1c-e69a-4b6e-89b0-bc87a9e23adf",
+                    "contentItemCollection": {
+                        "id": "130c97c4-4dc4-479c-ac3b-43d300243bc2",
+                        "items": [{
+                            "id": "2bf50f25-8a51-4b1a-9a2e-bba4b1533216",
+                            "updatedDate": "2025-08-11T02:53:55.881Z",
+                            "files": null,
+                            "type": "RICH_TEXT",
+                            "text": "<p><span>Compare and contrast Hybrid (also called WAgile) and Waterfall software development methodologies in developing software to control the manufacturing of their toys.</span></p>"
+                        }],
+                        "itemIdOrder": [
+                            "2bf50f25-8a51-4b1a-9a2e-bba4b1533216"
+                        ]
+                    },
+                    "contentItemMetadata": null
+                },
+                "answer": {
+                    "id": "2dd638ad-2ae2-45a8-997b-c815f0eb7d12",
+                    "parameters": {
+                        "version": 0,
+                        "type": "SHORT",
+                        "extendedView": true,
+                        "settings": {
+                            "version": 0,
+                            "wordLimit": false,
+                            "wordCount": null,
+                            "exactValue": false,
+                            "richText": false,
+                            "imageUpload": false,
+                            "equationEditor": false,
+                            "calculatorInterface": false
+                        },
+                        "correctValues": null
+                    },
+                    "files": null
+                },
+                "markingCriteriaContentItem": {
+                    "id": "d2047ab5-f9cf-4c28-a0b6-a60b44004ddd",
+                    "updatedDate": "2025-08-11T02:56:02.569Z",
+                    "files": null,
+                    "type": "MARKING_CRITERIA",
+                    "criteria": [{
+                            "criterion": "<ul>\n<li class=\"MsoListParagraph\">The response clearly identifies and describes both WAgile and Waterfall methodologies, including key characteristics of each.</li>\n<li class=\"MsoNormal\">Effectively compares and contrasts the advantages and disadvantages of both methodologies, providing relevant insights for the context of toy manufacturing.</li>\n<li class=\"MsoNormal\">Demonstrates a strong understanding of how the methodologies apply to the specific context of toy manufacturing, offering a well-reasoned conclusion on which methodology may be more suitable based on the company's needs.</li>\n</ul>",
+                            "point": "<p>2</p>"
+                        },
+                        {
+                            "criterion": "<ul>\n<li class=\"MsoNormal\">The response identifies and describes both WAgile and Waterfall methodologies, but may lack some detail.</li>\n<li class=\"MsoNormal\">Provides a comparison of the advantages and disadvantages, though some insights may be less relevant to the context.</li>\n<li class=\"MsoNormal\">Shows a moderate understanding of the application to toy manufacturing, with a conclusion that is somewhat reasoned but not fully developed.</li>\n</ul>",
+                            "point": "<p>1</p>"
+                        }
+                    ]
+                },
+                "markingRubricContentItem": null,
+                "markingGuidanceContentItem": {
+                    "id": "14f3e82c-c5ac-4ee8-985e-88e86762e631",
+                    "updatedDate": "2025-08-11T02:55:45.680Z",
+                    "files": null,
+                    "type": "RICH_TEXT",
+                    "text": "<p><em>Students may be awarded marks for any of the following:</em></p>\n<p class=\"MsoNormal\"><strong>Waterfall methodology</strong></p>\n<p class=\"MsoNormal\"><strong>Description</strong>:&nbsp;the waterfall methodology is a linear and sequential approach to software development. It consists of distinct phases: requirements gathering, design, implementation, testing, deployment, and maintenance. Each phase must be completed before moving on to the next.</p>\n<p class=\"MsoNormal\"><strong>Advantages</strong>:</p>\n<ul>\n<li class=\"MsoNormal\"><strong>Clear structure</strong>: the waterfall model provides a clear framework and timeline, making it easy to manage and track progress.</li>\n<li class=\"MsoNormal\"><strong>Well-defined requirements</strong>: since the requirements are gathered upfront, there is less ambiguity about what needs to be developed, which can be beneficial in regulated environments like toy manufacturing.</li>\n<li class=\"MsoNormal\"><strong>Documentation</strong>: each phase produces documentation, which can be useful for compliance and reference purposes, especially regarding regulatory requirements.</li>\n</ul>\n<p class=\"MsoNormal\"><strong>Disadvantages</strong>:</p>\n<ul>\n<li class=\"MsoNormal\"><strong>Inflexibility</strong>: once a phase is completed, making changes can be difficult and costly. This can be a significant drawback in a fast-paced manufacturing environment where requirements may evolve.</li>\n<li class=\"MsoNormal\"><strong>Late testing</strong>: testing occurs after development, which can lead to the discovery of major issues late in the process, potentially affecting production timelines.</li>\n</ul>\n<p class=\"MsoNormal\"><strong>Wagile methodology</strong></p>\n<p class=\"MsoNormal\"><strong>Description</strong>:<br>wagile is a hybrid approach that combines elements of agile and waterfall methodologies. It focuses on flexibility and iterative development while still providing some structure. Wagile allows for incremental progress and regular feedback throughout the development process.</p>\n<p class=\"MsoNormal\"><strong>Advantages</strong>:</p>\n<ul>\n<li class=\"MsoNormal\"><strong>Flexibility</strong>: wagile allows for changes and adjustments to be made throughout the development process, accommodating new requirements or feedback from stakeholders.</li>\n<li class=\"MsoNormal\"><strong>Frequent iterations</strong>: the iterative nature allows for regular testing and feedback, which can lead to higher quality software that better meets the needs of the manufacturing process.</li>\n<li class=\"MsoNormal\"><strong>Collaboration</strong>: wagile promotes collaboration among stakeholders, helping to ensure that the software aligns with the evolving needs of the toy manufacturing operations and regulatory frameworks.</li>\n</ul>\n<p class=\"MsoNormal\"><strong>Disadvantages</strong>:</p>\n<ul>\n<li class=\"MsoNormal\"><strong>Less predictable</strong>: the flexibility of wagile can make it harder to predict timelines and budgets, which may pose challenges for project management.</li>\n<li class=\"MsoNormal\"><strong>Potential for scope creep</strong>: the ability to make changes throughout the process can lead to scope creep if not managed properly, potentially affecting the project's focus.</li>\n</ul>\n<p class=\"MsoNormal\"><strong>Comparison</strong></p>\n<ul>\n<li class=\"MsoNormal\"><strong>Structure vs. Flexibility</strong>: waterfall is structured and sequential, making it straightforward but inflexible. In contrast, wagile provides flexibility and adaptability, which can be beneficial in a dynamic manufacturing environment.</li>\n<li class=\"MsoNormal\"><strong>Testing timing</strong>: waterfall conducts testing after development, while wagile incorporates testing throughout the process, allowing for quicker identification of issues.</li>\n<li class=\"MsoNormal\"><strong>Stakeholder involvement</strong>: wagile encourages ongoing stakeholder interaction and feedback, whereas waterfall may limit stakeholder involvement to the initial requirements phase.</li>\n</ul>"
+                },
+                "sampleAnswerContentItem": {
+                    "id": "efd67d79-6b5d-441c-bf70-7d0a313d2a78",
+                    "updatedDate": "2025-08-11T02:55:36.079Z",
+                    "files": null,
+                    "type": "RICH_TEXT",
+                    "text": "<p><span>In developing software for controlling toy manufacturing, the choice between WAgile and Waterfall methodologies depends on the company's specific needs. If the manufacturing process requires strict adherence to regulations and well-defined requirements, Waterfall may be more suitable. However, if the company values flexibility and the ability to adapt to changing needs, WAgile could provide a better framework for success by fostering collaboration and iterative improvements.</span></p>"
+                }
+            }
+        ]
+    },
+    {
+        "id": "fe849825-ef43-4e12-9c81-718094bf1dec",
+        "title": "SE: SQL Library (3)",
+        "isPublished": true,
+        "publishDate": "2025-08-11T04:55:31.156Z",
+        "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+        "stimulusContentItemCollection": {
+            "id": "8ade42f7-884a-4b18-9b11-3a14a935765d",
+            "items": [{
+                "id": "76a901db-36d4-4223-87a5-cc1ca0ec3e89",
+                "updatedDate": "2025-08-11T04:54:59.154Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p><img src=\"https://assets.gradeo.com.au/asset/6f266ab8-01e1-4d9f-a9f1-eb541bf38285\"></p>"
+            }],
+            "itemIdOrder": [
+                "76a901db-36d4-4223-87a5-cc1ca0ec3e89"
+            ]
+        },
+        "publisher": null,
+        "dynamicFields": null,
+        "copyrightText": null,
+        "visibility": "PRIVATE",
+        "school": {
+            "id": "f0f28959-da2b-4edb-89b7-efbcc6e8016a",
+            "name": "Normanhurst Boys High School"
+        },
+        "parts": [{
+            "id": "9935f0b4-2585-4aad-91a0-fc93c206832c",
+            "displayIndex": 0,
+            "title": "Question 25",
+            "metadata": {
+                "id": "a8ef0acf-f697-4645-9459-6f88cb4917f3",
+                "mark": 3,
+                "syllabus": {
+                    "id": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+                    "title": "Software Engineering",
+                    "description": "Software Engineering Stage 6 Syllabus 2022",
+                    "grade": 12,
+                    "publishedYear": null,
+                    "publishedDate": null
+                },
+                "band": null,
+                "outcomeIds": [],
+                "topicIds": [],
+                "subtopicIds": [],
+                "subtopicItemIds": [],
+                "bandIds": []
+            },
+            "content": {
+                "id": "e1b713e3-fc73-49cf-99b0-ed4b411c5b7d",
+                "contentItemCollection": {
+                    "id": "17e62fc9-754a-42e3-bae3-b9a98cdc5a44",
+                    "items": [{
+                        "id": "36887629-c7f3-4d75-88a0-833d5ee0f42d",
+                        "updatedDate": "2025-08-11T04:36:55.636Z",
+                        "files": null,
+                        "type": "RICH_TEXT",
+                        "text": "<p>A public library stores book details. Management needs a report showing all books published after 2015, listed from the newest title to the oldest.<br><br>Write SQL to output this data, meeting the criteria above.&nbsp;</p>"
+                    }],
+                    "itemIdOrder": [
+                        "36887629-c7f3-4d75-88a0-833d5ee0f42d"
+                    ]
+                },
+                "contentItemMetadata": null
+            },
+            "answer": {
+                "id": "36839d54-baa9-4089-b895-e1907ec1667f",
+                "parameters": {
+                    "type": "SQL",
+                    "datasetSetupQuery": "CREATE TABLE Books (\n  book_id        INTEGER PRIMARY KEY,\n  title          TEXT,\n  author         TEXT,\n  published_year INTEGER\n);\n\nINSERT INTO Books VALUES\n  (1, 'Clean Code',          'Robert Martin', 2008),\n  (2, 'Educated',            'Tara Westover', 2018),\n  (3, 'Project Hail Mary',   'Andy Weir',     2021),\n  (4, 'The Pragmatic Prog.', 'Thomas Hunt',   1999);",
+                    "settings": {
+                        "showExecutionOutput": true,
+                        "highlightSyntax": true
+                    },
+                    "defaultAnswerQuery": null
+                },
+                "files": null
+            },
+            "markingCriteriaContentItem": {
+                "id": "678568b1-bae2-41ac-ad09-a9aca361bc2d",
+                "updatedDate": "2025-08-11T04:36:56.316Z",
+                "files": null,
+                "type": "MARKING_CRITERIA",
+                "criteria": [{
+                        "criterion": "<p>Writes correct SQL code, addressing the criteria</p>",
+                        "point": "<p>3</p>"
+                    },
+                    {
+                        "criterion": "<p>Writes SQL code, addressing most of criteria</p>",
+                        "point": "<p>2</p>"
+                    },
+                    {
+                        "criterion": "<p>Demonstrates some understanding of SQL</p>",
+                        "point": "<p>1</p>"
+                    }
+                ]
+            },
+            "markingRubricContentItem": null,
+            "markingGuidanceContentItem": null,
+            "sampleAnswerContentItem": {
+                "id": "b940d77a-d31e-45cb-954b-695fc369e6e7",
+                "updatedDate": "2025-08-11T04:36:56.570Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>SELECT title, author<br>FROM &nbsp; Books<br>WHERE &nbsp;published_year &gt; 2015<br>ORDER &nbsp;BY published_year DESC;</p>"
+            }
+        }]
+    }
+]
