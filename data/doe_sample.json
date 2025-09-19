@@ -113,14 +113,6 @@
     "publishDate": "2025-07-10T06:22:08.018Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "e0c96ce8-769f-478f-9714-31aa7df9019a",
         "displayIndex": 0,
@@ -227,14 +219,6 @@
     "publishDate": "2025-07-10T05:35:00.366Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "d20c5a9e-677a-49b8-829b-6034b6ac4634",
         "displayIndex": 0,
@@ -341,14 +325,6 @@
     "publishDate": "2025-07-10T05:37:40.059Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "520dc8d1-0894-429b-b94c-2ccea6be3872",
         "displayIndex": 0,
@@ -603,14 +579,6 @@
     "publishDate": "2025-07-10T04:58:43.293Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "c09e0809-12e8-4b6b-ab8f-5720859e99b2",
         "displayIndex": 0,
@@ -719,14 +687,6 @@
     "publishDate": "2025-07-10T05:40:54.194Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "08d05813-72f8-49ec-a9fb-a674d304cd8a",
         "displayIndex": 0,
@@ -802,14 +762,6 @@
     "publishDate": "2025-07-10T05:03:33.402Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "f9991ea0-39ef-4872-a757-220448811b57",
         "displayIndex": 0,
@@ -888,14 +840,6 @@
     "publishDate": "2025-07-10T05:43:49.474Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "85364e07-8560-4db6-a4be-76b02dd42240",
         "displayIndex": 0,
@@ -1271,14 +1215,6 @@
         }],
         "itemIdOrder": ["7ca14d11-e938-4367-a06a-b45ea2634800"]
     },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "3c38c41c-6ddf-4047-9703-8a1b0ffd212a",
         "displayIndex": 0,
@@ -1461,17 +1397,9 @@
             "updatedDate": "2025-07-10T05:04:07.232Z",
             "files": null,
             "type": "RICH_TEXT",
-            "text": "<p><img src=\"https://assets.gradeo.com.au/asset/41d6bacf-55e4-4423-aab8-a5cf9e9dbbf1\"></p>"
+            "text": "<p><img src=\"/img/doe/11.png\"></p>"
         }],
         "itemIdOrder": ["c4853ca2-42ea-43b9-bfa7-13e68cd57f0d"]
-    },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
     },
     "parts": [{
         "id": "ae3f5d1b-c91d-4e64-8fa2-9b59f67c22aa",
@@ -1677,14 +1605,6 @@
         }],
         "itemIdOrder": ["59c65eb3-0e33-432f-8ae8-315ad3c9149b"]
     },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "8c0ada6a-1f4d-45bd-b1fb-f62b7cd8d4ec",
         "displayIndex": 0,
@@ -1753,7 +1673,7 @@
             "updatedDate": "2025-07-10T05:50:25.569Z",
             "files": null,
             "type": "RICH_TEXT",
-            "text": "<p><img src=\"https://assets.gradeo.com.au/asset/84382ef8-17b4-4a1b-a282-6b268d81bdfd\"></p>"
+            "text": "<p><img src=\"/img/doe/a12.png\"></p>"
         }
     }]
 }, {
@@ -1772,14 +1692,6 @@
             "text": "<p class=\"MsoListParagraph\" style=\"mso-list: l0 level1 lfo1;\"><span lang=\"EN-US\" style=\"mso-ascii-font-family: Arial; mso-fareast-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial;\"><span style=\"mso-list: Ignore;\"><span style=\"font: 7.0pt 'Times New Roman';\">&nbsp; </span></span></span><!--[endif]--><span lang=\"EN-US\" style=\"mso-fareast-font-family: Aptos;\">A local music store is using a database table called albums.</span></p>\n<table class=\"MsoNormalTable\" style=\"border-collapse: collapse; mso-table-layout-alt: fixed; border: none; mso-border-alt: solid windowtext .75pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr style=\"mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 15.0pt;\">\n<td style=\"width: 75.0pt; border: solid black 1.0pt; mso-border-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"100\">\n<p class=\"MsoNormal\"><strong><span lang=\"EN-US\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-US;\">albumID</span></strong><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 100.5pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-left: none; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"134\">\n<p class=\"MsoNormal\"><strong><span lang=\"EN-US\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-US;\">albumName</span></strong><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 64.5pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-left: none; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"86\">\n<p class=\"MsoNormal\"><strong><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">format</span></strong><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 88.5pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-left: none; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"118\">\n<p class=\"MsoNormal\"><strong><span lang=\"EN-US\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-US;\">albumprice</span></strong><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n</tr>\n<tr style=\"mso-yfti-irow: 1; height: 15.0pt;\">\n<td style=\"width: 75.0pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-top: none; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"100\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">A001</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 100.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"134\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Golden Hits</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 64.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"86\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">CD</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 88.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"118\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">18.50</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n</tr>\n<tr style=\"mso-yfti-irow: 2; height: 15.0pt;\">\n<td style=\"width: 75.0pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-top: none; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"100\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">A002</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 100.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"134\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Live in Concert</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 64.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"86\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Vinyl</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 88.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"118\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">22.00</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n</tr>\n<tr style=\"mso-yfti-irow: 3; height: 15.0pt;\">\n<td style=\"width: 75.0pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-top: none; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"100\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">A003</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 100.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"134\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Acoustic Vibes</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 64.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"86\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Digital</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 88.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"118\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">15.00</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n</tr>\n<tr style=\"mso-yfti-irow: 4; height: 15.0pt;\">\n<td style=\"width: 75.0pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-top: none; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"100\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">A004</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 100.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"134\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Rock Legends</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 64.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"86\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">CD</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 88.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"118\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">20.00</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n</tr>\n<tr style=\"mso-yfti-irow: 5; mso-yfti-lastrow: yes; height: 15.0pt;\">\n<td style=\"width: 75.0pt; border: solid black 1.0pt; mso-border-themecolor: text2; border-top: none; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-alt: solid black .75pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"100\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">A005</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 100.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"134\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Chill Sessions</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 64.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"86\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">Vinyl</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n<td style=\"width: 88.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; mso-border-bottom-themecolor: text2; border-right: solid black 1.0pt; mso-border-right-themecolor: text2; mso-border-top-alt: solid black .75pt; mso-border-top-themecolor: text2; mso-border-left-alt: solid black .75pt; mso-border-left-themecolor: text2; mso-border-alt: solid black .75pt; mso-border-themecolor: text2; padding: 0cm 5.4pt 0cm 5.4pt; height: 15.0pt;\" valign=\"top\" width=\"118\">\n<p class=\"MsoNormal\"><span lang=\"EN\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN;\">25.00</span><span style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2; mso-ansi-language: EN-AU;\">&nbsp;</span><span lang=\"EN-GB\" style=\"font-family: 'Aptos',sans-serif; mso-fareast-font-family: Aptos; mso-bidi-font-family: Aptos; color: black; mso-themecolor: text2;\"></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>"
         }],
         "itemIdOrder": ["5f38f9fe-b991-407b-b537-9cad5e072d2a"]
-    },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
     },
     "parts": [{
         "id": "c80beea0-f764-49eb-bd9b-fcf9cd05b9e8",
@@ -1873,14 +1785,6 @@
             "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">Consider the following algorithm:</span></p>\n<table class=\"MsoTableGrid\" style=\"width: 495.9pt; border-collapse: collapse; border: none; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: none; mso-border-insidev: none;\" border=\"0\" width=\"661\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr style=\"mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;\">\n<td style=\"width: 21.05pt; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"28\">\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">1</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">2</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">3</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">4</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">5</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">6</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">7</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">8</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">9<br>10<br>11</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">12</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">13</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">14</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">15</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">16</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">17</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">18</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">19<br>20</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">21</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">22</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">23</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">24</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">25</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">26<br>27</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">28</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">29</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">30</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">31</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">32</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">32</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; text-align: right; line-height: normal;\" align=\"right\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">34</span></p>\n</td>\n<td style=\"width: 474.85pt; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"633\">\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">BEGIN checkLogin<u> (username, password)</u></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span style=\"color: #000000;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>IF username &lt;&gt; </span><span lang=\"EN-GB\">\"\"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"> OR password &lt;&gt; </span><span lang=\"EN-GB\">\"\"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"> THEN</span><span lang=\"EN-GB\"></span></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span style=\"color: #000000;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>PRINT </span><span lang=\"EN-GB\">\"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">Username or password empty.</span><span lang=\"EN-GB\"> \"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"></span></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>RETURN False</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>ENDIF</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>length=8</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span style=\"color: #000000;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>symbol=[</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">#</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">,</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">$</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">,</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">!</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">,</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">&circ;</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">,</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">&amp;</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">,</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">[</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">,</span><span lang=\"EN-GB\"> '</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">]</span><span lang=\"EN-GB\">'</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">]</span><span lang=\"EN-GB\"></span></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>symbol_present=False</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>j=1</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">&nbsp;</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>IF length of username &lt; length OR<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>length of password &lt; length THEN</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span style=\"color: #000000;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>PRINT </span><span lang=\"EN-GB\">\"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">Username or password is not long enough.</span><span lang=\"EN-GB\"> \"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"></span></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>RETURN False</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>ENDIF</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">&nbsp;</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>IF LEFT(username, 1) is character AND <br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>LEFT(password, 1) is character THEN</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>WHILE symbol_present = False</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>IF LEFT(username, j) = Symbol[j] THEN</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Symbol_present = True</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ELSE IF LEFT(password, j) = Symbol[j]</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Symbol_present = True</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ELSE</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Symbol_present = False</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>END IF </span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>j = j + 1</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ENDWHILE</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>ELSE</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span style=\"color: #000000;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>PRINT </span><span lang=\"EN-GB\">\"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\">No symbol present in the username or password.</span><span lang=\"EN-GB\">\"</span><span lang=\"EN-GB\" style=\"font-family: 'Courier New';\"></span></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>RETURN False</span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp; </span>ENDIF </span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-family: 'Courier New'; color: #000000;\">END <u>checkLogin</u></span></p>\n<p class=\"MsoNormal\" style=\"margin-bottom: 0cm; line-height: normal;\"><span lang=\"EN-GB\" style=\"color: #000000;\">&nbsp;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>"
         }],
         "itemIdOrder": ["7fc98d0a-e48f-43d2-aac8-7ee186dcd5b9"]
-    },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
     },
     "parts": [{
         "id": "044f3591-33cb-460a-a2ce-5cb023a3c1c6",
@@ -1978,14 +1882,6 @@
             "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">Click Shoe Warehouse is an online store for Australian-made shoes. </span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">They want to know which of their shoe sizes and styles sell the best in each season. </span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">They have prepared a spreadsheet with 10 years of monthly sales history, organised by style and size.&nbsp;</span></p>"
         }],
         "itemIdOrder": ["7ee968f0-d13d-42aa-8db3-03840ffb406a"]
-    },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
     },
     "parts": [{
         "id": "10b9af84-cfa1-4341-91d0-4409f22f20d9",
@@ -2090,14 +1986,6 @@
         }],
         "itemIdOrder": ["4630875f-3f95-4118-a030-7a54e3d40c1d"]
     },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "e7d1931a-753c-4438-bdad-ed60bf186d25",
         "displayIndex": 0,
@@ -2201,14 +2089,6 @@
         }],
         "itemIdOrder": ["ea987482-bab3-4937-9c15-ee0e3ad5dcca"]
     },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "7f57379c-5968-4212-a61d-42fbeeefb3fd",
         "displayIndex": 0,
@@ -2302,14 +2182,6 @@
     "publishDate": "2025-07-10T05:59:41.178Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "8c8be1f4-7d62-463f-a789-9a997c8d08aa",
         "displayIndex": 0,
@@ -2416,14 +2288,6 @@
         }],
         "itemIdOrder": ["06c6bbb6-b896-4afe-a2c0-13bb8971110f"]
     },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "73650152-5f62-4ab3-b097-8f96e1b70aef",
         "displayIndex": 0,
@@ -2492,7 +2356,7 @@
             "updatedDate": "2025-07-10T06:00:12.615Z",
             "files": null,
             "type": "RICH_TEXT",
-            "text": "<p><img src=\"https://assets.gradeo.com.au/asset/66dc9c2d-e419-4ddc-9d16-e68e0ce10cd7\"></p>"
+            "text": "<p><img src=\"/img/doe/a19.png\"></p>"
         }
     }, {
         "id": "310a6fe7-94fb-472d-a824-9896fff0c270",
@@ -2584,14 +2448,6 @@
     "publishDate": "2025-07-10T06:04:03.407Z",
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "65ebf6bd-a060-4a78-972a-3e966fea88d4",
         "displayIndex": 0,
@@ -2691,17 +2547,9 @@
             "updatedDate": "2025-07-10T05:23:29.674Z",
             "files": null,
             "type": "RICH_TEXT",
-            "text": "<p><img src=\"https://assets.gradeo.com.au/asset/ae104f70-be29-4275-be9a-934cdcdce4a2\"></p>"
+            "text": "<p><img src=\"/img/doe/21.png\"></p>"
         }],
         "itemIdOrder": ["87c0ee34-4752-47a8-a327-26cacc95f5bc"]
-    },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
     },
     "parts": [{
         "id": "dabff157-6398-4c6e-b736-1c3b7de1e046",
@@ -2904,14 +2752,6 @@
         }],
         "itemIdOrder": ["c18cbc1e-f5e8-40a5-8d6c-1a85974e2b89"]
     },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
-    },
     "parts": [{
         "id": "80c3cd47-6314-4373-8e4e-b9281970a3c5",
         "displayIndex": 0,
@@ -3102,14 +2942,6 @@
             "text": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">A popular social media platform has recently suffered a cross-site scripting (XSS) attack, leading to significant user data breaches and a loss of public trust.</span></p>"
         }],
         "itemIdOrder": ["b3d3207d-c6d5-4c06-92be-c87891505d94"]
-    },
-    "publisher": null,
-    "dynamicFields": null,
-    "copyrightText": null,
-    "visibility": "PRIVATE",
-    "school": {
-        "id": "f7cebeb6-f2af-4056-a620-a80f15b6c89d",
-        "name": "NSW DoE TAS Team"
     },
     "parts": [{
         "id": "05fe5231-6407-4137-88ae-e2de6ca3a2c6",
