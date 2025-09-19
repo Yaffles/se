@@ -436,7 +436,7 @@
                     "updatedDate": "2025-07-03T14:57:27.218Z",
                     "files": null,
                     "type": "RICH_TEXT",
-                    "text": "<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<p class=\"Paragraph SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\">An attacker creates the following URL and sends it to a victim:</span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:240,&quot;335559740&quot;:240}\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<table style=\"border-collapse: collapse; width: 100.078%;\" border=\"1\"><colgroup><col style=\"width: 99.789%;\"></colgroup>\n<tbody>\n<tr>\n<td><span class=\"WACImageContainer NoPadding BlobObject SCXW243972831 BCX8\" role=\"presentation\"><img class=\"WACImage SCXW243972831 BCX8\" src=\"https://assets.gradeo.com.au/asset/f1a92933-8f12-46f4-a910-077866d6f9ab\" alt=\"Picture 10, Picture\"></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW243972831 BCX8\"></span><span class=\"LineBreakBlob BlobObject DragDrop SCXW243972831 BCX8\"><span class=\"SCXW243972831 BCX8\">&nbsp;</span><br class=\"SCXW243972831 BCX8\"></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW243972831 BCX8\"></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW243972831 BCX8\"></span><span style=\"color: #0000ee;\"><span data-contrast=\"none\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun Underlined SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\" data-ccp-charstyle=\"Hyperlink\">http://example.com/search?q=&lt;script&gt;alert('You</span><span class=\"NormalTextRun SCXW243972831 BCX8\" data-ccp-charstyle=\"Hyperlink\"> have been hacked!');&lt;/script&gt;</span></span><span class=\"NormalTextRun SCXW243972831 BCX8\"> </span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\">&nbsp;</span></span></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<p class=\"Paragraph SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\">When the victim clicks on the link, the server reflects the malicious script back into the search results page, and it executes in the victim&rsquo;s browser, displaying a popup with the message \"You have been hacked!\"</span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:240,&quot;335559740&quot;:240}\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<p class=\"Paragraph SCXW243972831 BCX8\"><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\">What type of vulnerability does this </span><span class=\"NormalTextRun SCXW243972831 BCX8\">represent</span><span class=\"NormalTextRun SCXW243972831 BCX8\">?</span></span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:240,&quot;335559740&quot;:240}\">&nbsp;</span></p>\n</div>"
+                    "text": "<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<p class=\"Paragraph SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\">An attacker creates the following URL and sends it to a victim:</span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:240,&quot;335559740&quot;:240}\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<table style=\"border-collapse: collapse; width: 100.078%;\" border=\"1\"><colgroup><col style=\"width: 99.789%;\"></colgroup>\n<tbody>\n<tr>\n<td><span class=\"WACImageContainer NoPadding BlobObject SCXW243972831 BCX8\" role=\"presentation\"><img class=\"WACImage SCXW243972831 BCX8\" src=\"/img/cssa/5.png\" alt=\"Picture 10, Picture\"></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW243972831 BCX8\"></span><span class=\"LineBreakBlob BlobObject DragDrop SCXW243972831 BCX8\"><span class=\"SCXW243972831 BCX8\">&nbsp;</span><br class=\"SCXW243972831 BCX8\"></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW243972831 BCX8\"></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW243972831 BCX8\"></span><span style=\"color: #0000ee;\"><span data-contrast=\"none\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun Underlined SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\" data-ccp-charstyle=\"Hyperlink\">http://example.com/search?q=&lt;script&gt;alert('You</span><span class=\"NormalTextRun SCXW243972831 BCX8\" data-ccp-charstyle=\"Hyperlink\"> have been hacked!');&lt;/script&gt;</span></span><span class=\"NormalTextRun SCXW243972831 BCX8\"> </span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\">&nbsp;</span></span></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<p class=\"Paragraph SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\">When the victim clicks on the link, the server reflects the malicious script back into the search results page, and it executes in the victim&rsquo;s browser, displaying a popup with the message \"You have been hacked!\"</span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:240,&quot;335559740&quot;:240}\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW243972831 BCX8\">\n<p class=\"Paragraph SCXW243972831 BCX8\"><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun SCXW243972831 BCX8\"><span class=\"NormalTextRun SCXW243972831 BCX8\">What type of vulnerability does this </span><span class=\"NormalTextRun SCXW243972831 BCX8\">represent</span><span class=\"NormalTextRun SCXW243972831 BCX8\">?</span></span><span class=\"EOP SCXW243972831 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:240,&quot;335559740&quot;:240}\">&nbsp;</span></p>\n</div>"
                 }],
                 "itemIdOrder": ["cc4c290c-3e32-4b01-bd7b-9afefbd324bd"]
             },
@@ -624,7 +624,7 @@
             "updatedDate": "2025-07-06T06:40:52.456Z",
             "files": [{
                 "id": "6d134b4b-9b86-4b72-9682-78dc5f80ecdc",
-                "url": "https://assets.gradeo.com.au/asset/3bb90b35-f0a5-46d4-9554-4945ea38282e"
+                "url": "/img/cssa/7.png"
             }],
             "type": "IMAGE",
             "fileIdOrder": ["6d134b4b-9b86-4b72-9682-78dc5f80ecdc"]
@@ -2231,7 +2231,7 @@
             "updatedDate": "2025-07-06T12:38:32.494Z",
             "files": null,
             "type": "RICH_TEXT",
-            "text": "<p>&nbsp;<span class=\"WACImageContainer NoPadding DragDrop BlobObject SCXW46605182 BCX8\" role=\"presentation\"><img class=\"WACImage SCXW46605182 BCX8\" src=\"https://assets.gradeo.com.au/asset/4ff19ab5-a967-4969-bdd3-e587730a40d0\" alt=\"A diagram of a customer discount\n\nDescription automatically generated, Picture\"><span class=\"WACImageBorder SCXW46605182 BCX8\"></span></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW46605182 BCX8\"></span></p>"
+            "text": "<p>&nbsp;<span class=\"WACImageContainer NoPadding DragDrop BlobObject SCXW46605182 BCX8\" role=\"presentation\"><img class=\"WACImage SCXW46605182 BCX8\" src=\"/img/cssa/a18.png\" alt=\"A diagram of a customer discount\n\nDescription automatically generated, Picture\"><span class=\"WACImageBorder SCXW46605182 BCX8\"></span></span><span data-contrast=\"auto\" xml:lang=\"EN-AU\" lang=\"EN-AU\" class=\"TextRun EmptyTextRun SCXW46605182 BCX8\"></span></p>"
         }
     }, {
         "id": "76ba41a9-8e7c-43b4-a536-5beefcc08d02",
@@ -3079,7 +3079,7 @@
             "updatedDate": "2025-07-06T13:06:07.128Z",
             "files": [{
                 "id": "9bfbaffe-4332-4c57-bf34-729c0611aab3",
-                "url": "https://assets.gradeo.com.au/asset/563533dc-7d83-45a5-ba29-e6344e40c4f9"
+                "url": "/img/cssa/23.png"
             }],
             "type": "IMAGE",
             "fileIdOrder": ["9bfbaffe-4332-4c57-bf34-729c0611aab3"]
@@ -3308,28 +3308,37 @@
         }, {
             "id": "d6513d52-bae6-4f7d-8c8a-2001fb85cb6d",
             "updatedDate": "2025-06-18T00:09:56.100Z",
-            "files": [{
-                "id": "cc4d5e3b-25db-4eca-b4af-3da5a1f5fda7",
-                "url": "https://assets.gradeo.com.au/asset/d0696dba-30b6-430b-8998-3074c67e9295"
-            }, {
-                "id": "1fe00afc-a518-4d96-87cc-605c8df9472b",
-                "url": "https://assets.gradeo.com.au/asset/b6e7da3e-bb86-4d0c-8ca1-d74c9ae68170"
-            }, {
-                "id": "08c1aa5d-7206-4968-b86a-d558037350a4",
-                "url": "https://assets.gradeo.com.au/asset/6cef1913-3482-4785-b5a7-5c85cd9807e2"
-            }, {
-                "id": "0b4d1153-4525-40c9-bac3-f4b038f226be",
-                "url": "https://assets.gradeo.com.au/asset/78fd0650-ea7f-4f3a-9ab0-a127d236352c"
-            }, {
-                "id": "68be8645-2d4f-450a-b466-256964345a94",
-                "url": "https://assets.gradeo.com.au/asset/4430c642-eb9f-4ca6-be57-988041c8649c"
-            }, {
-                "id": "f02b5e17-afe9-4c0d-bcee-50ce16c36320",
-                "url": "https://assets.gradeo.com.au/asset/9bd56dca-8ba0-48c2-94d8-35ace47bb215"
-            }, {
-                "id": "06a110de-462c-467b-a85c-da133503ecf0",
-                "url": "https://assets.gradeo.com.au/asset/1ca2efae-de99-4039-b084-e20b337ad9e6"
-            }],
+            "files": [
+                {
+                    "id": "cc4d5e3b-25db-4eca-b4af-3da5a1f5fda7",
+                    "url": "/img/cssa/25-1.png"
+                },
+                {
+                    "id": "1fe00afc-a518-4d96-87cc-605c8df9472b",
+                    "url": "/img/cssa/25-2.png"
+                },
+                {
+                    "id": "08c1aa5d-7206-4968-b86a-d558037350a4",
+                    "url": "/img/cssa/25-3.png"
+                },
+                {
+                    "id": "0b4d1153-4525-40c9-bac3-f4b038f226be",
+                    "url": "/img/cssa/25-4.png"
+                },
+                {
+                    "id": "68be8645-2d4f-450a-b466-256964345a94",
+                    "url": "/img/cssa/25-5.png"
+                },
+                {
+                    "id": "f02b5e17-afe9-4c0d-bcee-50ce16c36320",
+                    "url": "/img/cssa/25-6.png"
+                },
+                {
+                    "id": "06a110de-462c-467b-a85c-da133503ecf0",
+                    "url": "/img/cssa/25-7.png"
+                }
+            ],
+
             "type": "IMAGE_SLIDER",
             "fileIdOrder": ["06a110de-462c-467b-a85c-da133503ecf0", "f02b5e17-afe9-4c0d-bcee-50ce16c36320", "68be8645-2d4f-450a-b466-256964345a94", "0b4d1153-4525-40c9-bac3-f4b038f226be", "08c1aa5d-7206-4968-b86a-d558037350a4", "1fe00afc-a518-4d96-87cc-605c8df9472b", "cc4d5e3b-25db-4eca-b4af-3da5a1f5fda7"]
         }],

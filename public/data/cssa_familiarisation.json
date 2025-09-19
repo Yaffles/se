@@ -5,20 +5,6 @@
     "publishDate": null,
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": {
-        "id": "b96f38b4-8304-438b-af4e-f11b8630ca21",
-        "name": "CSSA",
-        "isPremium": true,
-        "isAIGenerated": false,
-        "jurisdiction": {
-            "id": "58c4dd02-8091-4797-aeae-d4c81cea5058",
-            "name": "NSW"
-        },
-        "logoFile": {
-            "id": "8c141252-d140-495f-901f-d07405d5dbf6",
-            "url": "https://assets.gradeo.com.au/asset/3788d666-a2c1-45bc-9c5d-4d0fb391e5e6"
-        }
-    },
     "dynamicFields": null,
     "copyrightText": "",
     "visibility": null,
@@ -133,20 +119,6 @@
     "publishDate": null,
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": {
-        "id": "b96f38b4-8304-438b-af4e-f11b8630ca21",
-        "name": "CSSA",
-        "isPremium": true,
-        "isAIGenerated": false,
-        "jurisdiction": {
-            "id": "58c4dd02-8091-4797-aeae-d4c81cea5058",
-            "name": "NSW"
-        },
-        "logoFile": {
-            "id": "8c141252-d140-495f-901f-d07405d5dbf6",
-            "url": "https://assets.gradeo.com.au/asset/3788d666-a2c1-45bc-9c5d-4d0fb391e5e6"
-        }
-    },
     "dynamicFields": null,
     "copyrightText": null,
     "visibility": null,
@@ -232,20 +204,6 @@
             "text": "<p><span>An online retail company is developing a recommendation system to suggest products to users based on their browsing and purchasing history. The software engineering team is considering using machine learning techniques to improve the accuracy of the recommendations and increase customer engagement.&nbsp;</span></p>"
         }],
         "itemIdOrder": ["f5ff1514-09cd-4381-bb2a-396dafbd758a"]
-    },
-    "publisher": {
-        "id": "b96f38b4-8304-438b-af4e-f11b8630ca21",
-        "name": "CSSA",
-        "isPremium": true,
-        "isAIGenerated": false,
-        "jurisdiction": {
-            "id": "58c4dd02-8091-4797-aeae-d4c81cea5058",
-            "name": "NSW"
-        },
-        "logoFile": {
-            "id": "8c141252-d140-495f-901f-d07405d5dbf6",
-            "url": "https://assets.gradeo.com.au/asset/3788d666-a2c1-45bc-9c5d-4d0fb391e5e6"
-        }
     },
     "dynamicFields": null,
     "copyrightText": null,
@@ -623,20 +581,6 @@
         }],
         "itemIdOrder": ["69b87e13-8d88-4f06-aa19-6ed5d9050f34", "10265d12-b7d2-4eac-8c18-e7a2d6a165c5"]
     },
-    "publisher": {
-        "id": "b96f38b4-8304-438b-af4e-f11b8630ca21",
-        "name": "CSSA",
-        "isPremium": true,
-        "isAIGenerated": false,
-        "jurisdiction": {
-            "id": "58c4dd02-8091-4797-aeae-d4c81cea5058",
-            "name": "NSW"
-        },
-        "logoFile": {
-            "id": "8c141252-d140-495f-901f-d07405d5dbf6",
-            "url": "https://assets.gradeo.com.au/asset/3788d666-a2c1-45bc-9c5d-4d0fb391e5e6"
-        }
-    },
     "dynamicFields": null,
     "copyrightText": "",
     "visibility": null,
@@ -718,7 +662,7 @@
             "updatedDate": "2024-11-21T02:26:46.577Z",
             "files": null,
             "type": "RICH_TEXT",
-            "text": "<p><img src=\"https://assets.gradeo.com.au/asset/ae70f9fa-9904-43de-9f4c-a45fd5de97a2\" alt=\"\" width=\"698\" height=\"410\"></p>"
+            "text": "<p><img src=\"/img/cssa_familiarisation/a5.png\" alt=\"\" width=\"698\" height=\"410\"></p>"
         }
     }]
 }, {
@@ -728,20 +672,6 @@
     "publishDate": null,
     "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
     "stimulusContentItemCollection": null,
-    "publisher": {
-        "id": "b96f38b4-8304-438b-af4e-f11b8630ca21",
-        "name": "CSSA",
-        "isPremium": true,
-        "isAIGenerated": false,
-        "jurisdiction": {
-            "id": "58c4dd02-8091-4797-aeae-d4c81cea5058",
-            "name": "NSW"
-        },
-        "logoFile": {
-            "id": "8c141252-d140-495f-901f-d07405d5dbf6",
-            "url": "https://assets.gradeo.com.au/asset/3788d666-a2c1-45bc-9c5d-4d0fb391e5e6"
-        }
-    },
     "dynamicFields": null,
     "copyrightText": null,
     "visibility": null,
@@ -865,20 +795,6 @@
         }],
         "itemIdOrder": ["52fef028-ebd3-4750-8b26-f027bd1d7007"]
     },
-    "publisher": {
-        "id": "b96f38b4-8304-438b-af4e-f11b8630ca21",
-        "name": "CSSA",
-        "isPremium": true,
-        "isAIGenerated": false,
-        "jurisdiction": {
-            "id": "58c4dd02-8091-4797-aeae-d4c81cea5058",
-            "name": "NSW"
-        },
-        "logoFile": {
-            "id": "8c141252-d140-495f-901f-d07405d5dbf6",
-            "url": "https://assets.gradeo.com.au/asset/3788d666-a2c1-45bc-9c5d-4d0fb391e5e6"
-        }
-    },
     "dynamicFields": null,
     "copyrightText": null,
     "visibility": null,
@@ -968,34 +884,44 @@
         }, {
             "id": "f992dbf0-bc00-4eb5-9030-e9e675a90474",
             "updatedDate": "2025-06-30T02:21:58.917Z",
-            "files": [{
-                "id": "e8fb67b7-99af-4a6e-8377-48eab0db4f11",
-                "url": "https://assets.gradeo.com.au/asset/a5eb26f2-499a-4f3b-9087-dc413eae7cf1"
-            }, {
-                "id": "615eda45-d775-4758-ba5a-4c031f93a534",
-                "url": "https://assets.gradeo.com.au/asset/e1f5950b-1258-486c-83c1-ab78bcfedc55"
-            }, {
-                "id": "bef282ed-7c55-4e58-a6d7-2217f7fd079b",
-                "url": "https://assets.gradeo.com.au/asset/ce23132b-6c55-4b75-a33e-ecd3e716e9b9"
-            }, {
-                "id": "cb47eafe-d3b5-404f-90c3-caed245c6bec",
-                "url": "https://assets.gradeo.com.au/asset/7ef4b36d-cd70-4a07-94a1-325deeeb251b"
-            }, {
-                "id": "f515d241-af14-4fc1-aecd-130b3042de38",
-                "url": "https://assets.gradeo.com.au/asset/f2cc786b-6eb3-48c3-91d9-2b4d6d322a8a"
-            }, {
-                "id": "8c71e95a-3715-4f79-be98-e800a1cacc38",
-                "url": "https://assets.gradeo.com.au/asset/a0881222-3dfa-4324-b00b-4b119f1d24c9"
-            }, {
-                "id": "47be5c04-6d1d-41ce-a97b-84c77876bba4",
-                "url": "https://assets.gradeo.com.au/asset/d45d9daf-5c87-4f8f-856f-9b517c15669e"
-            }, {
-                "id": "245aef24-a0b3-420d-a7a2-4455f58922b9",
-                "url": "https://assets.gradeo.com.au/asset/48b16697-d478-4dce-9370-ee149fd39f9c"
-            }, {
-                "id": "e674cb13-5879-4f62-bff3-44aee2a6ee1c",
-                "url": "https://assets.gradeo.com.au/asset/546f1fd7-3217-490a-aeab-58c00ad4febe"
-            }],
+            "files": [
+                {
+                    "id": "e8fb67b7-99af-4a6e-8377-48eab0db4f11",
+                    "url": "/img/cssa_familiarisation/8-1.png"
+                },
+                {
+                    "id": "615eda45-d775-4758-ba5a-4c031f93a534",
+                    "url": "/img/cssa_familiarisation/8-2.png"
+                },
+                {
+                    "id": "bef282ed-7c55-4e58-a6d7-2217f7fd079b",
+                    "url": "/img/cssa_familiarisation/8-3.png"
+                },
+                {
+                    "id": "cb47eafe-d3b5-404f-90c3-caed245c6bec",
+                    "url": "/img/cssa_familiarisation/8-4.png"
+                },
+                {
+                    "id": "f515d241-af14-4fc1-aecd-130b3042de38",
+                    "url": "/img/cssa_familiarisation/8-5.png"
+                },
+                {
+                    "id": "8c71e95a-3715-4f79-be98-e800a1cacc38",
+                    "url": "/img/cssa_familiarisation/8-6.png"
+                },
+                {
+                    "id": "47be5c04-6d1d-41ce-a97b-84c77876bba4",
+                    "url": "/img/cssa_familiarisation/8-7.png"
+                },
+                {
+                    "id": "245aef24-a0b3-420d-a7a2-4455f58922b9",
+                    "url": "/img/cssa_familiarisation/8-8.png"
+                },
+                {
+                    "id": "e674cb13-5879-4f62-bff3-44aee2a6ee1c",
+                    "url": "/img/cssa_familiarisation/8-9.png"
+                }
+            ],
             "type": "IMAGE_SLIDER",
             "fileIdOrder": ["e674cb13-5879-4f62-bff3-44aee2a6ee1c", "245aef24-a0b3-420d-a7a2-4455f58922b9", "47be5c04-6d1d-41ce-a97b-84c77876bba4", "8c71e95a-3715-4f79-be98-e800a1cacc38", "f515d241-af14-4fc1-aecd-130b3042de38", "cb47eafe-d3b5-404f-90c3-caed245c6bec", "bef282ed-7c55-4e58-a6d7-2217f7fd079b", "615eda45-d775-4758-ba5a-4c031f93a534", "e8fb67b7-99af-4a6e-8377-48eab0db4f11"]
         }],
