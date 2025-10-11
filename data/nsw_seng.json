@@ -644,7 +644,7 @@
             "contentItemCollection": {
                 "items": [{
                     "type": "RICH_TEXT",
-                    "text": "<p>Why were these two models considered by the developers?</p>"
+                    "text": "<p>Outline why these two models were considered by the developers?</p>"
                 }]
             }
         },
@@ -682,6 +682,12 @@
         "items": [{
             "type": "RICH_TEXT",
             "text": "<p>The robot stores data internally, such as internal logs, and also communicates with other robots and users across the web securely via a wireless network which is password protected. All data for these tasks is secured using either encryption or hashing.</p><p>Additionally, hashed values are appended to the files that the robot transfers.</p>"
+        },
+        {
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/nswseng/17.png"
+            }]
         }]
     },
     "parts": [{
