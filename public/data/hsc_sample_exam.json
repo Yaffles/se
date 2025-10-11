@@ -820,7 +820,7 @@
       "items": [
         { "type": "RICH_TEXT", "text": "<p>A developer added a cascading style sheet (CSS) to their company's website. </p><br><p>The developer had expected the HTML code to display Image 1, but Image 2 is being displayed.</p>"},
         { "type": "IMAGE", "files": [{ "url": "/img/hsc_sample_exam/16.png", "caption": "Images" }]},
-        { "type": "RICH_TEXT", "text": "<br><b>index.html</b><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;title&gt;Welcome to Software&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"main.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Software&lt;/h1&gt;\n  &lt;p&gt;&lt;span id=\"se_item\"&gt;Software&lt;/span&gt; includes code.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><br><b>main.css</b><pre><code>body {\n  font-family: Arial;\n}\nh1 {\n  font-weight: bold;\n  text-align: center;\n}\n#se_item {\n  font-style: italic;\n  font-weight: bold;\n}</code></pre>" }
+        { "type": "RICH_TEXT", "text": "<br><b>index.html</b><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;title&gt;Welcome to Software&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"main.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Software&lt;/h1&gt;\n  &lt;p&gt;&lt;span id=\"se_items\"&gt;Software&lt;/span&gt; includes code.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><br><b>main.css</b><pre><code>body {\n  font-family: Arial;\n}\nh1 {\n  font-weight: bold;\n  text-align: center;\n}\n#se_item {\n  font-style: italic;\n  font-weight: bold;\n}</code></pre>" }
       ]
     },
     "parts": [

@@ -1,0 +1,999 @@
+[{
+    "id": "q1",
+    "title": "New Question 1, Machine Learning Model",
+    "parts": [{
+        "title": "Question 1",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>A company is designing an algorithm to predict non-linear customer purchasing patterns based on complex interactions between demographics, browsing behavior, and prior purchases. Which machine learning model is best suited for this task?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Decision trees, because they map customer information to clustered predictions.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Neural networks, due to the multidimensional nature of the customer data.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>K-nearest neighbours, because it predicts outcomes based on similarity accross customer attributes.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Polynomial regression, due to the non-linear nature of the customer purchasing patterns.</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [1]
+            }
+        }
+    }]
+}, {
+    "id": "q2",
+    "title": "New Question 2, System Design Diagram",
+    "parts": [{
+        "title": "Question 2",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which diagram is used during the system design phase to show the interaction between modules?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Flowchart</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Context diagram</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Structure chart</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Gantt chart</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [2]
+            }
+        }
+    }]
+}, {
+    "id": "q3",
+    "title": "New Question 3, Security Testing",
+    "parts": [{
+        "title": "Question 3",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>In Object-Oriented Programming, what is the term for bundling data (attributes) and the methods that operate on the data into a single unit or class?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Inheritance</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Polymorphism</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Abstraction</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Encapsulation</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                }
+            }
+        }
+    }]
+}, {
+    "id": "q4",
+    "title": "New Question 4, Security Testing",
+    "parts": [{
+        "title": "Question 4",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>A development team is building a new financial application and wants to find security flaws by analyzing the application's source code for issues like SQL injection vulnerabilities before the program is compiled and run. Which of the following strategies is most appropriate for this task?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Dynamic Application Security Testing (DAST)</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Penetration Testing</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Static Application Security Testing (SAST)</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>A/B Testing</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [2]
+            }
+        }
+    }]
+}, {
+    "id": "q5",
+    "title": "New Question 5, AI Bias",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/nswseng/5.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "title": "Question 5",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>An AI model designed to screen job applications is found to consistently rank candidates from a specific demographic group lower, even with equivalent qualifications. It is discovered the model was trained on historical hiring data from a time when discriminatory practices were common. This is a clear example of:</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Poor memory management</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The model successfully maintaining the company's workplace atmosphere.</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Human and dataset source bias</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>The AI developing its own \"gut feeling,\" which is legally distinct from discrimination</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [2]
+            }
+        }
+    }]
+}, {
+    "id": "q6",
+    "title": "New Question 6, Web Page Load Times",
+    "parts": [{
+        "title": "Question 6",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which of the following methods help to manage and reduce the load times of a web page?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>Enabling file compression</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Using a Content Delivery Network (CDN)</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Using the highest-resolution images possible</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Caching frequently accessed data</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Minimizing the number of HTTP requests</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": true
+                },
+                "correctOptionIndices": [0, 1, 3, 4]
+            }
+        }
+    }]
+},
+{
+    "id": "q7",
+    "title": "New Question 7, CMS Example",
+    "parts": [{
+        "title": "Question 7",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Which of the following is an example of a web content management system (CMS)?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "MULTI_CHOICE",
+                "options": [{
+                    "type": "TEXT",
+                    "text": "<p>React.js</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>MySQL</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>WordPress</p>"
+                }, {
+                    "type": "TEXT",
+                    "text": "<p>Apache</p>"
+                }],
+                "settings": {
+                    "multipleCorrectOptions": false
+                },
+                "correctOptionIndices": [2]
+            }
+        }
+    }]
+}, {
+    "id": "q8",
+    "title": "New Question 8, PWA Steps",
+    "parts": [{
+        "title": "Question 8",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Arrange the following steps in the order they typically occur when a user first visits a Progressive Web App (PWA) for offline capabilities.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "version": 0,
+                "type": "SORTING_TABLE",
+                "rows": [{
+                    "id": "step2-install",
+                    "cells": [{
+                        "text": "<p>The service worker is installed and waits for activation.</p>"
+                    }]
+                }, {
+                    "id": "step5-homescreen",
+                    "cells": [{
+                        "text": "<p>The user adds the PWA to their home screen.</p>"
+                    }]
+                }, {
+                    "id": "step3-cache",
+                    "cells": [{
+                        "text": "<p>The service worker caches essential files for offline use.</p>"
+                    }]
+                }, {
+                    "id": "step1-manifest",
+                    "cells": [{
+                        "text": "<p>The browser downloads manifest.json to determine app name, icons, and theme.</p>"
+                    }]
+                }, {
+                    "id": "step4-activate",
+                    "cells": [{
+                        "text": "<p>The service worker is activated and takes control of pages.</p>"
+                    }]
+                }],
+                "correctRowOrder": ["step1-manifest", "step2-install", "step3-cache", "step4-activate", "step5-homescreen"]
+            }
+        }
+    }]
+}, {
+    "id": "q9",
+    "title": "New Question 9, SDLC Order",
+    "parts": [{
+        "title": "Question 9",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Arrange these fundamental software development steps into the correct order.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "version": 0,
+                "type": "SORTING_TABLE",
+                "rows": [{
+                    "id": "sdlc-design",
+                    "cells": [{
+                        "text": "<p>design</p>"
+                    }]
+                }, {
+                    "id": "sdlc-spec",
+                    "cells": [{
+                        "text": "<p>determining specifications</p>"
+                    }]
+                }, {
+                    "id": "sdlc-req",
+                    "cells": [{
+                        "text": "<p>requirements definition</p>"
+                    }]
+                }, {
+                    "id": "sdlc-dev",
+                    "cells": [{
+                        "text": "<p>development</p>"
+                    }]
+                }, {
+                    "id": "sdlc-install",
+                    "cells": [{
+                        "text": "<p>installation</p>"
+                    }]
+                }, {
+                    "id": "sdlc-test",
+                    "cells": [{
+                        "text": "<p>testing and debugging</p>"
+                    }]
+                }, {
+                    "id": "sdlc-int",
+                    "cells": [{
+                        "text": "<p>integration</p>"
+                    }]
+                }, {
+                    "id": "sdlc-maint",
+                    "cells": [{
+                        "text": "<p>maintenance</p>"
+                    }]
+                }],
+                "correctRowOrder": ["sdlc-req", "sdlc-spec", "sdlc-design", "sdlc-dev", "sdlc-int", "sdlc-test", "sdlc-install", "sdlc-maint"]
+            }
+        }
+    }]
+}, {
+    "id": "q10",
+    "title": "New Question 10, Web Protocols and Ports",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "q10_p1",
+        "title": "Question 10",
+        "metadata": {
+          "mark": 2
+        },
+        "content": {
+          "contentItemCollection": {
+            "items": [
+              {
+                "type": "RICH_TEXT",
+                "text": "<p>Match each protocol to its default port number by selecting the correct option in each row.</p>"
+              }
+            ]
+          }
+        },
+        "answer": {
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [
+              { "text": "Protocol" },
+              { "text": "21" },
+              { "text": "53" },
+              { "text": "80" },
+              { "text": "443" }
+            ],
+            "rows": [
+              {
+                "id": "q10_row1",
+                "cells": [
+                  { "text": "HTTP" },
+                  {}, {}, {"id":"10.1"}, {}
+                ]
+              },
+              {
+                "id": "q10_row2",
+                "cells": [
+                  { "text": "HTTPS" },
+                  {}, {}, {}, {"id":"10.2"}
+                ]
+              },
+              {
+                "id": "q10_row3",
+                "cells": [
+                  { "text": "FTP" },
+                  {"id":"10.3"}, {}, {}, {}
+                ]
+              },
+              {
+                "id": "q10_row4",
+                "cells": [
+                  { "text": "DNS" },
+                  {}, {"id":"10.4"}, {}, {}
+                ]
+              }
+            ],
+            "correctCellIds": ["10.1", "10.2", "10.3", "10.4"]
+          }
+        }
+      }
+    ]
+}, {
+    "id": "q11",
+    "title": "New Question 11, Modularisation",
+    "stimulusContentItemCollection": null,
+    "parts": [{
+        "id": "q11_p1",
+        "title": "Question 11",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Describe the purpose of modularisation in software development and explain two advantages it provides for large-scale projects.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q12",
+    "title": "New Question 12, Password Check Pseudocode",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A programmer is designing a program to check the length of a password and to check if the password input is the same as the stored password.</p><p>The program requirements are:</p><ul><li>input the password, ‘Password’</li><li>check if there are at least 8 characters in the password</li><li>check that the password is not the same as the stored password ‘OldPass’</li><li>output 'accepted' if both tests are completed successfully</li><li>otherwise, output 'rejected'.</li></ul>"
+        }]
+    },
+    "parts": [{
+        "id": "q12_p1",
+        "title": "Question 12",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Create pseudocode for this using the variable names as given.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "PSEUDOCODE"
+            }
+        },
+        "sampleAnswerContentItem2": {
+            "type": "RICH_TEXT",
+            "text": "<div><pre><code>BEGIN PasswordCheck\n  GET Password\n  OldPass = \"[some stored password]\"\n\n  IF (LENGTH(Password) >= 8) AND (Password != OldPass) THEN\n    DISPLAY \"accepted\"\n  ELSE\n    DISPLAY \"rejected\"\n  ENDIF\n\nEND PasswordCheck</code></pre></div>"
+        }
+    }]
+}, {
+    "id": "q13",
+    "title": "New Question 13, Vulnerability Assessment",
+    "stimulusContentItemCollection": null,
+    "parts": [{
+        "id": "q13_p1",
+        "title": "Question 13",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Describe how vulnerability assessment helps manage the security of programming code.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q14",
+    "title": "New Question 14, W3C Influence",
+    "stimulusContentItemCollection": null,
+    "parts": [{
+        "id": "q14_p1",
+        "title": "Question 14",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Explain how the World Wide Web Consortium (W3C) influences the development of web applications. Use examples in your response.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q15",
+    "title": "New Question 15, Delivery Anomaly Detection",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Uber tracks the delivery time of their drivers and wants to understand why some deliveries take unusually long. They decide to flag any deliveries that take more than 1.5 times the overall average delivery time.</p><p>Uber’s delivery times:</p><pre><code>deliveries = [\n  {\"driver\": \"Alice\", \"time\": 30},\n  {\"driver\": \"Bob\", \"time\": 45},\n  {\"driver\": \"Alice\", \"time\": 40},\n  {\"driver\": \"Bob\", \"time\": 100},\n  {\"driver\": \"Alice\", \"time\": 90}\n]</code></pre>"
+        }]
+    },
+    "parts": [{
+        "id": "q15_p1",
+        "title": "Question 15 (a)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Create a Python function that takes the <code>deliveries</code> and returns a list of flagged deliveries.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "CODING",
+                "language": "PYTHON"
+            },
+            "sampleAnswerContentItem2": {
+                "type": "RICH_TEXT",
+                "text": "<div><pre><code>def find_flagged_deliveries(deliveries):\n  # Prevent division by zero if the list is empty\n  if not deliveries:\n    return []\n\n  # Calculate the total time of all deliveries\n  total_time = 0\n  for delivery in deliveries:\n    total_time += delivery['time']\n  \n  # Calculate the average delivery time\n  average_time = total_time / len(deliveries)\n  \n  # Determine the threshold for flagging a delivery\n  threshold = average_time * 1.5\n  \n  # Create a list to store flagged deliveries\n  flagged_deliveries = []\n  \n  # Identify and add deliveries that exceed the threshold\n  for delivery in deliveries:\n    if delivery['time'] > threshold:\n      flagged_deliveries.append(delivery)\n      \n  return flagged_deliveries\n\n# Example usage with the provided data:\ndeliveries = [\n  {\"driver\": \"Alice\", \"time\": 30},\n  {\"driver\": \"Bob\", \"time\": 45},\n  {\"driver\": \"Alice\", \"time\": 40},\n  {\"driver\": \"Bob\", \"time\": 100},\n  {\"driver\": \"Alice\", \"time\": 90}\n]\n\nflagged = find_flagged_deliveries(deliveries)\nprint(flagged) # Expected output: [{'driver': 'Bob', 'time': 100}]</code></pre></div>"
+            }
+        }
+    }, {
+        "id": "q15_p2",
+        "title": "Question 15 (b)",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Uber wants to automate the whole process and receive alerts automatically. Outline the role of RPA and BPA in fully automating Uber’s anomaly detection system.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q16",
+    "title": "New Question 16, Logistic Regression vs KNN",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A software company collects data of the vitals of patients with a certain disease.</p><p>The company aims to analyse this data and predict whether or not a new patient has the disease by looking at their vitals.</p><p>The developers are stuck between using logistic regression or KNN for this model.</p>"
+        }]
+    },
+    "parts": [{
+        "id": "q16_p1",
+        "title": "Question 16 (a)",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Why were these two models considered by the developers?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }, {
+        "id": "q16_p2",
+        "title": "Question 16 (b)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>By first explaining how each model works, justify which model the company should use to get the most accurate results?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q17",
+    "title": "New Question 17, Encryption vs Hashing",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>The robot stores data internally, such as internal logs, and also communicates with other robots and users across the web securely via a wireless network which is password protected. All data for these tasks is secured using either encryption or hashing.</p><p>Additionally, hashed values are appended to the files that the robot transfers.</p>"
+        }]
+    },
+    "parts": [{
+        "id": "q17_p1",
+        "title": "Question 17",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Compare the purpose and function of the robot's use of encryption and hashing for storing and communicating data.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q18",
+    "title": "New Question 18, Web Communication",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>Sam is using his web browser to search for an iPhone on Google.</p>"
+        }]
+    },
+    "parts": [{
+        "id": "q18_p1",
+        "title": "Question 18 (a)",
+        "metadata": {
+            "mark": 1
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<img src='/img/nswseng/18.png'><p>Explain how Sam's browser is able locate Google’s server.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }, {
+        "id": "q18_p2",
+        "title": "Question 18 (b)",
+        "metadata": {
+            "mark": 2
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Sam searches for an iphone, sending a HTTPS request to get data from the server.</p><p>How is the iphone data transmitted reliably from the server to the browser, ensuring that no information is missing?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }, {
+        "id": "q18_p3",
+        "title": "Question 18 (c)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>How is the security of Sam's connection to the server and their data transmissions maintained?</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q19",
+    "title": "New Question 19, Decision Tree Simplification",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A mystery mark student had a stroke and created this even more worse decision tree to the HSC Familiarisation question:</p>"
+        }, {
+            "type": "IMAGE",
+            "files": [{
+                "url": "/img/nswseng/19.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "q19_p1",
+        "title": "Question 19",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The decision tree can be simplified without compromising its logic. Redraw the decision tree to reduce the number of branches.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "DRAWING_V2"
+            }
+        }
+    }]
+}, {
+    "id": "q20",
+    "title": "New Question, Library System",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A small library needs a terminal based system. The system should allow you to:</p><ul><li>Add a new book with title, author, and year.</li><li>Remove a book by title.</li><li>Display all books sorted by year.</li></ul><p>Use a class called <strong>Library</strong> to store and manage the books. Each book should be a dictionary or a small class with attributes <strong>title</strong>, <strong>author</strong>, and <strong>year</strong>.</p><p>Methods should include <strong>add_book()</strong>, <strong>remove_book()</strong>, and <strong>display_books()</strong>.</p>"
+        }]
+    },
+    "parts": [{
+        "title": "Question 20 (a)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Create a UML class diagram for this library system.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "DRAWING_V2"
+            }
+        }
+    }, {
+        "title": "Question 20 (b)",
+        "metadata": {
+            "mark": 6
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Make the system in python based on the stimulus.</p><br><p><strong>Constraints:</strong></p><ul><li>Use a list to store books.</li><li>Use loops and conditionals to navigate options.</li><li>Handle cases like removing a book that doesn’t exist.</li></ul><p><strong>Example output:</strong></p><pre><code>1. Add Book\n2. Remove Book\n3. Display Books\nChoose an option: 1\nEnter title: Python 101\nEnter author: John Doe\nEnter year: 2023\nBook added successfully.\n\nChoose an option: 3\nBooks in library:\n1. Python 101 by John Doe (2023)</code></pre>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "CODING",
+                "language": "PYTHON"
+            }
+        }
+    }]
+}, {
+    "id": "q21",
+    "title": "New Question 21, Authorisation vs Authentication",
+    "stimulusContentItemCollection": null,
+    "parts": [{
+        "id": "q21_p1",
+        "title": "Question 21",
+        "metadata": {
+            "mark": 4
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Compare and contrast authorisation and authentication measures when designing a login portal for a fast food restaurant.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}, {
+    "id": "q22",
+    "title": "Question 22 sql",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>You are a data analyst for an online retail company tasked with analyzing sales data to find the most consistently high-performing product categories. The goal is to identify categories that generate significant revenue through a high volume of sales.</p><p>You have access to the <code>Sales_Transactions</code> table:</p><b>Table: Sales_Transactions</b><table style=\"width: 100%; border-collapse: collapse;\" border=\"1\"><thead><tr><th style=\"border: 1px solid black; padding: 8px;\">Transaction_ID</th><th style=\"border: 1px solid black; padding: 8px;\">Product_Name</th><th style=\"border: 1px solid black; padding: 8px;\">Category</th><th style=\"border: 1px solid black; padding: 8px;\">Unit_Price</th><th style=\"border: 1px solid black; padding: 8px;\">Quantity</th><th style=\"border: 1px solid black; padding: 8px;\">Order_Date</th><th style=\"border: 1px solid black; padding: 8px;\">Region</th></tr></thead><tbody><tr><td style=\"border: 1px solid black; padding: 8px;\">1001</td><td style=\"border: 1px solid black; padding: 8px;\">Wireless Mouse</td><td style=\"border: 1px solid black; padding: 8px;\">Electronics</td><td style=\"border: 1px solid black; padding: 8px;\">75</td><td style=\"border: 1px solid black; padding: 8px;\">2</td><td style=\"border: 1px solid black; padding: 8px;\">2024-03-15</td><td style=\"border: 1px solid black; padding: 8px;\">North</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">1002</td><td style=\"border: 1px solid black; padding: 8px;\">SQL for Pro</td><td style=\"border: 1px solid black; padding: 8px;\">Books</td><td style=\"border: 1px solid black; padding: 8px;\">50</td><td style=\"border: 1px solid black; padding: 8px;\">3</td><td style=\"border: 1px solid black; padding: 8px;\">2024-04-22</td><td style=\"border: 1px solid black; padding: 8px;\">South</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">1003</td><td style=\"border: 1px solid black; padding: 8px;\">Gaming Keyboard</td><td style=\"border: 1px solid black; padding: 8px;\">Electronics</td><td style=\"border: 1px solid black; padding: 8px;\">150</td><td style=\"border: 1px solid black; padding: 8px;\">1</td><td style=\"border: 1px solid black; padding: 8px;\">2024-03-20</td><td style=\"border: 1px solid black; padding: 8px;\">North</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">1004</td><td style=\"border: 1px solid black; padding: 8px;\">The Martian</td><td style=\"border: 1px solid black; padding: 8px;\">Books</td><td style=\"border: 1px solid black; padding: 8px;\">25</td><td style=\"border: 1px solid black; padding: 8px;\">2</td><td style=\"border: 1px solid black; padding: 8px;\">2024-05-10</td><td style=\"border: 1px solid black; padding: 8px;\">North</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">1005</td><td style=\"border: 1px solid black; padding: 8px;\">T-Shirt</td><td style=\"border: 1px solid black; padding: 8px;\">Apparel</td><td style=\"border: 1px solid black; padding: 8px;\">30</td><td style=\"border: 1px solid black; padding: 8px;\">5</td><td style=\"border: 1px solid black; padding: 8px;\">2024-03-18</td><td style=\"border: 1px solid black; padding: 8px;\">West</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">1006</td><td style=\"border: 1px solid black; padding: 8px;\">Smart Watch</td><td style=\"border: 1px solid black; padding: 8px;\">Electronics</td><td style=\"border: 1px solid black; padding: 8px;\">450</td><td style=\"border: 1px solid black; padding: 8px;\">1</td><td style=\"border: 1px solid black; padding: 8px;\">2024-06-05</td><td style=\"border: 1px solid black; padding: 8px;\">North</td></tr></tbody></table><br><b>Expected Output</b><table style=\"width: 100%; border-collapse: collapse;\" border=\"1\"><thead><tr><th style=\"border: 1px solid black; padding: 8px;\">Category</th><th style=\"border: 1px solid black; padding: 8px;\">Number_of_Transactions</th><th style=\"border: 1px solid black; padding: 8px;\">Total_Items_Sold</th><th style=\"border: 1px solid black; padding: 8px;\">Average_Items_Per_Transaction</th><th style=\"border: 1px solid black; padding: 8px;\">Total_Revenue</th><th style=\"border: 1px solid black; padding: 8px;\">Highest_Unit_Price</th></tr></thead><tbody><tr><td style=\"border: 1px solid black; padding: 8px;\">Books</td><td style=\"border: 1px solid black; padding: 8px;\">2</td><td style=\"border: 1px solid black; padding: 8px;\">5</td><td style=\"border: 1px solid black; padding: 8px;\">2.5</td><td style=\"border: 1px solid black; padding: 8px;\">200</td><td style=\"border: 1px solid black; padding: 8px;\">50</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">Electronics</td><td style=\"border: 1px solid black; padding: 8px;\">1</td><td style=\"border: 1px solid black; padding: 8px;\">2</td><td style=\"border: 1px solid black; padding: 8px;\">2</td><td style=\"border: 1px solid black; padding: 8px;\">150</td><td style=\"border: 1px solid black; padding: 8px;\">75</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">Apparel</td><td style=\"border: 1px solid black; padding: 8px;\">1</td><td style=\"border: 1px solid black; padding: 8px;\">5</td><td style=\"border: 1px solid black; padding: 8px;\">5</td><td style=\"border: 1px solid black; padding: 8px;\">150</td><td style=\"border: 1px solid black; padding: 8px;\">30</td></tr></tbody></table>"
+        }]
+    },
+    "parts": [{
+        "title": "Question 22",
+        "metadata": {
+            "mark": 5
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Write a single SQL query to identify the top-performing product categories from all sales in 2024.</p><p>Your query must:</p><ul><li>Only include transactions where the <strong>Quantity</strong> of items sold was greater than 1.</li><li>For each category, calculate and display:<ul><li>The category name.</li><li>Total number of transactions</code>.</li><li>Total number of items sold.</li><li>Average items sold per transaction.</li><li>Total revenue, as the sum of.</li><li>The highest price of a single unit sold.</li></ul></li><li>Sort the final results by <strong>Total_Revenue</strong> in descending order.</li></ul>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SQL",
+                "datasetSetupQuery": "CREATE TABLE Sales_Transactions (\n    Transaction_ID INTEGER PRIMARY KEY,\n    Product_Name TEXT,\n    Category TEXT,\n    Unit_Price REAL,\n    Quantity INTEGER,\n    Order_Date TEXT,\n    Region TEXT\n);\n\nINSERT INTO Sales_Transactions (Transaction_ID, Product_Name, Category, Unit_Price, Quantity, Order_Date, Region) VALUES\n(1001, 'Wireless Mouse', 'Electronics', 75, 2, '2024-03-15', 'North'),\n(1002, 'SQL for Pro', 'Books', 50, 3, '2024-04-22', 'South'),\n(1003, 'Gaming Keyboard', 'Electronics', 150, 1, '2024-03-20', 'North'),\n(1004, 'The Martian', 'Books', 25, 2, '2024-05-10', 'North'),\n(1005, 'T-Shirt', 'Apparel', 30, 5, '2024-03-18', 'West'),\n(1006, 'Smart Watch', 'Electronics', 450, 1, '2024-06-05', 'North');",
+                "settings": {
+                    "showExecutionOutput": true
+                }
+            },
+            "sampleAnswerContentItem2": {
+                "type": "RICH_TEXT",
+                "text": "SELECT\n    Category,\n    COUNT(Transaction_ID) AS Number_of_Transactions,\n    SUM(Quantity) AS Total_Items_Sold,\n    AVG(Quantity) AS Average_Items_Per_Transaction,\n    SUM(Unit_Price * Quantity) AS Total_Revenue,\n    MAX(Unit_Price) AS Highest_Unit_Price\nFROM\n    Sales_Transactions\nWHERE\n    strftime('%Y', Order_Date) = '2024'\n    AND Quantity > 1\nGROUP BY\n    Category\nORDER BY\n    Total_Revenue DESC;"
+            }
+        }
+    }]
+}, {
+    "id": "q23",
+    "title": "New Question 23, RL Model Failure Analysis",
+    "stimulusContentItemCollection": {
+        "items": [{
+            "type": "RICH_TEXT",
+            "text": "<p>A mystery mark student (inventors) had an innovative idea to make a pricing strategy business model for a technology audience, and it was very successful and used by many consumers. However, one day the RL model decided to not do what it is supposed to do. Here is the slideshow of the incomplete investigation carried by the mystery mark student.</p>"
+        }, {
+            "type": "IMAGE_SLIDER",
+            "files": [{
+                "url": "/img/nswseng/23-1.png"
+            }, {
+                "url": "/img/nswseng/23-2.png"
+            }, {
+                "url": "/img/nswseng/23-3.png"
+            }]
+        }]
+    },
+    "parts": [{
+        "id": "q23_p1",
+        "title": "Question 23 (a)",
+        "metadata": {
+            "mark": 8
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>Critically evaluate the failure of Security by Design (SbD) principles in this scenario and how these can be mitigated with appropriate exception and session management, and at TWO other techniques you have learnt in this course.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }, {
+        "id": "q23_p2",
+        "title": "Question 23 (b)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>With uncontrolled UPDATE commands, the database crashed with its storage resources exceeded.</p><p>Explain how version control features can serve as necessary disaster recovery mechanisms.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }, {
+        "id": "q23_p3",
+        "title": "Question 23 (c)",
+        "metadata": {
+            "mark": 3
+        },
+        "content": {
+            "contentItemCollection": {
+                "items": [{
+                    "type": "RICH_TEXT",
+                    "text": "<p>The mystery mark student hired his band 6 classmate that he knew on NSW SENG. He quickly pentested and noticed that it is highly vulnerable to bot attacks and brute forcing, which could compromise their server and overwhelm their RL agent. Luckily no one had attempted this attack yet, but by SbD principles he suggested:</p><ul><li>A time-based one-time password (TOTP) from an authenticator app.</li><li>A visual CAPTCHA to prevent bots.</li></ul><p>However, the mystery mark student suggests that apps should be easy to use, especially for elderly or non-technical users.</p><p>Explain the ethical problem with implementing a purely visual CAPTCHA, specifically in the context of web accessibility, and propose the alternative secure solution.</p>"
+                }]
+            }
+        },
+        "answer": {
+            "parameters": {
+                "type": "SHORT",
+                "extendedView": true
+            }
+        }
+    }]
+}]
