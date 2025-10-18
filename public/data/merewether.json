@@ -1,0 +1,2945 @@
+﻿[
+  {
+    "id": "e0281087-6ddf-475a-816f-6ed3eb440c99",
+    "title": "MHSTrial2025 - Question 1",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:49:29.148Z",
+
+    "parts": [
+      {
+        "id": "0a6b1e3d-ac3d-4146-9873-55c38148881a",
+        "displayIndex": 0,
+        "title": "Question 1",
+        "metadata": {
+          "id": "12809b86-9d72-4d13-bb7d-74b9568935c5",
+          "mark": 1,
+          "bandIds": [
+            "3c88ff15-6f03-42c3-aaf8-5a045c3b1241"
+          ]
+        },
+        "content": {
+          "id": "01c6e462-3e16-4f00-adb4-23f3db2efdad",
+          "contentItemCollection": {
+            "id": "b4ec67f7-3249-47b9-a8ab-ed0d341b9624",
+            "items": [
+              {
+                "id": "8a2ca643-c843-475f-9786-45c618fb2fd1",
+                "updatedDate": "2025-08-12T23:01:55.943Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>The \"Privacy be Design\" approach is defined as:</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "8a2ca643-c843-475f-9786-45c618fb2fd1"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "4b48b580-84f4-4066-ae74-1d243c5a0e9b",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "c564528f-31c3-470a-ac6c-87d0d749b793",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Features added after software is released to lock down sotred data.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "4fa9d699-7324-434a-9928-ac6fe7ea058c",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Improvements to processing reliability made after a security breach.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "900d8f20-805f-4d61-8603-f57092672729",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Modifications made following user feedback on interface inefficiencies.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "6f624ee2-e64c-4afc-a793-7009ee129f4e",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Buliding software with data protection measures integrated from the outset of a project.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "6f624ee2-e64c-4afc-a793-7009ee129f4e"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "ad39adb9-d23c-4a95-8567-6de180ccdad2",
+    "title": "MHSTrial2025 - Question 2",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:49:51.282Z",
+
+    "parts": [
+      {
+        "id": "59bf1ba1-0869-455a-b08b-8dcb41740d81",
+        "displayIndex": 0,
+        "title": "Question 2",
+        "metadata": {
+          "id": "1157efff-dd56-4d19-86eb-885ab10f5000",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "352968eb-017d-42af-aa0d-708fca7ef86f",
+          "contentItemCollection": {
+            "id": "16c42923-edc2-4258-ae05-4da80f05b838",
+            "items": [
+              {
+                "id": "6a9c40b7-dcb1-439b-ac05-414f6b1aadb2",
+                "updatedDate": "2025-08-12T23:09:20.014Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Email clients send mail using which protocol?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "6a9c40b7-dcb1-439b-ac05-414f6b1aadb2"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "54efe898-1148-4941-b7f1-09c80ee8749b",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "10d504cc-d090-49ca-b138-35c2a9cc5e3c",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>SMTP</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "4fce360b-b32f-495a-81e7-03eab33e2459",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>IMAP</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "c8273f65-3e3e-4ca2-9ae2-9ac7e91fb95d",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>FTP</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "d5442cdc-fa71-4558-b7b2-738076500552",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>POP3</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "10d504cc-d090-49ca-b138-35c2a9cc5e3c"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "628d9c86-a52e-4488-b4fb-674043f8c45e",
+    "title": "MHSTrial2025 - Question 3",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:51:06.980Z",
+
+    "parts": [
+      {
+        "id": "3504cd2a-185b-4637-9d12-b68e83f6cd12",
+        "displayIndex": 0,
+        "title": "Question 3",
+        "metadata": {
+          "id": "7ff90c99-1b63-4558-bed8-1e931f3b026e",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "526fc84c-6865-4ec1-8da5-ecbd4be78130",
+          "contentItemCollection": {
+            "id": "e4117cbc-4e80-4055-9c71-a9e37a59ec98",
+            "items": [
+              {
+                "id": "e7c53896-832f-4aca-a50a-f83c79a22cf3",
+                "updatedDate": "2025-08-17T23:50:44.247Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>What is the most effective approach for ensuring that automation benefits society as a whole?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "e7c53896-832f-4aca-a50a-f83c79a22cf3"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "fb678df2-5254-4a1e-aca8-eebf68408df9",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "2d2d43e7-4392-4295-949f-2a385481d8fc",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Allow market forces to guide the adoption of automation, trusting that economic growth will naturally lead to broader societal benefits.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "70a08fb1-6aec-47c4-8deb-891ef72db018",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Priorotise technological advancement and productivity gains, with social concerns addressed only after implementation.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "6ec4cb7b-9e70-4382-aa7b-7f805bd51f95",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Encourage collaboration between policymakers, educators, and businesses to promote inclusivity, skill development, and sustainability.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "707ff4cd-643a-4e27-af42-6dd84e519669",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Limit the use of automation to industries with low employment rates.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "6ec4cb7b-9e70-4382-aa7b-7f805bd51f95"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "eee2b76a-481a-4bfd-bb70-e7e58f2e9fb5",
+    "title": "MHSTrial2025 - Question 4",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:51:35.371Z",
+
+    "parts": [
+      {
+        "id": "0dc644f8-7d20-4e02-afd3-51ef9e2df29c",
+        "displayIndex": 0,
+        "title": "Question 4",
+        "metadata": {
+          "id": "986e55c8-7988-4a61-ba6f-0b1eab58a714",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "cd2fc52f-7451-4152-b344-4898e0b1839a",
+          "contentItemCollection": {
+            "id": "4d80dea0-0bd9-49ce-a012-271a1b80e4f5",
+            "items": [
+              {
+                "id": "c0930cbe-8722-4814-8318-613bf3e635d3",
+                "updatedDate": "2025-08-15T02:40:48.227Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>A new software application is introduced by initially running the program with only a few of its modules active. After confirming that these modules function correctly, the remaining components are gradually activated.</p>\n<p>What type of implementation method does this scenario describe?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "c0930cbe-8722-4814-8318-613bf3e635d3"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "853a6567-d794-423d-8854-4ece0813d6a6",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "db5c6b09-e930-47d2-b821-f27808862d14",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Direct</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "ac77c624-fcde-4113-a201-e00605a79cea",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Phased</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "545dc89a-a499-4bb7-8762-409ac51bb097",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Parallel</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "10641d48-502f-49da-8156-8b5d3017343c",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Pilot</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "ac77c624-fcde-4113-a201-e00605a79cea"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "f3edb117-2054-460a-9819-3a3e540ad0cd",
+    "title": "MHSTrial2025 - Question 5",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:52:06.213Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "fc44b23e-cc2e-4b8a-87ca-06565275fd68",
+      "items": [
+        {
+          "id": "4fb2b677-61d6-4014-94a4-b11eb76de473",
+          "updatedDate": "2025-08-12T23:30:38.265Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p><img src=\"/img/merewether/5.png\"></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "4fb2b677-61d6-4014-94a4-b11eb76de473"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "89847653-a1d6-4b23-a4ae-6e55350322f5",
+        "displayIndex": 0,
+        "title": "Question 5",
+        "metadata": {
+          "id": "46cc0bbc-1e80-4cbc-a6c1-037038c12363",
+          "mark": 1,
+          "bandIds": [
+            "3c88ff15-6f03-42c3-aaf8-5a045c3b1241"
+          ]
+        },
+        "content": {
+          "id": "3e10c8ad-808e-4641-a922-934759df9f8f",
+          "contentItemCollection": {
+            "id": "250d9885-60e2-4b29-aa80-46fdc5f38500",
+            "items": [
+              {
+                "id": "d890ed73-9a8d-4668-b6ea-1ffc600c5642",
+                "updatedDate": "2025-08-13T04:14:58.589Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>The code sample stimulus is written using which coding langauge?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "d890ed73-9a8d-4668-b6ea-1ffc600c5642"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "eddd1c5c-2f55-4372-9757-1c9231eb96b5",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "b6d11e9f-d1c7-4bba-98d4-f4ff15792955",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Python</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "ce847b7c-937e-4ef1-b934-500d7229b881",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>HTML</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "f4a21437-4695-47df-a642-9c0a1db78d61",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>JSON</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "ebca1324-292d-418c-8397-135cf1c601a1",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>CSS</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "ebca1324-292d-418c-8397-135cf1c601a1"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "01a73773-5c89-4e55-8c63-42bd6d157191",
+    "title": "MHSTrial2025 - Question 6",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:52:37.254Z",
+
+    "parts": [
+      {
+        "id": "7b42275c-6f32-40bd-8efe-272ac9b9ab64",
+        "displayIndex": 0,
+        "title": "Question 6",
+        "metadata": {
+          "id": "30949f72-d41f-4ae2-afa0-075cbd3e92bb",
+          "mark": 1,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "3764e53c-6549-46ee-b713-9c90ec46a145",
+          "contentItemCollection": {
+            "id": "2320be2f-26ca-47fd-a821-76a263f022e5",
+            "items": [
+              {
+                "id": "3bfdd5c1-ed7e-4e12-901d-9657eedb3984",
+                "updatedDate": "2025-08-12T23:36:28.522Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>A user logs into their bank's website, which allows money transfer via a button. A hacker sends the user a malicious email containing a link. When the user clicks the link, a money transfer request is executed without their knowledge.</p>\n<p>What type of attack is this?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "3bfdd5c1-ed7e-4e12-901d-9657eedb3984"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "4c878f72-4ac9-4714-83a0-48ddd42ae825",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "9b82c989-cb34-4cc1-9b72-5da6be4f5987",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Cross-Site Request Forgery (CSRF)</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "705c64f8-6e7b-4218-b681-6167ded89ddd",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Cross-Site Scripting (XSS)</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "71e0231f-1e97-40c7-8496-ddb4d5ec2c64",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Denial of Service (DoS)</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "e7cb895f-26c3-4d4f-8d21-2c8b4145008f",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>SQL Injection</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "9b82c989-cb34-4cc1-9b72-5da6be4f5987"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "8b44f623-b9af-4ebd-8590-0b5a5f1a3b3b",
+    "title": "MHSTrial2025 - Question 7",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:53:04.826Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "e1f1c43c-c1ad-4aea-906f-73632ca167ce",
+      "items": [
+        {
+          "id": "18ba0cbb-accd-4ae4-af6e-908c4b04bcc2",
+          "updatedDate": "2025-08-12T23:50:15.032Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p><img src=\"/img/merewether/7.png\"></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "18ba0cbb-accd-4ae4-af6e-908c4b04bcc2"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "e27b1108-afe5-4710-963d-a810bcc220e8",
+        "displayIndex": 0,
+        "title": "Question 7",
+        "metadata": {
+          "id": "eecefbdf-cf83-4497-9397-145b18cefa43",
+          "mark": 1,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "cbbd4539-f0b8-4578-be95-3416979811c2",
+          "contentItemCollection": {
+            "id": "1bed5b67-3cea-4bd0-b903-c782ddab7a12",
+            "items": [
+              {
+                "id": "3609871b-0978-405f-b7d3-44fd5d3271bf",
+                "updatedDate": "2025-08-12T23:50:47.528Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the excerpt from the Data Dictionary stimulus, how many bytes of storage are required to store the FirstName attribute?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "3609871b-0978-405f-b7d3-44fd5d3271bf"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "5edadd68-7303-4f71-bdc3-adf9ea1b206b",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "a5d45fb7-185d-42e6-b905-71478cf8e7c7",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>9</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "34d6be16-6e19-457f-8340-e97f77fe729b",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>30</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "3f592976-b2c7-43ed-8d8a-84c5f8c6dfb8",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>6</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "01190621-81ce-4e1c-b578-eb0a1a37b1e1",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>25</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "34d6be16-6e19-457f-8340-e97f77fe729b"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "d8cec4df-e167-4dd5-affe-6f27bffd7eaa",
+    "title": "MHSTrial2025 - Question 8",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:53:47.211Z",
+
+    "parts": [
+      {
+        "id": "cdbef07b-4514-45c4-aa3f-0cdfb5cb26ff",
+        "displayIndex": 0,
+        "title": "Question 8",
+        "metadata": {
+          "id": "96d1d908-be51-43e5-8400-415b8c5a199c",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "b880a284-9f3e-40e0-8f59-4a5cf239c849",
+          "contentItemCollection": {
+            "id": "613bffa0-b470-4230-8cca-60fa1a464f99",
+            "items": [
+              {
+                "id": "14dd7c6d-e640-4630-96da-e491627d193f",
+                "updatedDate": "2025-08-12T23:53:11.980Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\">Which of the following statements accurately describes the use of Gantt charts in software development?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "14dd7c6d-e640-4630-96da-e491627d193f"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "cb8e7206-92c7-40a1-8400-9b920cb10764",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "55f0918d-2974-4196-bf6c-9c479147a0e9",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">Gantt charts can only be used when implementing an WAgile software development approach.</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "60c08e0d-6ba5-4131-8b19-87fb6b51df78",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">Gantt charts are useful for identifying a broad range of likely software bugs and errors present in code.</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "38440f5f-0f0b-46fb-987d-84ca674bebb0",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">Gantt charts provide a visual representation of the sub-tasks in the software development process.</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "fbb89ec7-9f23-4660-b41b-c05d41ff7227",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">Gantt charts are useful for scheduling individual development tasks and personnel, not overall project timelines.</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "38440f5f-0f0b-46fb-987d-84ca674bebb0"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "e8812541-2914-42bc-a88a-5a0cb3c3dddc",
+    "title": "MHSTrial2025 - Question 9",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:54:05.204Z",
+
+    "parts": [
+      {
+        "id": "1a96d1cb-7010-4092-a54c-37d76ef184ae",
+        "displayIndex": 0,
+        "title": "Question 9",
+        "metadata": {
+          "id": "92572a6a-eba5-4ba9-84f3-9bb4491d277f",
+          "mark": 1,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "152a3197-4bca-4067-b36a-64600ed76fd7",
+          "contentItemCollection": {
+            "id": "00bc05df-845c-4462-b21e-d6fcc8ea2f5f",
+            "items": [
+              {
+                "id": "be5f92e1-7f61-46ef-99d2-981d4c248ac2",
+                "updatedDate": "2025-08-13T00:01:09.870Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\">A programmer wishes to iterate through an array of an unknown length. Which control structure syntax would be most helpful?<span style=\"mso-spacerun: yes;\">&nbsp; </span></p>"
+              }
+            ],
+            "itemIdOrder": [
+              "be5f92e1-7f61-46ef-99d2-981d4c248ac2"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "320ef207-7e6c-4002-bfce-617d237be39b",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "11996837-c34b-4fe2-9434-c2e6caa22995",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">WHILE&hellip; ENDWHILE</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "95e571e4-1736-45a8-8b40-f406137f4d4d",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">IF&hellip; ENDIF</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "f4d20ca8-22df-4015-a936-5db1bb72db9f",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">FOR&hellip; NEXT</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "5ad63159-afa5-4047-98c0-e59956e42980",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">CASEWHERE&hellip; ENDCASE</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "f4d20ca8-22df-4015-a936-5db1bb72db9f"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "2d5ad20d-632e-452b-a9c5-70b40c0896b8",
+    "title": "MHSTrial2025 - Question 10",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:54:32.694Z",
+
+    "parts": [
+      {
+        "id": "a19a60ad-e5a1-4d5f-a5f9-0b271f404c4c",
+        "displayIndex": 0,
+        "title": "Question 10",
+        "metadata": {
+          "id": "f8d689c8-03e7-4338-b21f-72c95bc626bd",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "d089915c-8bbc-4d04-9b0e-8dd1dec8ebe2",
+          "contentItemCollection": {
+            "id": "baa6af81-17bc-4e2d-a269-b8799a33ad6e",
+            "items": [
+              {
+                "id": "777e636c-0c06-484b-8bf6-d0c501e2b892",
+                "updatedDate": "2025-08-13T00:03:59.468Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size: 11.5pt;\">A computerised testing application is being developed. For one type of question the user must select all the correct answers from a total of 5 possible answers.</span></p>\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size: 11.5pt;\">Which screen element would be best to use for this type of question?</span><span style=\"font-size: 14.0pt; mso-bidi-font-size: 11.0pt;\"></span></p>"
+              }
+            ],
+            "itemIdOrder": [
+              "777e636c-0c06-484b-8bf6-d0c501e2b892"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "8710478b-8a12-4485-a49f-6e6e4645f2eb",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "ef23d289-2335-468e-af52-3c78d7687d21",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Checkbox</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "6c6da194-f6eb-4892-9c0e-0de94a0d9d32",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Radio button</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "952a45f6-42f8-4d35-976c-739ba0c7891c",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Command button</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "1a7ad172-a0f4-4e30-9f27-049098fc6822",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Text area</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "ef23d289-2335-468e-af52-3c78d7687d21"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "c28e7a5c-230a-4a47-8443-a11719f7fb97",
+    "title": "MHSTrial2025 - Question 11",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:55:01.212Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "eddaa48b-89c8-470f-b655-029d4e55cbc7",
+      "items": [
+        {
+          "id": "63a0712a-39ba-440a-9228-00b94b92d993",
+          "updatedDate": "2025-08-13T00:08:48.236Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p class=\"MsoNormal\"><span style=\"font-family: 'Arial Narrow',sans-serif;\">BEGIN MainProgram<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>a = 1<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>b = 2</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>IF b &gt; 1 THEN<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>WHILE a &lt; 4<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><u>DoThings()</u><br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>a = a + 1<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ENDWHILE<br><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ENDIF</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>PRINT a, b<br>END MainProgram</span></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "63a0712a-39ba-440a-9228-00b94b92d993"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "bee71391-ef34-46a0-b2f2-794bff21859a",
+        "displayIndex": 0,
+        "title": "Question 11",
+        "metadata": {
+          "id": "f70fe916-860c-431e-811c-f69f5534245a",
+          "mark": 1,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "c93a0106-0382-4f82-8cf7-b30954078791",
+          "contentItemCollection": {
+            "id": "a60c00f0-947d-407a-9a3a-64bd1a32a94f",
+            "items": [
+              {
+                "id": "bf70056a-647a-4040-ac5a-4ef07fc94da1",
+                "updatedDate": "2025-08-13T00:13:27.692Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the pseudocode stimulus, which of the following structure charts most accurately represents the algorithm?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "bf70056a-647a-4040-ac5a-4ef07fc94da1"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "0c6b69ce-d455-468d-b5eb-46899c5aaaac",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "dd83e083-9d17-4d27-9b41-fe2a983c4815",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p><img src=\"/img/merewether/11a.png\" width=\"125\" height=\"170\"></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "25e77746-ce3f-4e7a-88f0-f554c66ff27e",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p><img src=\"/img/merewether/11b.png\" width=\"125\"></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "1923ca0c-bc88-40b3-a139-3fd1551e3830",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p><img src=\"/img/merewether/11c.png\" width=\"125\"></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "62159c73-e8a6-48ee-b43e-4a9938ae897d",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p><img src=\"/img/merewether/11d.png\" width=\"125\"></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "1923ca0c-bc88-40b3-a139-3fd1551e3830"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "f632f82d-7276-4f62-8f86-41d7790fa753",
+    "title": "MHSTrial2025 - Question 12",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:55:52.387Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "c229e1db-9ed9-42fa-8208-6af5ce595aa8",
+      "items": [
+        {
+          "id": "e3e49bf2-2f6f-4c00-ab7f-781f5d9d5287",
+          "updatedDate": "2025-08-13T04:20:41.385Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\">BEGIN AgeDetermination(age)</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;</span>CASEWHERE age &lt;=</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>1: AgeDetermination = &ldquo;Infant&rdquo;</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>4: AgeDetermination = &ldquo;Toddler&rdquo;</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>12: AgeDetermination = &ldquo;Child&rdquo;</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>18: AgeDetermination = &ldquo;Teenager&rdquo;</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>OTHERWISE: AgeDetermination = &ldquo;Adult&rdquo;</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;</span>ENDCASE</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;</span>RETURN AgeDetermination</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 36.0pt;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\">END AgeDetermination</span></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "e3e49bf2-2f6f-4c00-ab7f-781f5d9d5287"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "06789028-017d-4d67-a8a4-021b147487da",
+        "displayIndex": 0,
+        "title": "Question 12",
+        "metadata": {
+          "id": "d3659a2e-cf6e-4898-8bae-c853b0239962",
+          "mark": 1,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "9ba319f9-efc1-4487-8ab1-0dbaf5c36182",
+          "contentItemCollection": {
+            "id": "2b2c58d1-68cb-4316-91a2-c1808198f299",
+            "items": [
+              {
+                "id": "f7c69d41-b55e-4535-bfe3-31caf469bee0",
+                "updatedDate": "2025-08-17T23:55:50.684Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the pseudocode stimulus, if an age of 19 is input by a user, what AgeDetermination should be returned?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "f7c69d41-b55e-4535-bfe3-31caf469bee0"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "9eb74bb9-62c5-4126-9d9e-4fbfff089779",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "53464c22-0a6c-4346-8c11-dced93528ba3",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Infant</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "b2e5eea9-bff3-4698-8017-320963122381",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Child</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "ea02c6e6-ae8a-475d-aa13-9f12e542ade9",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Teenager</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "69eedfca-8238-42b1-8385-491636dbb2af",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Adult</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "69eedfca-8238-42b1-8385-491636dbb2af"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "199243eb-c869-41cf-9567-f8f949fd0e69",
+    "title": "MHSTrial2025 - Question 13",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:56:32.529Z",
+
+    "parts": [
+      {
+        "id": "e6b87585-20e9-4720-b2c3-443e6b7f3705",
+        "displayIndex": 0,
+        "title": "Question 13",
+        "metadata": {
+          "id": "026c4464-ca71-42a8-a22b-4b4b4b958627",
+          "mark": 1,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "ecb38bd7-49a3-434a-bf48-b3305b0ee511",
+          "contentItemCollection": {
+            "id": "08dbfadd-dfc0-4628-a843-fbbd8cb7a8f4",
+            "items": [
+              {
+                "id": "b54db7e5-a758-4a87-9c0d-9ba6958d28d8",
+                "updatedDate": "2025-08-13T00:25:47.295Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p class=\"MsoNormal\" style=\"text-align: justify; text-justify: inter-ideograph;\">Wordle is an online daily word challenge where users have six chances to guess a 5 letter word. Susan has the second and third letters of today&rsquo;s word but not the other three. Being particularly resourceful, she has access to a database that contains every 5 letter word in the English language. Susan&rsquo;s known two letters are &ldquo;RO&rdquo;. Which SQL wildcard statement will help Susan narrow her guesses?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "b54db7e5-a758-4a87-9c0d-9ba6958d28d8"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "da7bd696-4d10-42e1-95fe-880927d40218",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "4021349d-084c-4d4b-a135-b60d2cdca7eb",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">*RO*</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "c393cdd5-0e97-437c-9698-9ef4689f2d8f",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">?RO?</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "c0989885-d287-4af4-bd01-65a3c509bbf0",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">?RO*</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "c8263599-884f-4a4a-8220-151484416af1",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p class=\"MsoNormal\"><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: SimSun; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: Arial; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-AU; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;\">*RO?</span></p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "c0989885-d287-4af4-bd01-65a3c509bbf0"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "01c1e841-4559-45e6-8352-bc9233f7f253",
+    "title": "MHSTrial2025 - Question 14",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:57:04.946Z",
+
+    "parts": [
+      {
+        "id": "1e8e4dd2-de6c-4e12-891c-5e85851a754f",
+        "displayIndex": 0,
+        "title": "Question 14",
+        "metadata": {
+          "id": "841844c4-ab0c-4e54-b18a-b208110b9b06",
+          "mark": 1,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "be2f0f6b-bd3a-44bd-99e3-4ed2a2918acf",
+          "contentItemCollection": {
+            "id": "8c94b278-ecc2-4ed7-9f2f-013051ea6960",
+            "items": [
+              {
+                "id": "ea91ffe2-54c3-43ea-a0b1-7a8d61b643eb",
+                "updatedDate": "2025-08-13T00:41:47.365Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>A weather application uses a HTTP GET request to safely and securely retrieve forecast data from an external weather service.</p>\n<p>Which statement best describes this interaction?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "ea91ffe2-54c3-43ea-a0b1-7a8d61b643eb"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "6e113a5c-613c-4f11-8000-9df2d0cf91d4",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "3f4cab9d-f97b-459f-abe2-318bdad34adf",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>The weather application sends raw database queries directly to the weather service.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "1dcf5149-ddae-4ce8-bb9b-69b4e91d771e",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>The weather application requests structured data from the weather service&rsquo;s API.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "0f554355-5328-4028-aa89-5e7e3a90e7c5",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>The weather application directly reads sensor values from the weather station&rsquo;s hardware.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "5308071e-c576-4026-b94f-b4611c03428d",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>The weather service automatically pushes new data to the weather application every minute without a request.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "1dcf5149-ddae-4ce8-bb9b-69b4e91d771e"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "e9454353-88c6-4e9a-b5d4-4f8940266c70",
+    "title": "MHSTrial2025 - Question 15",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:57:52.066Z",
+
+    "parts": [
+      {
+        "id": "e8f116c2-2395-4822-bf08-5ce6191da799",
+        "displayIndex": 0,
+        "title": "Question 15",
+        "metadata": {
+          "id": "630bc0b8-41f6-4df0-9550-e8314bc05923",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "3ab9a952-a56a-49e6-9c61-21f573334e89",
+          "contentItemCollection": {
+            "id": "e8f3e67a-53ee-44ef-9fe5-1d5639629273",
+            "items": [
+              {
+                "id": "1daa0282-6d8c-4eb4-888c-f44cc39aa404",
+                "updatedDate": "2025-08-13T00:50:53.588Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following is <strong>NOT </strong>a bias mitigation strategy that developers can include in the implementation of Machine Learning and Artificual Intelligence solutions?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "1daa0282-6d8c-4eb4-888c-f44cc39aa404"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "8fd42912-5846-43e1-8e67-25f3c645919b",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "2a8ba9b5-9f6c-4359-aeb4-f7549d6e4026",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Implement fairness metrics to evaluate whether models treat all groups equitably.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "b4fded71-a31a-4a4e-b0a6-4316dc7cbc79",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Ensure that datasets are collected from a wide range of sources and populations to capture diverse perspectives and experiences.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "b264f0f4-96a5-486f-b584-31e104fe829c",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Choose specific datasets that reflect the preferences or experiences of developers and data scientists.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "bf4f28c1-1cc1-4095-9993-25445b768143",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Conduct regular audits of datasets and models including testing models on different demographic groups.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "b264f0f4-96a5-486f-b584-31e104fe829c"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "c1cab4dc-e0ef-4998-8b02-7cc59b639526",
+    "title": "MHSTrial2025 - Question 16",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:58:54.741Z",
+
+    "parts": [
+      {
+        "id": "7f12da1d-92bf-4e5f-b498-866495820ae5",
+        "displayIndex": 0,
+        "title": "Question 16",
+        "metadata": {
+          "id": "45059ff7-5272-4f20-9a30-fae73cedd951",
+          "mark": 1,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "a29d2ce7-62df-46ae-890c-97dbb6c725b2",
+          "contentItemCollection": {
+            "id": "53c1f6e2-4488-47c9-945d-4a55bbf095c1",
+            "items": [
+              {
+                "id": "d3fc9f45-054d-4bbf-92b1-e4b8d3ef2b1a",
+                "updatedDate": "2025-08-13T01:01:53.099Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Acceptance testing can be defined as?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "d3fc9f45-054d-4bbf-92b1-e4b8d3ef2b1a"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "9a1d8c89-3b14-40f5-8d15-ff47e3566ff7",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "1341230c-aab2-452e-9189-1e44f209545c",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Testing that ensures each function of the software application operates in accordance with the specified requirements.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "014b928a-9e1e-4d25-b4b7-6ce964ebf09f",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Testing that involves releasing software to a limited audience outside of the development team.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "e9b3d9a7-be55-4cc0-b371-1b9e5f2b615f",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Testing that examines how software performs under a large volume of data.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "e7b019df-45ab-474a-b123-6ab188c2b526",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Testing that determines whether the software meets the agreed-upon criteria for delivery and is ready for release.</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "e7b019df-45ab-474a-b123-6ab188c2b526"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "9d7df27c-f943-420a-bd0d-ac53389a5451",
+    "title": "MHSTrial2025 - Question 17",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:59:24.768Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "d6bfc7ee-291a-4382-979c-684311f044ab",
+      "items": [
+        {
+          "id": "35f54935-5a34-41e3-9293-60ef8be53718",
+          "updatedDate": "2025-08-13T01:06:26.628Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p><img src=\"/img/merewether/17.png\"></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "35f54935-5a34-41e3-9293-60ef8be53718"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "e199706f-63aa-4085-8c65-68e8113eadf1",
+        "displayIndex": 0,
+        "title": "Question 17",
+        "metadata": {
+          "id": "8ab72c41-a56e-4ad4-9c92-220048d828ac",
+          "mark": 1,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "8a51a568-4fa7-4b79-9986-8d4229122ffb",
+          "contentItemCollection": {
+            "id": "3b1cb0d7-f238-4be0-baed-a3221cdc8470",
+            "items": [
+              {
+                "id": "7acba7a8-ea5f-4ba1-991f-57486ce4b4ee",
+                "updatedDate": "2025-08-13T01:10:28.296Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the Class Diagram stimulus, which of the following statements is true?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "7acba7a8-ea5f-4ba1-991f-57486ce4b4ee"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "242c6949-2f41-4fee-ba29-b3f80e3b4fb7",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "336f8073-25e9-4ab7-a8bc-fed9341f9d1e",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Person inherits from Student and Parent</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "bfe4cf82-5ebd-48fd-a14b-bee25965d24f",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>A student must study 1 or more subjects</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "9d0e8621-420e-471c-b245-8cd1a24debbb",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>A subject must have 1 or more students</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "317ecdb3-0e00-4dfa-93c4-96e408e90a5d",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Student inherits from Subject</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "bfe4cf82-5ebd-48fd-a14b-bee25965d24f"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "5cb1c669-22ac-494c-8e21-1e20890ad8fc",
+    "title": "MHSTrial2025 - Question 18",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:59:37.421Z",
+
+    "parts": [
+      {
+        "id": "e92ff487-8cdd-4161-96ed-9005df10b335",
+        "displayIndex": 0,
+        "title": "Question 18",
+        "metadata": {
+          "id": "acdd8d11-f9c8-4c3c-9755-81aee32da80b",
+          "mark": 1,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "bd0654f4-d6ff-4378-8df6-9d8a80965d4f",
+          "contentItemCollection": {
+            "id": "46214521-ab53-4504-86fb-aaecff16b5b2",
+            "items": [
+              {
+                "id": "17d42566-4e17-4b6d-a280-b65691c14f2a",
+                "updatedDate": "2025-08-13T01:16:25.434Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Which of the following is <strong>NOT </strong>a key concept in understanding secure software design?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "17d42566-4e17-4b6d-a280-b65691c14f2a"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "2a8b3b7e-5d0b-4076-9daa-3869ab8f08a2",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "d03f70b2-cdf7-459f-b331-889311c880ff",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Availability</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "8b55fac9-df3f-4ee4-b62e-d843b1e45b40",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Application</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "de54c659-20b5-4e89-a667-e4d90cb75d08",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Integrity</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "ad984820-ae9e-4136-84c1-31baf5f7aa28",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Accountability</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "8b55fac9-df3f-4ee4-b62e-d843b1e45b40"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "bfecf3b1-d2a1-4ef8-8d2e-8bf27c1cdb64",
+    "title": "MHSTrial2025 - Question 19",
+    "isPublished": true,
+    "publishDate": "2025-08-17T23:59:54.678Z",
+
+    "parts": [
+      {
+        "id": "c10e142b-80d8-402d-a1ea-0fedbabf99ba",
+        "displayIndex": 0,
+        "title": "Question 19",
+        "metadata": {
+          "id": "2bdfbcc9-7c88-46b6-a1db-d7a2bcef5f59",
+          "mark": 1,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "ded21d58-5203-4f7c-8ee7-73f3ae461ee4",
+          "contentItemCollection": {
+            "id": "e07a3c8f-408a-4498-806d-396cf0e51032",
+            "items": [
+              {
+                "id": "85b4396f-5aca-4073-bda3-fe849da1f2e8",
+                "updatedDate": "2025-08-13T01:39:20.161Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>The following statement describes which specific Internet technology?</p>\n<p><strong>\"The header contains source and destination IP addresses. The actual data comes next for information or message exhange. The last component is the footer.\"</strong></p>"
+              }
+            ],
+            "itemIdOrder": [
+              "85b4396f-5aca-4073-bda3-fe849da1f2e8"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "cd94ac95-a079-4fcf-b100-8048ab832c69",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "a40c6287-18f2-4c9a-aa2f-e2cd51f69ac8",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>Data packet</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "d18a0b5e-4593-42e6-aafd-2f8603d18b26",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>Securty certificate</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "43ab5cbd-d866-4fe7-81a1-05e47c66188c",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>Internet Uniform Resource Locator (URL)</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "d127ce0c-eeab-4d7d-9ee6-85793d77c0d0",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>Flask database</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "a40c6287-18f2-4c9a-aa2f-e2cd51f69ac8"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "7c3e20c9-4ab9-40b3-a6f8-c5a0c898c5ef",
+    "title": "MHSTrial2025 - Question 20",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:00:18.711Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "a3c7cf36-1b86-428e-b356-cbbfc5826333",
+      "items": [
+        {
+          "id": "4986e9fc-1d06-4b6a-ae92-d372ad8665ba",
+          "updatedDate": "2025-08-13T01:44:08.043Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p>from django.db import models</p>\n<p>class MusicTrack(models.Model):<br>title = models.CharField(max_length=100)<br>artist = models.CharField(max_length=50)<br>genre = models.CharField(max_length=50)<br>release_date = models.DateField()</p>"
+        }
+      ],
+      "itemIdOrder": [
+        "4986e9fc-1d06-4b6a-ae92-d372ad8665ba"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "4fd3ee3a-7c83-4e57-823b-bf267e6b300f",
+        "displayIndex": 0,
+        "title": "Question 20",
+        "metadata": {
+          "id": "a0e59c83-de05-4fbe-a1f5-c48fe4a4cbf0",
+          "mark": 1,
+          "bandIds": [
+            "0dd4a947-034d-4bb6-846d-b00817aee3dc"
+          ]
+        },
+        "content": {
+          "id": "e8282e65-8c64-4d01-825f-25ad6be6feca",
+          "contentItemCollection": {
+            "id": "e82b6c4d-d7af-4db5-b5bb-2e130f3034da",
+            "items": [
+              {
+                "id": "c58ec872-cd45-46fd-9500-06ab145ebfc2",
+                "updatedDate": "2025-08-13T01:45:54.975Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the Object-Relational Mapping (ORM) stimulus, the code to retrieve all 'Pop' tracks would be?</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "c58ec872-cd45-46fd-9500-06ab145ebfc2"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "14bb787f-51ab-4fcf-adff-51000c83f595",
+          "parameters": {
+            "version": 0,
+            "type": "MULTI_CHOICE",
+            "options": [
+              {
+                "id": "d38a661c-72c7-4192-9ffc-6214f0b22f0d",
+                "type": "TEXT",
+                "displayIndex": 0,
+                "distractor": null,
+                "text": "<p>pop_tracks = MusicTrack.objects.filter(genre='Pop')</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "30abe7bf-8024-4c34-bbda-3cd60fe63aa9",
+                "type": "TEXT",
+                "displayIndex": 1,
+                "distractor": null,
+                "text": "<p>pop_tracks = genre.objects.filter(MusicTrack='Pop')</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "132807ef-bc7d-4d59-ab0a-ec5367ba3227",
+                "type": "TEXT",
+                "displayIndex": 2,
+                "distractor": null,
+                "text": "<p>MusicTrack.objects.filter(genre='Pop') = pop_tracks</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              },
+              {
+                "id": "9a037736-e1e3-407d-8b17-2f878a0e145e",
+                "type": "TEXT",
+                "displayIndex": 3,
+                "distractor": null,
+                "text": "<p>pop_tracks == genre.objects.filter(MusicTrack='Pop')</p>",
+                "equation": null,
+                "tableRow": null,
+                "image": null
+              }
+            ],
+            "optionsSettings": null,
+            "settings": null,
+            "correctOptions": [
+              "d38a661c-72c7-4192-9ffc-6214f0b22f0d"
+            ]
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "0691b0ed-4413-4822-ad5c-ccfc8f20415d",
+    "title": "MHSTrial2025 - Question 21",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:01:07.186Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "9165b413-3b0d-4346-94a8-af147517d8aa",
+      "items": [
+        {
+          "id": "c114ba98-5dcb-4ca7-bd57-9ae7e227f140",
+          "updatedDate": "2025-08-13T04:08:44.181Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p class=\"MsoListParagraphCxSpFirst\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\">BEGIN AverageListOfNumbers</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp; &nbsp; &nbsp; </span>average = -1</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>arrayOfNumbers = <u>GetNumbers</u></span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>IF number of items in arrayOfNumbers &lt;&gt; 0 THEN</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>average = <u>CalculateAverage</u>(arrayOfNumbers)</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><u>PrintAverageToScreen</u>(average)</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ELSE</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>PRINT &ldquo;No numbers entered&rdquo;</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ENDIF</span></p>\n<p class=\"MsoListParagraphCxSpLast\" style=\"text-align: justify; text-justify: inter-ideograph;\"><span style=\"font-family: 'Arial Narrow',sans-serif;\">END AverageListOfNumbers</span></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "c114ba98-5dcb-4ca7-bd57-9ae7e227f140"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "5b44e74e-d9be-41b3-a224-bb84dcdaa1b3",
+        "displayIndex": 0,
+        "title": "Question 21",
+        "metadata": {
+          "id": "71ba6c7b-87da-4f27-acfa-eef120ca92a3",
+          "mark": 4,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "00cacd48-bba6-4268-a412-fe047c090d6e",
+          "contentItemCollection": {
+            "id": "64c5f4ce-48b5-4136-b4e6-51bc36b784c1",
+            "items": [
+              {
+                "id": "dd59cee6-dde7-49ce-ad4b-8c6f95a07823",
+                "updatedDate": "2025-08-15T02:22:18.344Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the stimulus material, construct a structure chart to represent this algorithm.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "dd59cee6-dde7-49ce-ad4b-8c6f95a07823"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "e92c1543-1bc0-453a-8aa0-3c151f00e351",
+          "parameters": {
+            "type": "DRAWING_V2",
+            "initialData": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "712b1881-cac5-477b-9c90-5086fb0683a2",
+    "title": "MHSTrial2025 - Question 22",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:01:30.294Z",
+
+    "parts": [
+      {
+        "id": "cd47046f-47eb-44d7-8acc-e3dad474a34c",
+        "displayIndex": 0,
+        "title": "Question 22",
+        "metadata": {
+          "id": "507d20be-a218-4025-8a57-b875a33ac401",
+          "mark": 6,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "7fec6ab5-f15b-42e2-8851-2c733122287f",
+          "contentItemCollection": {
+            "id": "52a4fd92-4e01-4e77-ad9a-2a622e28dc36",
+            "items": [
+              {
+                "id": "0dfe7f2f-6b13-4da3-a291-f937a94e2a2a",
+                "updatedDate": "2025-08-13T02:02:03.944Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Explain the three types of machine learning.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "0dfe7f2f-6b13-4da3-a291-f937a94e2a2a"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "91cd435e-acd3-4c18-b494-9c2ae703daba",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 180,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "f6576620-3dad-469a-8562-54ace389c004",
+    "title": "MHSTrial2025 - Question 23",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:02:10.491Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "b1dcc864-d34a-4c2e-a4bd-fe328bc2fb39",
+      "items": [
+        {
+          "id": "a7890ded-f8c5-446d-8a67-02e55fb8cfce",
+          "updatedDate": "2025-08-13T02:11:08.986Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p><img src=\"/img/merewether/23.png\"></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "a7890ded-f8c5-446d-8a67-02e55fb8cfce"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "24b5962f-8c46-4861-9477-b9f9e79eac49",
+        "displayIndex": 0,
+        "title": "Question 23",
+        "metadata": {
+          "id": "45cfa1ca-90c6-45b8-9f24-d38719a98577",
+          "mark": 3,
+          "bandIds": [
+            "b87d71ee-5ae9-43f7-a1f5-feec3f1db295"
+          ]
+        },
+        "content": {
+          "id": "035ee35e-6983-4f84-91c7-e32a6e2c407b",
+          "contentItemCollection": {
+            "id": "c0e29ad8-3c5c-43c6-8da3-f6ba65472033",
+            "items": [
+              {
+                "id": "a5434485-0598-4e39-ad95-665bb9f9428b",
+                "updatedDate": "2025-08-13T02:14:16.698Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the structure chart stimulus, write a possible pseudocode algorithm for the FindItem routine.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "a5434485-0598-4e39-ad95-665bb9f9428b"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "88187370-8f81-4176-9d7c-1a7224808c89",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 50,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "5975ca72-eb63-42eb-acea-b4092a490876",
+    "title": "MHSTrial2025 - Question 24",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:02:38.323Z",
+
+    "parts": [
+      {
+        "id": "73c7ddb4-62b4-46bc-895a-da3d004b14f8",
+        "displayIndex": 0,
+        "title": "Question 24",
+        "metadata": {
+          "id": "1b51fab3-5751-4cf2-8234-8a1f68fa3e25",
+          "mark": 4,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "dcfaee17-d6e7-4a24-a877-cb1a4773b6f7",
+          "contentItemCollection": {
+            "id": "a7fac9fe-2879-4fbe-a4b3-d69f13451948",
+            "items": [
+              {
+                "id": "3594c056-d9d6-415c-95de-09be526fc0ef",
+                "updatedDate": "2025-08-13T02:21:21.125Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Discuss the role and importance of programmed data backup and version control when producing and implementing code.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "3594c056-d9d6-415c-95de-09be526fc0ef"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "f97c9c26-001b-47d8-a2b5-db3d2f4fdb3c",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 120,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "3c71a987-c072-41a5-872d-d1b982a590d5",
+    "title": "MHSTrial2025 - Question 25",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:03:20.440Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "e68a89bd-15d1-4ae3-be81-6561799374b6",
+      "items": [
+        {
+          "id": "d549073d-9f20-42d0-abe7-22d2864cabc9",
+          "updatedDate": "2025-08-13T03:42:39.768Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p>A library management system allows users to register online.</p>\n<p>The registration form must collect user details, a secure PIN and confirm the user's identity via a preferred notification method.</p>\n<p>The PIN requirements are:</p>\n<ul>\n<li>Exactly 4 numeric digits</li>\n<li>No repeated digits (e.g. 1123 or 1231 is invalid)</li>\n<li>No letters or special character</li>\n</ul>"
+        }
+      ],
+      "itemIdOrder": [
+        "d549073d-9f20-42d0-abe7-22d2864cabc9"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "8c31677e-4afc-4b79-95fa-c66565be108c",
+        "displayIndex": 0,
+        "title": "Question 25",
+        "metadata": {
+          "id": "6ee2cd61-79fc-4c0a-a64f-677d68c6b780",
+          "mark": 4,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "057bbae4-048f-47d2-9aac-2898eb9f8c7f",
+          "contentItemCollection": {
+            "id": "471f247b-c465-4406-89fb-2d3ddd5e1111",
+            "items": [
+              {
+                "id": "f6f3dfe6-8e4b-4c91-b387-8bb4903d6843",
+                "updatedDate": "2025-08-13T02:33:03.126Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the information in the stimulus, construct a user interface design for registration. Label all form fields clearly.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "f6f3dfe6-8e4b-4c91-b387-8bb4903d6843"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "caf00dcb-24ab-4401-befb-400f79ea1aa0",
+          "parameters": {
+            "type": "DRAWING_V2",
+            "initialData": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "03330e90-0e4e-404b-9c61-69c84d84fda0",
+    "title": "MHSTrial2025 - Question 26",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:04:32.281Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "45ca2c02-86ec-442d-885e-159934c7da63",
+      "items": [
+        {
+          "id": "2406e1e4-4d04-49a7-bd7d-131b11edffb3",
+          "updatedDate": "2025-08-18T00:04:13.015Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p>A hospital requires software to manage their operating theatre bookings. The new software should have the following features:</p>\n<ul>\n<li>Details of each patient&rsquo;s operation are entered from a digital booking card supplied by a surgeon&rsquo;s team. Details include the patient details (first name, surname, age, weight(kgs)), name of the surgeon (surname), type of operation (internal or external), date of the operation, and the times the operating theatre will be required ('morning' or 'afternoon')</li>\n<li>The software will check if the theatre is available at those times ('morning' or 'afternoon') and display an appropriate message</li>\n<li>At the start of each day a printout is generated for each surgeon&rsquo;s team showing the list of operations they have scheduled for that day</li>\n</ul>"
+        }
+      ],
+      "itemIdOrder": [
+        "2406e1e4-4d04-49a7-bd7d-131b11edffb3"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "0e8bd363-4cc6-44cc-b371-8021ac61b5ad",
+        "displayIndex": 0,
+        "title": "Question 26",
+        "metadata": {
+          "id": "8cbe7b87-cf60-4428-8d36-5d92219386f2",
+          "mark": 8,
+          "bandIds": [
+            "0dd4a947-034d-4bb6-846d-b00817aee3dc"
+          ]
+        },
+        "content": {
+          "id": "73be54a1-c812-47fe-abaf-e911234fb9f5",
+          "contentItemCollection": {
+            "id": "953296fc-1580-4de0-9791-6ab02e6ee807",
+            "items": [
+              {
+                "id": "ffa4eb2f-fddb-4527-a4c7-9dab0afa247b",
+                "updatedDate": "2025-08-15T02:32:54.852Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the stimulus information, synthesise a Python program that captures all required information for a patient's operation and outputs a confirmation receipt to the user. The program should include simple error checking and validation.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "ffa4eb2f-fddb-4527-a4c7-9dab0afa247b"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "9b198cb6-398b-4481-948d-afd701a4abf2",
+          "parameters": {
+            "version": 0,
+            "type": "CODING",
+            "settings": {
+              "showExecutionOutput": true,
+              "highlightSyntax": true
+            },
+            "language": "PYTHON",
+            "defaultCode": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "48a2d0dc-0fc0-4998-a94c-67c319de3ad7",
+    "title": "MHSTrial2025 - Question 27",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:04:55.514Z",
+
+    "parts": [
+      {
+        "id": "812f85aa-e408-4f35-8e65-f88a226ccbdb",
+        "displayIndex": 0,
+        "title": "Question 27",
+        "metadata": {
+          "id": "ba323d87-26cf-424b-8ade-0ef7d943872c",
+          "mark": 3,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "31b2309f-c16b-49e2-9277-b462c6b4de27",
+          "contentItemCollection": {
+            "id": "71336d92-126d-4bc1-80c2-4dbae0ef40ef",
+            "items": [
+              {
+                "id": "bfcb0e9e-c14e-4f2c-a6e6-ccd7a118505a",
+                "updatedDate": "2025-08-13T03:49:37.300Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Contrast live and simulated testing in the creation of a software solution.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "bfcb0e9e-c14e-4f2c-a6e6-ccd7a118505a"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "03bcdaed-2eaa-4e8c-8d6f-23a0229988b9",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 90,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "b514bd09-3f3c-4f8a-8532-002b4c9c9e00",
+    "title": "MHSTrial2025 - Question 28",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:05:53.010Z",
+    "syllabusId": "d1a54432-597e-4e3c-a5c6-ad7a134726e4",
+    "stimulusContentItemCollection": {
+      "id": "a41ef066-0665-4cca-82fa-ae2db521f2bf",
+      "items": [
+        {
+          "id": "f6fdfe64-8508-46f4-a5b9-30e3894f129e",
+          "updatedDate": "2025-08-13T04:34:40.756Z",
+          "files": null,
+          "type": "RICH_TEXT",
+          "text": "<p>A new parking payment software system is being developed that will allow carpark users to purchase a ticket with their credit card. Carpark users will enter their vehicle numberplate details via the parking payment software system along with their credit card details. Once a successful transaction is completed, the parking details are stored in a database and a ticket receipt is printed. The receipt is placed on the car&rsquo;s dashboard so it is visible to carpark officials.</p>\n<p>The current version of the proposed payment system database utilises a flat-file structure in a &lsquo;Transaction&rsquo; table:</p>\n<p><img src=\"/img/merewether/28.png\"></p>"
+        }
+      ],
+      "itemIdOrder": [
+        "f6fdfe64-8508-46f4-a5b9-30e3894f129e"
+      ]
+    },
+    "publisher": null,
+    "dynamicFields": null,
+    "copyrightText": null,
+    "visibility": "PERSONAL",
+    "school": null,
+    "isPublisherLocked": false,
+    "parts": [
+      {
+        "id": "6ab95d75-eac7-41db-a881-feca8f78d182",
+        "displayIndex": 0,
+        "title": "Question 28",
+        "metadata": {
+          "id": "cadafdad-0a15-4753-bf19-fd104419f3b2",
+          "mark": 3,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "d0d61a6d-c434-4a9d-b8c7-d128d104582f",
+          "contentItemCollection": {
+            "id": "98cc5fc2-f8e5-48b8-94ae-2e227cd62ef9",
+            "items": [
+              {
+                "id": "fc509ff7-0d26-4a2f-af7c-fc6be178d954",
+                "updatedDate": "2025-08-13T04:35:00.506Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Using the stimulus material, synthesise an SQL statement that could be used to query the following details from the stored data:</p>\n<p>All vehicles that parked in space 1A on or before 10/04/25 and whose payee was a Visa card holder.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "fc509ff7-0d26-4a2f-af7c-fc6be178d954"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "175edf84-e81b-4fff-b43c-fc6bbad03194",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 50,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "ab8c376a-c81a-4bba-9c63-f0e0e9cba1bf",
+    "title": "MHSTrial2025 - Question 29",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:06:20.405Z",
+
+    "parts": [
+      {
+        "id": "d1cb9fc6-f397-4c78-b710-c8f788b62d02",
+        "displayIndex": 0,
+        "title": "Question 29",
+        "metadata": {
+          "id": "0b469d85-db4c-4376-9412-af02464f71da",
+          "mark": 8,
+          "bandIds": [
+            "d48b51b8-7f70-4d46-91cf-95b7bf902f0c"
+          ]
+        },
+        "content": {
+          "id": "5b1743a3-43b5-4e73-b238-364127767bdd",
+          "contentItemCollection": {
+            "id": "b0585892-1a65-41dc-a513-834373f538a3",
+            "items": [
+              {
+                "id": "f6a688cb-cf55-48d0-ae1b-a7d511672bf1",
+                "updatedDate": "2025-08-13T04:05:47.647Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Assess the impact of automation on the individual, society and the environment.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "f6a688cb-cf55-48d0-ae1b-a7d511672bf1"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "e4d95194-1aa0-4ec2-bf7b-9638f86e7414",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 240,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "9ca0c873-e1cd-42be-ab68-6e64680c1f96",
+    "title": "MHSTrial2025 - Question 30",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:08:54.606Z",
+
+    "parts": [
+      {
+        "id": "5f40f26f-b7a5-4add-aab6-a8d99e3f3a8c",
+        "displayIndex": 0,
+        "title": "Question 30",
+        "metadata": {
+          "id": "4ae0bfca-2fe5-42f5-b5ef-9f5903f19e8a",
+          "mark": 8,
+          "bandIds": [
+            "0dd4a947-034d-4bb6-846d-b00817aee3dc"
+          ]
+        },
+        "content": {
+          "id": "9d0cee10-3ab4-4bd8-9d37-ad18a080a324",
+          "contentItemCollection": {
+            "id": "743c5000-6c23-4f61-9040-00baecdc0cfa",
+            "items": [
+              {
+                "id": "2496ba18-3252-4fa7-857c-5ab68246a62c",
+                "updatedDate": "2025-08-18T00:08:49.502Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>A program is required to compare the marks of two HSC students studying Software Engineering.</p>\n<p>Synthesise a Python program that will:</p>\n<ul>\n<li>Capture four assessment marks for each student out of 20, 20, 30 and 30 respectively (marks will be awarded for more complex data structures and error checking/validation)</li>\n<li>Output the course total out of 100 for each student</li>\n<li>Output the course average for each student</li>\n<li>Identify and output which student has achieved the highest total mark from the completion of all four assessments</li>\n</ul>\n<p>&nbsp;</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "2496ba18-3252-4fa7-857c-5ab68246a62c"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "dbd67af1-1e51-4267-b2da-e533c187d86b",
+          "parameters": {
+            "version": 0,
+            "type": "CODING",
+            "settings": {
+              "showExecutionOutput": true,
+              "highlightSyntax": true
+            },
+            "language": "PYTHON",
+            "defaultCode": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "335193f7-b919-40e5-804b-8e0ecae28308",
+    "title": "MHSTrial2025 - Question 31",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:09:22.734Z",
+
+    "parts": [
+      {
+        "id": "98fd679c-2d8f-4cae-b3f1-39ef88d44251",
+        "displayIndex": 0,
+        "title": "Question 31",
+        "metadata": {
+          "id": "618c80cc-b39e-4f11-a9fa-d69bd9f73212",
+          "mark": 4,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "a4fbd9f2-cd6e-4952-a25d-b2eeded86137",
+          "contentItemCollection": {
+            "id": "2f398ecd-3b21-406b-bc0f-4e6b1aa49ad8",
+            "items": [
+              {
+                "id": "7e72ab65-0c88-453a-83b9-fc5ad9adbab3",
+                "updatedDate": "2025-08-15T02:27:20.237Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Recommend ways in which accessibility features can be implemented into web content to assist a wide range of users, including those with disabilities.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "7e72ab65-0c88-453a-83b9-fc5ad9adbab3"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "6d763dd0-65e1-4249-8aa6-0a8c63368a07",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 120,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  },
+  {
+    "id": "3474fb5b-6fd0-4eb1-8f2d-da0a72910946",
+    "title": "MHSTrial2025 - Question 32",
+    "isPublished": true,
+    "publishDate": "2025-08-18T00:10:15.691Z",
+
+    "parts": [
+      {
+        "id": "0d40841e-90d4-4d1f-9777-1c138c5e9d86",
+        "displayIndex": 0,
+        "title": "Question 32",
+        "metadata": {
+          "id": "566f60b4-7172-4cae-b961-c503585f4980",
+          "mark": 5,
+          "bandIds": [
+            "266e22f1-3f8a-4fbd-95bd-e7a6221d1c65"
+          ]
+        },
+        "content": {
+          "id": "d81fe42c-2af4-425b-8e9d-23844ded133e",
+          "contentItemCollection": {
+            "id": "7bb40dfe-27d1-42e0-930c-419453484ed7",
+            "items": [
+              {
+                "id": "0ccc1998-38a9-41a6-b997-25da98f189a0",
+                "updatedDate": "2025-08-15T02:48:26.412Z",
+                "files": null,
+                "type": "RICH_TEXT",
+                "text": "<p>Describe web Content Management Systems (CMS) and justify why an experienced web developer would choose to use HTML, CSS and JavaScript while a beginner would use a CMS.</p>"
+              }
+            ],
+            "itemIdOrder": [
+              "0ccc1998-38a9-41a6-b997-25da98f189a0"
+            ]
+          },
+          "contentItemMetadata": null
+        },
+        "answer": {
+          "id": "e568e125-223f-42d6-a493-76870130ea40",
+          "parameters": {
+            "version": 0,
+            "type": "SHORT",
+            "extendedView": true,
+            "settings": {
+              "version": 0,
+              "wordLimit": true,
+              "wordCount": 150,
+              "exactValue": false,
+              "richText": false,
+              "imageUpload": false,
+              "equationEditor": false,
+              "calculatorInterface": false
+            },
+            "correctValues": null
+          },
+          "files": null
+        },
+        "markingCriteriaContentItem": null,
+        "markingRubricContentItem": null,
+        "markingGuidanceContentItem": null,
+        "sampleAnswerContentItem": null
+      }
+    ]
+  }
+]

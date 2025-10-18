@@ -15,6 +15,7 @@ const examFiles = {
   doe_sample_exam: "data/doe_sample.json",
   normanhurst: "data/normanhurst.json",
   nsw_seng: "data/nsw_seng.json",
+  merewether: "data/merewether.json"
 };
 
 export default function App() {
@@ -147,10 +148,16 @@ function ExamList() {
       desc: "Normanhurst Boys High School Trial Exam for Software Engineering. Partially adapted from Department of Education and Independent exam."
     },
     {
+      id: "merewether",
+      title: "Merewether Trial Exam",
+      desc: "Merewether High School Trial Exam."
+    },
+    {
       id: "nsw_seng",
       title: "NSW SENG Mock Trial",
       desc: "A sample, community, Software Engineering exam based on the syllabus."
-    }
+    },
+
   ];
 
   return (
