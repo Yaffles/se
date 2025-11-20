@@ -1,94 +1,25 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Assessments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+    <script src="pyodide/pyodide.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Engineering Assessments</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
-  <script src="pyodide/pyodide.js"></script>
-
-  <!-- <script>
+    <!-- <script>
       let pyodideReady = loadPyodide(); // promise
     </script> -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="code.png">
-  <link rel="stylesheet" crossorigin href="/assets/index-C4LNam-C.css">
-</head>
-
-<body class="bg-gray-100 text-gray-800" data-new-gr-c-s-check-loaded="14.1256.0" data-gr-ext-installed="">
-  <div id="root" class="container mx-auto p-6">
-    <div class="container mx-auto p-6">
-      <header class="text-center mb-8">
-        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Software Engineering Assessments</h1>
-        <p class="text-gray-600 mt-2 text-2xl">
-          Contact for access:
-          <a href="mailto:se.paper.is@proton.me" class="text-blue-500 hover:underline">
-            se.paper.is@proton.me
-          </a>
-        </p>
-      </header>
-      <main>
-        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a href="?exam=cssa_familiarisation"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">CSSA Familiarisation</h2>
-            <p class="text-gray-600 mt-2">Practice familiarisation questions for the CSSA Software Engineering exam.</p>
-          </a><a href="?exam=cssa_trial"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">CSSA Trial Exam</h2>
-            <p class="text-gray-600 mt-2">CSSA Trial Software Engineering exam.</p>
-          </a><a href="?exam=independent"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">Independent Trial Exam</h2>
-            <p class="text-gray-600 mt-2">Independent Trial Exam for Software Engineering.</p>
-          </a><a href="?exam=hsc_familiarisation"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">HSC Familiarisation Questions</h2>
-            <p class="text-gray-600 mt-2">HSC Software Engineering familiarisation questions.</p>
-          </a><a href="?exam=hsc_sample_exam"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">HSC Sample Exam</h2>
-            <p class="text-gray-600 mt-2">HSC Software Engineering sample exam questions.</p>
-          </a><a href="?exam=doe_sample_exam"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">Department of Education Sample Exam</h2>
-            <p class="text-gray-600 mt-2">Department of Education (DoE) Sample Exam for some state schools.</p>
-          </a><a href="?exam=girraween"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">Girraween Exam</h2>
-            <p class="text-gray-600 mt-2">Girraween High School Software Engineering exam. Partially adapted from
-              independent exam.</p>
-          </a><a href="?exam=nsb"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">NSB Exam</h2>
-            <p class="text-gray-600 mt-2">North Sydney Boys High School Software Engineering exam.</p>
-          </a><a href="?exam=normanhurst"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">Normanhurst Trial Exam</h2>
-            <p class="text-gray-600 mt-2">Normanhurst Boys High School Trial Exam for Software Engineering. Partially
-              adapted from Department of Education and Independent exam.</p>
-          </a>
-          <a href="?exam=merewether"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">Merewether Trial Exam</h2>
-            <p class="text-gray-600 mt-2">Merewether High School Trial Exam.</p>
-          </a>
-          <a href="?exam=nsw_seng"
-            class="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-gray-200">
-            <h2 class="text-xl font-semibold text-gray-800">NSW SENG Mock Trial</h2>
-            <p class="text-gray-600 mt-2">A sample, community, Software Engineering exam based on the syllabus.</p>
-          </a></div>
-      </main>
-    </div>
-  </div>
-  <!-- <div id="root" class="container mx-auto p-6">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="code.png">
+    <script type="module" crossorigin src="/assets/percentages-BXMCSKIN-BJmjqwmI.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/percentages-BXMCSKIN-ugWm9xtC.css">
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <div id="root" class="container mx-auto p-6">
 
     </div>
-    <script type="module" src="/src/main.jsx"></script> -->
 
-
-
-</body>
-
+  </body>
 </html>

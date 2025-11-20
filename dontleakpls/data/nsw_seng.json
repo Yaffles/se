@@ -33,7 +33,7 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [1]
+                "correctOptionsIndices": [1]
             }
         }
     }]
@@ -72,7 +72,7 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [2]
+                "correctOptionsIndices": [2]
             }
         }
     }]
@@ -110,7 +110,8 @@
                 }],
                 "settings": {
                     "multipleCorrectOptions": false
-                }
+                },
+                "correctOptionsIndices": [3]
             }
         }
     }]
@@ -149,7 +150,7 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [2]
+                "correctOptionsIndices": [2]
             }
         }
     }]
@@ -196,7 +197,7 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [2]
+                "correctOptionsIndices": [2]
             }
         }
     }]
@@ -238,7 +239,7 @@
                 "settings": {
                     "multipleCorrectOptions": true
                 },
-                "correctOptionIndices": [0, 1, 3, 4]
+                "correctOptionsIndices": [0, 1, 3, 4]
             }
         }
     }]
@@ -278,7 +279,7 @@
                 "settings": {
                     "multipleCorrectOptions": false
                 },
-                "correctOptionIndices": [2]
+                "correctOptionsIndices": [2]
             }
         }
     }]
@@ -330,6 +331,21 @@
                 }],
                 "correctRowOrder": ["step1-manifest", "step2-install", "step3-cache", "step4-activate", "step5-homescreen"]
             }
+        },
+        "sampleAnswerContentItem": {
+            "files": null,
+            "type": "RICH_TEXT",
+            "text": "<p><ol style=\"list-style: decimal; padding-left: 20px;\"><li>The browser downloads manifest.json to determine app name, icons, and theme</li><li>The service worker is installed and waits for activation.</li><li>The service worker is activated and takes control of pages.</li><li>The service worker caches essential files for offline use.</li><li>The user adds the PWA to their home screen.</li></ol></p>"
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<p>Steps in correct order</p>",
+                "point": "2"
+            }, {
+                "criterion": "<p>At least 3 steps in correct order</p>",
+                "point": "1"
+            }]
         }
     }]
 }, {
@@ -395,6 +411,20 @@
                 }],
                 "correctRowOrder": ["sdlc-req", "sdlc-spec", "sdlc-design", "sdlc-dev", "sdlc-int", "sdlc-test", "sdlc-install", "sdlc-maint"]
             }
+        },
+        "sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p><ol style=\"list-style: decimal; padding-left: 20px;\"><li>Requirements definition</li><li>Determining specifications</li><li>Design</li><li>Development</li><li>Integration</li><li>Testing and debugging</li><li>Installation</li><li>Maintenance</li></ol></p>"
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<p>Steps in correct order</p>",
+                "point": "2"
+            }, {
+                "criterion": "<p>At least 4 steps in correct order</p>",
+                "point": "1"
+            }]
         }
     }]
 }, {
@@ -486,6 +516,26 @@
                 "type": "SHORT",
                 "extendedView": true
             }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+            "criterion": "<ul><li>Clearly and accurately describes the purpose of modularisation using correct syllabus terminology (e.g. top-down design, system design phase, maintainability, reusability).</li><li>Provides two well-explained advantages clearly related to large-scale software projects.</li><li>Response is cohesive, detailed, and uses appropriate technical language.</li></ul>",
+            "point": "<p>4</p>"
+            }, {
+            "criterion": "<ul><li>Describes the purpose of modularisation and provides two advantages (one may lack depth or direct link to large-scale projects).</li><li>Uses mostly correct terminology.</li><li>Shows a sound understanding of software design principles.</li></ul>",
+            "point": "<p>3</p>"
+            }, {
+            "criterion": "<ul><li>Demonstrates a basic understanding of modularisation by describing its purpose and one advantage, or two advantages with limited explanation.</li><li>May use some relevant terminology but lacks clarity or depth.</li></ul>",
+            "point": "<p>2</p>"
+            }, {
+            "criterion": "<ul><li>Provides a simple or partial statement about modularisation</li></ul>",
+            "point": "<p>1</p>"
+            }]
+        },
+        "sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p>Modularisation is a software design strategy in which a complex system is decomposed into smaller, self-contained modules, each responsible for a specific function or process. This practice is essential in the system design phase of the software development cycle, as it enables programmers to apply top-down design principles and create programs that are easier to test, debug, and maintain. Each module can be developed and verified independently, then integrated to form the complete system.</p><br><p>For large-scale software projects, modularisation offers distinct benefits. It enhances maintainability, as faults can be isolated and corrected within a single module without affecting the overall system — improving reliability and reducing maintenance time. Additionally, it facilitates teamwork and reusability: separate development teams can work on different modules concurrently, promoting efficient project management, while well-defined modules can be reused in future systems, increasing productivity and software quality.</p>"
         }
     }]
 }, {
@@ -516,10 +566,23 @@
                 "type": "PSEUDOCODE"
             }
         },
-        "sampleAnswerContentItem2": {
-            "type": "RICH_TEXT",
-            "text": "<div><pre><code>BEGIN PasswordCheck\n  GET Password\n  OldPass = \"[some stored password]\"\n\n  IF (LENGTH(Password) >= 8) AND (Password != OldPass) THEN\n    DISPLAY \"accepted\"\n  ELSE\n    DISPLAY \"rejected\"\n  ENDIF\n\nEND PasswordCheck</code></pre></div>"
-        }
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>The pseudocode correctly checks both the password length and compares it to the stored password 'OldPass' using a logical AND.</li><li>The program correctly outputs 'accepted' or 'rejected' based on the outcome of the conditional checks.</li></ul>",
+						"point": "<p>3</p>"
+				}, {
+						"criterion": "<ul><li>The pseudocode correctly checks one of the conditions (either length or comparison to 'OldPass'), but not both.</li><li>The program correctly outputs 'accepted' or 'rejected' based on the single condition that is checked.</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>The pseudocode shows a basic understanding of input and output, but the logical conditions are incorrect or incomplete.</li><li>The program attempts to check the password but does not implement the conditions correctly, leading to incorrect outputs.</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<div><pre><code>BEGIN\n  INPUT Password\n  IF LENGTH(Password) >= 8 AND Password <> “OldPass” THEN\n    Display 'accepted'\n  ELSE\n    Display 'rejected'\n  ENDIF\nEND</code></pre></div>"
+		}
     }]
 }, {
     "id": "q13",
@@ -544,7 +607,21 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Describes how vulnerability assessment helps manage the security of programming code</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Outlines what vulnerability assessment is</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>Vulnerability assessment involves identifying, quantifying, and prioritising vulnerabilities within a system, programmers can implement secure code solutions to nullify these vulnerabilities and maintain security.</p>"
+		}
     }]
 }, {
     "id": "q14",
@@ -569,7 +646,27 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Explains how the World Wide Web Consortium influences the development of web applications with relevant examples AND</li><li>Response should cover at least 4 of the following syllabus points: Web Accessibility Initiative (WAI), internationalisation, web security, privacy and machine-readable data</li></ul>",
+						"point": "<p>4</p>"
+				}, {
+						"criterion": "<ul><li>Describes how the World Wide Web Consortium influences the development of web applications OR</li><li>Explains how the World Wide Web Consortium influences the development of web applications with relevant examples for 3 of the syllabus points</li></ul>",
+						"point": "<p>3</p>"
+				}, {
+						"criterion": "<ul><li>Outlines the World Wide Web Consortium</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Provides some relevant information on the World Wide Web Consortium</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>The W3C influences the development of web applications by establishing standards and guidelines developers should implement. The web accessibility initiative provides guidelines for developers managing web apps like the Web Content Accessibility Guidelines (WCAG) causing developers to implement features like high contrast colours in the UI frontend for disabled people. Developers are also recommended to implement internationalisation to address diversity of end users , such as defining css properties to handle different writing directions (left, right) Web security guidelines cause developers to follow secure coding standards such as the CPS (content Security Policy) which helps prevent cross-site scripting (XSS) attacks by allowing developers to specify which sources of content are trusted and can be safely loaded by the browser. W3C’s privacy standards aim to provide users with greater control over their personal information and ensure that web applications handle data responsibly, for example the privacy sandbox initiative leads to developers creating more privacy-friendly web environments in the context of advertising and tracking</p>"
+		}
     }]
 }, {
     "id": "q15",
@@ -598,12 +695,25 @@
             "parameters": {
                 "type": "CODING",
                 "language": "PYTHON"
-            },
-            "sampleAnswerContentItem2": {
-                "type": "RICH_TEXT",
-                "text": "<div><pre><code>def find_flagged_deliveries(deliveries):\n  # Prevent division by zero if the list is empty\n  if not deliveries:\n    return []\n\n  # Calculate the total time of all deliveries\n  total_time = 0\n  for delivery in deliveries:\n    total_time += delivery['time']\n  \n  # Calculate the average delivery time\n  average_time = total_time / len(deliveries)\n  \n  # Determine the threshold for flagging a delivery\n  threshold = average_time * 1.5\n  \n  # Create a list to store flagged deliveries\n  flagged_deliveries = []\n  \n  # Identify and add deliveries that exceed the threshold\n  for delivery in deliveries:\n    if delivery['time'] > threshold:\n      flagged_deliveries.append(delivery)\n      \n  return flagged_deliveries\n\n# Example usage with the provided data:\ndeliveries = [\n  {\"driver\": \"Alice\", \"time\": 30},\n  {\"driver\": \"Bob\", \"time\": 45},\n  {\"driver\": \"Alice\", \"time\": 40},\n  {\"driver\": \"Bob\", \"time\": 100},\n  {\"driver\": \"Alice\", \"time\": 90}\n]\n\nflagged = find_flagged_deliveries(deliveries)\nprint(flagged) # Expected output: [{'driver': 'Bob', 'time': 100}]</code></pre></div>"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Creates a correct function that returns the expected list</li></ul>",
+						"point": "<p>3</p>"
+				}, {
+						"criterion": "<ul><li>The function is mostly correct but contains one significant error</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Correctly calculates the overall average delivery time</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<div><pre><code>def detectAnomaly(deliveries):\n  times = [t[\"time\"] for t in deliveries]\n  averageTime = sum(times)/len(times)\n  flagged = [f for f in deliveries if f[\"time\"]>1.5*averageTime]\n  return flagged</code></pre></div>"
+		}
     }, {
         "id": "q15_p2",
         "title": "Question 15 (b)",
@@ -623,7 +733,21 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Correctly outlines the role of RPA and BPA with an example of each</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Identifies at least one correct example of either RPA or BPA</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>RPA automates small repetitive tasks such as logging delivery times, while BPA automate the whole workflow by triggering the anomaly detection algorithm and then sending notifications to Uber.</p>"
+		}
     }]
 }, {
     "id": "q16",
@@ -653,7 +777,18 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Explains the need to use classification models</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>KNN and logistic regression are both classification models which are required to predict whether or not someone has a disease (Yes Or No).</p>"
+		}
     }, {
         "id": "q16_p2",
         "title": "Question 16 (b)",
@@ -673,7 +808,24 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>For explaining how each model works to classify data AND</li><li>Justifies why logistic regression is more suitable</li></ul>",
+						"point": "<p>3</p>"
+				}, {
+						"criterion": "<ul><li>For explaining how each model works to classify data</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Justifies why logistic regression is more suitable</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>KNN finds the 'k' nearest points and looks at the majority to classify while logistic regression uses a sigmoid function to get a probability between 0 and 1 to classify.</p><p>KNN is highly sensitive to noise as every feature (including unnecessary vitals) contribute equally to the Euclidean distance while Logistic regression adds weights for each factor so that irrelevant features don't contribute as much to the prediction. Hence, Logistic regression is more accurate and suitable.</p><p><b>Answers Could Include:</b></p><p>KNN works slow on large datasets as it needs to calculate a lot of Euclidean distances every time the model predicts, while Logistic Regression is much faster due to a set sigmoid function that instantly returns a value.</p>"
+		}
     }]
 }, {
     "id": "q17",
@@ -709,7 +861,18 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Provides the differences between hashing and encryption in terms of:<ul><li>Purpose, must mention the purpose of the hashes (tampering) etc</li><li>How they work (function), must mention keys, and properties of hashes</li></ul></li><li>Provides multiple references with the stimulus including for:<ul><li>Internal logs</li><li>Secure wireless communication. Mentions TLS/SSL protocols.</li></ul></li></ul><p><b>-1 mark for each not met</b></p>",
+						"point": "<p>1-4</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>Encryption and hashing are both cryptographic methods used to secure data, but they have different purposes:</p><br><p>Encryption ensures confidentiality (keeping data secret) by converting readable plaintext into unreadable ciphertext. There are two types of encryption:<br>Symmetric Encryption (e.g., AES): Used for bulk encryption of stored data (data at rest), such as internal sensitive logs, ensuring that if storage is accessed, the data is unreadable without the key.<br>Asymmetric Encryption (e.g., RSA): Used in securing communications (data in transit) with protocols such as SSL/TLS for the secure exchange of session keys, which then encrypt the data transmitted wirelessly.</p><p>Hashing ensures integrity (preventing/detecting unauthorized modification) and irreversibility with a hash function that produces a fixed-size, irreversible string (hash value) from the input.<br>Passwords for the wireless network access must be hashed before storage to prevent retrieval in plaintext, leveraging the irreversibility property. Hashing is used to generate checksums or digital signatures, which are vital for verifying that data packets sent across the wireless network have not been tampered with or altered during transmission.</p>"
+		}
     }]
 }, {
     "id": "q18",
@@ -739,7 +902,18 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Explains the role of DNS</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>The browser queries the Domain-Name System (DNS) server which translates the domain 'Google.com' into an IP address for the browser to locate Google's server.</p>"
+		}
     }, {
         "id": "q18_p2",
         "title": "Question 18 (b)",
@@ -759,7 +933,21 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Identifies the use of TCP/IP and data packets AND</li><li>Justifies why the transmission is reliable</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Completes ONE above criterion</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+				"type": "RICH_TEXT",
+				"text": "<p>TCP/IP establishes a connection that allows for reliable data transmission by breaking the information into numbered data packets which are reassembled on the receiver's end. Any packet that is missing is sent again, ensuring that the transmission is reliable.</p>"
+		}
     }, {
         "id": "q18_p3",
         "title": "Question 18 (c)",
@@ -779,7 +967,24 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+				"type": "MARKING_CRITERIA",
+				"criteria": [{
+						"criterion": "<ul><li>Identifies the use of TLS AND</li><li>Describes 2 features of TLS in enhancing security</li></ul>",
+						"point": "<p>3</p>"
+				}, {
+						"criterion": "<ul><li>Describes 2 features of TLS in enhancing security</li></ul>",
+						"point": "<p>2</p>"
+				}, {
+						"criterion": "<ul><li>Identifies the use of TLS</li></ul>",
+						"point": "<p>1</p>"
+				}]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p>Sam sends a HTTPS requests which runs HTTP over TLS (Transport Layer Security). TLS authenticates the connection to the server by verifying digital certificates and exchanges encryption keys. It encrypts any data being transmitted and drops the connection if it detects tampering with the data, hence maintaining security.</p>"
+		}
     }]
 }, {
     "id": "q19",
@@ -813,7 +1018,18 @@
             "parameters": {
                 "type": "DRAWING_V2"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Groups Vehicle</li><li>Groups SUV Type</li><li>Groups Colour=Silver</li></ul><p><b>-1 mark for each not met</b></p>",
+                "point": "<p>1-3</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<img src=\"img/nswseng/a19.png\">"
+		}
     }]
 }, {
     "id": "q20",
@@ -841,7 +1057,18 @@
             "parameters": {
                 "type": "DRAWING_V2"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Correct library class</li><li>Correct book class</li><li>Correct ratio / relationship</li></ul><p><b>-1 mark for each not met</b></p>",
+                "point": "<p>1-3</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<img src=\"img/nswseng/a20.png\">"
+		}
     }, {
         "title": "Question 20 (b)",
         "metadata": {
@@ -860,7 +1087,18 @@
                 "type": "CODING",
                 "language": "PYTHON"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Complete, working code</li><li>Prints available options</li><li>Handle user inputs</li><li>Correctly displays books</li><li>Correctly removes books</li><li>Correctly adds books</li></ul><p><b>-1 mark for each not met</b></p>",
+                "point": "<p>1-6</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<div><pre><code>class Library:\n  def __init__(self):\n    self.books = []\n\n  def add_book(self, book):\n    self.books.append(book)\n    print('added')\n\n  def remove_book(self, title):\n    for i in self.books:\n      if i.title == title:\n        self.books.remove(i)\n        print('removed')\n\n  def display_books(self):\n    print('Books in the library: ')\n    def year(book):\n      return book.year\n    sortedb = sorted(self.books, key = year)\n    for n, z in enumerate(sortedb, 1):\n      print(f\"{n}. {z.title} by {z.author} ({z.year})\")\n\nclass Books:\n  def __init__(self, title, author, year):\n    self.title = title\n    self.author = author\n    self.year = year\n\n# Option print\nprint('1. Add book')\nprint('2. Remove book')\nprint('3. Display books')\n\nlibrary = Library()\n\nwhile True:\n  option = int(input('Choose an option: '))\n  if option == 1:\n    title = str(input('Enter a title: '))\n    author = str(input('Enter an author: '))\n    year = int(input('Enter a year: '))\n    book = Books(title, author, year)\n    library.add_book(book)\n  elif option == 2:\n    title = str(input('Enter a title: '))\n    library.remove_book(title)\n  elif option == 3:\n    library.display_books()</code></pre></div>"
+		}
     }]
 }, {
     "id": "q21",
@@ -885,7 +1123,27 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Compares and contrasts authorisation and authentication in the context of designing a fast food login portal.</li></ul>",
+                "point": "<p>4</p>"
+            }, {
+                "criterion": "<ul><li>Compares authorisation and authentication without reference to the stimulus OR</li><li>Explains authorisation and authentication with no comparison</li></ul>",
+                "point": "<p>3</p>"
+            }, {
+                "criterion": "<ul><li>Outlines authorisation and authentication OR</li><li>Explains one of them with sufficient detail</li></ul>",
+                "point": "<p>2</p>"
+            }, {
+                "criterion": "<ul><li>Provides some relevant information</li></ul>",
+                "point": "<p>1</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p>Authentication is the ability of a system to verify a user's identity, using passwords, MFA, or security questions, in order to protect systems from inappropriate access by bad actors. In this restaurant's login portal, usernames and passwords should be required to log into the website to order food or perform employee-related activities, and hashing algorithms should be used to secure the passwords of employees and customers.</p><br><p>Authorisation also relates to securing a system, however, it is the managing of permissions for such systems through this authentication, specific users or roles should be given different levels of access throughout a system as per the principle of least privilege. For instance, role based access control can be implemented by ensuring base level employees have the required levels of clearance to perform their jobs, higher than the customers, but managers who require more features, such as monitoring information not available to employees, can access it.</p><br><p>Hence, authorisation and authentication work together to keep a website secure, but the results of authentication will often dictate the authorisation provided to an individual.</p>"
+		}
     }]
 }, {
     "id": "q22",
@@ -916,12 +1174,19 @@
                 "settings": {
                     "showExecutionOutput": true
                 }
-            },
-            "sampleAnswerContentItem2": {
-                "type": "RICH_TEXT",
-                "text": "SELECT\n    Category,\n    COUNT(Transaction_ID) AS Number_of_Transactions,\n    SUM(Quantity) AS Total_Items_Sold,\n    AVG(Quantity) AS Average_Items_Per_Transaction,\n    SUM(Unit_Price * Quantity) AS Total_Revenue,\n    MAX(Unit_Price) AS Highest_Unit_Price\nFROM\n    Sales_Transactions\nWHERE\n    strftime('%Y', Order_Date) = '2024'\n    AND Quantity > 1\nGROUP BY\n    Category\nORDER BY\n    Total_Revenue DESC;"
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Correct Calculations: The SELECT clause includes all five required calculations</li><li>Correct Aliases: All five calculated columns are correctly renamed using AS to match the names in the \"Expected Output\" table</li><li>Correct Filtering: The WHERE clause correctly filters the data for both required conditions using AND: Quantity > 1 and accurately selects for the year 2024</li><li>Correct Grouping: The query correctly groups the aggregated results by Category using the GROUP BY Category clause.</li><li>Correct Sorting: The final result set is correctly sorted by Total_Revenue in descending order using the ORDER BY Total_Revenue DESC clause.</li></ul><p><b>-1 mark for each not met</b></p>",
+                "point": "<p>1-5</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<div><pre><code>SELECT\n    Category,\n    COUNT(Transaction_ID) AS Number_of_Transactions,\n    SUM(Quantity) AS Total_Items_Sold,\n    AVG(Quantity) AS Average_Items_Per_Transaction,\n    SUM(Unit_Price * Quantity) AS Total_Revenue,\n    MAX(Unit_Price) AS Highest_Unit_Price\nFROM\n    Sales_Transactions\nWHERE\n    Quantity > 1\n    AND Order_Date >= '2024-01-01'\n    AND Order_Date <= '2024-12-31'\nGROUP BY\n    Category\nORDER BY\n    Total_Revenue DESC;</code></pre></div>"
+		}
     }]
 }, {
     "id": "q23",
@@ -960,7 +1225,18 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>2 - Explains failure of 2 SbD principles, description, cause and effect must be evident. Note: SbD includes CIA triad (Confidentiality, Integrity, Availability), Authentication, Authorisation, and Accountability (AAA) and Defensive Coding. Explicit correct description must be provided for at least TWO of them (as it says ‘principles’)</li><li>3- Exception and Session management: Clearly describes what is checked, the response, and how it mitigates the issue(s).</li><li>3- Explains how the two tools chosen could have been used to mitigate the impacts.</li></ul><p><b>-marks for each not met</b></p>",
+                "point": "<p>1-8</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p><b>SbD Failure 1: Defensive Coding</b><br>The system intentionally bypassed the Object-Relational Mapping (ORM) layer [slide 1]. The ORM is a critical security and abstraction layer, handling tasks like query parameterization, managing transaction scopes, and ensuring data consistency. Bypassing it removed a key defensive layer, leaving the database directly exposed to potentially flawed logic from the RL agent.</p><p><b>SbD Failure 2: Accountability</b><br>RL agent was granted excessive privileges, allowing it to execute raw SQL UPDATE commands directly against the database. This violates the principle of least privilege, which dictates that a component should only have the bare minimum permissions necessary to perform its function. The agent was over-authorized, giving it the power to cause widespread damage.</p><p><b>Exception Management:</b><br>To prevent a complete system crash, exception management must check for database errors indicating that a physical resource limit has been reached and when such an exception is caught, the response should immediately trigger an alert to the team. The application could enter a safe mode, gracefully rejecting new pricing update requests from the RL agent. This prevents a disorderly crash by handling the error gracefully, which protects the integrity of all data committed before the resource limit was hit.</p><p><b>Session Management:</b><br>Database sessions should be managed to enforce transaction isolation levels. This ensures that concurrent transactions do not interfere with each other, preventing the race conditions described. The application should manage the lifecycle of a transaction within a controlled session, committing only upon successful completion of all required steps.</p><p><b>Input sanitisation:</b><br>As RL agent's output must be treated as untrusted user input, as a black box system, sanitisation is essential. Sanitising the input variables passed to the raw UPDATE command, or escaping special characters, would prevent the execution of malicious or conflicting code (such as potential SQL injection if the agent's logic were compromised)</p><p><b>DAST tools:</b><br>DAST could have provided a realistic assessment of the security strength of the live system. It would have been used to actively test the endpoints that the high-velocity RL agent was using and uncovered the weakness caused by the ORM bypass or exposed the race condition under high load, allowing these critical flaws to be fixed before the production crash.</p><p><br><b>Answers may also include:</b></p><p><b>SbD Failure 1: Defensive Coding</b><br>Could also mention<br>• The system treats the raw SQL generated by the black box RL agent as a trusted input. Defensive coding mandates that all inputs, especially from complex or external components, must be considered potentially hostile or malformed. By executing this SQL directly, the application created a potential vulnerability path.<br>• A defensively coded system should anticipate and handle errors (like resource limits or transaction conflicts) gracefully, rather than allowing them to cause a complete system failure.</p><p><b>SbD Failure 3: Integrity</b><br>The use of concurrent, unsynchronized modifications on shared database records led to an unpredictable race condition, resulting in compromised data integrity [Slide 3]. Integrity ensures that data remains accurate, consistent, and trustworthy throughout its lifecycle, preventing unauthorized modification. The core purpose was undermined when the outcomes of concurrent operations depended on the unpredictable order of execution of race conditions. Additionally the high-velocity data streams [Slide 1] introduces the challenge of handling massive datasets, which may be inputted.</p><p><b>SbD Failure 4: Accountability</b><br>Accountability requires maintaining logging and auditing mechanisms so that every action and security event can be traced back to a responsible individual or entity. As the \"data corruption is untraceable and obstructs any form of accountability\"[slide 3] because the model's logic is a black box. Without a clear audit trail, it is impossible to determine why the faulty commands were generated or to hold the system's designers responsible.</p><p><b>SbD Failure 5: Availability</b><br>Since the \"database crashed with its storage resources exceeded.\" The uncontrolled updates caused transaction log bloating or data file growth beyond provisioned limits, resulting in a denial of service (DoS), and thus lack of availability or all consumers and the business itself.</p><p><b>Exception Management</b><br>The exception handler can check for database constraint violations that the uncontrolled RL may make, such as attempting to insert a negative price or updating a ProductID that doesn't exist. The response is to catch the specific exception, log it as a critical failure of the agent's logic, and trigger a Rollback. It should also generate an alert, preventing the database from being polluted with nonsensical or invalid data, preserving data quality and integrity by strictly enforcing the business rules.</p><p><b>Implementing API</b><br>Instead of allowing the RL agent to generate raw UPDATE commands, it should be restricted to calling a predefined stored procedure. This acts as a controlled API to the database. The stored procedure itself would contain the necessary logic for validation (e.g., ensuring the price is within a valid range), logging the change for accountability, and implementing concurrency controls like row-level locking to prevent race conditions. This abstracts the risky database operations away from the \"black box\" agent.</p><p><b>Locks:</b><br>The section of code that performs the price update must only have one thread that can access and modify that database record at a time. This ensures that when the RL agent decides on a new price for a shared record, only one at a time. This guarantees that the final state of the price (the outcome) is predictable and maintains data integrity.</p><p><b>Audit Trails:</b><br>The system must maintain detailed logs of user actions, access attempts, and security events. Specifically, every price update transaction initiated by the RL agent must be logged, including the input data used by the model, the resulting raw SQL, the timing of the transaction attempt, allowing traceability and ability investigate the logs and retrospectively determine the exact sequence of events that led to data corruption, ensuring accountability even if the model logic itself is opaque.</p>"
+		}
     }, {
         "id": "q23_p2",
         "title": "Question 23 (b)",
@@ -980,7 +1256,18 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Identifies one feature and what it does</li><li>Identifies two features and what it does</li><li>Explains both features in reaction to disaster recovery</li></ul><p><b>-1 mark for each not met</b></p>",
+                "point": "<p>1-3</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p><b>Logs:</b> A detailed version history of the database can provide a sequential record of every change made over time. In this scenario, every update command from the RL agent would be recorded in this log where the team can count the exact number of records affected and the rate at which the updates occurred. This helps in assessing the full scope of the data corruption and understanding how the system’s storage resources were overwhelmed, informing future planning and monitoring for recovery.</p><br><p><b>Backups:</b> They can also serve as effective backup tools to rollback the database to the last stable version identified from the logs, which can prevent data loss of the company and ensure the availability of data to the customers in short durations of time, serving as an effective disaster recovery.</p>"
+		}
     }, {
         "id": "q23_p3",
         "title": "Question 23 (c)",
@@ -1000,6 +1287,17 @@
                 "type": "SHORT",
                 "extendedView": true
             }
-        }
+        },
+        "markingCriteriaContentItem": {
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Identifies the ethical problem (discrimination)</li><li>Explains with an example of how it could be inaccessible</li><li>Explains a valid alternate secure solution</li></ul><p><b>-1 mark for each not met</b></p>",
+                "point": "<p>1-3</p>"
+            }]
+		},
+		"sampleAnswerContentItem": {
+            "type": "RICH_TEXT",
+            "text": "<p>The primary ethical problem with a purely visual CAPTCHA is exclusion and discrimination based on ability. For instance, users who are blind or have low vision cannot perceive the distorted text or images, and users with dyslexia or other cognitive disabilities may struggle to interpret the characters. Rate Limiting addresses brute-force attempts by restricting the number of API requests allowed within a specific time window, preventing the server from being overwhelmed.</p><br><p><b>Answers could include:</b></p><p>A behaviour-based system like Google's reCAPTCHA v3 can work invisibly in the background, by monitoring user behaviour on the site to generate a risk score and present further tests only if the score is high.</p>"
+		}
     }]
 }]
