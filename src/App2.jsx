@@ -1,8 +1,7 @@
 import { Excalidraw, MainMenu } from "@excalidraw/excalidraw";
 import "@excalidraw/excalidraw/index.css";
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import { Editor } from "@monaco-editor/react";
-
 // Map exam IDs to JSON files
 const examFiles = {
   cssa_familiarisation: "data/cssa_familiarisation.json",
@@ -15,7 +14,8 @@ const examFiles = {
   doe_sample_exam: "data/doe_sample.json",
   normanhurst: "data/normanhurst.json",
   nsw_seng: "data/nsw_seng.json",
-  merewether: "data/merewether.json"
+  merewether: "data/merewether.json",
+  prelim: "data/prelim.json",
 };
 
 export default function App() {
@@ -42,7 +42,7 @@ export default function App() {
 
     setLoading(true);
     setError("");
-    fetch(examFiles[exam])
+    fetch("dontleakpls/" + examFiles[exam])
       .then((r) => r.json())
       .then((data) => setQuestions(data))
       .catch(() => setError("Failed to load questions."))
@@ -55,11 +55,13 @@ export default function App() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
           Software Engineering Assessments
         </h1>
-        {!exam && <div><p class="text-gray-600 mt-2 text-2xl">Please don't share the link around :)</p><p className="text-gray-600 mt-2">Choose a test to begin</p>
+        {!exam && <div>
+          {/* <p class="text-gray-600 mt-2 text-2xl">Please don't share the link around :)</p> */}
+          <p className="text-gray-600 mt-2">Choose a test to begin</p>
         </div>}
         {exam && (
           <div className="mt-4 space-x-4">
-            <a href="dontleakpls" className="text-indigo-600 hover:underline inline-block">
+            <a href="/" className="text-indigo-600 hover:underline inline-block">
               ← Back to exams
             </a>
             <a
@@ -157,6 +159,10 @@ function ExamList() {
       title: "NSW SENG Mock Trial",
       desc: "A sample, community, Software Engineering exam based on the syllabus."
     },
+    // {      id: "prelim",
+    //   title: "Preliminary Exam",
+    //   desc: "Preliminary Software Engineering exam for practice."
+    // },
 
   ];
 
@@ -583,119 +589,101 @@ function SortingTable({ rows = [], qid, showAnswers, markingCriteria, sampleAnsw
 }
 
 function PythonCoding({ defaultCode, showAnswers, markingCriteria, sampleAnswer }) {
-  const [code, setCode] = useState(defaultCode || '# Write your Python code here');
+  const [code, setCode] = useState(defaultCode || '# Write your Python code here\n');
   const [output, setOutput] = useState('');
-  const [pyodide, setPyodide] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isExecuting, setIsExecuting] = useState(false);
+  const workerRef = useRef(null);
+
+  const handleWorkerMessage = useCallback((event) => {
+    const { type, output, error, prompt: promptText } = event.data;
+
+    switch (type) {
+      case 'input_request':
+        const userInput = window.prompt(promptText);
+        workerRef.current.postMessage({ type: 'input_response', input: userInput });
+        break;
+
+      case 'output':
+        // This logic is now correct because 'isLoading' will have the latest value
+        if (!isLoading) {
+          setOutput(output);
+        }
+        setIsExecuting(false);
+        if (isLoading) {
+          setIsLoading(false);
+        }
+        break;
+
+      case 'error':
+        setOutput(error);
+        setIsExecuting(false);
+        if (isLoading) setIsLoading(false);
+        break;
+
+      default:
+        break;
+    }
+  }, [isLoading]); // Dependency: Recreate when 'isLoading' changes.
+
 
   useEffect(() => {
-    async function setupPyodide() {
-      if (window.pyodideInstance) {
-        setPyodide(window.pyodideInstance);
-        setIsLoading(false);
-        return;
-      }
-      try {
-        const pyodideInstance = await window.loadPyodide({
-          indexURL: "pyodide/",
-        });
-        window.pyodideInstance = pyodideInstance;
-        setPyodide(pyodideInstance);
-      } catch (error) {
-        console.error("Error loading Pyodide:", error);
-        setOutput(`❌ Error setting up Python environment: ${error}`);
-      } finally {
-        setIsLoading(false);
-      }
+    workerRef.current = new Worker('pyodide-worker.js');
+    // Send initial message to start loading Pyodide in the worker.
+    workerRef.current.postMessage({ type: 'run_code', code: '' });
+
+    return () => {
+      workerRef.current.terminate();
+    };
+  }, []); // Empty dependency array means this runs only on mount/unmount.
+
+  useEffect(() => {
+    if (workerRef.current) {
+      workerRef.current.onmessage = handleWorkerMessage;
     }
-    setupPyodide();
-  }, []);
+  }, [handleWorkerMessage]); // Dependency: Re-run when the handler function changes.
 
-  const runCode = async () => {
-    if (!pyodide) return;
 
+  const runCode = () => {
+    if (!workerRef.current) return;
     setIsExecuting(true);
     setOutput('⏳ Running...');
-
-    const TIMEOUT_DURATION = 5000; // 5 seconds
-
-    // --- The Promise.race Implementation ---
-
-    // Promise 1: The actual Python code execution
-    const executionPromise = (async () => {
-      const pythonSetupCode = `
-        import sys, builtins
-        from js import prompt
-        class OutputCatcher:
-            def __init__(self): self.data = ""
-            def write(self, s): self.data += str(s)
-            def flush(self): pass
-        catcher = OutputCatcher()
-        sys.stdout = catcher
-        sys.stderr = catcher
-        def custom_input(prompt_text=""):
-            return prompt(str(prompt_text))
-        builtins.input = custom_input
-      `;
-      await pyodide.runPythonAsync(pythonSetupCode);
-      await pyodide.runPythonAsync(code);
-      return pyodide.globals.get('catcher').data;
-    })();
-
-    // Promise 2: A simple timer that rejects if it finishes first
-    const timeoutPromise = new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("Timeout")), TIMEOUT_DURATION)
-    );
-
-    try {
-      // Promise.race waits for the first promise to either resolve or reject.
-      const capturedOutput = await Promise.race([executionPromise, timeoutPromise]);
-      setOutput(capturedOutput || '(no output)');
-    } catch (error) {
-      if (error.message === "Timeout") {
-        setOutput(`❌ Error: Code execution timed out after 1 second.`);
-      } else {
-        // This will catch Python errors
-        setOutput(`❌ Error: ${error}`);
-      }
-    } finally {
-      setIsExecuting(false);
-    }
+    workerRef.current.postMessage({ type: 'run_code', code });
   };
 
   const isRunning = isLoading || isExecuting;
 
   return (
     <div>
-    <div className="space-y-3">
-      <div className="w-full p-1 border border-gray-600 rounded-md bg-gray-900">
-         <Editor
+      <div className="space-y-3">
+        <div className="w-full p-1 border border-gray-600 rounded-md bg-gray-900">
+          <Editor
             height="20rem"
             language="python"
             theme="vs-dark"
-            defaultValue={code}
+            value={code} // Use value for controlled component
             onChange={(value) => setCode(value || '')}
             options={{
-                minimap: { enabled: false },
-                fontSize: 14,
-                wordWrap: 'on',
-                scrollBeyondLastLine: false,
+              minimap: { enabled: false },
+              fontSize: 14,
+              wordWrap: 'on',
+              scrollBeyondLastLine: false,
             }}
-        />
+          />
+        </div>
+        <button
+          onClick={runCode}
+          disabled={isRunning}
+          className="px-4 py-2 bg-indigo-600 text-white rounded-md shadow hover:bg-indigo-700 disabled:opacity-60"
+        >
+          {isLoading ? "Loading Python..." : isExecuting ? "Running..." : "Run Code"}
+        </button>
+        <pre className="w-full p-4 bg-gray-100 rounded-md text-sm text-gray-800 whitespace-pre-wrap overflow-x-auto">
+          {output}
+        </pre>
       </div>
-      <button
-        onClick={runCode}
-        disabled={isRunning}
-        className="px-4 py-2 bg-indigo-600 text-white rounded-md shadow hover:bg-indigo-700 disabled:opacity-60"
-      >
-        {isLoading ? "Loading Python..." : isExecuting ? "Running..." : "Run Code"}
-      </button>
-      <pre className="w-full p-4 bg-gray-100 rounded-md text-sm text-gray-800 whitespace-pre-wrap overflow-x-auto">
-        {output}
-      </pre>
-    </div>
-    {showAnswers && (
+      {/* Assuming MarkingGuide is a valid component */}
+      {showAnswers && (
         <MarkingGuide
           markingCriteria={markingCriteria}
           sampleAnswer={sampleAnswer}
@@ -704,6 +692,8 @@ function PythonCoding({ defaultCode, showAnswers, markingCriteria, sampleAnswer 
     </div>
   );
 }
+
+
 
 function SQLBlock({ defaultSQL, datasetSetupQuery, showAnswers, markingCriteria, sampleAnswer }) {
   const [sql, setSql] = useState(defaultSQL || "-- Write your SQL query here...\n");
@@ -765,19 +755,28 @@ function SQLBlock({ defaultSQL, datasetSetupQuery, showAnswers, markingCriteria,
       table += "</tbody></table>";
       setHtml(table);
     } catch (e) {
-      setHtml("❌ Error: " + e);
+      setHtml("❌ " + e);
     }
   };
 
   return (
     <div>
     <div className="space-y-3">
-      <textarea
-        value={sql}
-        onChange={(e) => setSql(e.target.value)}
-        className="w-full p-4 border-gray-600 rounded-md bg-gray-900 text-white font-mono text-sm"
-        rows={10}
-      />
+      <div className="w-full p-1 border border-gray-600 rounded-md bg-gray-900">
+      <Editor
+          height="15rem"
+          language="sql"
+          theme="vs-dark"
+          value={sql} // Use value for controlled component
+          onChange={(value) => setSql(value || '')}
+          options={{
+            minimap: { enabled: false },
+            fontSize: 14,
+            wordWrap: 'on',
+            scrollBeyondLastLine: false,
+          }}
+        />
+      </div>
       <button
         onClick={runSQL}
         disabled={!ready}

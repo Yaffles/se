@@ -464,28 +464,28 @@
           },
           "answer": { "parameters": { "type": "PSEUDOCODE" } },
           "markingCriteriaContentItem": {
-    "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
-    "updatedDate": "2025-05-21T01:40:35.876Z",
-    "files": null,
-    "type": "MARKING_CRITERIA",
-    "criteria": [{
-        "criterion": "<ul><li>Substantially correct algorithm</li></ul>",
-        "point": "<p>3</p>"
-    }, {
-        "criterion": "<ul><li>Partially correct algorithm, with some errors or omissions</li></ul>",
-        "point": "<p>2</p>"
-    }, {
-        "criterion": "<ul><li>An attempt at writing an algorithm to meet the requirements</li></ul>",
-        "point": "<p>1</p>"
-    }]
-},
-"sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><pre><code>BEGIN CalculateAverage(arrayOfNumbers)\n  count = LENGTH(arrayOfNumbers)\n  IF count > 0 THEN\n    total = 0\n    FOR i = 1 TO count STEP 1 REM Assumes indexing from 1\n      total = total + arrayOfNumbers[i]\n    NEXT i\n    RETURN total / count\n  ELSE\n    RETURN Null REM No value; impossible to calculate average\n  END IF\nEND CalculateAverage</code></pre></div>"
-}
+            "id": "d4a8b144-70ef-45ae-8b4a-04b33db52a41",
+            "updatedDate": "2025-05-21T01:40:35.876Z",
+            "files": null,
+            "type": "MARKING_CRITERIA",
+            "criteria": [{
+                "criterion": "<ul><li>Substantially correct algorithm</li></ul>",
+                "point": "<p>3</p>"
+            }, {
+                "criterion": "<ul><li>Partially correct algorithm, with some errors or omissions</li></ul>",
+                "point": "<p>2</p>"
+            }, {
+                "criterion": "<ul><li>An attempt at writing an algorithm to meet the requirements</li></ul>",
+                "point": "<p>1</p>"
+            }]
+          },
+          "sampleAnswerContentItem": {
+              "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
+              "updatedDate": "2025-07-10T04:17:35.978Z",
+              "files": null,
+              "type": "RICH_TEXT",
+              "text": "<div><pre><code>BEGIN CalculateAverage(arrayOfNumbers)\n  count = LENGTH(arrayOfNumbers)\n  IF count > 0 THEN\n    total = 0\n    FOR i = 1 TO count STEP 1 REM Assumes indexing from 1\n      total = total + arrayOfNumbers[i]\n    NEXT i\n    RETURN total / count\n  ELSE\n    RETURN Null REM No value; impossible to calculate average\n  END IF\nEND CalculateAverage</code></pre></div>"
+          }
         }
       ]
     },
